@@ -46,3 +46,5 @@ The four original inspection dates remain unchanged, counted from the initial Oc
 ## GitHub identity preference (2026-10-12)
 
 The user selected jjasnek-ops for all future GitHub work. Use the current authenticated account and https://github.com/jjasnek-ops/moriohhigh-wiki as this project’s origin. Do not fall back to the historical ChanChunKei credential for pushes or API mutations. GitHub CLI and HTTPS credential selection are configured for jjasnek-ops; author identity uses the account’s GitHub noreply address. Deployment remains a separate Cloudflare direct upload.
+
+2026-10-12攻略增量验收：7个编辑页（含限定PC录像参考）及5政策页共12个可索引URL，Pagefind5篇MDX。Stand页含有证据的100 Rerolls更换费；当前客户端/完整roster/Codes仍未验证。以最新reports/current-delivery-status.md和pages-deployment.json为恢复依据。

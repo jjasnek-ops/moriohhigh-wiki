@@ -58,3 +58,10 @@ source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CI38161154603 success /producti
 ## 攻略增量本地门禁 — 2026-10-12
 
 新增1个限定PC HUD参考和既有Stand100 Rerolls说明；check/lint/test/check-config/check-content/build/check-links/check-i18n及本地check-sitemap通过。137files0诊断；244pass/1skip；5MDX；22HTML/505内链；12可索引/Sitemap；Pagefind5篇；图片32资源0失败。线上尚待实际部署。完整研究/界限见research/guide-expansion-2026-10-12.md。
+
+
+## 攻略补充正式验收 — 2026-10-12
+
+source 173c393f772174db373ebac0a358d60c6cddfed8 /新账号jjasnek-ops仓库CI38201586065 success /生产部署08de0189-b4c1-43a2-989f-299458e12d63 success /正式marker一致。live21正常HTML/28检查/12Sitemap/0failures；原生线上check-sitemap12/12 HTTP200；32线上图片资源HTTP200且字节与构建一致。完整日志、API部署回执和online-acceptance.json已保存。上传曾ENOTFOUND，过程IPv4优先重试成功，无系统DNS或TLS更改。源内容限定早期录像UI，技术通过不等于当前客户端实测。
+
+正式站Pagefind controls查询实际返回4结果，首条为新增PC Controls；点击后dialog关闭且进入https://moriohhighguide.wiki/guides/controls/，H1/Title正确。临时390宽视口已reset，结果页保留为交付页。

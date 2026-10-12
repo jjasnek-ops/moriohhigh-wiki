@@ -35,3 +35,10 @@ Real browser https://moriohhighguide.wiki/contact/ rendered the public contact a
 ## 攻略增量本地样板 — 2026-10-12
 
 Controls桌面1280×720首屏、封面、Sidebar/TOC查看；手机390×844两列9输入表可读、scrollWidth375<=390、表宽343、1H1；Stand新增reroll成本和源视频链接查看。Pagefind controls4结果且首条实际打开新页。截图controls-preview-desktop/mobile-table、stand-reroll-preview、controls-preview-search保存。未做本次真实手机/Lighthouse/CWV测量；正式站仍待部署。
+
+
+## 攻略补充正式站浏览器验收 — 2026-10-12
+
+正式/guides/controls/单H1、正确Canonical、原生TOC/Sidebar、原创键盘封面已实际可见；封面complete/naturalWidth768。正式390宽手机无整页横向溢出（375<=390）；完整9行PC输入表截图controls-live-mobile-table.png。正式桌面首屏controls-live-desktop.png已保存。本地搜索与Stand更换段落截图保留，32线上图片资源与本地验收构建逐字节一致。实际手机、Lighthouse/CWV和当前游戏客户端未测试。
+
+正式站Pagefind controls查询实际返回4结果，首条为新增PC Controls；点击后dialog关闭且进入https://moriohhighguide.wiki/guides/controls/，H1/Title正确。临时390宽视口已reset，结果页保留为交付页。

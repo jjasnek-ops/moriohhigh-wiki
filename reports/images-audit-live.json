@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-11T17:48:53.989Z",
+  "checkedAt": "2026-10-12T03:57:06.532Z",
   "mode": "live",
   "origin": "https://moriohhighguide.wiki",
-  "htmlCount": 21,
-  "assetCount": 26,
+  "htmlCount": 22,
+  "assetCount": 32,
   "pages": [
     {
       "file": "dist/404.html",
@@ -36,6 +36,12 @@
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
+      "file": "dist/guides/controls/index.html",
+      "canonical": "https://moriohhighguide.wiki/guides/controls/",
+      "visibleImages": 4,
+      "og": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5.webp"
+    },
+    {
       "file": "dist/guides/how-to-get-a-stand/index.html",
       "canonical": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
       "visibleImages": 4,
@@ -50,13 +56,13 @@
     {
       "file": "dist/guides/index.html",
       "canonical": "https://moriohhighguide.wiki/guides/",
-      "visibleImages": 2,
+      "visibleImages": 3,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
       "file": "dist/index.html",
       "canonical": "https://moriohhighguide.wiki/",
-      "visibleImages": 5,
+      "visibleImages": 6,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -68,7 +74,7 @@
     {
       "file": "dist/recent/index.html",
       "canonical": "https://moriohhighguide.wiki/recent/",
-      "visibleImages": 4,
+      "visibleImages": 5,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -98,7 +104,7 @@
     {
       "file": "dist/tags/getting-started/index.html",
       "canonical": "https://moriohhighguide.wiki/tags/getting-started/",
-      "visibleImages": 2,
+      "visibleImages": 3,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -116,13 +122,13 @@
     {
       "file": "dist/tags/roblox/index.html",
       "canonical": "https://moriohhighguide.wiki/tags/roblox/",
-      "visibleImages": 4,
+      "visibleImages": 5,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
       "file": "dist/tags/stands/index.html",
       "canonical": "https://moriohhighguide.wiki/tags/stands/",
-      "visibleImages": 1,
+      "visibleImages": 2,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -145,11 +151,33 @@
       "matchesBuild": true
     },
     {
-      "source": "/_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp",
-      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp",
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5_12KOoE.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5_12KOoE.webp",
       "width": 1200,
       "height": 675,
-      "bytes": 76136,
+      "bytes": 56270,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5_Z1yQHfY.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5_Z1yQHfY.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 12968,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5_Z2g4hr.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5_Z2g4hr.webp",
+      "width": 768,
+      "height": 432,
+      "bytes": 29014,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
@@ -167,11 +195,22 @@
       "matchesBuild": true
     },
     {
-      "source": "/_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp",
-      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp",
-      "width": 768,
-      "height": 432,
-      "bytes": 32432,
+      "source": "/_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp",
+      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp",
+      "width": 200,
+      "height": 113,
+      "bytes": 4272,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp",
+      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 35752,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
@@ -244,33 +283,55 @@
       "matchesBuild": true
     },
     {
-      "source": "/_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp",
-      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp",
-      "width": 400,
-      "height": 225,
-      "bytes": 12278,
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 68790,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
       "matchesBuild": true
     },
     {
-      "source": "/_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp",
-      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp",
+      "source": "/_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp",
+      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 76136,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp",
+      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp",
+      "width": 768,
+      "height": 432,
+      "bytes": 32432,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5_Z14EA4Q.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5_Z14EA4Q.webp",
       "width": 200,
       "height": 113,
-      "bytes": 4922,
+      "bytes": 4842,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
       "matchesBuild": true
     },
     {
-      "source": "/_astro/release-notice-v2.CiafjUz3_NIf6l.webp",
-      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_NIf6l.webp",
+      "source": "/_astro/controls-keyboard-v1.DPDsnfL5_2v6Rh.webp",
+      "url": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5_2v6Rh.webp",
       "width": 800,
       "height": 450,
-      "bytes": 26916,
+      "bytes": 31044,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
@@ -310,28 +371,6 @@
       "matchesBuild": true
     },
     {
-      "source": "/_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp",
-      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp",
-      "width": 200,
-      "height": 113,
-      "bytes": 4272,
-      "format": "webp",
-      "status": 200,
-      "contentType": "image/webp",
-      "matchesBuild": true
-    },
-    {
-      "source": "/_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp",
-      "url": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp",
-      "width": 800,
-      "height": 450,
-      "bytes": 35752,
-      "format": "webp",
-      "status": 200,
-      "contentType": "image/webp",
-      "matchesBuild": true
-    },
-    {
       "source": "/_astro/campus-v2.DTc95QDI.webp",
       "url": "https://moriohhighguide.wiki/_astro/campus-v2.DTc95QDI.webp",
       "width": 1200,
@@ -348,6 +387,39 @@
       "width": 640,
       "height": 360,
       "bytes": 28794,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp",
+      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 12278,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp",
+      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp",
+      "width": 200,
+      "height": 113,
+      "bytes": 4922,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/release-notice-v2.CiafjUz3_NIf6l.webp",
+      "url": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3_NIf6l.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 26916,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",

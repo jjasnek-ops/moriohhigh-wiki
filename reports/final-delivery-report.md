@@ -1,6 +1,6 @@
 # Morioh High Wiki 实际交付报告
 
-2026-10-12，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，14个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
+2026-10-12，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，13个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
 
 ## 1. AnvilWiki 版本及来源
 
@@ -8,11 +8,11 @@
 
 ## 2. GitHub 与实际代码
 
-已完成并验证：[ChanChunKei/moriohhigh-wiki](https://github.com/ChanChunKei/moriohhigh-wiki)，独立公开仓库。线上源代码 **a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2**；[CI38161154603](https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38161154603)成功。最终报告是后续记录提交，不冒充线上源代码。本地GCM身份完成Git/API操作，gh未登录不再是阻塞。凭据未写入仓库。
+已完成并验证：[jjasnek-ops/moriohhigh-wiki](https://github.com/jjasnek-ops/moriohhigh-wiki)，按用户最新指示创建在新账号下的独立公开仓库，完整代码历史保留。GitHub CLI当前账号、全局HTTPS凭据选择、全局及项目Git作者均已切换为jjasnek-ops（公开noreply）。线上源代码 **173c393f772174db373ebac0a358d60c6cddfed8**；[CI38201586065](https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38201586065)成功。旧账号仓库保留为历史，不再用于新操作；最终报告属于后续记录提交，不冒充线上源代码。凭据未写入仓库。
 
 ## 3. Cloudflare Pages
 
-已完成并验证：项目moriohhigh-wiki，生产部署 **b107ac33-3bd5-4415-924d-872cb1ec8ef6**；[不可变部署](https://b107ac33.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
+已完成并验证：项目moriohhigh-wiki，生产部署 **08de0189-b4c1-43a2-989f-299458e12d63**；[不可变部署](https://08de0189.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
 
 ## 4. 正式域名及邮箱
 
@@ -24,7 +24,7 @@
 
 ## 5. 关键词研究总数及有效口径
 
-36研究记录/29相关候选/7排除项；29不是实测月搜词数。Suggest7条当前信号，新月搜/KD未取得，保持未知。主词Google样本9自然结果和图片包，US/en参数但登录/位置可能影响；实际样本竞争判断2/5，不替代历史KD47.7。其他词未完成Google前十实查，不编造评分。7/30天Trends含GPTs比较返回429；实时上涨和长期需求未验证。Similarweb/付费API数据未取得。
+累计37研究记录/30相关候选/7排除项；原36/29/7基线保留，新增Stand rerolls候选合并已有攻略，不另建重复页。30不是实测月搜词数；本轮没有取得新搜索量/KD。Suggest7条当前信号，新月搜/KD未取得，保持未知。主词Google样本9自然结果和图片包，US/en参数但登录/位置可能影响；实际样本竞争判断2/5，不替代历史KD47.7。其他词未完成Google前十实查，不编造评分。7/30天Trends含GPTs比较返回429；实时上涨和长期需求未验证。Similarweb/付费API数据未取得。
 
 ## 6. 用户原研究继承
 
@@ -32,7 +32,7 @@
 
 ## 7. 最终页面矩阵
 
-20独立意图，6发布/14暂缓；4完整限定答案、2部分答案。政策、归档和404不计精品攻略。最小有效答案、主次词、证据、内链、频率和状态见[页面矩阵](../research/page-matrix.md)，[架构](../research/site-architecture.md)与[内链计划](../research/internal-link-plan.md)。
+20独立意图，7发布/13暂缓；4完整限定答案、3部分答案。政策、归档和404不计精品攻略。最小有效答案、主次词、证据、内链、频率和状态见[页面矩阵](../research/page-matrix.md)，[架构](../research/site-architecture.md)与[内链计划](../research/internal-link-plan.md)。
 
 ## 8. 实际发布页面与URL
 
@@ -40,12 +40,13 @@
 |---|---|---|
 | Wiki首页 | [首页](https://moriohhighguide.wiki/) | 游戏身份、入口、可靠内容导航；完整限定答案 |
 | How to play | [启动指南](https://moriohhighguide.wiki/guides/how-to-play/) | 正确游戏入口与Roblox启动；完整限定答案，不冒充进度路线 |
-| How to get a Stand | [Stand获取](https://moriohhighguide.wiki/guides/how-to-get-a-stand/) | 文档化战斗/Arrow方法及证据边界；完整限定答案 |
+| How to get a Stand | [Stand获取](https://moriohhighguide.wiki/guides/how-to-get-a-stand/) | 文档化战斗/Arrow方法、100 Rerolls更换费用及证据边界；完整限定答案 |
+| PC controls | [操作键位](https://moriohhighguide.wiki/guides/controls/) | 同游戏已读录像9项PC输入；部分答案，当前客户端及其他设备未测 |
 | Release information | [发布信息](https://moriohhighguide.wiki/resources/release-information/) | 活动状态与创建日期区别；部分答案，官方确切发布日期未知 |
 | Community resources | [社区入口](https://moriohhighguide.wiki/resources/community-links/) | 匹配群组/有效邀请；部分答案，官方Discord所有权/Trello未知 |
 | FAQ | [FAQ](https://moriohhighguide.wiki/faq/) | 8项身份、入口、资源答疑；完整限定答案 |
 
-另有About、Privacy、Terms、Copyright、Contact，合计11允许索引URL；20正常HTML路由，加404共21构建HTML。导航/标签归档noindex且排除Sitemap。Contact服务启用后已允许索引，不计新增机制攻略。
+另有About、Privacy、Terms、Copyright、Contact，合计12允许索引URL；21正常HTML路由，加404共22构建HTML。导航/标签归档noindex且排除Sitemap。Contact服务启用后已允许索引，不计新增机制攻略。
 
 ## 9. 暂缓页与理由
 
@@ -53,7 +54,6 @@
 |---|---|
 | Beginner guide | 当前普通玩家起步目标与实测路线 |
 | Stands guide | 完整当前roster与能力数据 |
-| Controls | 同游戏设备输入/设置 |
 | Progression | 已实装里程碑/解锁 |
 | Map / locations | 当前地图/路线 |
 | NPCs | 名称/位置图鉴 |
@@ -70,23 +70,23 @@
 
 ## 10. 搜索需求覆盖
 
-覆盖品牌/Wiki/Roblox入口、首次Stand获取、发布日期和Discord/Trello资源意图。入口/Discord有当前Suggest，Stand有同游戏视频需求信号；FAQ独立需求未量化。专门Wiki覆盖仍薄只是机会假设，准确月搜、稳定上涨及多个独立机制长尾未证实。Codes不作唯一流量策略，JoJo词量不计本游戏需求。
+覆盖品牌/Wiki/Roblox入口、首次Stand获取/更换、限定PC操作、发布日期和Discord/Trello资源意图。入口/Discord有当前Suggest，Stand有同游戏视频需求信号；FAQ独立需求未量化。专门Wiki覆盖仍薄只是机会假设，准确月搜、稳定上涨及多个独立机制长尾未证实。Codes不作唯一流量策略，JoJo词量不计本游戏需求。
 
 ## 11. 事实证据审计
 
-限定范围已审计：[E01–E18台账](../research/evidence-ledger.md)、[内容审计](content-audit.md)。[官方游戏](https://www.roblox.com/games/111838814545019/Morioh-High)，Place111838814545019/Universe10768944846；开发者Not A Stand Game/group403864872。
+限定范围已审计：[E01–E22台账](../research/evidence-ledger.md)、[内容审计](content-audit.md)。[官方游戏](https://www.roblox.com/games/111838814545019/Morioh-High)，Place111838814545019/Universe10768944846；开发者Not A Stand Game/group403864872。
 
-E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arrow争夺佐证。1-in-10、一分钟限制、100%兼容度来自可读UI；概率未独立实测，当前客户端/准确build未验证。Arrow地点、刷新、价格不猜测，admin工具不作普通进度证据。无其他游戏/原作机制搬运、未验证Codes或复制竞争文章；非官方声明和自制视觉保留。
+E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arrow争夺佐证。1-in-10、一分钟限制、100%兼容度来自可读UI；概率未独立实测，当前客户端/准确build未验证。Arrow地点、刷新、价格不猜测，admin工具不作普通进度证据。新增E19实际读取Iron0:05九项PC HUD；E20重新读同游戏UI的100 Rerolls，更换随机且排除当前Stand，未验证10 Arrow Shards替代费。E21为官方身份活动快照、E22为平台Voice边界。控制表不猜测Z召唤、Ctrl具体锁定模式、技能冷却或当前客户端。无其他游戏/原作机制搬运、未验证Codes或复制竞争文章；非官方声明和自制视觉保留。
 
 ## 12. 视觉审计
 
-2026-10-12图片增量已完成并上线：4幅内置image_gen原创AI辅助插画；首页主视觉、正文封面、首页/列表/相关文章缩略图、独立新版分享图、Stand证据流程图。图注和ALT明确说明非游戏截图/地图/实际物品模型；没有凭插画推断游戏内容。
+2026-10-12图片增量已完成并上线：原4幅及本轮新增键盘封面，共5幅内置image_gen原创AI辅助插画；首页主视觉、正文封面、首页/列表/相关文章缩略图、独立新版分享图、Stand证据流程图。图注和ALT明确说明非游戏截图/地图/实际物品模型；没有凭插画推断游戏内容。
 
-本次相同构建真实IAB桌面1280×720和手机390×844检查：首页图片加载、图注、响应式布局，Stand双路径流程图可读，手机375scrollWidth<=390innerWidth。正式站主视觉和四张图片卡片实际已可见并保存截图。26线上图片资源HTTP200且与验收构建逐字节一致，尺寸/ALT/分享图核对0错误。[图片审计与素材/提示词](image-improvements-2026-10-12.md)。
+本次相同构建真实IAB桌面1280×720和手机390×844检查：首页图片加载、图注、响应式布局，Stand双路径流程图可读，手机375scrollWidth<=390innerWidth。正式站主视觉和四张图片卡片实际已可见并保存截图。32线上图片资源HTTP200且与验收构建逐字节一致，尺寸/ALT/分享图核对0错误。[图片审计与素材/提示词](image-improvements-2026-10-12.md)。
 
-原正式Contact、mailto和Pagefind查询/指南跳转验证保留；未宣称本次额外正式host手机搜索重测或真实手机/Lighthouse/Core Web Vitals测量。
+正式Controls首屏/封面已实际查看，390宽手机9项表格完整可读。桌面controls-live-desktop.png、手机controls-live-mobile-table.png已保存；本地及正式Pagefind controls查询各返回4结果，正式结果点击后实际进入新增页。原正式Contact、mailto和搜索验证保留；未宣称真实手机/Lighthouse/Core Web Vitals测量。
 
-![正式站图片卡片](screenshots/images-live-home-cards.png)
+![正式站PC攻略](screenshots/controls-live-desktop.png)
 
 ## 13. 技术检查
 
@@ -96,16 +96,16 @@ E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arro
 | pnpm lint | 已验证通过 |
 | pnpm test | 已验证通过；18suites、244passed/1skipped |
 | pnpm check-config | 已验证通过；英语/分类/正式origin一致 |
-| pnpm check-content | 已验证通过；4MDX |
-| pnpm check-links | 已验证通过；21HTML/455内链 |
-| pnpm check-sitemap | 已验证通过；本地及正式站11/11 URLs200 |
-| pnpm build | 已验证通过；21HTML、Pagefind4文章 |
+| pnpm check-content | 已验证通过；5MDX |
+| pnpm check-links | 已验证通过；22HTML/505内链 |
+| pnpm check-sitemap | 已验证通过；本地及正式站12/12 URLs200 |
+| pnpm build | 已验证通过；22HTML、Pagefind5文章 |
 
-额外strict i18n通过；构建SEO21HTML/11indexable/11sitemap/0failures；线上20HTML/27目标/0failures，包括HTTPS、Canonical、robots、noindex、404和搜索资源。[日志与限制](technical-audit.md)。7个上游演示/营销测试保留但不适用本站，列为templateOnlySuites；一个已移除FORKER块测试跳过。构建不代替事实审计。
+本轮普通check-i18n通过，此前strict检查记录保留；构建SEO22HTML/12indexable/12sitemap/0failures；线上21HTML/28目标/0failures，包括HTTPS、Canonical、robots、noindex、404和搜索资源。[日志与限制](technical-audit.md)。7个上游演示/营销测试保留但不适用本站，列为templateOnlySuites；一个已移除FORKER块测试跳过。构建不代替事实审计。
 
 ## 14. Sitemap
 
-[index](https://moriohhighguide.wiki/sitemap-index.xml)与[child](https://moriohhighguide.wiki/sitemap-0.xml)已验证200、正确XML类型/命名空间，11存在且允许索引URL均200，无暂缓空页。robots允许抓取并列正式Sitemap。旧Pages版本的10URL IndexNow202为历史回执，未冒充本次正式站提交或Google收录。
+[index](https://moriohhighguide.wiki/sitemap-index.xml)与[child](https://moriohhighguide.wiki/sitemap-0.xml)已验证200、正确XML类型/命名空间，12存在且允许索引URL均200，无暂缓空页。robots允许抓取并列正式Sitemap。旧Pages版本的10URL IndexNow202为历史回执，未冒充本次正式站提交或Google收录。
 
 ## 15. GSC与GA4
 
@@ -129,6 +129,6 @@ GitHub、Cloudflare Pages/正式域名、GSC、GA4已通过现有授权完成。
 
 ## 19. 商业价值与剩余风险
 
-这是已落地、低维护的真实静态SEO实验，支持品牌/入口/首次Stand限定需求。商业价值未证实；风险仍包括实时热度/月搜未知、当前客户端未测、完整机制资料不足、Sitemap处理未成功和实际域名续费预算未知。不以页面数量或预测流量追加采购/批量内容。
+这是已落地、低维护的真实静态SEO实验，支持品牌/入口/首次Stand及更换/录像PC输入的限定需求。商业价值未证实；风险仍包括实时热度/月搜未知、当前客户端未测、完整机制资料不足、Sitemap处理未成功和实际域名续费预算未知。不以页面数量或预测流量追加采购/批量内容。
 
 分别观察未索引、索引后低排名、有排名但需求小、有曝光但CTR低。若热度下降、索引后长期无曝光、独立长尾有限、竞争占优或维护过高，停止追加投入；低成本技术正常站点可以保留。研究、代码、测试、决策和回执已保存，[恢复状态](current-delivery-status.md)支持继续，不重复初始化。正式站工程和上线验收已完成；完整游戏百科、邮件实收、Google商业效果未冒充完成。

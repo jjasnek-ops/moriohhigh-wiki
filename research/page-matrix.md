@@ -1,6 +1,6 @@
 # 页面矩阵（增量证据后的状态）
 
-2026-10-12增量：20个页面意图，7个编辑页面内容已准备（4完整限定答案、3部分答案），13暂缓。已有6页在正式域名上线，新增PC Controls及现有Stand更换说明正在技术/视觉/上线验收。正式origin https://moriohhighguide.wiki；当前线上source仍为a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2，部署回执见reports/pages-deployment.json。完整回答指文内限定问题，不代表完整游戏百科；政策与归档不计精品攻略。
+2026-10-12增量：20个页面意图，7个编辑页面已实际发布（4完整限定答案、3部分答案），13暂缓。新增PC Controls及现有Stand更换说明已通过本地技术/视觉及线上验收。正式origin https://moriohhighguide.wiki；当前线上source为173c393f772174db373ebac0a358d60c6cddfed8，部署回执见reports/pages-deployment.json。完整回答指文内限定问题，不代表完整游戏百科；政策与归档不计精品攻略。
 
 | 页面 | 主词 | URL | 状态 |
 | --- | --- | --- | --- |
@@ -12,7 +12,7 @@
 | Beginner guide | morioh high beginner guide | /guides/beginner-guide/ | 暂缓 |
 | How to get a Stand | how to get a stand in morioh high | /guides/how-to-get-a-stand/ | 完整回答 |
 | Stands guide | morioh high stands | /guides/stands/ | 暂缓 |
-| Controls | morioh high controls | /guides/controls/ | 部分回答：已读PC HUD；当前客户端/其他设备未测，待部署验收 |
+| Controls | morioh high controls | /guides/controls/ | 部分回答：已读PC HUD；当前客户端/其他设备未测；限定参考已上线验收 |
 | Progression | morioh high progression | /guides/progression/ | 暂缓 |
 | Map / locations | morioh high map | /guides/map/ | 暂缓 |
 | NPCs | morioh high npcs | /guides/npcs/ | 暂缓 |
@@ -141,7 +141,7 @@
 - 内链：how-to-play、how-to-get-a-stand、community-links、FAQ；首页/现有两攻略回链
 - 更新频率：实际输入映射/客户端UI改变，或新设备证据出现时
 - SEO价值：已有controls候选、真实玩家设备提问信号；月搜/KD未知，不冒充Google前十完整实查
-- 状态：部分回答；正式候选待本地门禁及线上验收
+- 状态：部分回答；限定PC参考已通过本地技术/视觉与正式部署验收，当前客户端/其他设备未测
 
 ## Progression
 

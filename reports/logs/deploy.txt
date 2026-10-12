@@ -1,17 +1,12 @@
-
+Source: 173c393f772174db373ebac0a358d60c6cddfed8
+Repository: https://github.com/jjasnek-ops/moriohhigh-wiki
+Deployment: 08de0189-b4c1-43a2-989f-299458e12d63
+Process-only IPv4 preference; retry succeeded after initial ENOTFOUND. No system DNS or TLS validation changes.
  ⛅️ wrangler 4.149.0
-────────────────────
-
-[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnable to resolve Cloudflare's API hostname (api.cloudflare.com or dash.cloudflare.com).[0m
-
-  
-  This is typically caused by:
-    - No internet connection or network connectivity issues
-    - DNS resolver not configured or not responding
-    - Firewall or VPN blocking DNS requests
-    - Corporate network with restricted DNS
-  
-  Please check your network connection and DNS settings.
-
-
-🪵  Logs were written to "C:\Users\sauching\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-10-12_03-40-03_121.log"
+Uploading... (63/93)
+Uploading... (73/93)
+Uploading... (83/93)
+Uploading... (93/93)
+✨ Success! Uploaded 30 files (63 already uploaded) (2.27 sec)
+✨ Uploading _headers
+✨ Deployment complete! Take a peek over at https://08de0189.moriohhigh-wiki.pages.dev

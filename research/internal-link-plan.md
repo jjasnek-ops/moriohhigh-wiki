@@ -12,3 +12,6 @@ Stand acquisition is now linked from the homepage start card, quick links, the p
 ## 2026-10-12攻略补充
 
 Controls候选由首页Useful links、原生最近文章、How-to-play和Stand页链接；Controls正文回链play、Stand、community与FAQ，分类/Sidebar/Pagefind沿用原生内容发现。现有Stand更换问题保留既有锚点并补成本，不另建重复页。新链接数量待本轮check-links更新；以前19/21HTML计数为历史，不用于新版本验收。
+
+
+2026-10-12当前验收：Controls及Stand更换补充已在正式域名部署；source 173c393f772174db373ebac0a358d60c6cddfed8 /12可索引及Sitemap URL/7编辑页。此前“候选/待部署”段落是过程记录，以本条和reports/pages-deployment.json为准。

@@ -26,3 +26,6 @@
 ## 2026-10-12攻略补充候选
 
 新增 /guides/controls/：限定已读录像PC HUD参考，覆盖键鼠输入；当前客户端、移动与手柄未测。Stand获取页合并已验证的100 Rerolls更换说明，URL保持不变；不新增重复reroll路由。上线后预计7编辑页、12可索引URL，实际以构建/线上验收为准。页面矩阵13缺证据意图继续暂缓。
+
+
+2026-10-12当前验收：Controls及Stand更换补充已在正式域名部署；source 173c393f772174db373ebac0a358d60c6cddfed8 /12可索引及Sitemap URL/7编辑页。此前“候选/待部署”段落是过程记录，以本条和reports/pages-deployment.json为准。
