@@ -7,10 +7,10 @@
   "homepage": "https://moriohhighguide.wiki",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChanChunKei/moriohhigh-wiki.git"
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki.git"
   },
   "bugs": {
-    "url": "https://github.com/ChanChunKei/moriohhigh-wiki/issues"
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki/issues"
   },
   "keywords": [
     "astro",

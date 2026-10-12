@@ -9,7 +9,7 @@ Updated 2026-10-11T17:55:13.817Z (UTC), 2026-10-12 Asia/Shanghai. Do not reiniti
 - 矩阵：20 意图；6 编辑页已上线（4完整限定答案、2部分答案）；14暂缓。4MDX、原生首页/FAQ；政策和归档不计精品攻略。
 - 事实：E01–E18；Stand的E17可读同游戏Encyclopedia、E18另一玩家Arrow录像；概率未独立实测，当前客户端/准确build未测试；admin预览不作为普通获取/进度证据。
 - 模板：AnvilWiki2.37.0 /MIT /b00859a524a176d60f3982c71b318ac11bc2fd5b；英语、Astro/MDX/Pagefind保留，广告关闭。
-- GitHub：https://github.com/ChanChunKei/moriohhigh-wiki；实际线上source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 已推送，CI38161154603 success。最终报告属于后续记录提交，不改变线上source；恢复时检查Git HEAD与deployment marker。
+- GitHub：https://github.com/jjasnek-ops/moriohhigh-wiki；实际线上source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 已推送，CI38161154603 success。最终报告属于后续记录提交，不改变线上source；恢复时检查Git HEAD与deployment marker。
 - Pages：项目 moriohhigh-wiki；生产 https://moriohhighguide.wiki；部署b107ac33-3bd5-4415-924d-872cb1ec8ef6 /source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CF stage success，marker匹配。平台地址 https://moriohhigh-wiki.pages.dev 的Canonical指向正式域名。
 - 测试：8个请求脚本全部存在并通过，strict i18n也通过；244passed /1skipped；21HTML /455内链；构建21HTML /11indexable /11sitemap /0failures；线上20HTML /27检查 /0failures；本地及正式站Sitemap11URL全部200。
 - 浏览器：原桌面/移动首页、Stand及社区样板通过；正式域名Contact和可点击mailto已验证；Pagefind Stand4篇结果且点击进入正式域名指南已验证。正式域名同意后正确GA标签实际加载。没有新增真实手机/Lighthouse/Core Web Vitals测量。
@@ -31,3 +31,8 @@ Updated 2026-10-11T17:55:13.817Z (UTC), 2026-10-12 Asia/Shanghai. Do not reiniti
 ## 2026-10-12 攻略补充进行中
 
 新增 controls.mdx（限定早期录像PC键位、部分回答）及原创键盘封面；Stand页补充已读UI的100 Rerolls成本与不同结果，How-to-play/首页/FAQ已接内链。新增E19–E22，研究原快照未改；独立关键词增量37记录/30相关/7排除（其中1新候选，无新增实测月搜）。尚待本地技术、视觉与实际部署验收；线上source仍为a60fa3ce，不冒充已更新。
+
+
+## 2026-10-12 GitHub identity change
+
+User explicitly selected the latest authenticated account, jjasnek-ops, for this project and future GitHub work. gh active account and the global HTTPS credential username are jjasnek-ops. Global and repository-local Git authors use that account’s GitHub noreply identity. The new public independent repository https://github.com/jjasnek-ops/moriohhigh-wiki was created and origin switched to it; existing history is retained. The previous owner’s repository is historical and is no longer used for writes. Push and CI acceptance are pending. Cloudflare continues using the existing direct-upload project; changing GitHub ownership does not itself deploy the site.

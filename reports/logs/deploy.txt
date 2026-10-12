@@ -1,12 +1,17 @@
 
  ⛅️ wrangler 4.149.0
 ────────────────────
-Uploading... (29/85)
-Uploading... (48/85)
-Uploading... (67/85)
-Uploading... (85/85)
-✨ Success! Uploaded 56 files (29 already uploaded) (2.58 sec)
 
-✨ Uploading _headers
-🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://b107ac33.moriohhigh-wiki.pages.dev
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnable to resolve Cloudflare's API hostname (api.cloudflare.com or dash.cloudflare.com).[0m
+
+  
+  This is typically caused by:
+    - No internet connection or network connectivity issues
+    - DNS resolver not configured or not responding
+    - Firewall or VPN blocking DNS requests
+    - Corporate network with restricted DNS
+  
+  Please check your network connection and DNS settings.
+
+
+🪵  Logs were written to "C:\Users\sauching\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-10-12_03-40-03_121.log"

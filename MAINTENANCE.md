@@ -41,3 +41,8 @@ Production now uses the user-owned https://moriohhighguide.wiki. Canonical, site
 Spaceship nameservers changed and the Cloudflare zone/custom domain are active. Formal-domain deployment, HTTPS,11sitemapURLs, Canonical, contact mailto, Pagefind and consent-gated GA4 test receipt are verified. GSC domain property sc-domain:moriohhighguide.wiki is verified and its index sitemap submitted; initial report still Couldn't fetch/0discovered. Existing Pages property history stays in search-console.json. DNSSEC public chain validates, while the last CF API status remains pending. Review these two statuses at the scheduled checks.
 
 The four original inspection dates remain unchanged, counted from the initial October11 deployment. All four automation prompts now target the formal domain and have been read back. Do not create duplicate reminders. Mail delivery testing was explicitly skipped by the user; keep its status unverified and do not ask again without a new request. The public address is contact@moriohhighguide.wiki; the private forwarding destination is never published.
+
+
+## GitHub identity preference (2026-10-12)
+
+The user selected jjasnek-ops for all future GitHub work. Use the current authenticated account and https://github.com/jjasnek-ops/moriohhigh-wiki as this project’s origin. Do not fall back to the historical ChanChunKei credential for pushes or API mutations. GitHub CLI and HTTPS credential selection are configured for jjasnek-ops; author identity uses the account’s GitHub noreply address. Deployment remains a separate Cloudflare direct upload.

@@ -3,10 +3,10 @@
 Independent English player resources for Roblox Morioh High. Not affiliated with Not A Stand Game, Roblox Corporation, or JoJo rights holders.
 
 - Production origin: https://moriohhighguide.wiki (deployment acceptance is tracked in reports/online-acceptance.json). Cloudflare's project address is https://moriohhigh-wiki.pages.dev.
-- Repository: https://github.com/ChanChunKei/moriohhigh-wiki
+- Repository: https://github.com/jjasnek-ops/moriohhigh-wiki
 - Source: AnvilWiki 2.37.0, commit b00859a524a176d60f3982c71b318ac11bc2fd5b. MIT license retained; original README preserved in docs/anvilwiki-upstream-README.md.
 
-The current edition contains the homepage, Roblox launch/identity guide, documented Stand acquisition, release information, community resources and FAQ. The Stand guide reads the game Encyclopedia in actual footage and checks a second player's Arrow recording; this wiki has not joined a live game client. A hands-on beginner route, complete Stand data and codes remain withheld. See research/page-matrix.md and research/evidence-ledger.md. Do not describe this scope as a complete gameplay encyclopedia.
+The current edition contains the homepage, Roblox launch/identity guide, a dated PC controls reference, documented Stand acquisition and replacement cost, release information, community resources and FAQ. The Stand guide reads the game Encyclopedia in actual footage and checks a second player's Arrow recording; this wiki has not joined a live game client. A hands-on beginner route, complete Stand data and codes remain withheld. See research/page-matrix.md and research/evidence-ledger.md. Do not describe this scope as a complete gameplay encyclopedia.
 
 User keyword research dated October 11, 2026 is preserved unchanged in research/user-keywords-2026-10-11.md and .json. Incremental research is separate. Unknown search volumes and KD remain null.
 
