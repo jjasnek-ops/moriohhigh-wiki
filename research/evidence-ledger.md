@@ -1,5 +1,9 @@
 # Evidence ledger — collected 2026-10-11 (Asia/Shanghai)
 
+## 2026-10-13 codes source recheck (E23)
+
+User reaffirmed `morioh high codes`; this is qualitative demand information, not measured Google query volume. [PGG](https://progameguides.com/roblox/morioh-high-codes/) and [MrGuider](https://www.mrguider.org/roblox/morioh-high-codes/) show October12 updates and seven reported codes, but give conflicting GAUNTLET rewards. PGG also retains unreleased-code wording. The [Roblox description](https://www.roblox.com/games/111838814545019/Morioh-High) inspected October13 provides no code list. Evidence location: publisher introduction/active list/redemption section and Roblox Description. Game build unprovided; secondary authority for reward claims. Developer original post and successful same-game redemption not obtained. Final status: disputed/unverified, research only; Codes page deferred. This supplements E12/E13 without changing their historical observation. Full record: `keyword-user-signal-2026-10-13.md` / `.json`.
+
 Authority refers to the exact fact, not a blanket endorsement of a source. Live API values are dated snapshots. No game build/version number has been exposed; no invented version is assigned.
 
 | ID | Fact / claim | Source and evidence location | Published / version | Authority and dispute | Verification / publication decision |

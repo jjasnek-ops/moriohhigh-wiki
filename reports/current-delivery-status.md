@@ -1,6 +1,6 @@
 # Current delivery status
 
-Updated 2026-10-12T04:03:37.606Z (UTC), 2026-10-12 Asia/Shanghai. Do not reinitialize.
+Updated 2026-10-13 (Asia/Shanghai); latest production deployment remains 2026-10-12. Do not reinitialize.
 
 - 当前阶段：质量合格的限定首版已实际在正式域名上线并验收；完整游戏百科未完成，缺证据页面继续暂缓。
 - 已完成并验证：Spaceship nameservers 切换、Cloudflare zone / Pages 自定义域名 active、HTTPS、正式 origin / 原生联系页、静态部署、GitHub CI、线上 SEO 门禁、正式域名 GSC 所有权及 Sitemap 提交、GA4 数据流网址及真实测试采集。
@@ -23,6 +23,12 @@ Updated 2026-10-12T04:03:37.606Z (UTC), 2026-10-12 Asia/Shanghai. Do not reiniti
 - 所有独立可完成的上线工作已保存；没有声称持续后台研究。未来检查依赖本机/应用及已授权账号可访问。
 
 完整19项报告：reports/final-delivery-report.md。部署/网页/Google/邮件分别以各自回执为准。
+
+## 2026-10-13 关键词补充（已记录/来源已复查）
+
+用户再次提供`morioh high codes`，已列为P1重点核验词，与原有`morioh high roblox codes`合并候选`/resources/codes/`。原快照已有两词，新增唯一词0，累计37研究记录/30相关/7排除不变；无新增实测月搜/KD/Trends，用户未指明数据平台。原15词历史快照未改。
+
+新增E23：10月13日复查两个10月12日更新的第三方码表及Roblox公开描述；同一码奖励冲突，未取得开发者原帖与成功兑换验证。Codes页面继续暂缓，未建立空页或改动正式网站。详见research/keyword-user-signal-2026-10-13.md及.json；矩阵与关键词聚类已更新。线上source仍173c393f772174db373ebac0a358d60c6cddfed8，12个Sitemap网址和7编辑页不变；本轮仅研究记录提交至jjasnek-ops仓库，不冒充新部署或Google曝光。下次Codes制作先解决E23证据门禁。
 
 ## 2026-10-12 图片增量（已完成/已验证）
 

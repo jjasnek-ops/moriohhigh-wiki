@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "signalSource": "User message in this project conversation",
+  "sourcePlatform": null,
+  "userStatement": "相关seo增加了一个词：morioh high codes",
+  "keyword": "morioh high codes",
+  "secondaryKeywords": ["morioh high roblox codes"],
+  "intent": "Current redemption codes, rewards, and redemption steps",
+  "existingBaseline": true,
+  "historicalSource": "research/user-keywords-2026-10-11.json",
+  "historical": {
+    "collectedDate": "2026-10-11",
+    "monthlySearch": null,
+    "monthlySearchStatus": "未收录（词太新）",
+    "kd": 46.7,
+    "relativePeak": 58
+  },
+  "current": {
+    "monthlySearch": null,
+    "kd": null,
+    "trends7d": null,
+    "trends30d": null,
+    "googleSerpChecked": false,
+    "competitionScore": null,
+    "measurementStatus": "Not measured; qualitative user signal only",
+    "priority": "P1",
+    "focus": "User-reaffirmed target; prioritize source and redemption verification",
+    "candidateUrl": "/resources/codes/",
+    "separatePageWhenQualified": true,
+    "publication": "deferred",
+    "publicationReason": "No developer code post and successful same-game redemption verification; secondary reward claims conflict",
+    "mergeVariant": "morioh high roblox codes"
+  },
+  "counts": {
+    "newUniqueKeywords": 0,
+    "combinedResearchRecords": 37,
+    "combinedRelatedCandidates": 30,
+    "excludedUnchanged": 7,
+    "newMeasuredVolumes": 0
+  },
+  "sourceChecks": [
+    {"url": "https://www.roblox.com/games/111838814545019/Morioh-High", "authority": "primary game page", "observed": "Retrieved public description contains no code list"},
+    {"url": "https://progameguides.com/roblox/morioh-high-codes/", "authority": "secondary publisher", "displayedUpdatedDate": "2026-10-12", "observed": "Claims seven active codes; GAUNTLET reward conflicts with MrGuider; unreleased-code wording remains"},
+    {"url": "https://www.mrguider.org/roblox/morioh-high-codes/", "authority": "secondary publisher", "displayedUpdatedDate": "2026-10-12", "observed": "Lists seven codes and a different GAUNTLET reward; no independent redemption test obtained"}
+  ],
+  "productionChanged": false
+}

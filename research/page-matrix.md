@@ -236,11 +236,14 @@
 
 ## Codes
 
-- 次词：暂无验证变体
+- 主词：morioh high codes；2026-10-13用户再次确认，已去重记录
+- 次词：morioh high roblox codes；同意图合并，不另建页
+- 候选URL：/resources/codes/
+- 执行优先级：P1，重点核验；不等于满足发布门禁
 - 独立意图：Working code and successful redemption evidence
 - 最小答案：Working code and successful redemption evidence
 - 所需证据：Current same-game developer documentation or timestamped footage plus independent confirmation
-- 已取得：E12, E13
+- 已取得：E12, E13；E23为2026-10-13复查，二手奖励仍冲突，未取得开发者原帖或成功兑换
 - 形式：No page generated
 - 内链：/guides/how-to-play/, /resources/community-links/
 - 更新频率：Unknown until mechanics verified
