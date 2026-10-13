@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-12T03:53:31.720Z",
+  "checkedAt": "2026-10-13T07:51:25.596Z",
   "origin": "https://moriohhighguide.wiki",
-  "htmlCount": 22,
-  "indexableCount": 12,
-  "sitemapCount": 12,
+  "htmlCount": 24,
+  "indexableCount": 13,
+  "sitemapCount": 13,
   "failures": [],
   "pages": [
     {
@@ -80,8 +80,8 @@
     },
     {
       "file": "dist/index.html",
-      "title": "Morioh High Wiki | Stand Guide &amp; Roblox Resources",
-      "descriptionLength": 142,
+      "title": "Morioh High Wiki | Codes, Controls &amp; Stand Guide",
+      "descriptionLength": 140,
       "canonical": "https://moriohhighguide.wiki/",
       "noindex": false,
       "errors": []
@@ -103,6 +103,14 @@
       "errors": []
     },
     {
+      "file": "dist/resources/codes/index.html",
+      "title": "Morioh High Codes: Reported List and How to Redeem",
+      "descriptionLength": 145,
+      "canonical": "https://moriohhighguide.wiki/resources/codes/",
+      "noindex": false,
+      "errors": []
+    },
+    {
       "file": "dist/resources/community-links/index.html",
       "title": "Morioh High Discord and Trello: Community Links",
       "descriptionLength": 141,
@@ -113,7 +121,7 @@
     {
       "file": "dist/resources/index.html",
       "title": "Morioh High Game &amp; Community Resources",
-      "descriptionLength": 124,
+      "descriptionLength": 137,
       "canonical": "https://moriohhighguide.wiki/resources/",
       "noindex": true,
       "errors": []
@@ -124,6 +132,14 @@
       "descriptionLength": 147,
       "canonical": "https://moriohhighguide.wiki/resources/release-information/",
       "noindex": false,
+      "errors": []
+    },
+    {
+      "file": "dist/tags/codes/index.html",
+      "title": "codes — Morioh High Wiki",
+      "descriptionLength": 50,
+      "canonical": "https://moriohhighguide.wiki/tags/codes/",
+      "noindex": true,
       "errors": []
     },
     {

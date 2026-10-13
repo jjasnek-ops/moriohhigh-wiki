@@ -44,3 +44,8 @@ Updated 2026-10-13 (Asia/Shanghai); latest production deployment remains 2026-10
 User explicitly selected the latest authenticated account, jjasnek-ops, for this project and future GitHub work. gh active account and the global HTTPS credential username are jjasnek-ops. Global and repository-local Git authors use that account’s GitHub noreply identity. The new public independent repository https://github.com/jjasnek-ops/moriohhigh-wiki was created and origin switched to it; existing history is retained. The previous owner’s repository is historical and is no longer used for writes. Push verified with the new account; source 173c393f772174db373ebac0a358d60c6cddfed8 and CI38201586065 success. Cloudflare continues using the existing direct-upload project; changing GitHub ownership does not itself deploy the site.
 
 本轮正式Controls搜索4结果与实际点击已验证；390宽手机完整9项键位表截图保存，视口覆盖已清除。上线source保持173c393f772174db373ebac0a358d60c6cddfed8；当前新增记录仅docs，不需要把docs HEAD冒充新部署。
+
+
+## 2026-10-13 Codes 首版正在上线
+
+已按用户最新立即发布指示创建7个reported码及复制按钮，奖励省略。所有本地门禁和桌面/390宽样板通过；24HTML/13Sitemap/Pagefind6。已创建并读回每日10:00 Asia/Shanghai heartbeat morioh-high，维护省略奖励及reported标签；未来运行未验证。尚待实际部署，当前正式source仍173c393f772174db373ebac0a358d60c6cddfed8。详见reports/codes-release-2026-10-13.md。

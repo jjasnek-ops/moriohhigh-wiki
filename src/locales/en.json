@@ -128,18 +128,18 @@
     },
     "resources": {
       "overviewTitle": "Morioh High Game & Community Resources",
-      "overviewDescription": "Check Roblox availability, release information, developer links, and the Morioh High Discord invite with clear source notes."
+      "overviewDescription": "Find reported Morioh High codes, release information, developer links, and community resources with clear sources and verification notes."
     }
   },
   "home": {
     "meta": {
-      "title": "Morioh High Wiki | Stand Guide & Roblox Resources",
-      "description": "Find Morioh High on Roblox, check PC controls and Stand awakening rules, and follow community links. Independent wiki with dated source notes."
+      "title": "Morioh High Wiki | Codes, Controls & Stand Guide",
+      "description": "Find reported Morioh High codes, PC controls, Stand awakening rules, and Roblox links. Independent wiki with sources and verification notes."
     },
     "hero": {
       "badge": "ROBLOX · INDEPENDENT PLAYER WIKI",
       "title": "Morioh High Wiki",
-      "description": "School life in Morioh, with a bizarre twist. Find the Roblox game, check documented PC controls and Stand awakening methods, and connect with other players.",
+      "description": "School life in Morioh, with a bizarre twist. Find the Roblox game, copy reported codes, and check PC controls and Stand awakening methods.",
       "ctaPrimary": "Play on Roblox",
       "ctaSecondary": "Game & community links",
       "videoId": "",
@@ -199,10 +199,10 @@
         },
         {
           "number": "03",
-          "title": "Find the community",
-          "description": "Developer group, a checked Discord invite, and clear notes on Trello.",
-          "icon": "lucide:users",
-          "href": "/resources/community-links/"
+          "title": "Copy reported codes",
+          "description": "Try publisher-reported codes, follow the listed menu steps, and check source dates. Rewards are omitted.",
+          "icon": "lucide:copy",
+          "href": "/resources/codes/"
         }
       ]
     },
@@ -298,7 +298,7 @@
         },
         {
           "question": "Where are the Stand and codes guides?",
-          "answer": "The Stand guide documents qualifying fight knockouts, Arrow compatibility, and the recorded reroll cost. A PC controls reference covers the prompts visible in same-game footage. A complete current Stand roster and working code redemption remain unverified here."
+          "answer": "The Stand guide documents fight knockouts, Arrow compatibility, and recorded reroll cost. PC controls and a publisher-reported codes list are available. Code redemption has not been independently tested here, and a complete current Stand roster remains unverified."
         },
         {
           "question": "Is this an official wiki?",

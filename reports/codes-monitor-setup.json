@@ -1,0 +1,22 @@
+{
+  "createdDate": "2026-10-13",
+  "id": "morioh-high",
+  "name": "Morioh High 兑换码每日核查",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "schedule": {
+    "frequency": "daily",
+    "hour": 10,
+    "minute": 0,
+    "timezone": "Asia/Shanghai"
+  },
+  "settingsReadBack": true,
+  "updatedForImmediateReportedCodePublication": true,
+  "target": "current project conversation",
+  "rewardPolicy": "omit",
+  "actualFutureRunsVerified": false,
+  "localExecutionRequiresMachineAndApp": true,
+  "initialCandidates": 7,
+  "verifiedWorking": 0,
+  "credentialsStored": false
+}

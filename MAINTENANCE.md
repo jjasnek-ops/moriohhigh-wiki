@@ -1,5 +1,11 @@
 # Low-maintenance publication policy
 
+## User-authorized Codes exception — 2026-10-13
+
+The user subsequently requested an immediate first publication. A sourced list of strings consistently reported by two checked same-game publishers may be published as **reported codes**, with a clear untested-redemption status and rewards omitted. It does not need an in-game success claim to accurately report what those sources list. Developer-confirmed and tested-working labels still require their own evidence. Keep this scope for future scheduled updates; do not block a reported list solely because rewards conflict.
+
+The user requested scheduled code retrieval and allows reward disagreements to be omitted. Check once daily at10:00 Asia/Shanghai; omit reward descriptions. Follow `research/codes-monitor-policy.md` and compare `research/codes-watchlist.json`. Reward conflicts alone do not stop candidate collection. Publisher reports, developer announcements and successful redemption remain separate verification states; this does not authorize presenting untested codes as working. Only material changes justify an article edit or commit. Unchanged checks write local ignored logs, without daily article rewrites or date bumps. The existing four whole-site checks remain intact. Automation creation and actual future execution are verified separately.
+
 Freeze editorial URLs after the initial release. Do not run scheduled article generators, rewrite text daily, or change dates without a substantive correction. Ads and optional comments remain disabled. GA4 has its own web stream and loads only after optional-analytics consent; the privacy notice reflects this. Verify live collection separately from configuration.
 
 Update only for: a major game change that invalidates a guide; a material factual error; a valuable new search intent; a GSC content gap; a technical/indexing fault; or a changed official game entry or important rule. New codes need a developer source and successful same-game validation. A video title alone is insufficient for a mechanic guide.
