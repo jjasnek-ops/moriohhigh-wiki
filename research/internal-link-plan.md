@@ -15,3 +15,6 @@ Controls候选由首页Useful links、原生最近文章、How-to-play和Stand�
 
 
 2026-10-12当前验收：Controls及Stand更换补充已在正式域名部署；source 173c393f772174db373ebac0a358d60c6cddfed8 /12可索引及Sitemap URL/7编辑页。此前“候选/待部署”段落是过程记录，以本条和reports/pages-deployment.json为准。
+
+
+2026-10-13 Codes正式版：/resources/codes/已上线；首页第三张Start卡、资源列表/Sidebar、首页FAQ、Stand正文和Pagefind承接。码页回链Controls、Launch、Stand、Community。8编辑页及5政策页共13可索引/Sitemap，保留稳定URL，无新增Codes同义页。

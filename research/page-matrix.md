@@ -1,6 +1,6 @@
 # 页面矩阵（增量证据后的状态）
 
-2026-10-12增量：20个页面意图，7个编辑页面已实际发布（4完整限定答案、3部分答案），13暂缓。新增PC Controls及现有Stand更换说明已通过本地技术/视觉及线上验收。正式origin https://moriohhighguide.wiki；当前线上source为173c393f772174db373ebac0a358d60c6cddfed8，部署回执见reports/pages-deployment.json。完整回答指文内限定问题，不代表完整游戏百科；政策与归档不计精品攻略。
+2026-10-13 Codes增量：20个页面意图，8个编辑页面已实际发布（4完整限定答案、4部分答案），12暂缓。Codes的7个reported字符串已通过来源/未实测标签审核、本地样板及正式上线验收，奖励省略。既有Controls和Stand更换说明保留。正式origin https://moriohhighguide.wiki；当前线上source为86839658efe0fc9982b2f1deb971d8b6a7f154d4，部署回执见reports/pages-deployment.json。完整回答指文内限定问题，不代表完整游戏百科；政策与归档不计精品攻略。
 
 | 页面 | 主词 | URL | 状态 |
 | --- | --- | --- | --- |
@@ -20,7 +20,7 @@
 | Abilities | morioh high abilities | /guides/abilities/ | 暂缓 |
 | Combat | morioh high combat | /guides/combat/ | 暂缓 |
 | Items | morioh high items | /guides/items/ | 暂缓 |
-| Codes | morioh high codes | /resources/codes/ | 暂缓 |
+| Codes | morioh high codes | /resources/codes/ | 部分回答：7个有出处reported码，省略奖励/未实测，已上线 |
 | Tips | morioh high tips | /guides/tips/ | 暂缓 |
 | Troubleshooting | morioh high troubleshooting | /guides/troubleshooting/ | 暂缓 |
 | Tier list | morioh high tier list | /guides/tier-list/ | 暂缓 |
@@ -239,16 +239,16 @@
 - 主词：morioh high codes；2026-10-13用户再次确认，已去重记录
 - 次词：morioh high roblox codes；同意图合并，不另建页
 - 候选URL：/resources/codes/
-- 执行优先级：P1，重点核验；不等于满足发布门禁
-- 独立意图：Working code and successful redemption evidence
-- 最小答案：Working code and successful redemption evidence
-- 所需证据：Current same-game developer documentation or timestamped footage plus independent confirmation
-- 已取得：E12, E13；E23为2026-10-13复查，二手奖励仍冲突，未取得开发者原帖或成功兑换
-- 形式：No page generated
+- 执行优先级：P1；用户2026-10-13要求先发布有出处列表，Reported范围已通过门禁
+- 独立意图：Copy sourced reported codes and follow attributed redemption instructions
+- 最小答案：7个两个已读同游戏来源共同列出的码、原生复制、来源/日期、未测试状态、奖励省略及兑换步骤
+- 所需证据：Reported列表需已读同游戏来源；开发者确认、实测有效与expiry分别需额外独立证据
+- 已取得：E12/E13历史、E23当前二手复查、E24相同7码来源及用户更新授权；开发者原帖/实测仍未知
+- 形式：原生MDX/CodeBlock/Quick Answer/FAQ/来源表
 - 内链：/guides/how-to-play/, /resources/community-links/
-- 更新频率：Unknown until mechanics verified
-- SEO 价值：Candidate only; current demand unmeasured
-- 状态：暂缓；Media disagree on rewards/status; no independent game test
+- 更新频率：每日10:00核查，仅实质新码/状态变化才更新，奖励省略
+- SEO 价值：用户确认Codes需求，承接可复制码与兑换步骤；最新月搜/KD/排名未测
+- 状态：部分回答，Reported范围已正式上线验收；不能宣称码已实测有效
 
 ## Tips
 

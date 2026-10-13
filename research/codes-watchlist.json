@@ -3,23 +3,147 @@
   "collectedDate": "2026-10-13",
   "lastMaterialChangeDate": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "game": {"name": "Morioh High", "placeId": 111838814545019, "universeId": 10768944846, "url": "https://www.roblox.com/games/111838814545019/Morioh-High"},
+  "game": {
+    "name": "Morioh High",
+    "placeId": 111838814545019,
+    "universeId": 10768944846,
+    "url": "https://www.roblox.com/games/111838814545019/Morioh-High"
+  },
   "policy": "research/codes-monitor-policy.md",
   "rewardPolicy": "omit",
   "sources": [
-    {"id": "pgg", "url": "https://progameguides.com/roblox/morioh-high-codes/", "type": "secondary publisher", "displayedUpdatedDate": "2026-10-12", "section": "Active Codes"},
-    {"id": "mrguider", "url": "https://www.mrguider.org/roblox/morioh-high-codes/", "type": "secondary publisher", "displayedUpdatedDate": "2026-10-12", "section": "Working codes"}
+    {
+      "id": "pgg",
+      "url": "https://progameguides.com/roblox/morioh-high-codes/",
+      "type": "secondary publisher",
+      "displayedUpdatedDate": "2026-10-12",
+      "section": "Active Codes"
+    },
+    {
+      "id": "mrguider",
+      "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+      "type": "secondary publisher",
+      "displayedUpdatedDate": "2026-10-12",
+      "section": "Working codes"
+    }
   ],
   "codes": [
-    {"code": "GAUNTLET", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "rewardConflictObserved": true, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "WHITESNAKE", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "WEHEARYOUGUYS", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "THANKYOUFORLIKES", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "DELAYMBALL", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "PLAYERS5MVBYT", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"},
-    {"code": "RELEASECSBKZM", "sourceIds": ["pgg", "mrguider"], "publisherReportedStatus": "active", "verificationStatus": "publisher_reported", "developerConfirmed": false, "redemptionTested": false, "verifiedWorking": false, "reward": null, "expiryDate": null, "firstSeenHere": "2026-10-13"}
+    {
+      "code": "GAUNTLET",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "rewardConflictObserved": true,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "WHITESNAKE",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "WEHEARYOUGUYS",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "THANKYOUFORLIKES",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "DELAYMBALL",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "PLAYERS5MVBYT",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    },
+    {
+      "code": "RELEASECSBKZM",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-13"
+    }
   ],
-  "counts": {"reportedCandidates": 7, "developerConfirmed": 0, "testedByThisWiki": 0, "verifiedWorking": 0},
-  "publishedOnSite": false,
-  "notes": "Candidate strings were read from both publishers on October13. Reward descriptions are omitted by user-authorized policy; active is a publisher claim, not this wiki's tested status."
+  "counts": {
+    "reportedCandidates": 7,
+    "developerConfirmed": 0,
+    "testedByThisWiki": 0,
+    "verifiedWorking": 0
+  },
+  "publishedOnSite": true,
+  "notes": "Candidate strings were read from both publishers on October13. Reward descriptions are omitted by user-authorized policy; active is a publisher claim, not this wiki's tested status.",
+  "publicationScope": "reported code strings; not verified working",
+  "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
+  "publicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

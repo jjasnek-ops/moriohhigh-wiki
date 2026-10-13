@@ -1,19 +1,18 @@
 {
-  "checkedAt": "2026-10-12T03:56:50.310Z",
-  "id": "08de0189-b4c1-43a2-989f-299458e12d63",
+  "checkedAt": "2026-10-13T07:59:27.539Z",
+  "id": "9d2c47f2-0528-41c8-86cd-88a51f75b6a3",
   "environment": "production",
-  "url": "https://08de0189.moriohhigh-wiki.pages.dev",
+  "url": "https://9d2c47f2.moriohhigh-wiki.pages.dev",
   "productionOrigin": "https://moriohhighguide.wiki",
-  "sourceCommit": "173c393f772174db373ebac0a358d60c6cddfed8",
-  "commit": "173c393f772174db373ebac0a358d60c6cddfed8",
+  "sourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4",
+  "commit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4",
   "latestStage": {
     "name": "deploy",
     "started_on": null,
-    "ended_on": "2026-10-12T03:56:22.386417Z",
+    "ended_on": "2026-10-13T07:57:53.991533Z",
     "status": "success"
   },
   "method": "Wrangler direct upload",
   "githubRepository": "https://github.com/jjasnek-ops/moriohhigh-wiki",
-  "githubAccount": "jjasnek-ops",
-  "networkRetry": "Initial ENOTFOUND failures; process-only IPv4 preference and bounded retry succeeded; no system DNS or TLS changes"
+  "githubAccount": "jjasnek-ops"
 }

@@ -65,3 +65,10 @@ source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CI38161154603 success /producti
 source 173c393f772174db373ebac0a358d60c6cddfed8 /新账号jjasnek-ops仓库CI38201586065 success /生产部署08de0189-b4c1-43a2-989f-299458e12d63 success /正式marker一致。live21正常HTML/28检查/12Sitemap/0failures；原生线上check-sitemap12/12 HTTP200；32线上图片资源HTTP200且字节与构建一致。完整日志、API部署回执和online-acceptance.json已保存。上传曾ENOTFOUND，过程IPv4优先重试成功，无系统DNS或TLS更改。源内容限定早期录像UI，技术通过不等于当前客户端实测。
 
 正式站Pagefind controls查询实际返回4结果，首条为新增PC Controls；点击后dialog关闭且进入https://moriohhighguide.wiki/guides/controls/，H1/Title正确。临时390宽视口已reset，结果页保留为交付页。
+
+
+## Codes正式验收 — 2026-10-13
+
+source 86839658efe0fc9982b2f1deb971d8b6a7f154d4 /CI38365981207 success /deployment9d2c47f2-0528-41c8-86cd-88a51f75b6a3 success /marker一致。check137files0诊断、lint、244pass/1skip、6MDX内容、config/strict UI/build/574链接通过；24HTML/13indexable/13Sitemap/Pagefind6。线上23HTML/30检查/0fail；Sitemap13/13 HTTP200；32图片与构建字节一致。新页复用原生CodeBlock，UI点击显示Copied；工具虚拟剪贴板不共享页面原生值，未声称回读验证。无重构或新增永久凭据；代码实测状态仍未知，Reported页不使用Active frontmatter。完整本轮日志以reports/logs/codes-*.txt和codes-release报告为准。
+
+正式Pagefind查询GAUNTLET返回1结果，点击后进入https://moriohhighguide.wiki/resources/codes/，dialog关闭、7卡/H1/Title正确；首屏截图codes-live-page.png保存，页面保留为交付页。

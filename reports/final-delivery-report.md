@@ -1,8 +1,8 @@
 # Morioh High Wiki 实际交付报告
 
-2026-10-13增量：用户再次确认`morioh high codes`，已去重列入当前P1核验重点；累计关键词37/30/7不变。E23复查仍有二手奖励冲突及实际兑换证据缺口，Codes页面暂缓。此次仅研究记录更新，以下正式部署、12个Sitemap网址及7编辑页面的验收日期/版本仍为2026-10-12，未新增Google量化数据。详见[本次增量](../research/keyword-user-signal-2026-10-13.md)。
+2026-10-13增量：按用户最新定时获取、奖励省略及先上线要求，新增有出处的Codes列表。7个字符串来自两个已读同游戏媒体，标为reported且未实测，省略奖励。Codes在限定范围内已正式上线，当前8编辑页、13可索引/Sitemap；关键词37/30/7不变。每日10:00 Asia/Shanghai heartbeat已ACTIVE并读回，未来运行未验证。以下源代码与部署记录已更新为本次实际版本。
 
-2026-10-12，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，13个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
+2026-10-13，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，12个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
 
 ## 1. AnvilWiki 版本及来源
 
@@ -10,11 +10,11 @@
 
 ## 2. GitHub 与实际代码
 
-已完成并验证：[jjasnek-ops/moriohhigh-wiki](https://github.com/jjasnek-ops/moriohhigh-wiki)，按用户最新指示创建在新账号下的独立公开仓库，完整代码历史保留。GitHub CLI当前账号、全局HTTPS凭据选择、全局及项目Git作者均已切换为jjasnek-ops（公开noreply）。线上源代码 **173c393f772174db373ebac0a358d60c6cddfed8**；[CI38201586065](https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38201586065)成功。旧账号仓库保留为历史，不再用于新操作；最终报告属于后续记录提交，不冒充线上源代码。凭据未写入仓库。
+已完成并验证：[jjasnek-ops/moriohhigh-wiki](https://github.com/jjasnek-ops/moriohhigh-wiki)，按用户最新指示创建在新账号下的独立公开仓库，完整代码历史保留。GitHub CLI当前账号、全局HTTPS凭据选择、全局及项目Git作者均已切换为jjasnek-ops（公开noreply）。线上源代码 **86839658efe0fc9982b2f1deb971d8b6a7f154d4**；[CI38365981207](https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38365981207)成功。旧账号仓库保留为历史，不再用于新操作；最终报告属于后续记录提交，不冒充线上源代码。凭据未写入仓库。
 
 ## 3. Cloudflare Pages
 
-已完成并验证：项目moriohhigh-wiki，生产部署 **08de0189-b4c1-43a2-989f-299458e12d63**；[不可变部署](https://08de0189.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
+已完成并验证：项目moriohhigh-wiki，生产部署 **9d2c47f2-0528-41c8-86cd-88a51f75b6a3**；[不可变部署](https://9d2c47f2.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
 
 ## 4. 正式域名及邮箱
 
@@ -34,7 +34,7 @@
 
 ## 7. 最终页面矩阵
 
-20独立意图，7发布/13暂缓；4完整限定答案、3部分答案。政策、归档和404不计精品攻略。最小有效答案、主次词、证据、内链、频率和状态见[页面矩阵](../research/page-matrix.md)，[架构](../research/site-architecture.md)与[内链计划](../research/internal-link-plan.md)。
+20独立意图，8发布/12暂缓；4完整限定答案、4部分答案。政策、归档和404不计精品攻略。最小有效答案、主次词、证据、内链、频率和状态见[页面矩阵](../research/page-matrix.md)，[架构](../research/site-architecture.md)与[内链计划](../research/internal-link-plan.md)。
 
 ## 8. 实际发布页面与URL
 
@@ -44,11 +44,12 @@
 | How to play | [启动指南](https://moriohhighguide.wiki/guides/how-to-play/) | 正确游戏入口与Roblox启动；完整限定答案，不冒充进度路线 |
 | How to get a Stand | [Stand获取](https://moriohhighguide.wiki/guides/how-to-get-a-stand/) | 文档化战斗/Arrow方法、100 Rerolls更换费用及证据边界；完整限定答案 |
 | PC controls | [操作键位](https://moriohhighguide.wiki/guides/controls/) | 同游戏已读录像9项PC输入；部分答案，当前客户端及其他设备未测 |
+| Codes | [码表与兑换步骤](https://moriohhighguide.wiki/resources/codes/) | 7个有出处reported字符串、复制按钮、步骤出处；部分答案，奖励省略/兑换未实测 |
 | Release information | [发布信息](https://moriohhighguide.wiki/resources/release-information/) | 活动状态与创建日期区别；部分答案，官方确切发布日期未知 |
 | Community resources | [社区入口](https://moriohhighguide.wiki/resources/community-links/) | 匹配群组/有效邀请；部分答案，官方Discord所有权/Trello未知 |
 | FAQ | [FAQ](https://moriohhighguide.wiki/faq/) | 8项身份、入口、资源答疑；完整限定答案 |
 
-另有About、Privacy、Terms、Copyright、Contact，合计12允许索引URL；21正常HTML路由，加404共22构建HTML。导航/标签归档noindex且排除Sitemap。Contact服务启用后已允许索引，不计新增机制攻略。
+另有About、Privacy、Terms、Copyright、Contact，合计13允许索引URL；23正常HTML路由，加404共24构建HTML。导航/标签归档noindex且排除Sitemap。Contact服务启用后已允许索引，不计新增机制攻略。
 
 ## 9. 暂缓页与理由
 
@@ -63,7 +64,6 @@
 | Abilities | 当前技能/数值 |
 | Combat | 同游戏控制和战斗测试 |
 | Items | 完整功能/来源；Arrow窄答案已并入Stand页 |
-| Codes | 开发者来源及成功兑换验证；媒体状态冲突 |
 | Tips | 独立实测选择，会重复未验证beginner内容 |
 | Troubleshooting | 可复现游戏特有问题；启动问题已合并 |
 | Tier list | 当前roster和可重复对比测试 |
@@ -72,13 +72,13 @@
 
 ## 10. 搜索需求覆盖
 
-覆盖品牌/Wiki/Roblox入口、首次Stand获取/更换、限定PC操作、发布日期和Discord/Trello资源意图。入口/Discord有当前Suggest，Stand有同游戏视频需求信号；FAQ独立需求未量化。专门Wiki覆盖仍薄只是机会假设，准确月搜、稳定上涨及多个独立机制长尾未证实。Codes不作唯一流量策略，JoJo词量不计本游戏需求。
+覆盖品牌/Wiki/Roblox入口、首次Stand获取/更换、限定PC操作、reported码表与兑换步骤、发布日期和Discord/Trello资源意图。入口/Discord有当前Suggest，Stand有同游戏视频需求信号；FAQ独立需求未量化。专门Wiki覆盖仍薄只是机会假设，准确月搜、稳定上涨及多个独立机制长尾未证实。Codes不作唯一流量策略，JoJo词量不计本游戏需求。
 
 ## 11. 事实证据审计
 
-限定范围已审计：[E01–E22台账](../research/evidence-ledger.md)、[内容审计](content-audit.md)。[官方游戏](https://www.roblox.com/games/111838814545019/Morioh-High)，Place111838814545019/Universe10768944846；开发者Not A Stand Game/group403864872。
+限定范围已审计：[E01–E24台账](../research/evidence-ledger.md)、[内容审计](content-audit.md)。[官方游戏](https://www.roblox.com/games/111838814545019/Morioh-High)，Place111838814545019/Universe10768944846；开发者Not A Stand Game/group403864872。
 
-E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arrow争夺佐证。1-in-10、一分钟限制、100%兼容度来自可读UI；概率未独立实测，当前客户端/准确build未验证。Arrow地点、刷新、价格不猜测，admin工具不作普通进度证据。新增E19实际读取Iron0:05九项PC HUD；E20重新读同游戏UI的100 Rerolls，更换随机且排除当前Stand，未验证10 Arrow Shards替代费。E21为官方身份活动快照、E22为平台Voice边界。控制表不猜测Z召唤、Ctrl具体锁定模式、技能冷却或当前客户端。无其他游戏/原作机制搬运、未验证Codes或复制竞争文章；非官方声明和自制视觉保留。
+E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arrow争夺佐证。1-in-10、一分钟限制、100%兼容度来自可读UI；概率未独立实测，当前客户端/准确build未验证。Arrow地点、刷新、价格不猜测，admin工具不作普通进度证据。新增E19实际读取Iron0:05九项PC HUD；E20重新读同游戏UI的100 Rerolls，更换随机且排除当前Stand，未验证10 Arrow Shards替代费。E21为官方身份活动快照、E22为平台Voice边界。控制表不猜测Z召唤、Ctrl具体锁定模式、技能冷却或当前客户端。没有其他游戏/原作机制搬运或复制文章；Codes仅在有出处reported范围发布，未把未测试的奖励/有效状态写成已验证；非官方声明和自制视觉保留。
 
 ## 12. 视觉审计
 
@@ -88,7 +88,7 @@ E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arro
 
 正式Controls首屏/封面已实际查看，390宽手机9项表格完整可读。桌面controls-live-desktop.png、手机controls-live-mobile-table.png已保存；本地及正式Pagefind controls查询各返回4结果，正式结果点击后实际进入新增页。原正式Contact、mailto和搜索验证保留；未宣称真实手机/Lighthouse/Core Web Vitals测量。
 
-![正式站PC攻略](screenshots/controls-live-desktop.png)
+![正式站Codes首屏](screenshots/codes-live-page.png)
 
 ## 13. 技术检查
 
@@ -98,16 +98,16 @@ E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arro
 | pnpm lint | 已验证通过 |
 | pnpm test | 已验证通过；18suites、244passed/1skipped |
 | pnpm check-config | 已验证通过；英语/分类/正式origin一致 |
-| pnpm check-content | 已验证通过；5MDX |
-| pnpm check-links | 已验证通过；22HTML/505内链 |
-| pnpm check-sitemap | 已验证通过；本地及正式站12/12 URLs200 |
-| pnpm build | 已验证通过；22HTML、Pagefind5文章 |
+| pnpm check-content | 已验证通过；6MDX |
+| pnpm check-links | 已验证通过；24HTML/574内链 |
+| pnpm check-sitemap | 已验证通过；本地及正式站13/13 URLs200 |
+| pnpm build | 已验证通过；24HTML、Pagefind6文章 |
 
-本轮普通check-i18n通过，此前strict检查记录保留；构建SEO22HTML/12indexable/12sitemap/0failures；线上21HTML/28目标/0failures，包括HTTPS、Canonical、robots、noindex、404和搜索资源。[日志与限制](technical-audit.md)。7个上游演示/营销测试保留但不适用本站，列为templateOnlySuites；一个已移除FORKER块测试跳过。构建不代替事实审计。
+本轮strict UI通过；构建SEO24HTML/13indexable/13sitemap/0failures；线上23HTML/30目标/0failures，包括HTTPS、Canonical、robots、noindex、404和搜索资源。[日志与限制](technical-audit.md)。7个上游演示/营销测试保留但不适用本站，列为templateOnlySuites；一个已移除FORKER块测试跳过。构建不代替事实审计。
 
 ## 14. Sitemap
 
-[index](https://moriohhighguide.wiki/sitemap-index.xml)与[child](https://moriohhighguide.wiki/sitemap-0.xml)已验证200、正确XML类型/命名空间，12存在且允许索引URL均200，无暂缓空页。robots允许抓取并列正式Sitemap。旧Pages版本的10URL IndexNow202为历史回执，未冒充本次正式站提交或Google收录。
+[index](https://moriohhighguide.wiki/sitemap-index.xml)与[child](https://moriohhighguide.wiki/sitemap-0.xml)已验证200、正确XML类型/命名空间，13存在且允许索引URL均200，无暂缓空页。robots允许抓取并列正式Sitemap。旧Pages版本的10URL IndexNow202为历史回执，未冒充本次正式站提交或Google收录。
 
 ## 15. GSC与GA4
 
@@ -131,6 +131,13 @@ GitHub、Cloudflare Pages/正式域名、GSC、GA4已通过现有授权完成。
 
 ## 19. 商业价值与剩余风险
 
-这是已落地、低维护的真实静态SEO实验，支持品牌/入口/首次Stand及更换/录像PC输入的限定需求。商业价值未证实；风险仍包括实时热度/月搜未知、当前客户端未测、完整机制资料不足、Sitemap处理未成功和实际域名续费预算未知。不以页面数量或预测流量追加采购/批量内容。
+这是已落地、低维护的真实静态SEO实验，支持品牌/入口/首次Stand及更换/录像PC输入/有出处码表的限定需求。商业价值未证实；风险仍包括实时热度/月搜未知、当前客户端未测、完整机制资料不足、Sitemap处理未成功和实际域名续费预算未知。不以页面数量或预测流量追加采购/批量内容。
 
 分别观察未索引、索引后低排名、有排名但需求小、有曝光但CTR低。若热度下降、索引后长期无曝光、独立长尾有限、竞争占优或维护过高，停止追加投入；低成本技术正常站点可以保留。研究、代码、测试、决策和回执已保存，[恢复状态](current-delivery-status.md)支持继续，不重复初始化。正式站工程和上线验收已完成；完整游戏百科、邮件实收、Google商业效果未冒充完成。
+
+
+## 2026-10-13 Codes范围与定时检查
+
+用户明确要求立即首发：7个两个同游戏来源一致报道的字符串已上线，原生复制、源表、FAQ、来源日期与checked日期，奖励省略。未借媒体active标签冒充本站working测试；没有前置官方确认/兑换成功声明。源字符串与候选台账逐个一致，首页卡/FAQ/Stand/导航和Pagefind互链。Codes源截图/核验与测试见[codes-release](codes-release-2026-10-13.md)。
+
+每日10:00 Asia/Shanghai的heartbeat morioh-high已创建、ACTIVE并读回，按最新用户发布范围更新prompt。两来源一致的新字符串可更新reported表，实测有效需另有证据；奖励省略，无实质变化不改日期、不重写文章、仅本地日志。现有四个检查任务保留，未来运行尚未发生，依赖本机开机及应用可访问。公开源码未存凭据，所有GitHub操作使用jjasnek-ops。

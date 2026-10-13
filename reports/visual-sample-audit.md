@@ -42,3 +42,10 @@ Controls桌面1280×720首屏、封面、Sidebar/TOC查看；手机390×844两�
 正式/guides/controls/单H1、正确Canonical、原生TOC/Sidebar、原创键盘封面已实际可见；封面complete/naturalWidth768。正式390宽手机无整页横向溢出（375<=390）；完整9行PC输入表截图controls-live-mobile-table.png。正式桌面首屏controls-live-desktop.png已保存。本地搜索与Stand更换段落截图保留，32线上图片资源与本地验收构建逐字节一致。实际手机、Lighthouse/CWV和当前游戏客户端未测试。
 
 正式站Pagefind controls查询实际返回4结果，首条为新增PC Controls；点击后dialog关闭且进入https://moriohhighguide.wiki/guides/controls/，H1/Title正确。临时390宽视口已reset，结果页保留为交付页。
+
+
+## Codes首版 — 2026-10-13
+
+本地真实桌面及390×844手机：7原生码卡、Copied反馈、FAQ、源表、Sidebar/TOC及原创封面通过；document375<=390，卡宽343/scrollWidth341，1H1，封面加载。虚拟剪贴板回读不可用，实际游戏兑换未测。正式页面7码/H1/Canonical/限制核对，codes-live-desktop.png保存；本地codes-preview-copy/mobile.png。临时视口已reset，无真实手机或性能测量声明。
+
+正式Pagefind查询GAUNTLET返回1结果，点击后进入https://moriohhighguide.wiki/resources/codes/，dialog关闭、7卡/H1/Title正确；首屏截图codes-live-page.png保存，页面保留为交付页。

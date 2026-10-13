@@ -1,12 +1,12 @@
-Source: 173c393f772174db373ebac0a358d60c6cddfed8
-Repository: https://github.com/jjasnek-ops/moriohhigh-wiki
-Deployment: 08de0189-b4c1-43a2-989f-299458e12d63
-Process-only IPv4 preference; retry succeeded after initial ENOTFOUND. No system DNS or TLS validation changes.
+
  ⛅️ wrangler 4.149.0
-Uploading... (63/93)
-Uploading... (73/93)
-Uploading... (83/93)
-Uploading... (93/93)
-✨ Success! Uploaded 30 files (63 already uploaded) (2.27 sec)
+────────────────────
+Uploading... (72/96)
+Uploading... (80/96)
+Uploading... (88/96)
+Uploading... (96/96)
+✨ Success! Uploaded 24 files (72 already uploaded) (2.53 sec)
+
 ✨ Uploading _headers
-✨ Deployment complete! Take a peek over at https://08de0189.moriohhigh-wiki.pages.dev
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://9d2c47f2.moriohhigh-wiki.pages.dev

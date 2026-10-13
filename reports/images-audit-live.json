@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-12T03:57:06.532Z",
+  "checkedAt": "2026-10-13T08:00:12.747Z",
   "mode": "live",
   "origin": "https://moriohhighguide.wiki",
-  "htmlCount": 22,
+  "htmlCount": 24,
   "assetCount": 32,
   "pages": [
     {
@@ -62,7 +62,7 @@
     {
       "file": "dist/index.html",
       "canonical": "https://moriohhighguide.wiki/",
-      "visibleImages": 6,
+      "visibleImages": 7,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -74,8 +74,14 @@
     {
       "file": "dist/recent/index.html",
       "canonical": "https://moriohhighguide.wiki/recent/",
-      "visibleImages": 5,
+      "visibleImages": 6,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
+    },
+    {
+      "file": "dist/resources/codes/index.html",
+      "canonical": "https://moriohhighguide.wiki/resources/codes/",
+      "visibleImages": 4,
+      "og": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j.webp"
     },
     {
       "file": "dist/resources/community-links/index.html",
@@ -86,7 +92,7 @@
     {
       "file": "dist/resources/index.html",
       "canonical": "https://moriohhighguide.wiki/resources/",
-      "visibleImages": 2,
+      "visibleImages": 3,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -96,9 +102,15 @@
       "og": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3.webp"
     },
     {
+      "file": "dist/tags/codes/index.html",
+      "canonical": "https://moriohhighguide.wiki/tags/codes/",
+      "visibleImages": 1,
+      "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
+    },
+    {
       "file": "dist/tags/community-resources/index.html",
       "canonical": "https://moriohhighguide.wiki/tags/community-resources/",
-      "visibleImages": 1,
+      "visibleImages": 2,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -122,7 +134,7 @@
     {
       "file": "dist/tags/roblox/index.html",
       "canonical": "https://moriohhighguide.wiki/tags/roblox/",
-      "visibleImages": 5,
+      "visibleImages": 6,
       "og": "https://moriohhighguide.wiki/images/hero-v2.webp"
     },
     {
@@ -178,6 +190,39 @@
       "width": 768,
       "height": 432,
       "bytes": 29014,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/community-board-v2.KNn-xw5j_zmJss.webp",
+      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_zmJss.webp",
+      "width": 400,
+      "height": 225,
+      "bytes": 14208,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/community-board-v2.KNn-xw5j_OE6Yy.webp",
+      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_OE6Yy.webp",
+      "width": 200,
+      "height": 113,
+      "bytes": 5022,
+      "format": "webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "matchesBuild": true
+    },
+    {
+      "source": "/_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp",
+      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 39932,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
@@ -244,39 +289,6 @@
       "width": 800,
       "height": 450,
       "bytes": 39808,
-      "format": "webp",
-      "status": 200,
-      "contentType": "image/webp",
-      "matchesBuild": true
-    },
-    {
-      "source": "/_astro/community-board-v2.KNn-xw5j_zmJss.webp",
-      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_zmJss.webp",
-      "width": 400,
-      "height": 225,
-      "bytes": 14208,
-      "format": "webp",
-      "status": 200,
-      "contentType": "image/webp",
-      "matchesBuild": true
-    },
-    {
-      "source": "/_astro/community-board-v2.KNn-xw5j_OE6Yy.webp",
-      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_OE6Yy.webp",
-      "width": 200,
-      "height": 113,
-      "bytes": 5022,
-      "format": "webp",
-      "status": 200,
-      "contentType": "image/webp",
-      "matchesBuild": true
-    },
-    {
-      "source": "/_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp",
-      "url": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp",
-      "width": 800,
-      "height": 450,
-      "bytes": 39932,
       "format": "webp",
       "status": 200,
       "contentType": "image/webp",
