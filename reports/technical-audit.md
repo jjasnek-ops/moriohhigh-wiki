@@ -72,3 +72,9 @@ source 173c393f772174db373ebac0a358d60c6cddfed8 /新账号jjasnek-ops仓库CI382
 source 86839658efe0fc9982b2f1deb971d8b6a7f154d4 /CI38365981207 success /deployment9d2c47f2-0528-41c8-86cd-88a51f75b6a3 success /marker一致。check137files0诊断、lint、244pass/1skip、6MDX内容、config/strict UI/build/574链接通过；24HTML/13indexable/13Sitemap/Pagefind6。线上23HTML/30检查/0fail；Sitemap13/13 HTTP200；32图片与构建字节一致。新页复用原生CodeBlock，UI点击显示Copied；工具虚拟剪贴板不共享页面原生值，未声称回读验证。无重构或新增永久凭据；代码实测状态仍未知，Reported页不使用Active frontmatter。完整本轮日志以reports/logs/codes-*.txt和codes-release报告为准。
 
 正式Pagefind查询GAUNTLET返回1结果，点击后进入https://moriohhighguide.wiki/resources/codes/，dialog关闭、7卡/H1/Title正确；首屏截图codes-live-page.png保存，页面保留为交付页。
+
+## Adsterra正式验收 — 2026-10-14
+
+source c02e4fd73a22f8eb53e6f7b9c544ca11da842739 /CI38498022341 success /production e0e8cac5-6fac-40ba-9de4-6d2c8c0172a6 success /正式marker一致。check142files0诊断、lint、19套件247pass/1skip、config/content/strict UI/build/574内链均通过；24正常HTML+7广告iframe资产，13可索引/Sitemap，Pagefind6文章。7单元原始尺寸和初始同意门控、同页不重复key、资产noindex检查通过。线上23正常HTML/30技术检查/0failure；正式Sitemap13/13 HTTP200；7广告HTML与dist逐字节一致且HTTP200、noindex头正确。未来本地及CI构建由prebuild从Wrangler生成ignored公开配置文件，无凭据复制。
+
+本地390/1280/1920实际DOM几何无横向溢出，隐藏格式卸载，320关闭后不随resize复现。正式Allow按钮实际操作后顶部Advertisement及关闭钮可见，桌面/390手机阅读布局截图已保存。正式只读DOM/AX工具超时，改用可用截图记录，未声称新量化线上性能或真实手机测试。浏览器所采样顶部广告无素材，provider填充/审批/展示量/收入仍未验证。没有点击广告，未改账号投放设置；临时视口已恢复。实际网页接入与收益分别记录，详见adsterra-release-2026-10-14.md /ad-online-acceptance.json。

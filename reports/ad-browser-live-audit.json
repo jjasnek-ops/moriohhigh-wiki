@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-14T02:37:35.983Z",
+  "sourceCommit": "c02e4fd73a22f8eb53e6f7b9c544ca11da842739",
+  "url": "https://moriohhighguide.wiki/guides/controls/",
+  "verification": "Observed via real browser screenshots and an actual Allow button click",
+  "privacyChoiceObservedBeforeAllow": true,
+  "topAdvertisementAndCloseButtonObservedAfterAllow": true,
+  "desktopAndMobileArticleReadable": true,
+  "temporaryViewportRestored": true,
+  "screenshots": [
+    {
+      "file": "reports/screenshots/adsterra-live-desktop.jpg",
+      "format": "jpeg"
+    },
+    {
+      "file": "reports/screenshots/adsterra-live-mobile.jpg",
+      "format": "jpeg"
+    }
+  ],
+  "providerCreativeSeenInSampledTopUnit": false,
+  "providerFillVerified": false,
+  "adClicked": false,
+  "limitations": [
+    "Live DOM/AX inspection timed out; no quantitative live geometry claimed.",
+    "Other format geometry is verified in local browser measurements and live asset checks, not claimed as visible creatives.",
+    "Provider impressions, approval, revenue and Core Web Vitals are unverified."
+  ]
+}

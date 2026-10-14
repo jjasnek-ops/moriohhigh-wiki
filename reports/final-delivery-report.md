@@ -1,20 +1,22 @@
 # Morioh High Wiki 实际交付报告
 
+2026-10-14增量：七种站主提供的Adsterra原始代码已配置并实际部署；顶部可关闭320×50、首页Native及卡片广告、文章移动文内位/宽屏两侧位/页脚组，经访客同意且尺寸适合才加载。247测试通过/1跳过，CI及正式站HTTP门禁通过，13可索引URL不变。实际广告素材填充、展示量、审批和收入未验证。首个Codes日检执行，无实质变化，未改文章或日期。详见[广告验收](adsterra-release-2026-10-14.md)。以下为最新生产版本；10/13段落保留为历史增量。
+
 2026-10-13增量：按用户最新定时获取、奖励省略及先上线要求，新增有出处的Codes列表。7个字符串来自两个已读同游戏媒体，标为reported且未实测，省略奖励。Codes在限定范围内已正式上线，当前8编辑页、13可索引/Sitemap；关键词37/30/7不变。每日10:00 Asia/Shanghai heartbeat已ACTIVE并读回，未来运行未验证。以下源代码与部署记录已更新为本次实际版本。
 
-2026-10-13，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，12个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
+2026-10-14，Asia/Shanghai。**质量合格的限定首版已在正式域名上线并验收**；完整游戏百科未完成，12个缺证据意图暂缓。各步骤按已完成、已验证、未完成、未验证、外部处理分别记录。
 
 ## 1. AnvilWiki 版本及来源
 
-已验证：[AnvilWiki](https://github.com/PNGTRID/AnvilWiki)2.37.0，commit b00859a524a176d60f3982c71b318ac11bc2fd5b，MIT。保留LICENSE和归属，实际使用官方apply-template、Astro7.3.2/MDX8.0.1/Pagefind及原生文章、导航、SEO、广告组件；英语、静态构建、广告关闭。Node22.19.0/pnpm11.1.1，Node要求>=22.13。README/AGENTS/docs/实际技能核对见[模板来源](../research/template-provenance.md)。
+已验证：[AnvilWiki](https://github.com/PNGTRID/AnvilWiki)2.37.0，commit b00859a524a176d60f3982c71b318ac11bc2fd5b，MIT。保留LICENSE和归属，实际使用官方apply-template、Astro7.3.2/MDX8.0.1/Pagefind及原生文章、导航、SEO、广告组件；英语、静态构建，Adsterra经同意后启用，AdSense关闭。Node22.19.0/pnpm11.1.1，Node要求>=22.13。README/AGENTS/docs/实际技能核对见[模板来源](../research/template-provenance.md)。
 
 ## 2. GitHub 与实际代码
 
-已完成并验证：[jjasnek-ops/moriohhigh-wiki](https://github.com/jjasnek-ops/moriohhigh-wiki)，按用户最新指示创建在新账号下的独立公开仓库，完整代码历史保留。GitHub CLI当前账号、全局HTTPS凭据选择、全局及项目Git作者均已切换为jjasnek-ops（公开noreply）。线上源代码 **86839658efe0fc9982b2f1deb971d8b6a7f154d4**；[CI38365981207](https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38365981207)成功。旧账号仓库保留为历史，不再用于新操作；最终报告属于后续记录提交，不冒充线上源代码。凭据未写入仓库。
+已完成并验证：[jjasnek-ops/moriohhigh-wiki](https://github.com/jjasnek-ops/moriohhigh-wiki)，按用户最新指示创建在新账号下的独立公开仓库，完整代码历史保留。GitHub CLI当前账号、全局HTTPS凭据选择、全局及项目Git作者均已切换为jjasnek-ops（公开noreply）。线上源代码 **c02e4fd73a22f8eb53e6f7b9c544ca11da842739**；[CI38498022341](https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38498022341)成功。旧账号仓库保留为历史，不再用于新操作；最终报告属于后续记录提交，不冒充线上源代码。凭据未写入仓库。
 
 ## 3. Cloudflare Pages
 
-已完成并验证：项目moriohhigh-wiki，生产部署 **9d2c47f2-0528-41c8-86cd-88a51f75b6a3**；[不可变部署](https://9d2c47f2.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
+已完成并验证：项目moriohhigh-wiki，生产部署 **e0e8cac5-6fac-40ba-9de4-6d2c8c0172a6**；[不可变部署](https://e0e8cac5.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
 
 ## 4. 正式域名及邮箱
 
@@ -94,14 +96,14 @@ E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arro
 
 | 请求脚本 | 正式域名版本结果 |
 |---|---|
-| pnpm check | 已验证通过；137files、0errors/warnings/hints |
+| pnpm check | 已验证通过；142files、0errors/warnings/hints |
 | pnpm lint | 已验证通过 |
-| pnpm test | 已验证通过；18suites、244passed/1skipped |
+| pnpm test | 已验证通过；19suites、247passed/1skipped |
 | pnpm check-config | 已验证通过；英语/分类/正式origin一致 |
 | pnpm check-content | 已验证通过；6MDX |
-| pnpm check-links | 已验证通过；24HTML/574内链 |
+| pnpm check-links | 已验证通过；31HTML（24正常页+7广告资产）/574内链 |
 | pnpm check-sitemap | 已验证通过；本地及正式站13/13 URLs200 |
-| pnpm build | 已验证通过；24HTML、Pagefind6文章 |
+| pnpm build | 已验证通过；24正常HTML+7广告资产、Pagefind6文章；prebuild读取公开Wrangler配置 |
 
 本轮strict UI通过；构建SEO24HTML/13indexable/13sitemap/0failures；线上23HTML/30目标/0failures，包括HTTPS、Canonical、robots、noindex、404和搜索资源。[日志与限制](technical-audit.md)。7个上游演示/营销测试保留但不适用本站，列为templateOnlySuites；一个已移除FORKER块测试跳过。构建不代替事实审计。
 

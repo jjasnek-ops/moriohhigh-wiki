@@ -1,12 +1,12 @@
 
  ⛅️ wrangler 4.149.0
 ────────────────────
-Uploading... (72/96)
-Uploading... (80/96)
-Uploading... (88/96)
-Uploading... (96/96)
-✨ Success! Uploaded 24 files (72 already uploaded) (2.53 sec)
+Uploading... (70/103)
+Uploading... (81/103)
+Uploading... (92/103)
+Uploading... (103/103)
+✨ Success! Uploaded 33 files (70 already uploaded) (3.29 sec)
 
 ✨ Uploading _headers
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://9d2c47f2.moriohhigh-wiki.pages.dev
+✨ Deployment complete! Take a peek over at https://e0e8cac5.moriohhigh-wiki.pages.dev

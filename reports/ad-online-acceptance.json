@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-10-14T01:54:10.008Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "c02e4fd73a22f8eb53e6f7b9c544ca11da842739",
+  "results": [
+    {
+      "name": "native-banner",
+      "url": "https://moriohhighguide.wiki/ads/native-banner.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/native-banner",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "incontent-728x90",
+      "url": "https://moriohhighguide.wiki/ads/incontent-728x90.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/incontent-728x90",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "incontent-468x60",
+      "url": "https://moriohhighguide.wiki/ads/incontent-468x60.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/incontent-468x60",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "sidebar-300x250",
+      "url": "https://moriohhighguide.wiki/ads/sidebar-300x250.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/sidebar-300x250",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "sticky-320x50",
+      "url": "https://moriohhighguide.wiki/ads/sticky-320x50.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/sticky-320x50",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "sidebar-160x600",
+      "url": "https://moriohhighguide.wiki/ads/sidebar-160x600.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/sidebar-160x600",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "name": "sidebar-160x300",
+      "url": "https://moriohhighguide.wiki/ads/sidebar-160x300.html",
+      "finalUrl": "https://moriohhighguide.wiki/ads/sidebar-160x300",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "matchesBuild": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "slots": [
+        "sticky-320x50",
+        "native-banner",
+        "sidebar-300x250",
+        "incontent-728x90",
+        "incontent-468x60"
+      ]
+    },
+    {
+      "route": "/guides/controls/",
+      "status": 200,
+      "slots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "route": "/resources/codes/",
+      "status": 200,
+      "slots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "route": "/privacy-policy/",
+      "status": 200,
+      "slots": [
+        "sticky-320x50"
+      ]
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "HTTP verification covers our ad assets and mounts, not provider creative fill, impressions, approval or income."
+  ]
+}

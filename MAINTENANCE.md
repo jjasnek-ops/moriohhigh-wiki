@@ -8,7 +8,7 @@ The user requested scheduled code retrieval and allows reward disagreements to b
 
 Freeze editorial URLs after the initial release. Do not run scheduled article generators, rewrite text daily, or change dates without a substantive correction. Optional comments remain disabled. Adsterra ads and GA4 load only after optional-service consent; the privacy notice reflects both providers. Keep original ad dimensions, one unit per position, and do not click ads during QA. Check delivery and revenue in the provider account separately from code configuration. Placement rules are in docs/advertising-layout.md.
 
-Update only for: a major game change that invalidates a guide; a material factual error; a valuable new search intent; a GSC content gap; a technical/indexing fault; or a changed official game entry or important rule. New codes need a developer source and successful same-game validation. A video title alone is insufficient for a mechanic guide.
+Update only for: a major game change that invalidates a guide; a material factual error; a valuable new search intent; a GSC content gap; a technical/indexing fault; or a changed official game entry or important rule. New tested-working code claims need successful same-game validation; developer-confirmed claims need a developer source. Reported strings follow the owner-authorized exception above. A video title alone is insufficient for a mechanic guide.
 
 The initial edition has resource coverage and a documented Stand acquisition guide. Beginner progression, a complete current Stand roster and other game data remain deferred in `research/page-matrix.md`. Do not publish their empty routes or fill them with JoJo lore or mechanics from another Roblox game.
 
