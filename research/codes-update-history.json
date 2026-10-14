@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "policyAdoptedDate": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "hubPath": "/resources/codes/",
+  "articlePathPattern": "/resources/codes-update-YYYY-MM-DD/",
+  "sameDaySuffix": "-2, -3, ... for distinct later events",
+  "policy": "docs/codes-update-publication.md",
+  "entries": [],
+  "notes": "No dated update article has been created under this policy yet. The existing reported-code snapshot is preserved; a policy change is not a new code event."
+}

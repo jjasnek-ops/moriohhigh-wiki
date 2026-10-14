@@ -26,3 +26,8 @@ Controls独立为录像PC键位参考；更换Stand/100 Rerolls问题合并既�
 
 
 2026-10-13用户随后授权定时获取、奖励省略及立即上线。Codes唯一URL /resources/codes/ 已发布为有出处的reported列表；最新月搜/KD/排名仍未知，37/30/7计数不变。此前暂缓描述为历史过程，以当前page-matrix.md及codes-release-2026-10-13.md为准。
+
+
+## 2026-10-14 后续Codes日期文章规则
+
+/resources/codes/继续作为当前汇总入口。每次有实质变化时另建/resources/codes-update-YYYY-MM-DD/（同日不同事件追加编号），仅回答该次变化，保留真实来源/未实测标签，标题和首屏有日期；总入口倒序链接各更新，新文回链总入口及相关攻略。重试不重复、无变化不发文。当前未新增文章或关键词量数据，现有已发布页面统计不变。执行细则：docs/codes-update-publication.md。

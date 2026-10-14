@@ -1,5 +1,9 @@
 # Current delivery status
 
+## 2026-10-14 Codes后续发布形式（已配置 / 未产生新码文章）
+
+用户要求每次Codes实质更新单独成文并加日期。已更新现有morioh-high heartbeat（仍每日10:00、同一对话、ACTIVE）、发布SOP、候选表发布策略及空历史事件表：总入口/resources/codes/保留；新变化用/resources/codes-update-YYYY-MM-DD/，同日不同事件编号，标题/首屏有日期；只写本次变化与来源，不复制完整攻略；无变化不发文。未改原七码和lastMaterialChangeDate，未倒造历史文章。已解除线上专项审计的历史七码硬编码，按本次构建比较码列表。此轮仅配置未来发布规则，不再次部署站点；实际生产仍以下7cfd47f，任务后续执行及首篇独立文章尚未发生。详见docs/codes-update-publication.md。
+
 ## 2026-10-14 SEO/GEO + 自动广告合并发布（已完成 / 已验证）
 
 - 最新用户明确授权合并部署；此前 local-only hold 已解除。仅发布既有 Pages 项目，未修改账户权限、DNS、NS、DNSSEC，未付费。下面历史快照不代表当前生产。

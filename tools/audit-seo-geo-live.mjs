@@ -29,9 +29,10 @@ for (const page of build.pages.filter(p => p.file !== 'dist/404.html')) {
       for (const url of article.citation) assert(html.includes(url.replaceAll('&', '&amp;')) || html.includes(url), 'citation link missing');
     }
     if (path === '/resources/codes/') {
-      assert.equal((html.match(/data-code=/g) ?? []).length, 7);
-      assert(html.includes('publisher-reported prerequisite'));
-      assert(html.includes('October 13 snapshot'));
+      const codeStrings = content => [...content.matchAll(/data-code="([^"]+)"/g)].map(m => m[1]);
+      assert.deepEqual(codeStrings(html), codeStrings(local), 'published code list differs from release build');
+      // Dates and verification notes evolve with sourced updates; do not lock
+      // later legitimate releases to the original October 13 seven-code list.
     }
     if (path === '/privacy-policy/') assert(html.includes('Configured advertising and analytics load automatically'));
     results.push({ path, status: response.status, h1MatchesBuild: true, schemasMatchBuild: true, sourcePanel: Boolean(article), automaticLoading: true });

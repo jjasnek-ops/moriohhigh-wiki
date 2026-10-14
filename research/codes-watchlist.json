@@ -145,5 +145,14 @@
   "notes": "Candidate strings were read from both publishers on October13. Reward descriptions are omitted by user-authorized policy; active is a publisher claim, not this wiki's tested status.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
+  "publicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4",
+  "updateHistory": "research/codes-update-history.json",
+  "datedUpdateArticles": {
+    "adoptedDate": "2026-10-14",
+    "requiredForMaterialChanges": true,
+    "hubPath": "/resources/codes/",
+    "pathPattern": "/resources/codes-update-YYYY-MM-DD/",
+    "sameDayDistinctEvents": "append -2, -3, ...",
+    "unchangedCheckCreatesArticle": false
+  }
 }

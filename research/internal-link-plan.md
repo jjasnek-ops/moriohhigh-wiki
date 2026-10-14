@@ -18,3 +18,8 @@ Controls候选由首页Useful links、原生最近文章、How-to-play和Stand�
 
 
 2026-10-13 Codes正式版：/resources/codes/已上线；首页第三张Start卡、资源列表/Sidebar、首页FAQ、Stand正文和Pagefind承接。码页回链Controls、Launch、Stand、Community。8编辑页及5政策页共13可索引/Sitemap，保留稳定URL，无新增Codes同义页。
+
+
+## 2026-10-14 后续Codes日期文章规则
+
+/resources/codes/继续作为当前汇总入口。每次有实质变化时另建/resources/codes-update-YYYY-MM-DD/（同日不同事件追加编号），仅回答该次变化，保留真实来源/未实测标签，标题和首屏有日期；总入口倒序链接各更新，新文回链总入口及相关攻略。重试不重复、无变化不发文。当前未新增文章或关键词量数据，现有已发布页面统计不变。执行细则：docs/codes-update-publication.md。

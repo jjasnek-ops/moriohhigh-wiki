@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-14T07:27:48.776Z",
+  "automationId": "morioh-high",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "rrule": "RRULE:FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0",
+  "targetThreadId": "01a12a8d-8622-7133-a00b-fef13e695749",
+  "prompt": "继续在本对话维护 D:/CursorProjects/moriohhigh-wiki 的 Morioh High Codes，保留 https://moriohhighguide.wiki/resources/codes/ 为当前汇总入口。每次先读 reports/current-delivery-status.md、MAINTENANCE.md、research/codes-monitor-policy.md、research/codes-watchlist.json、research/codes-update-history.json 和 docs/codes-update-publication.md，检查 Git 并保护用户未提交修改。用户已要求定时获取和发布，允许同游戏已读来源一致报道的码字符串以 Reported codes 和未实测标签发布；奖励统一省略，奖励冲突不单独阻止采集或这种注明来源的发布。实际查看已核实 Roblox 游戏、开发者公告及已授权可访问社区，交叉查看 https://progameguides.com/roblox/morioh-high-codes/ 和 https://www.mrguider.org/roblox/morioh-high-codes/ 。只采集 Place111838814545019/Universe10768944846 的明确码，保存来源、原发布日期、采集日期和验证状态；两个同游戏来源一致的字符串可入 reported 清单，单一来源新码或拼写冲突先复查。媒体称 active、开发者确认、实际兑换成功分别记录；未实测不标 working，遗漏或请求失败不判过期。最新用户要求：每一次真正的 Codes 更新单独发布带日期的英文原生 MDX 文章，同时更新总入口清单与按日期倒序的更新链接。只有有用新码、明确失效或重要验证变化才创建文章。标题和首屏注明 Asia/Shanghai 实际发布日期，URL 用 /resources/codes-update-YYYY-MM-DD/，同日第二次不同变化用 -2、-3 后缀，标题保持唯一。每篇聚焦这一次哪些码与状态改变、准确来源和验证限制，不复制整份总清单和通用攻略；使用原生复制按钮、来源面板，链接回总入口及相关攻略，旧篇保留为标注日期的历史记录。同步候选表、历史事件表、证据和恢复记录；同一事件重试复用既有文章和记录，不重复发文。无实质变化不发日期文章、不改旧文章日期、不重写或提交全站，运行日志只写 gitignored 的 .tools/codes-monitor/。使用 jjasnek-ops 和 https://github.com/jjasnek-ops/moriohhigh-wiki，不回退旧账号。发布前跑内容、构建、内链、动态 SEO 和广告门禁；2026-10-14固定样本审计不能将后续文章数或码数锁死。仅用已有可用授权部署既有 Cloudflare Pages，核验新文章、总入口链接、正式 marker、Sitemap 和搜索；缺授权或凭据则保存本地成果并记录真实阻塞。不得付费、扩权、保存凭据、修改无关资源或绕过登录/验证码。只在有用变化、实际故障或必须用户操作时通知；无变化保持安静。保留已有四个全站检查，不创建重复任务。",
+  "confirmedReadBack": true,
+  "candidateFactsUnchanged": true,
+  "dateArticlesCreated": 0,
+  "productionChanged": false,
+  "validation": {
+    "tool": "tools/audit-seo-geo-live.mjs",
+    "routes": 23,
+    "sourcePanels": 6,
+    "markerMatches": true,
+    "failures": []
+  }
+}
