@@ -1,0 +1,7 @@
+Already up to date
+Done in 489ms using pnpm v11.1.1
+$ tsx scripts/check-i18n.ts "--strict-ui"
+
+🌐 i18n coverage report — default locale: en
+
+✅ All locales fully covered.

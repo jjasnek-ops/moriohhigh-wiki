@@ -35,10 +35,10 @@
     "share": "Share",
     "copyLink": "Copy link",
     "copied": "Copied!",
-    "consentText": "Allow Google Analytics to measure visits and reading interactions? Ads are disabled.",
-    "accept": "Allow analytics",
+    "consentText": "Allow Google Analytics and Adsterra ads? These optional services may use cookies to measure visits and display advertising. Declining keeps both disabled.",
+    "accept": "Allow ads & analytics",
     "decline": "Decline",
-    "consentTitle": "Optional analytics",
+    "consentTitle": "Privacy choices",
     "bossCard": {
       "title": "Boss Overview",
       "hp": "HP",

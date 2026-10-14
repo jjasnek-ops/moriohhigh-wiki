@@ -1,5 +1,7 @@
 # 广告变现:什么时候接、怎么接、钱怎么收
 
+> 本仓库是 Morioh High 成品站。2026-10-14 起按站主提供代码启用 Adsterra；本站实际位置、尺寸门控及新版同意规则以 [advertising-layout.md](advertising-layout.md) 为准。下文保留上游模板的通用教程，示例位置不代表本站布局。
+
 > 模板广告位的**接入操作**(AdSense 4 个环境变量、Cloudflare 里填哪里)见站内[学习手册 · 课 22「开广告:时机与接入」](https://anvil.wiki/zh/landing/docs/enable-ads)和 [deployment.md 环境变量清单](deployment.md#环境变量清单)。
 > 本文解决剩下的四个实战问题:**什么时候把广告打开**(时机错了会掉排名)、**AdSense 的钱怎么进国内银行卡**(三道验证 + 电汇)、**Adsterra 怎么从注册接到上线**(格式取舍 + 与 AdSense 共存的红线)、**广告平台怎么随流量升级**(起步/进阶/成熟三档 + 游戏垂直网络)。
 
@@ -153,7 +155,7 @@ Google 的[广告投放位置政策](https://support.google.com/adsense/answer/1
 - **为什么 sandbox 给这四个权限**:`allow-scripts` 广告脚本要跑;`allow-same-origin` 缺了它素材渲染空白(cookie/localStorage 抛异常);`allow-popups allow-forms` 点击交互要用
 - **为什么绝不加 `allow-top-navigation`**:移动端部分创意会试图带着你的整个页面跳走(劫持),这个权限一给就拦不住。劫持的教训同样适用于回报方向:把用户体验砸了,排名迟早还回来
 - **诚实的边界(必读)**:`allow-scripts` + `allow-same-origin` 同开(素材渲染的硬前提,见上条)时,这个 sandbox **不是对抗恶意创意的硬安全边界**——同源素材的脚本可触达父页面 DOM,理论上能绕过沙箱,省略 `allow-top-navigation` 只是导航摩擦而非防线;真隔离要把广告挂到独立源(独立域名)。接受同源挂载的理由:素材由 Adsterra 平台侧投放与审核、贴哪段代码由你自己控制、零成本部署且 fork 可整体清理。若你要挂**不可信来源**的广告代码,请按不可信第三方评估,别套用本节
-- **同意门控(与 AdSense 同门)**:模板的 `AdsterraSlot` 组件在同意横幅激活时(`PUBLIC_GA_ID` 或 `PUBLIC_ADSENSE_CLIENT` 任一非空,即横幅自身的渲染条件)不直接加载 iframe——先挂一个无 `src` 的空框(`data-src` 存真实地址),访客已同意(localStorage 里有 CookieConsent 写入的 `accepted`)或当场点下「同意」(组件派发 `aw:consent-accepted` 事件)后才换成 `src` 开始加载;拒绝或未选择就永不加载,与 GA/AdSense 等 `__awLoadTrackers` 的门控承诺一致。横幅未激活(两个 env 都空,开箱状态)则维持直接加载。注意:上面手写 iframe 的挂法**没有**这层门控,在意合规请把广告位交给 `AdsterraSlot` 组件挂(文章/手册/落地页成对出现的 728×90 + Native 已收敛为 `AdsterraSlotPair`,同意门控由内部 `AdsterraSlot` 自动继承)
+- **本站同意门控**:任一 Adsterra 单元、GA4 或 AdSense 已配置就显示隐私选择。`AdsterraSlot` 初始无 `src`，访客允许后且原始尺寸适合当前容器才加载；拒绝或未选择不加载。本站使用 `aw-cookie-consent-v2`，以前仅针对统计的允许需要重新选择，以前的拒绝继续尊重。上面手写 iframe 示例没有这层门控；本站实际挂载统一使用组件。
 - **移动端 320×50 底部锚位(v2.28.0)**:文章页挂 `MobileAnchorAd`(env `PUBLIC_ADSTERRA_SLOT_STICKY_320X50`),三件套保证不砸阅读体验——①可一键关闭且记忆(localStorage,先例 StickyBanner);②`position: fixed` 零 CLS,显示时给正文加移动端底部内边距,文末内容永不被盖;③与同意门控同门(拒绝/未选连空条都不出)。**顶部粘性仍是有意排除项**(StickyBanner 注释:顶部 320×50 吃掉首屏 ~16%,弹跳驱动)——底部锚位是内容从条上方滚过,阅读流不被打断,这是两者的本质区别
 
 **模板预挂位总清单**(6 单元,均为 env 门控:对应 `PUBLIC_ADSTERRA_SLOT_*` 留空 = 该位零渲染;html 文件也要放进 `public/ads/`,缺文件 iframe 是空框):

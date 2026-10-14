@@ -1,0 +1,110 @@
+Already up to date
+Done in 496ms using pnpm v11.1.1
+$ node scripts/sync-build-env.mjs
+[build-env] Synced 18 public settings from wrangler.toml.
+$ astro build
+09:48:54 [content] Syncing content
+09:48:54 [content] Synced content
+09:48:54 [types] Generated 612ms
+09:48:54 [build] output: "static"
+09:48:54 [build] mode: "static"
+09:48:54 [build] directory: D:\CursorProjects\moriohhigh-wiki\dist\
+09:48:54 [build] Collecting build info...
+09:48:54 [build] ✓ Completed in 763ms.
+09:48:54 [build] Building static entrypoints...
+09:48:56 [astro-icon] Loaded icons from src/icons, lucide
+09:48:56 [vite] ✓ built in 1.65s
+09:48:56 [vite] ✓ built in 57ms
+09:48:56 [build] Rearranging server assets...
+
+ generating static routes
+09:48:56   ├─ /404.html (+18ms)
+09:48:56   ├─ /about/index.html (+10ms)
+09:48:56   ├─ /contact/index.html (+8ms)
+09:48:56   ├─ /copyright/index.html (+7ms)
+09:48:56   ├─ /faq/index.html (+11ms)
+09:48:56   ├─ /llms.txt (+5ms)
+09:48:56   ├─ /privacy-policy/index.html (+6ms)
+09:48:56   ├─ /recent/index.html (+15ms)
+09:48:56   ├─ /robots.txt (+4ms)
+09:48:56   ├─ /rss.xml (+64ms)
+09:48:56   ├─ /tags/roblox/index.html (+13ms)
+09:48:56   ├─ /tags/getting-started/index.html (+8ms)
+09:48:56   ├─ /tags/stands/index.html (+5ms)
+09:48:56   ├─ /tags/community-resources/index.html (+4ms)
+09:48:56   ├─ /tags/codes/index.html (+4ms)
+09:48:56   ├─ /tags/release-information/index.html (+4ms)
+09:48:56   ├─ /tags/index.html (+6ms)
+09:48:56   ├─ /terms-of-service/index.html (+5ms)
+09:48:56   ├─ /index.html (+11ms)
+09:48:56   ├─ /guides/index.html (+6ms)
+09:48:56   ├─ /resources/index.html (+5ms)
+09:48:56   ├─ /guides/controls/index.html (+17ms)
+09:48:56   ├─ /guides/how-to-get-a-stand/index.html (+12ms)
+09:48:56   ├─ /guides/how-to-play/index.html (+10ms)
+09:48:56   ├─ /resources/codes/index.html (+10ms)
+09:48:56   ├─ /resources/community-links/index.html (+10ms)
+09:48:56   ├─ /resources/release-information/index.html (+9ms)
+09:48:56 ✓ Completed in 374ms.
+
+ generating optimized images
+09:48:56   ▶ /_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp (reused cache entry) (+2ms) (1/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_Z1YaPzn.webp (reused cache entry) (+2ms) (2/26)
+09:48:56   ▶ /_astro/community-board-v2.KNn-xw5j_OE6Yy.webp (reused cache entry) (+3ms) (3/26)
+09:48:56   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z14EA4Q.webp (reused cache entry) (+2ms) (4/26)
+09:48:56   ▶ /_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp (reused cache entry) (+3ms) (5/26)
+09:48:56   ▶ /_astro/community-board-v2.KNn-xw5j_zmJss.webp (reused cache entry) (+1ms) (6/26)
+09:48:56   ▶ /_astro/stand-awakening-v2.C3nV22u7_2t3Y80.webp (reused cache entry) (+2ms) (7/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_ZLhUuu.webp (reused cache entry) (+2ms) (8/26)
+09:48:56   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z1yQHfY.webp (reused cache entry) (+2ms) (9/26)
+09:48:56   ▶ /_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp (reused cache entry) (+2ms) (10/26)
+09:48:56   ▶ /_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp (reused cache entry) (+1ms) (11/26)
+09:48:56   ▶ /_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp (reused cache entry) (+1ms) (12/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_1zLhOw.webp (reused cache entry) (+1ms) (13/26)
+09:48:56   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_2v6Rh.webp (reused cache entry) (+2ms) (14/26)
+09:48:56   ▶ /_astro/community-board-v2.KNn-xw5j_ZBJIK3.webp (reused cache entry) (+1ms) (15/26)
+09:48:56   ▶ /_astro/release-notice-v2.CiafjUz3_NIf6l.webp (reused cache entry) (+1ms) (16/26)
+09:48:56   ▶ /_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp (reused cache entry) (+1ms) (17/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_ZzYPAY.webp (reused cache entry) (+1ms) (18/26)
+09:48:56   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z2g4hr.webp (reused cache entry) (+2ms) (19/26)
+09:48:56   ▶ /_astro/release-notice-v2.CiafjUz3_1vJG0l.webp (reused cache entry) (+2ms) (20/26)
+09:48:56   ▶ /_astro/community-board-v2.KNn-xw5j_Zc7jRh.webp (reused cache entry) (+2ms) (21/26)
+09:48:56   ▶ /_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp (reused cache entry) (+2ms) (22/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_Z1yMG3I.webp (reused cache entry) (+2ms) (23/26)
+09:48:56   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_12KOoE.webp (reused cache entry) (+1ms) (24/26)
+09:48:56   ▶ /_astro/release-notice-v2.CiafjUz3_ZRfhD1.webp (reused cache entry) (+1ms) (25/26)
+09:48:56   ▶ /_astro/campus-v2.DTc95QDI_Z1oi3B2.webp (reused cache entry) (+1ms) (26/26)
+09:48:56 ✓ Completed in 11ms.
+
+09:48:56 [build] ✓ Completed in 2.21s.
+09:48:56 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+09:48:56 [build] 24 page(s) built in 3.05s
+09:48:56 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "D:\\CursorProjects\\moriohhigh-wiki"
+Source:       "dist"
+Output:       "dist\\pagefind"
+
+[Walking source directory]
+Found 31 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 1 language: en
+
+[Building search indexes]
+Total:
+  Indexed 1 language
+  Indexed 6 pages
+  Indexed 671 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+Finished in 0.027 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=ecffba502d applied to 24 pages; range-media lowered in 0 files
+[IndexNow] Wrote dist/dadc342282b6381e065141316b886fcb2017a7884f0b6dc81a771210e30d3286.txt (source: file)

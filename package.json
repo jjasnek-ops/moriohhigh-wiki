@@ -32,6 +32,7 @@
   "packageManager": "pnpm@11.1.1",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/sync-build-env.mjs",
     "build": "astro build",
     "postbuild": "pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts",
     "preview": "astro preview",

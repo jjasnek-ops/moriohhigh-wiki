@@ -50,3 +50,5 @@
 # unit pages themselves. Same-origin framing is unaffected.
 /ads/*
   Content-Security-Policy: frame-ancestors 'self'
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: public, max-age=0, must-revalidate

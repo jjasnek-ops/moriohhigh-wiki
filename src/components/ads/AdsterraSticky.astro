@@ -1,0 +1,57 @@
+---
+import { Icon } from 'astro-icon/components';
+import AdsterraSlot from './AdsterraSlot.astro';
+import { ADSTERRA_KEYS } from '~/config/advertising';
+import { currentSharedStrings } from '~/lib/shared-ui';
+
+const show = Boolean(ADSTERRA_KEYS['sticky-320x50']);
+const labels = currentSharedStrings(Astro.currentLocale);
+---
+
+{show && (
+  <div id="adsterra-sticky" class="sticky top-14 z-40 hidden border-b border-border bg-background/95 backdrop-blur">
+    <div class="relative mx-auto w-[320px] max-w-full py-1">
+      <AdsterraSlot name="sticky-320x50" width={320} height={50} compact />
+      <button id="dismiss-adsterra-sticky" type="button" aria-label={labels.closeAd ?? 'Close ad'} class="absolute right-0 top-0 rounded-full border bg-background p-1 text-muted-foreground">
+        <Icon name="lucide:x" class="h-3 w-3" />
+      </button>
+    </div>
+  </div>
+)}
+{show && <script is:inline>
+  (function () {
+    var banner = document.getElementById('adsterra-sticky');
+    var button = document.getElementById('dismiss-adsterra-sticky');
+    if (!banner || !button) return;
+    var key = 'morioh-adsterra-sticky-dismissed';
+    var CONSENT_KEY = 'aw-cookie-consent-v2';
+    var CONSENT_EVENT = 'aw:consent-accepted';
+    var dismissed = false;
+    try { dismissed = localStorage.getItem(key) === '1'; } catch (e) { /* not remembered */ }
+    if (dismissed) { banner.remove(); return; }
+    var accepted = false;
+    try { accepted = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* wait for consent */ }
+    var reveal = function () {
+      if (dismissed) return;
+      var fits = document.documentElement.clientWidth >= 320;
+      banner.classList.toggle('hidden', !accepted || !fits);
+      document.body.classList.toggle('has-adsterra-sticky', accepted && fits);
+    };
+    document.addEventListener(CONSENT_EVENT, function () { accepted = true; reveal(); });
+    window.addEventListener('resize', reveal);
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', reveal);
+    else reveal();
+    button.addEventListener('click', function () {
+      dismissed = true;
+      try { localStorage.setItem(key, '1'); } catch (e) { /* dismissal still works */ }
+      banner.remove();
+      document.body.classList.remove('has-adsterra-sticky');
+    });
+  })();
+</script>}
+
+{show && <style is:global>
+  body.has-adsterra-sticky [data-article-toc] { top: 9rem; }
+  body.has-adsterra-sticky .prose h2[id],
+  body.has-adsterra-sticky .prose h3[id] { scroll-margin-top: 9rem; }
+</style>}

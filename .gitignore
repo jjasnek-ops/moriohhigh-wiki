@@ -15,6 +15,7 @@ pnpm-debug.log*
 .env
 .env.production
 .env.local
+.env.production.local
 .dev.vars
 
 # macOS

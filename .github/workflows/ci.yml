@@ -52,6 +52,9 @@ jobs:
         with:
           site-url: ${{ vars.SITE_URL || 'https://moriohhighguide.wiki' }}
 
+      - name: Site SEO and configured Adsterra assets
+        run: node tools/audit-build.mjs && node tools/audit-ads.mjs
+
   # apply-template has ZERO vitest coverage and only breaks in real
   # (non-dry-run) mode, which the demo repo never exercises — three real-mode
   # bugs shipped through the eight gates unnoticed before this job existed

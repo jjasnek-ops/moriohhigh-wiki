@@ -1,7 +1,7 @@
 /**
  * Consent-literal contract — CONSENT_STORAGE_KEY / CONSENT_ACCEPTED_EVENT
  * are canonically exported from src/lib/shared-ui.ts but DUPLICATED as
- * string literals in three component scripts: CookieConsent's bundled
+ * string literals in component scripts: CookieConsent's bundled
  * module cannot see frontmatter imports, and AdsterraSlot / MobileAnchorAd
  * run untranspiled is:inline scripts that cannot import at all.
  *
@@ -27,6 +27,11 @@ const CONSUMERS: { file: string; keyRe: RegExp; eventRe: RegExp }[] = [
   },
   {
     file: 'src/components/ads/AdsterraSlot.astro',
+    keyRe: /var CONSENT_KEY = '([^']+)'/,
+    eventRe: /var CONSENT_EVENT = '([^']+)'/,
+  },
+  {
+    file: 'src/components/ads/AdsterraSticky.astro',
     keyRe: /var CONSENT_KEY = '([^']+)'/,
     eventRe: /var CONSENT_EVENT = '([^']+)'/,
   },

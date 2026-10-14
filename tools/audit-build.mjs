@@ -8,7 +8,8 @@ const analytics=fs.existsSync('reports/analytics.json')?JSON.parse(fs.readFileSy
 const files=[];
 function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.html'))files.push(p);}}
 walk('dist');
-const rows=files.map(file=>{
+// Ad-unit HTML is an iframe asset, not an editorial page or sitemap URL.
+const rows=files.filter(file=>!file.replaceAll('\\','/').startsWith('dist/ads/')).map(file=>{
   const html=fs.readFileSync(file,'utf8');
   const title=html.match(/<title>([\s\S]*?)<\/title>/)?.[1];
   const canonical=html.match(/<link[^>]*rel="canonical"[^>]*href="([^"]+)"/)?.[1]??html.match(/<link[^>]*href="([^"]+)"[^>]*rel="canonical"/)?.[1];

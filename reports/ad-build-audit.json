@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-14T01:48:58.273Z",
+  "unitCount": 7,
+  "pageCount": 24,
+  "units": [
+    {
+      "name": "native-banner",
+      "key": "482de39ee08a1ab07ba7caedb81ef64a",
+      "width": null,
+      "height": null,
+      "file": "dist/ads/native-banner.html"
+    },
+    {
+      "name": "incontent-728x90",
+      "key": "cecc4e92c4a907a61a188f217b4f257c",
+      "width": 728,
+      "height": 90,
+      "file": "dist/ads/incontent-728x90.html"
+    },
+    {
+      "name": "incontent-468x60",
+      "key": "8dc82d33890a8a6a2e6a6fb397304ac8",
+      "width": 468,
+      "height": 60,
+      "file": "dist/ads/incontent-468x60.html"
+    },
+    {
+      "name": "sidebar-300x250",
+      "key": "c58743771bdc97b3082f742144fe40e6",
+      "width": 300,
+      "height": 250,
+      "file": "dist/ads/sidebar-300x250.html"
+    },
+    {
+      "name": "sticky-320x50",
+      "key": "675ccec8e54c1b36c848ecb6e4db910b",
+      "width": 320,
+      "height": 50,
+      "file": "dist/ads/sticky-320x50.html"
+    },
+    {
+      "name": "sidebar-160x600",
+      "key": "7c62e4984014b65ba6d95223388dd148",
+      "width": 160,
+      "height": 600,
+      "file": "dist/ads/sidebar-160x600.html"
+    },
+    {
+      "name": "sidebar-160x300",
+      "key": "5e45cd597843747f06314ae2dd298dd4",
+      "width": 160,
+      "height": 300,
+      "file": "dist/ads/sidebar-160x300.html"
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Build checks verify snippets, initial consent gating and indexing, not live ad fill or account revenue."
+  ]
+}

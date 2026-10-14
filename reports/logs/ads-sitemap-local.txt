@@ -1,0 +1,27 @@
+Already up to date
+Done in 487ms using pnpm v11.1.1
+$ tsx scripts/check-sitemap.ts "http://127.0.0.1:4322"
+
+📋 Checking sitemap URLs against: http://127.0.0.1:4322
+
+Found 13 URLs. Checking...
+
+  ✅  200  https://moriohhighguide.wiki/
+  ✅  200  https://moriohhighguide.wiki/about/
+  ✅  200  https://moriohhighguide.wiki/contact/
+  ✅  200  https://moriohhighguide.wiki/copyright/
+  ✅  200  https://moriohhighguide.wiki/faq/
+  ✅  200  https://moriohhighguide.wiki/guides/controls/
+  ✅  200  https://moriohhighguide.wiki/guides/how-to-get-a-stand/
+  ✅  200  https://moriohhighguide.wiki/guides/how-to-play/
+  ✅  200  https://moriohhighguide.wiki/privacy-policy/
+  ✅  200  https://moriohhighguide.wiki/resources/codes/
+  ✅  200  https://moriohhighguide.wiki/resources/community-links/
+  ✅  200  https://moriohhighguide.wiki/resources/release-information/
+  ✅  200  https://moriohhighguide.wiki/terms-of-service/
+
+── Result ──
+  ✅ Passed: 13
+  ❌ Failed: 0
+
+🎉 All sitemap URLs returned 200.

@@ -14,7 +14,7 @@ User keyword research dated October 11, 2026 is preserved unchanged in research/
 
 Node >=22.13.0 and pnpm 11.1.1. Install with pnpm install --frozen-lockfile. Run pnpm dev or pnpm build followed by pnpm preview. If optional Windows native downloads failed, use scripts/repair-windows-deps.ps1; the repair verifies npm dist.integrity.
 
-Configuration is concentrated in src/config/site.ts, src/config/navigation.ts, src/config/indexing.ts and src/locales/en.json. SITE_URL must be an actual local or allocated publication URL. Pagefind is produced during postbuild. Ads remain disabled. GA4 uses the native consent-gated loader and this site’s independent web stream; its public identifiers are in wrangler.toml. Update the privacy notice whenever enabled services change.
+Configuration is concentrated in src/config/site.ts, src/config/navigation.ts, src/config/indexing.ts, src/config/advertising.ts and src/locales/en.json. SITE_URL must be an actual local or allocated publication URL. Pagefind is produced during postbuild. Adsterra units and GA4 load only after the visitor allows optional services. Public unit identifiers are in wrangler.toml; each original ad snippet lives in public/ads/. Ads use their original sizes only where they fit, and each unit appears once per page. Update the privacy notice whenever enabled services change. See docs/advertising-layout.md for this site's placement rules.
 
 ## Validation and release
 

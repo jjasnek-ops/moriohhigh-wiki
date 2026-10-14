@@ -16,6 +16,7 @@ import { defaultLocale, locales, OG_LOCALE_MAP, type Locale } from '~/i18n/routi
 import { organizationJsonLd } from '~/lib/seo';
 import JsonLd from '~/components/seo/JsonLd.astro';
 import CookieConsent from './CookieConsent.astro';
+import { adsterraEnabled } from '~/config/advertising';
 import { getUi } from '~/i18n/ui';
 import { excludeFromIndex } from '~/config/indexing';
 
@@ -246,7 +247,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
       the visitor accepts. See GDPR note in AGENTS.md. No tracking env vars
       → this block renders nothing → zero JS.
     */}
-    {(gaId || adsenseClient) && (
+    {(gaId || adsenseClient || adsterraEnabled) && (
       <script is:inline define:vars={{ gaId, adsenseClient }}>
         window.__awLoadTrackers = () => {
           if (window.__awTrackersLoaded) return;
@@ -336,7 +337,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
   <body class="min-h-screen bg-background text-foreground antialiased">
     <slot />
     {/* Consent banner — only rendered when tracking env vars are set. */}
-    {(gaId || adsenseClient) && (
+    {(gaId || adsenseClient || adsterraEnabled) && (
       <CookieConsent
         labels={{
           title: consentLabels.title,

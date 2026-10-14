@@ -21,6 +21,8 @@ import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 import campusArtwork from '~/assets/covers/campus-v2.webp';
 import ArticleCover from '~/components/article/ArticleCover.astro';
+import AdsterraSlot from '~/components/ads/AdsterraSlot.astro';
+import AdsterraContentBanner from '~/components/ads/AdsterraContentBanner.astro';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import VideoSection from '~/components/home/VideoSection.astro';
 import QuickStart from '~/components/home/QuickStart.astro';
@@ -158,6 +160,8 @@ function trendingLabel(link: QuickLink): string {
   )}
 
   {/* ───────────────────────────── Quick Start ────────────────────────── */}
+  <AdsterraSlot name="native-banner" width={1200} height={300} responsive />
+
   <QuickStart
     locale={locale}
     badge={start.badge}
@@ -176,17 +180,19 @@ function trendingLabel(link: QuickLink): string {
             >{shared.browseAll}</a
           >
         </div>
-        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+        <div class="mt-4 grid gap-4">
           {
             recent.length === 0 ? (
               <p class="text-sm text-muted-foreground">{shared.noArticles}</p>
             ) : (
-              recent.map((entry) => {
+              recent.map((entry, index) => {
                 const parsed = parseEntryId(entry.id);
                 if (!parsed) return null;
                 return (
-                  <a href={detailPath(parsed.category, parsed.slug, locale)} class="card p-4">
-                    {entry.data.image && <ArticleCover src={entry.data.image} alt={entry.data.imageAlt} sizes="(max-width: 639px) calc(100vw - 64px), (max-width: 1023px) 45vw, 380px" />}
+                  <>
+                  <a href={detailPath(parsed.category, parsed.slug, locale)} class="card grid items-center gap-4 p-4 sm:grid-cols-[200px_1fr]">
+                    {entry.data.image && <ArticleCover src={entry.data.image} alt={entry.data.imageAlt} sizes="(max-width: 639px) calc(100vw - 64px), 200px" />}
+                    <div>
                     <p class="text-xs uppercase tracking-wider text-muted-foreground">
                       {parsed.category}
                     </p>
@@ -194,7 +200,10 @@ function trendingLabel(link: QuickLink): string {
                     <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">
                       {entry.data.description}
                     </p>
+                    </div>
                   </a>
+                  {index === 0 && <AdsterraContentBanner />}
+                  </>
                 );
               })
             )
@@ -280,4 +289,5 @@ function trendingLabel(link: QuickLink): string {
       </section>
     )
   }
+  <AdsterraSlot name="incontent-468x60" width={468} height={60} />
 </LocaleLayout>

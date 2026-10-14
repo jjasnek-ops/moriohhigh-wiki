@@ -1,0 +1,21 @@
+---
+import AdsterraSlot from './AdsterraSlot.astro';
+import { ADSTERRA_KEYS } from '~/config/advertising';
+import { currentSharedStrings } from '~/lib/shared-ui';
+const showLeft = Boolean(ADSTERRA_KEYS['sidebar-160x600']);
+const showRight = Boolean(ADSTERRA_KEYS['sidebar-160x300']);
+const label = currentSharedStrings(Astro.currentLocale).adLabel ?? 'Advertisement';
+---
+{showLeft && <aside class="adsterra-gutter adsterra-gutter-left" aria-label={label}>
+  <AdsterraSlot name="sidebar-160x600" width={160} height={600} compact />
+</aside>}
+{showRight && <aside class="adsterra-gutter adsterra-gutter-right" aria-label={label}>
+  <AdsterraSlot name="sidebar-160x300" width={160} height={300} compact />
+</aside>}
+{(showLeft || showRight) && <style>
+  .adsterra-gutter { display: none; position: fixed; top: 9rem; width: 160px; z-index: 20; }
+  .adsterra-gutter-left { left: calc(50% - 816px); }
+  .adsterra-gutter-right { right: calc(50% - 816px); }
+  @media (min-width: 1664px) and (min-height: 780px) { .adsterra-gutter-left { display: block; } }
+  @media (min-width: 1664px) and (min-height: 480px) { .adsterra-gutter-right { display: block; } }
+</style>}

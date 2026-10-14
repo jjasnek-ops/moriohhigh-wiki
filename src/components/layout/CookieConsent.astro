@@ -79,14 +79,21 @@ const { labels, privacyHref, privacyLabel } = Astro.props;
   (() => {
     // Script can't see frontmatter imports — duplicates of the canonical
     // constants in src/lib/shared-ui.ts; tests/consent.test.ts pins all copies.
-    const KEY = 'aw-cookie-consent';
+    const KEY = 'aw-cookie-consent-v2';
     const ACCEPTED_EVENT = 'aw:consent-accepted';
     const banner = document.getElementById('cookie-consent');
     if (!banner) return;
 
     const stored = (() => {
       try {
-        return localStorage.getItem(KEY);
+        const current = localStorage.getItem(KEY);
+        // Keep earlier declines; earlier analytics-only accepts require a
+        // fresh choice covering the newly enabled advertising provider.
+        if (!current && localStorage.getItem('aw-cookie-consent') === 'declined') {
+          localStorage.setItem(KEY, 'declined');
+          return 'declined';
+        }
+        return current;
       } catch {
         return null;
       }

@@ -2,6 +2,10 @@
 
 Updated 2026-10-13 (Asia/Shanghai); latest production deployment is 2026-10-13. Do not reinitialize.
 
+## 2026-10-14 Adsterra 本轮状态
+
+已完成并验证七种原始代码的本地接入：全站顶部320×50、首页Hero后Native、卡片间300×250/728×90、页脚468×60；文章第二个正文段落后300×250、末尾Native及728×90/468×60、宽屏左160×600/右160×300。重复卡片广告与额外首页728位置合并，未重复同一key。新版同意、旧拒绝保留、隐私披露及尺寸门控已实现。check/lint/19套件247passed/1skipped/config/content/strict UI/build/574内链/13Sitemap/ad-build通过；实际浏览器390/1280/1920几何及关闭通过。静态build从Wrangler生成仅公开配置的ignored env，避免空配置构建。实际生产仍为下列10/13 source，七广告部署尚未完成；下一步提交、上传、核对正式marker和素材响应。详见reports/adsterra-release-2026-10-14.md。广告填充/收入未验证。
+
 - 当前阶段：质量合格的限定首版已实际在正式域名上线并验收；完整游戏百科未完成，缺证据页面继续暂缓。
 - 已完成并验证：Spaceship nameservers 切换、Cloudflare zone / Pages 自定义域名 active、HTTPS、正式 origin / 原生联系页、静态部署、GitHub CI、线上 SEO 门禁、正式域名 GSC 所有权及 Sitemap 提交、GA4 数据流网址及真实测试采集。
 - 历史继承：15 关键词原始数字/口径/限制完整保存在 research/user-keywords-2026-10-11.md / .json，未被新研究覆盖。

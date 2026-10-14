@@ -21,15 +21,14 @@
  * html file itself is not build inputs — also create it in `public/ads/` or
  * the iframe 404s as an empty box.
  *
- * Consent-gated like GA/AdSense: when the cookie banner is active (its own
- * render condition in BaseLayout = PUBLIC_GA_ID or PUBLIC_ADSENSE_CLIENT
- * set), the iframe mounts WITHOUT src (data-src holds the real URL) and a
+ * Consent-gated like GA/AdSense: any configured ad unit activates the
+ * cookie banner in BaseLayout. The iframe mounts WITHOUT src and a
  * small ES2018 inline script promotes data-src → src only after the visitor
  * has consented — either a stored 'accepted' in CookieConsent's localStorage
  * flag, or the `aw:consent-accepted` event it dispatches on accept. Declined
  * or unchosen → the unit never loads, matching the banner's promise that
- * ads wait for consent. No tracking env vars → banner never renders → the
- * iframe loads directly (out-of-box zero-consent behavior unchanged).
+ * ads wait for consent. Fixed units load only when their original width
+ * fits the visible content column; responsive Native uses content height.
  */
 interface Props {
   /** Slot name = html filename stem under public/ads/ (e.g. `sidebar-300x250`). */
@@ -47,19 +46,19 @@ interface Props {
    * fills any width. Same pattern as StickyBanner's `hidden md:block`.
    */
   hideOnMobile?: boolean;
+  /** Hide this alternative when the content column is wider than this value. */
+  maxContainerWidth?: number;
+  /** Native units adapt to their container and use their rendered content height. */
+  responsive?: boolean;
+  /** Tight spacing for the shared top sticky unit. */
+  compact?: boolean;
 }
 
 import { currentSharedStrings } from '~/lib/shared-ui';
+import { ADSTERRA_KEYS } from '~/config/advertising';
 
-const { name, width, height, label = true, hideOnMobile = false } = Astro.props;
-const envKey = `PUBLIC_ADSTERRA_SLOT_${name.replace(/-/g, '_').toUpperCase()}`;
-const show = !!import.meta.env[envKey];
-// Same env condition under which BaseLayout renders CookieConsent — when
-// either is set the banner (and its consent promise) is live on every page.
-const consentBannerActive = !!(
-  (import.meta.env.PUBLIC_GA_ID as string | undefined) ||
-  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined)
-);
+const { name, width, height, label = true, hideOnMobile = false, maxContainerWidth, responsive = false, compact = false } = Astro.props;
+const show = Boolean(ADSTERRA_KEYS[name]);
 const iframeSrc = `/ads/${name}.html`;
 const sharedStrings = currentSharedStrings(Astro.currentLocale);
 const adLabel = sharedStrings.adLabel ?? 'Advertisement';
@@ -68,8 +67,12 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
   show && (
     <>
       <div
+        data-adsterra-slot={name}
+        data-adsterra-min-width={responsive ? 0 : width}
+        data-adsterra-max-width={maxContainerWidth}
+        style="display:none"
         class:list={[
-          'my-8 flex-col items-center justify-center',
+          compact ? 'flex-col items-center justify-center' : 'my-8 flex-col items-center justify-center',
           hideOnMobile ? 'hidden md:flex' : 'flex',
         ]}
       >
@@ -77,16 +80,16 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           <span class="mb-1 text-[10px] uppercase tracking-wider text-muted-foreground">{adLabel}</span>
         )}
         <iframe
-          src={consentBannerActive ? undefined : iframeSrc}
-          data-src={consentBannerActive ? iframeSrc : undefined}
-          data-adsterra-defer={consentBannerActive ? '1' : undefined}
-          style={`width:100%;max-width:${width}px;height:${height}px;border:0`}
+          data-src={iframeSrc}
+          data-adsterra-defer="1"
+          data-adsterra-responsive={responsive ? '1' : undefined}
+          style={responsive ? `width:100%;max-width:${width}px;height:${height}px;border:0` : `width:${width}px;height:${height}px;border:0`}
           loading="lazy"
           sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
           title={adLabel}
         />
       </div>
-      {consentBannerActive && (
+      {show && (
         <script is:inline>
           /* ES2018 only (no optional chaining / nullish coalescing / optional
              catch binding) — runs untranspiled in the HTML, old webviews parse
@@ -98,32 +101,68 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
              Event + storage key mirror src/lib/shared-ui.ts (inline scripts
              can't import; tests/consent.test.ts pins the duplicates). */
           (function () {
-            var CONSENT_KEY = 'aw-cookie-consent';
+            var CONSENT_KEY = 'aw-cookie-consent-v2';
             var CONSENT_EVENT = 'aw:consent-accepted';
-            var activate = function () {
-              var pending = document.querySelectorAll('iframe[data-adsterra-defer]');
-              for (var i = 0; i < pending.length; i++) {
-                var frame = pending[i];
-                var src = frame.getAttribute('data-src');
-                if (src) {
-                  frame.src = src;
-                }
-                frame.removeAttribute('data-adsterra-defer');
-                frame.removeAttribute('data-src');
-              }
-            };
             var wire = function () {
-              var stored = null;
-              try {
-                stored = localStorage.getItem(CONSENT_KEY);
-              } catch (e) {
-                /* storage unavailable — treat as no consent yet */
+              var slots = document.querySelectorAll('[data-adsterra-slot]');
+              for (var i = 0; i < slots.length; i++) {
+                (function (slot) {
+                  if (slot.getAttribute('data-adsterra-wired')) return;
+                  slot.setAttribute('data-adsterra-wired', '1');
+                  var frame = slot.querySelector('iframe');
+                  var parent = slot.parentElement;
+                  if (!frame || !parent) return;
+                  var consent = false;
+                  try { consent = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* wait for consent */ }
+                  var nativeHeight = function () {
+                    if (!frame.getAttribute('data-adsterra-responsive')) return;
+                    try {
+                      var body = frame.contentDocument && frame.contentDocument.body;
+                      if (!body) return;
+                      var value = Math.ceil(body.getBoundingClientRect().height);
+                      if (value > 0 && value < 6000) frame.style.height = value + 'px';
+                    } catch (e) { /* keep the reserved size if unavailable */ }
+                  };
+                  frame.addEventListener('load', function () {
+                    nativeHeight();
+                    try {
+                      var body = frame.contentDocument && frame.contentDocument.body;
+                      if (body && window.ResizeObserver) new ResizeObserver(nativeHeight).observe(body);
+                    } catch (e) { /* no observation available */ }
+                  });
+                  var update = function () {
+                    var css = getComputedStyle(parent);
+                    var available = parent.clientWidth - parseFloat(css.paddingLeft || '0') - parseFloat(css.paddingRight || '0');
+                    var min = Number(slot.getAttribute('data-adsterra-min-width') || '0');
+                    var max = Number(slot.getAttribute('data-adsterra-max-width') || 'Infinity');
+                    var fits = consent && available >= min && available <= max && parent.getClientRects().length > 0;
+                    slot.style.display = fits ? '' : 'none';
+                    if (!fits || slot.getBoundingClientRect().width < min || getComputedStyle(slot).display === 'none') {
+                      // A resized-away unit must stop running while hidden.
+                      // Preserve its own URL for a later genuine layout change.
+                      var previousSrc = frame.getAttribute('src');
+                      if (previousSrc) {
+                        frame.setAttribute('data-src', previousSrc);
+                        frame.setAttribute('data-adsterra-defer', '1');
+                        frame.removeAttribute('src');
+                      }
+                      return;
+                    }
+                    var src = frame.getAttribute('data-src');
+                    if (src) {
+                      if (frame.getAttribute('data-adsterra-responsive')) frame.style.height = Math.round(Math.min(available, 1200) / 4) + 'px';
+                      frame.src = src;
+                      frame.removeAttribute('data-src');
+                      frame.removeAttribute('data-adsterra-defer');
+                    }
+                    nativeHeight();
+                  };
+                  document.addEventListener(CONSENT_EVENT, function () { consent = true; update(); });
+                  window.addEventListener('resize', update);
+                  if (window.ResizeObserver) new ResizeObserver(update).observe(parent);
+                  update();
+                })(slots[i]);
               }
-              if (stored === 'accepted') {
-                activate();
-                return;
-              }
-              document.addEventListener(CONSENT_EVENT, activate);
             };
             if (document.readyState === 'loading') {
               document.addEventListener('DOMContentLoaded', wire);

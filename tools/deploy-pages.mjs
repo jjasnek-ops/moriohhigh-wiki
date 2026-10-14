@@ -7,6 +7,8 @@ const credentials=JSON.parse(input);
 if(!credentials.apiToken||!credentials.accountId)throw new Error('Session credentials required.');
 const project=JSON.parse(fs.readFileSync('reports/pages-project.json','utf8'));
 const audit=JSON.parse(fs.readFileSync('reports/build-seo-audit.json','utf8'));
+const ads=JSON.parse(fs.readFileSync('reports/ad-build-audit.json','utf8'));
+if(ads.failures.length||ads.unitCount!==7)throw new Error('Configured ad asset gate failed.');
 const siteDomain=fs.readFileSync('src/config/site.ts','utf8').match(/^\s*domain: '([^']+)',/m)?.[1];
 if(audit.failures.length||audit.origin!==`https://${siteDomain}`)throw new Error('Build SEO gate failed or origin differs.');
 if(siteDomain!==project.subdomain){

@@ -1,0 +1,539 @@
+{
+  "checkedAt": "2026-10-14T01:50:16.349Z",
+  "observations": [
+    {
+      "label": "home-mobile-390-after-allow",
+      "clientWidth": 375,
+      "height": 844,
+      "scrollWidth": 375,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 27.5,
+          "y": 79
+        },
+        {
+          "height": 22,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 343,
+          "x": 16,
+          "y": 728.9375
+        },
+        {
+          "height": 250,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": true,
+          "width": 300,
+          "x": 37.5,
+          "y": 2084.75
+        },
+        {
+          "height": 0,
+          "name": "incontent-728x90",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "incontent-468x60",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stickyPresent": true,
+      "width": 390
+    },
+    {
+      "label": "home-desktop-1280",
+      "clientWidth": 1265,
+      "height": 900,
+      "scrollWidth": 1265,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 472.5,
+          "y": 79
+        },
+        {
+          "height": 22,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 1200,
+          "x": 32.5,
+          "y": 558
+        },
+        {
+          "height": 0,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 90,
+          "name": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html",
+          "visible": true,
+          "width": 728,
+          "x": 63,
+          "y": 1372.5
+        },
+        {
+          "height": 60,
+          "name": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html",
+          "visible": true,
+          "width": 468,
+          "x": 398.5,
+          "y": 3390.75
+        }
+      ],
+      "stickyPresent": true,
+      "width": 1280
+    },
+    {
+      "label": "article-mobile-390",
+      "clientWidth": 375,
+      "height": 844,
+      "scrollWidth": 375,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 27.5,
+          "y": 80
+        },
+        {
+          "height": 250,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": true,
+          "width": 300,
+          "x": 37.5,
+          "y": 2800.609375
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 343,
+          "x": 16,
+          "y": 6792.171875
+        },
+        {
+          "height": 0,
+          "name": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html",
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html",
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x600",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x300",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stickyPresent": true,
+      "width": 390
+    },
+    {
+      "label": "article-wide-1920",
+      "clientWidth": 1905,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 792.5,
+          "y": 80
+        },
+        {
+          "height": 0,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 768,
+          "x": 424.5,
+          "y": 4210.75
+        },
+        {
+          "height": 90,
+          "name": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html",
+          "visible": true,
+          "width": 728,
+          "x": 444.5,
+          "y": 4357.75
+        },
+        {
+          "height": 60,
+          "name": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html",
+          "visible": true,
+          "width": 468,
+          "x": 574.5,
+          "y": 4498.75
+        },
+        {
+          "height": 600,
+          "name": "sidebar-160x600",
+          "src": "/ads/sidebar-160x600.html",
+          "visible": true,
+          "width": 160,
+          "x": 136.5,
+          "y": 163
+        },
+        {
+          "height": 300,
+          "name": "sidebar-160x300",
+          "src": "/ads/sidebar-160x300.html",
+          "visible": true,
+          "width": 160,
+          "x": 1608.5,
+          "y": 163
+        }
+      ],
+      "stickyPresent": true,
+      "width": 1920
+    },
+    {
+      "label": "article-wide-final-1920",
+      "clientWidth": 1905,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 792.5,
+          "y": 80
+        },
+        {
+          "height": 0,
+          "name": "sidebar-300x250",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 768,
+          "x": 424.5,
+          "y": 4210.75
+        },
+        {
+          "height": 90,
+          "name": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html",
+          "visible": true,
+          "width": 728,
+          "x": 444.5,
+          "y": 4357.75
+        },
+        {
+          "height": 60,
+          "name": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html",
+          "visible": true,
+          "width": 468,
+          "x": 574.5,
+          "y": 4498.75
+        },
+        {
+          "height": 600,
+          "name": "sidebar-160x600",
+          "src": "/ads/sidebar-160x600.html",
+          "visible": true,
+          "width": 160,
+          "x": 136.5,
+          "y": 163
+        },
+        {
+          "height": 300,
+          "name": "sidebar-160x300",
+          "src": "/ads/sidebar-160x300.html",
+          "visible": true,
+          "width": 160,
+          "x": 1608.5,
+          "y": 163
+        }
+      ],
+      "stickyPresent": true,
+      "width": 1920
+    },
+    {
+      "label": "article-mobile-final-hidden-units-unloaded",
+      "clientWidth": 375,
+      "height": 844,
+      "scrollWidth": 375,
+      "slots": [
+        {
+          "height": 50,
+          "name": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "visible": true,
+          "width": 320,
+          "x": 27.5,
+          "y": 80
+        },
+        {
+          "height": 250,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": true,
+          "width": 300,
+          "x": 37.5,
+          "y": 2800.609375
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 343,
+          "x": 16,
+          "y": 6792.171875
+        },
+        {
+          "height": 0,
+          "name": "incontent-728x90",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "incontent-468x60",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x600",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x300",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stickyPresent": true,
+      "width": 390
+    },
+    {
+      "label": "sticky-closed-mobile",
+      "clientWidth": 375,
+      "height": 844,
+      "scrollWidth": 375,
+      "slots": [
+        {
+          "height": 250,
+          "name": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "visible": true,
+          "width": 300,
+          "x": 37.5,
+          "y": 2722.609375
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 343,
+          "x": 16,
+          "y": 6714.171875
+        },
+        {
+          "height": 0,
+          "name": "incontent-728x90",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "incontent-468x60",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x600",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x300",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stickyPresent": false,
+      "width": 390
+    },
+    {
+      "label": "sticky-stays-closed-after-resize",
+      "clientWidth": 1265,
+      "height": 900,
+      "scrollWidth": 1265,
+      "slots": [
+        {
+          "height": 0,
+          "name": "sidebar-300x250",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 96,
+          "name": "native-banner",
+          "src": "/ads/native-banner.html",
+          "visible": true,
+          "width": 768,
+          "x": 104.5,
+          "y": 4132.75
+        },
+        {
+          "height": 90,
+          "name": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html",
+          "visible": true,
+          "width": 728,
+          "x": 124.5,
+          "y": 4279.75
+        },
+        {
+          "height": 60,
+          "name": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html",
+          "visible": true,
+          "width": 468,
+          "x": 254.5,
+          "y": 4420.75
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x600",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "height": 0,
+          "name": "sidebar-160x300",
+          "src": null,
+          "visible": false,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stickyPresent": false,
+      "width": 1280
+    }
+  ],
+  "notes": [
+    "Blank provider creatives in local preview do not verify live fill.",
+    "Top banner dismissal and viewport fit are checked without clicking ads."
+  ]
+}

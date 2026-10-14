@@ -34,7 +34,7 @@ export function currentSharedStrings(currentLocale: string | undefined): SharedS
 
 /**
  * Consent wiring shared by CookieConsent.astro (dispatches) and the
- * AdsterraSlot.astro + MobileAnchorAd.astro inline scripts (consume —
+ * AdsterraSlot.astro + AdsterraSticky.astro + MobileAnchorAd.astro scripts (consume —
  * those scripts are untranspiled and cannot import, so they hardcode
  * these values). tests/consent.test.ts pins every duplicate to these
  * canonical exports — rename only together.
@@ -44,5 +44,6 @@ export function currentSharedStrings(currentLocale: string | undefined): SharedS
  * - CONSENT_ACCEPTED_EVENT: document-level CustomEvent dispatched whenever
  *   consent becomes known-accepted (returning visitor or banner accept).
  */
-export const CONSENT_STORAGE_KEY = 'aw-cookie-consent';
+// v2 adds Adsterra. Earlier analytics-only acceptance must not grant ad consent.
+export const CONSENT_STORAGE_KEY = 'aw-cookie-consent-v2';
 export const CONSENT_ACCEPTED_EVENT = 'aw:consent-accepted';
