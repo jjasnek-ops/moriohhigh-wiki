@@ -24,20 +24,15 @@ const labels = currentSharedStrings(Astro.currentLocale);
     var button = document.getElementById('dismiss-adsterra-sticky');
     if (!banner || !button) return;
     var key = 'morioh-adsterra-sticky-dismissed';
-    var CONSENT_KEY = 'aw-cookie-consent-v2';
-    var CONSENT_EVENT = 'aw:consent-accepted';
     var dismissed = false;
     try { dismissed = localStorage.getItem(key) === '1'; } catch (e) { /* not remembered */ }
     if (dismissed) { banner.remove(); return; }
-    var accepted = false;
-    try { accepted = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* wait for consent */ }
     var reveal = function () {
       if (dismissed) return;
       var fits = document.documentElement.clientWidth >= 320;
-      banner.classList.toggle('hidden', !accepted || !fits);
-      document.body.classList.toggle('has-adsterra-sticky', accepted && fits);
+      banner.classList.toggle('hidden', !fits);
+      document.body.classList.toggle('has-adsterra-sticky', fits);
     };
-    document.addEventListener(CONSENT_EVENT, function () { accepted = true; reveal(); });
     window.addEventListener('resize', reveal);
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', reveal);
     else reveal();

@@ -1,0 +1,3 @@
+# 原始审计分类说明
+
+production-audit.json最初使用“存在article标签且文本超过500字符”的启发式，articleTextAvailableWithoutJavaScript在11个页面为true，其中包含法律页面。该字段不等于11篇游戏攻略。本次报告按六个实际MDX路径及Article schema复核静态正文；local-after-audit.json和改正后的脚本已采用真实编辑路径。原HTTP/HTML元数据和采集时间保留，没有重新模拟抓取。

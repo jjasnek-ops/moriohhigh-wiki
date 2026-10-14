@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-14T06:57:35.199Z",
+  "mode": "local only",
+  "check": {
+    "exit": 0,
+    "files": 143,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "lint": {
+    "exit": 0
+  },
+  "tests": {
+    "suites": 19,
+    "passed": 250,
+    "skipped": 1
+  },
+  "build": {
+    "exit": 0,
+    "html": 24,
+    "adAssets": 7,
+    "pagefind": 6
+  },
+  "audits": {
+    "seoFailures": 0,
+    "adFailures": 0,
+    "internalLinks": 556,
+    "sitemapPassed": 13
+  },
+  "browser": "automatic-ads-browser.json; provider-stubbed fixture only",
+  "productionMarker": {
+    "status": 200,
+    "source": "c02e4fd73a22f8eb53e6f7b9c544ca11da842739"
+  },
+  "deployed": false
+}

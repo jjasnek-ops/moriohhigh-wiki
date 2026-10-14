@@ -35,6 +35,10 @@ const wiki = defineCollection({
       category: z.enum(CONTENT_TYPES as [string, ...string[]]),
       date: z.coerce.date(),
       lastModified: z.coerce.date().optional(),
+      /** Source review date, not a claim that gameplay or redemption was tested. */
+      sourcesChecked: z.coerce.date().optional(),
+      sourceNote: z.string().max(400).optional(),
+      citations: z.array(z.object({ title: z.string(), url: z.url() })).default([]),
       image: image().optional(),
       /** Accurate description and visible provenance for editorial cover art. */
       imageAlt: z.string().max(200).optional(),

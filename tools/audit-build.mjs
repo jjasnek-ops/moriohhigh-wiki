@@ -22,8 +22,8 @@ const rows=files.filter(file=>!file.replaceAll('\\','/').startsWith('dist/ads/')
   for(const match of html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)){try{JSON.parse(match[1]);}catch{errors.push('invalid JSON-LD');}}
   for(const match of html.matchAll(/<img\b[^>]*>/g)){if(!/\salt(?:\s|=|>)/.test(match[0]))errors.push('missing image ALT');}
   if(/googletagmanager\.com/.test(html)){
-    if(!analytics.measurementId||!html.includes(analytics.measurementId)||!html.includes('__awLoadTrackers')||!html.includes('id="cookie-consent"'))errors.push('analytics identity or consent gate missing');
-    if(/<script[^>]+src="https:\/\/www\.googletagmanager\.com/.test(html))errors.push('analytics loaded before consent');
+    if(!analytics.measurementId||!html.includes(analytics.measurementId)||!html.includes('window.__awLoadTrackers();')||html.includes('id="cookie-consent"'))errors.push('analytics identity or automatic loading policy mismatch');
+    if(/<script[^>]+src="https:\/\/www\.googletagmanager\.com/.test(html))errors.push('unexpected duplicate inline analytics tag');
   }
   if(/static\.cloudflareinsights\.com\/beacon/.test(html)||/<script[^>]+src="https:\/\/pagead2\.googlesyndication\.com/.test(html)||/const adsenseClient = "[^"]+"/.test(html))errors.push('unexpected enabled tracker/ad');
   return {file:file.replaceAll('\\','/'),title,descriptionLength:desc?.length,canonical,noindex:/name="robots"[^>]*content="[^"]*noindex/.test(html),errors};

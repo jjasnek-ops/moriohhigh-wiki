@@ -21,14 +21,9 @@
  * html file itself is not build inputs — also create it in `public/ads/` or
  * the iframe 404s as an empty box.
  *
- * Consent-gated like GA/AdSense: any configured ad unit activates the
- * cookie banner in BaseLayout. The iframe mounts WITHOUT src and a
- * small ES2018 inline script promotes data-src → src only after the visitor
- * has consented — either a stored 'accepted' in CookieConsent's localStorage
- * flag, or the `aw:consent-accepted` event it dispatches on accept. Declined
- * or unchosen → the unit never loads, matching the banner's promise that
- * ads wait for consent. Fixed units load only when their original width
- * fits the visible content column; responsive Native uses content height.
+ * Configured ads load automatically once their original dimensions fit a
+ * visible container. data-src defers layout-ineligible alternatives, not
+ * consent. Responsive Native uses its rendered content height.
  */
 interface Props {
   /** Slot name = html filename stem under public/ads/ (e.g. `sidebar-300x250`). */
@@ -91,18 +86,9 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
       </div>
       {show && (
         <script is:inline>
-          /* ES2018 only (no optional chaining / nullish coalescing / optional
-             catch binding) — runs untranspiled in the HTML, old webviews parse
-             it. Consent-gated deferred load: promotes data-src → src on every
-             pending Adsterra iframe once the visitor has consented. Declined
-             or unchosen → never loads (same contract as __awLoadTrackers for
-             GA/AdSense). Idempotent: each slot ships one copy of this script;
-             only iframes still carrying data-adsterra-defer are touched.
-             Event + storage key mirror src/lib/shared-ui.ts (inline scripts
-             can't import; tests/consent.test.ts pins the duplicates). */
+          /* ES2018. Automatically load visible, fitting units; hidden alternatives
+             remain deferred. Each slot is wired once across repeated scripts. */
           (function () {
-            var CONSENT_KEY = 'aw-cookie-consent-v2';
-            var CONSENT_EVENT = 'aw:consent-accepted';
             var wire = function () {
               var slots = document.querySelectorAll('[data-adsterra-slot]');
               for (var i = 0; i < slots.length; i++) {
@@ -112,8 +98,6 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                   var frame = slot.querySelector('iframe');
                   var parent = slot.parentElement;
                   if (!frame || !parent) return;
-                  var consent = false;
-                  try { consent = localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { /* wait for consent */ }
                   var nativeHeight = function () {
                     if (!frame.getAttribute('data-adsterra-responsive')) return;
                     try {
@@ -135,7 +119,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                     var available = parent.clientWidth - parseFloat(css.paddingLeft || '0') - parseFloat(css.paddingRight || '0');
                     var min = Number(slot.getAttribute('data-adsterra-min-width') || '0');
                     var max = Number(slot.getAttribute('data-adsterra-max-width') || 'Infinity');
-                    var fits = consent && available >= min && available <= max && parent.getClientRects().length > 0;
+                    var fits = available >= min && available <= max && parent.getClientRects().length > 0;
                     slot.style.display = fits ? '' : 'none';
                     if (!fits || slot.getBoundingClientRect().width < min || getComputedStyle(slot).display === 'none') {
                       // A resized-away unit must stop running while hidden.
@@ -157,7 +141,6 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                     }
                     nativeHeight();
                   };
-                  document.addEventListener(CONSENT_EVENT, function () { consent = true; update(); });
                   window.addEventListener('resize', update);
                   if (window.ResizeObserver) new ResizeObserver(update).observe(parent);
                   update();

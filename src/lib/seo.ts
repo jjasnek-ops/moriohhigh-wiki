@@ -10,19 +10,16 @@ import { site } from '~/config/site';
 import { defaultLocale, type Locale } from '~/i18n/routing';
 import { detailPath, homeUrl, listPath } from './url';
 
-/** Organization JSON-LD — injected globally in BaseLayout. */
-export function organizationJsonLd() {
+/** Optional real publisher identity. A site name alone does not establish an organization. */
+export function organizationJsonLd(organization = site.organization) {
+  if (!organization) return null;
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: site.name,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}${site.ogImage ?? '/images/hero.webp'}`,
-    description: site.description,
-    // Entity association: link the wiki to the game's canonical pages
-    // (Steam / official site / Wikipedia) — knowledge-graph signal.
-    ...(site.sameAs && site.sameAs.length > 0 ? { sameAs: site.sameAs } : {}),
+    '@id': `${siteUrl}/#publisher`,
+    name: organization.name,
+    url: organization.url,
+    ...(organization.sameAs?.length ? { sameAs: organization.sameAs } : {}),
   };
 }
 
@@ -31,6 +28,7 @@ export function websiteJsonLd(locale: Locale = defaultLocale) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${siteUrl}/#website`,
     name: site.name,
     url: siteUrl,
     description: site.description,
@@ -48,10 +46,12 @@ export function articleJsonLd(opts: {
   category: string;
   slug: string;
   locale: Locale;
-  /** Named author (E-E-A-T) — renders as Person; falls back to the Organization. */
+  /** A real named author. Omit when no identity has been supplied. */
   authorName?: string;
   /** Profile URLs folded into the Person's sameAs (knowledge-graph signal). */
   authorSameAs?: string[];
+  /** URLs also presented in the article's visible source list. */
+  citations?: string[];
 }) {
   const {
     title,
@@ -64,6 +64,7 @@ export function articleJsonLd(opts: {
     locale,
     authorName,
     authorSameAs,
+    citations,
   } = opts;
   const coverUrl = image
     ? image.startsWith('http')
@@ -76,7 +77,8 @@ export function articleJsonLd(opts: {
         name: authorName,
         ...(authorSameAs && authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
       }
-    : { '@type': 'Organization', name: site.name };
+    : undefined;
+  const publisher = organizationJsonLd();
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -85,12 +87,11 @@ export function articleJsonLd(opts: {
     image: coverUrl,
     datePublished: datePublished.toISOString(),
     dateModified: (dateModified ?? datePublished).toISOString(),
-    author,
-    publisher: {
-      '@type': 'Organization',
-      name: site.name,
-      logo: { '@type': 'ImageObject', url: `${siteUrl}/android-chrome-512x512.png` },
-    },
+    ...(author ? { author } : {}),
+    ...(publisher ? { publisher: { '@id': publisher['@id'] } } : {}),
+    isPartOf: { '@id': `${siteUrl}/#website` },
+    inLanguage: locale,
+    ...(citations?.length ? { citation: citations } : {}),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${siteUrl}${detailPath(category, slug, locale)}`,
@@ -192,7 +193,7 @@ export function itemListJsonLd(opts: {
   };
 }
 
-/** FAQPage JSON-LD — for homepage FAQ section (eligible for SERP rich results). */
+/** FAQPage describes visible Q&A; it does not promise a search rich result. */
 export function faqPageJsonLd(items: Array<{ question: string; answer: string }>) {
   return {
     '@context': 'https://schema.org',
@@ -289,8 +290,8 @@ export function videoGameJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'VideoGame',
     name: site.game.name,
-    description: site.description,
-    url: siteUrl,
+    ...(site.game.description ? { description: site.game.description } : {}),
+    url: site.social.official,
     genre: site.game.genre,
     gamePlatform: site.game.platform,
     publisher: { '@type': 'Organization', name: site.game.developer },

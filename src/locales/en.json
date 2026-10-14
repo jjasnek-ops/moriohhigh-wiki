@@ -35,7 +35,7 @@
     "share": "Share",
     "copyLink": "Copy link",
     "copied": "Copied!",
-    "consentText": "Allow Google Analytics and Adsterra ads? These optional services may use cookies to measure visits and display advertising. Declining keeps both disabled.",
+    "consentText": "Configured advertising and analytics load automatically. See the privacy policy for details.",
     "accept": "Allow ads & analytics",
     "decline": "Decline",
     "consentTitle": "Privacy choices",
@@ -119,7 +119,9 @@
     "feedbackNo": "No",
     "breadcrumbAria": "Breadcrumb",
     "wikiNavAria": "Wiki navigation",
-    "paginationAria": "Article pagination"
+    "paginationAria": "Article pagination",
+    "sourcesChecked": "Sources reviewed",
+    "sourceLinks": "Sources supporting this guide"
   },
   "overview": {
     "guides": {
@@ -154,7 +156,7 @@
       "title": "Useful links",
       "quickLinks": [
         {
-          "label": "How to play on Roblox",
+          "label": "Beginner guide and first steps",
           "href": "/guides/how-to-play/"
         },
         {
@@ -185,8 +187,8 @@
       "cards": [
         {
           "number": "01",
-          "title": "Open the correct game",
-          "description": "Morioh High by Not A Stand Game. The Roblox link and game IDs have been checked.",
+          "title": "Start with the beginner guide",
+          "description": "Find the correct game, launch on PC and follow the source-based first-session checklist.",
           "icon": "lucide:play",
           "href": "/guides/how-to-play/"
         },
@@ -299,6 +301,10 @@
         {
           "question": "Where are the Stand and codes guides?",
           "answer": "The Stand guide documents fight knockouts, Arrow compatibility, and recorded reroll cost. PC controls and a publisher-reported codes list are available. Code redemption has not been independently tested here, and a complete current Stand roster remains unverified."
+        },
+        {
+          "question": "Where should a Morioh High beginner start?",
+          "answer": "Open the Roblox experience by Not A Stand Game, check the current PC HUD and read Encyclopedia → Stands. The beginner guide links launch steps, recorded controls, Stand awakening and reported codes; a complete current quest walkthrough has not been tested here."
         },
         {
           "question": "Is this an official wiki?",

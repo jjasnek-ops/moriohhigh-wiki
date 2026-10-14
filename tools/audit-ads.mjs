@@ -40,11 +40,11 @@ for (const file of pageFiles) {
   const slots = [...html.matchAll(/data-adsterra-slot="([^"]+)"/g)].map(match => match[1]);
   if (!file.endsWith('404.html') && !slots.includes('sticky-320x50')) failures.push(`${file}: configured site-wide sticky unit absent`);
   if (new Set(slots).size !== slots.length) failures.push(`${file}: duplicated unit on same page`);
-  if (/<iframe[^>]*\ssrc="\/ads\//.test(html) || /<script[^>]*src="https:\/\/bicea\.org/.test(html)) failures.push(`${file}: ad script loads before consent`);
-  if (!html.includes('aw-cookie-consent-v2') || !html.includes('id="cookie-consent"')) failures.push(`${file}: consent gate missing`);
+  if (/<script[^>]*src="https:\/\/bicea\.org/.test(html)) failures.push(`${file}: provider script escaped its unit iframe`);
+  if (html.includes('id="cookie-consent"') || html.includes('aw:consent-accepted')) failures.push(`${file}: stale privacy-choice gate`);
 }
 const report = { checkedAt: new Date().toISOString(), unitCount: results.length, pageCount: pageFiles.length, units: results, failures,
-  limitations: ['Build checks verify snippets, initial consent gating and indexing, not live ad fill or account revenue.'] };
+  limitations: ['Build checks verify snippets, automatic-loading policy and indexing, not live ad fill or account revenue.'] };
 fs.writeFileSync('reports/ad-build-audit.json', JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ unitCount: results.length, pageCount: pageFiles.length, failures }));
 if (failures.length) process.exitCode = 1;

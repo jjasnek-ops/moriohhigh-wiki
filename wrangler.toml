@@ -48,7 +48,7 @@ PUBLIC_ADSTERRA_SLOT_NATIVE_BANNER = "482de39ee08a1ab07ba7caedb81ef64a"
 PUBLIC_ADSTERRA_SLOT_STICKY_320X50 = "675ccec8e54c1b36c848ecb6e4db910b"
 PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X300 = "5e45cd597843747f06314ae2dd298dd4"
 PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X600 = "7c62e4984014b65ba6d95223388dd148"
-# Native consent-gated analytics for this independent site's web stream.
+# Native automatically loaded analytics for this independent site's web stream.
 PUBLIC_GA_ID = "G-MLLG5CEMCG"
 # Public verification identifier for this site's URL-prefix property.
 PUBLIC_GSC_VERIFICATION = "85vq2SGiZSnqZuqjZ8DzIoT_aqdAvxX21XsZIJmGzdg"

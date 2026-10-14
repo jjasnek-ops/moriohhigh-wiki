@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-14T04:45:55.114Z",
+  "mode": "baseline only, not post-optimization performance",
+  "platforms": [
+    {
+      "platform": "web search tool",
+      "status": "tested: five fixed questions",
+      "provider": "not exposed",
+      "country": "not controlled",
+      "targetInSample": false,
+      "citationTested": false
+    },
+    {
+      "platform": "Google Search / AI Overview",
+      "status": "not verified",
+      "attempt": "IAB navigated to one fixed Stand question URL; DOM/screenshot timed out",
+      "targetInSample": null,
+      "citationTested": false
+    },
+    {
+      "platform": "Perplexity",
+      "status": "not tested",
+      "attempt": "public root HTML yielded only an image; actual IAB root navigation/DOM timed out before a query could be submitted",
+      "targetInSample": null,
+      "citationTested": false
+    },
+    {
+      "platform": "Gemini",
+      "status": "not tested",
+      "attempt": "public entry showed sign-in; no authenticated question or answer accessed",
+      "targetInSample": null,
+      "citationTested": false
+    },
+    {
+      "platform": "ChatGPT Search",
+      "status": "not tested",
+      "attempt": "public root read; no independent reproducible search conversation or answer-citation output obtained",
+      "targetInSample": null,
+      "citationTested": false
+    },
+    {
+      "platform": "Bing / Copilot",
+      "status": "not tested",
+      "attempt": "no branded platform results or AI answer captured; web tool backend not assumed to be Bing",
+      "targetInSample": null,
+      "citationTested": false
+    }
+  ]
+}

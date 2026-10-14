@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T01:48:58.273Z",
+  "checkedAt": "2026-10-14T06:49:23.861Z",
   "unitCount": 7,
   "pageCount": 24,
   "units": [
@@ -55,6 +55,6 @@
   ],
   "failures": [],
   "limitations": [
-    "Build checks verify snippets, initial consent gating and indexing, not live ad fill or account revenue."
+    "Build checks verify snippets, automatic-loading policy and indexing, not live ad fill or account revenue."
   ]
 }

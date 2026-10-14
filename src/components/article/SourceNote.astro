@@ -1,0 +1,20 @@
+---
+import { getUi } from '~/i18n/ui';
+interface Props {
+  locale: string;
+  checked?: Date;
+  note?: string;
+  citations: Array<{ title: string; url: string }>;
+}
+const { locale, checked, note, citations } = Astro.props;
+const labels = getUi(locale).shared;
+---
+{(checked || citations.length > 0) && (
+  <aside class="mt-4 rounded-lg border border-border bg-card p-4 text-sm" data-source-note>
+    {checked && <p class="font-medium">{labels.sourcesChecked}: <time datetime={checked.toISOString().slice(0, 10)}>{checked.toLocaleDateString(locale, { timeZone: 'UTC' })}</time></p>}
+    {note && <p class="mt-1 text-muted-foreground">{note}</p>}
+    {citations.length > 0 && <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1" aria-label={labels.sourceLinks}>
+      {citations.map(source => <li><a class="text-nav underline underline-offset-2" href={source.url}>{source.title}</a></li>)}
+    </ul>}
+  </aside>
+)}

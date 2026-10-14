@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-14T04:35:54.880Z",
+  "mode": "actual in-app browser, local built site only",
+  "desktop": {
+    "viewport": [
+      1280,
+      800
+    ],
+    "scrollWidth": 1265,
+    "sourcePanelVisible": true,
+    "screenshot": "reports/screenshots/seo-geo-beginner-desktop.jpg"
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "scrollWidth": 375,
+    "beginnerTableWidths": [
+      343,
+      343
+    ],
+    "sourcePanelWidth": 343,
+    "pagesChecked": [
+      "/",
+      "/guides/how-to-play/",
+      "/guides/how-to-get-a-stand/",
+      "/resources/codes/"
+    ],
+    "standFailureChecklistPresent": true,
+    "screenshot": "reports/screenshots/seo-geo-beginner-mobile.jpg"
+  },
+  "search": {
+    "query": "beginner",
+    "results": 1,
+    "clickedUrl": "http://127.0.0.1:4322/guides/how-to-play/",
+    "titleConfirmed": true
+  },
+  "codes": {
+    "strings": 7,
+    "copyClick": "GAUNTLET",
+    "feedback": "Copied!",
+    "clipboardValueVerified": false,
+    "limitation": "Browser Use virtual clipboard remained empty and blocked paste; feedback verified, native clipboard content not independently verified."
+  },
+  "consent": {
+    "homeDeferredSlots": 5,
+    "adIframeSrcBeforeConsent": null,
+    "newTrackerScriptObserved": false
+  },
+  "viewportReset": true,
+  "externalSearchUI": {
+    "googleQuery": "How do I get a Stand in Morioh High?",
+    "url": "https://www.google.com/search?q=How+do+I+get+a+Stand+in+Morioh+High%3F&hl=en&gl=us",
+    "status": "tab navigation observed in inventory, DOM/screenshot calls timed out; results and AI Overview not verified"
+  }
+}

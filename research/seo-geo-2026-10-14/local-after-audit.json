@@ -1,0 +1,2464 @@
+{
+  "checkedAt": "2026-10-14T04:43:19.335Z",
+  "mode": "local build only",
+  "pages": [
+    {
+      "url": "https://moriohhighguide.wiki/about/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 34685,
+      "gzipBytes": 10093,
+      "title": "About — Morioh High Wiki",
+      "description": "Learn how this independent Morioh High Roblox wiki checks sources, handles corrections, and credits the AnvilWiki template.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/about/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "About"
+        },
+        {
+          "level": 2,
+          "text": "Our editorial approach"
+        },
+        {
+          "level": 2,
+          "text": "Corrections and updates"
+        },
+        {
+          "level": 2,
+          "text": "Credits"
+        }
+      ],
+      "mainTextWords": 203,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 1,
+      "internalLinks": [
+        "/contact/",
+        "/copyright/"
+      ],
+      "schemas": [],
+      "inlineScriptBytes": 17442,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/contact/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 34101,
+      "gzipBytes": 9763,
+      "title": "Contact — Morioh High Wiki",
+      "description": "Contact the independent Morioh High Wiki editors about factual corrections, broken links, or rights concerns. Find separate sources for Roblox account help.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/contact/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Contact"
+        },
+        {
+          "level": 2,
+          "text": "Website corrections"
+        },
+        {
+          "level": 2,
+          "text": "Game or account help"
+        }
+      ],
+      "mainTextWords": 89,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 1,
+      "internalLinks": [
+        "/resources/community-links/",
+        "/privacy-policy/",
+        "/copyright/"
+      ],
+      "schemas": [],
+      "inlineScriptBytes": 17442,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/copyright/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 34269,
+      "gzipBytes": 9863,
+      "title": "Copyright — Morioh High Wiki",
+      "description": "Read the Morioh High wiki copyright notice, original-material credits, AnvilWiki MIT attribution, and third-party rights information.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/copyright/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Copyright"
+        },
+        {
+          "level": 2,
+          "text": "Original material and template"
+        },
+        {
+          "level": 2,
+          "text": "Third-party rights"
+        },
+        {
+          "level": 2,
+          "text": "Corrections and rights concerns"
+        }
+      ],
+      "mainTextWords": 149,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/contact/"
+      ],
+      "schemas": [],
+      "inlineScriptBytes": 17442,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/faq/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 42914,
+      "gzipBytes": 10779,
+      "title": "Morioh High FAQ",
+      "description": "Quick answers about the Roblox game, its developer, availability, community links, and how this independent wiki verifies information.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/faq/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High FAQ"
+        }
+      ],
+      "mainTextWords": 355,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Morioh High on Roblox?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Morioh High is a Roblox experience by Not A Stand Game. Its official description focuses on school life: attending classes, building relationships, joining groups, exploring, and interacting with NPCs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who made Morioh High?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Roblox lists Not A Stand Game as the developer group. The experience Place ID is 111838814545019 and its Universe ID is 10768944846."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Morioh High available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The official Roblox API recorded active players on October 11, 2026. That confirms activity at the check time; access for a particular account or device depends on the current Roblox listing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the Morioh High release date?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "BloxInformer lists October 10, 2026, but that exact public release date has not been independently confirmed through a developer announcement here. Roblox records the experience object as created October 2; creation is a different event."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a Morioh High Discord?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The invite discord.com/invite/moriohhigh resolved to a server named Morioh High when checked on October 11, 2026. It is shared by game-related sources. Developer ownership has not been verified here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is the Morioh High Trello?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This wiki has not obtained an independently verified board URL. No Trello link is listed as official. Check the developer Roblox community for confirmed resource announcements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where are the Stand and codes guides?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Stand guide documents fight knockouts, Arrow compatibility, and recorded reroll cost. PC controls and a publisher-reported codes list are available. Code redemption has not been independently tested here, and a complete current Stand roster remains unverified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where should a Morioh High beginner start?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Open the Roblox experience by Not A Stand Game, check the current PC HUD and read Encyclopedia → Stands. The beginner guide links launch steps, recorded controls, Stand awakening and reported codes; a complete current quest walkthrough has not been tested here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this an official wiki?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. This is an independent player guide, unaffiliated with Not A Stand Game, Roblox Corporation, and the JoJo rights holders. Sources and check dates explain exactly what each page can support."
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High FAQ",
+              "item": "https://moriohhighguide.wiki/faq/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 21038,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/guides/controls/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 104796,
+      "gzipBytes": 18957,
+      "title": "Morioh High PC Controls: Keys Seen in Gameplay",
+      "description": "Check the Morioh High PC keys shown in gameplay: attacks, block, dash, Stand withdrawal, skills, menu, and voice prompts, with source notes.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/guides/controls/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "What are the PC combat and Stand keys?"
+        },
+        {
+          "level": 2,
+          "text": "Which inputs matter when a Stand is out?"
+        },
+        {
+          "level": 2,
+          "text": "Does the voice prompt mean voice commands always work?"
+        },
+        {
+          "level": 2,
+          "text": "What evidence supports the table?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 1116,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 4,
+      "internalLinks": [
+        "/",
+        "/guides/",
+        "/guides/how-to-play/",
+        "/guides/how-to-get-a-stand/",
+        "/resources/community-links/",
+        "/faq/",
+        "/tags/roblox/",
+        "/tags/getting-started/",
+        "/tags/stands/",
+        "/resources/codes/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Morioh High PC Controls: Keys Seen in Gameplay",
+          "description": "Check the Morioh High PC keys shown in gameplay: attacks, block, dash, Stand withdrawal, skills, menu, and voice prompts, with source notes.",
+          "image": "https://moriohhighguide.wiki/_astro/controls-keyboard-v1.DPDsnfL5.webp",
+          "datePublished": "2026-10-12T00:00:00.000Z",
+          "dateModified": "2026-10-12T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://www.youtube.com/watch?v=AaOK6j4ts3E&t=5s",
+            "https://en.help.roblox.com/hc/en-us/articles/4405807645972-Voice-FAQ"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/guides/controls/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Player Guide",
+              "item": "https://moriohhighguide.wiki/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "item": "https://moriohhighguide.wiki/guides/controls/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What key blocks in Morioh High?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The checked PC HUD labels F as Block. The footage does not establish a parry window or guarantee that every attack can be blocked."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What key uses a Stand skill?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The PC HUD labels X as Stand skill and right-click as Stand barrage while a Stand is active. Skill effects and resource costs need separate evidence."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you withdraw a Stand?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filmed PC prompt labels Z as Withdraw Stand when the Stand is out. Read your current HUD for the action available in its present state."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Ctrl target lock?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The source HUD labels Ctrl only as Lock. This page does not assume a targeting or camera-lock behavior that the selected frame does not demonstrate."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these mobile or console controls?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. This table records keyboard and mouse prompts. Touch buttons and controller bindings have not been verified for this wiki."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 51012,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 117809,
+      "gzipBytes": 22824,
+      "title": "How to Get a Stand in Morioh High",
+      "description": "Get your first Morioh High Stand through a qualifying fight or Stand Arrow. Check the Encyclopedia rules and timestamped footage behind each method.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "What are the two ways to get your first Stand?"
+        },
+        {
+          "level": 2,
+          "text": "How does the fight method work?"
+        },
+        {
+          "level": 2,
+          "text": "How do you use a Stand Arrow?"
+        },
+        {
+          "level": 2,
+          "text": "Can you choose or change the Stand you get?"
+        },
+        {
+          "level": 2,
+          "text": "Why have you not awakened a Stand?"
+        },
+        {
+          "level": 2,
+          "text": "Do you need a code to awaken?"
+        },
+        {
+          "level": 2,
+          "text": "What evidence supports this guide?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 1956,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 9,
+      "internalLinks": [
+        "/",
+        "/guides/",
+        "/guides/how-to-play/",
+        "/guides/controls/",
+        "/guides/controls/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/",
+        "/faq/",
+        "/tags/roblox/",
+        "/tags/stands/",
+        "/tags/getting-started/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-play/",
+        "/guides/how-to-play/",
+        "/guides/controls/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "How to Get a Stand in Morioh High",
+          "description": "Get your first Morioh High Stand through a qualifying fight or Stand Arrow. Check the Encyclopedia rules and timestamped footage behind each method.",
+          "image": "https://moriohhighguide.wiki/_astro/stand-awakening-v2.C3nV22u7.webp",
+          "datePublished": "2026-10-11T00:00:00.000Z",
+          "dateModified": "2026-10-14T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://www.youtube.com/watch?v=taOqWP56Mrk&t=10s",
+            "https://www.youtube.com/watch?v=w9rdSW-8ULE&t=50s"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Player Guide",
+              "item": "https://moriohhighguide.wiki/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "How to Get a Stand in Morioh High",
+              "item": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do you get your first Stand?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filmed Encyclopedia lists two methods: a qualifying knockout in a real fight, or holding a Stand Arrow until compatibility reaches 100%. The fight method is a chance; the Arrow method is described as certain at full compatibility."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does resetting give you a Stand?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The filmed Encyclopedia excludes resetting, falling, and a tap at 1 health from qualifying fight knockouts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the fight awakening chance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filmed Encyclopedia states 1 in 10 for a qualifying knockout, with one chance per minute. This is a documented rule from the checked footage, not a rate measured by this wiki."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where do Stand Arrows come from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Checked player footage describes a Stand Arrow event and shows players competing for the Arrow. A fixed spawn route, event interval, and exact holding time have not been verified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you choose the Stand you awaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filmed Encyclopedia describes the result as random by rarity. This page does not provide an unverified roster or rarity distribution."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are codes required?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The two documented awakening methods do not require a code. Working codes and their rewards have not been independently tested here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many Rerolls does changing a Stand cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filmed Encyclopedia shows 100 Rerolls to replace an existing Stand and excludes the current Stand from the result. This is a recorded-build cost; check the price in your current menu before confirming."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 51719,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/guides/how-to-play/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 105316,
+      "gzipBytes": 19261,
+      "title": "Morioh High Beginner Guide: Game Link and First Steps",
+      "description": "Start Morioh High on Roblox with the correct game link, PC launch steps, controls and first Stand guides. Check sources and recorded-build limits.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/guides/how-to-play/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Where is the correct Roblox game?"
+        },
+        {
+          "level": 2,
+          "text": "How do you launch it on a computer?"
+        },
+        {
+          "level": 2,
+          "text": "What should a beginner do in the first session?"
+        },
+        {
+          "level": 2,
+          "text": "What does the game involve?"
+        },
+        {
+          "level": 2,
+          "text": "What if you are looking for a release date?"
+        },
+        {
+          "level": 2,
+          "text": "What sources support this page?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 1243,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 8,
+      "internalLinks": [
+        "/",
+        "/guides/",
+        "/resources/community-links/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-get-a-stand/#can-you-choose-or-change-the-stand-you-get",
+        "/resources/codes/",
+        "/resources/release-information/",
+        "/guides/how-to-get-a-stand/",
+        "/faq/",
+        "/guides/controls/",
+        "/tags/roblox/",
+        "/tags/getting-started/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Morioh High Beginner Guide: Game Link and First Steps",
+          "description": "Start Morioh High on Roblox with the correct game link, PC launch steps, controls and first Stand guides. Check sources and recorded-build limits.",
+          "image": "https://moriohhighguide.wiki/_astro/campus-v2.DTc95QDI.webp",
+          "datePublished": "2026-10-11T00:00:00.000Z",
+          "dateModified": "2026-10-14T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://www.roblox.com/games/111838814545019/Morioh-High",
+            "https://en.help.roblox.com/hc/en-us/articles/204473560-How-to-Install-and-Play-Roblox"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/guides/how-to-play/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Player Guide",
+              "item": "https://moriohhighguide.wiki/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Beginner Guide: Game Link and First Steps",
+              "item": "https://moriohhighguide.wiki/guides/how-to-play/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do I need a separate Morioh High download?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use the Roblox experience page and Roblox Player. No separate game installer is linked or recommended here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this guide confirm mobile or console support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The game has not been tested on those devices for this wiki. Check the current Roblox listing and the message shown for your account and device."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 50332,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/guides/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 41026,
+      "gzipBytes": 11129,
+      "title": "Morioh High Player Guide",
+      "description": "Find Morioh High on Roblox, check documented PC controls, and learn Stand awakening and reroll rules with clear sources and dates.",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/guides/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Player Guide"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        }
+      ],
+      "mainTextWords": 133,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Morioh High Player Guide",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "url": "https://moriohhighguide.wiki/guides/controls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How to Get a Stand in Morioh High",
+              "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Beginner Guide: Game Link and First Steps",
+              "url": "https://moriohhighguide.wiki/guides/how-to-play/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Player Guide",
+              "item": "https://moriohhighguide.wiki/guides/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18266,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 77875,
+      "gzipBytes": 14251,
+      "title": "Morioh High Wiki | Codes, Controls & Stand Guide",
+      "description": "Find reported Morioh High codes, PC controls, Stand awakening rules, and Roblox links. Independent wiki with sources and verification notes.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Wiki"
+        },
+        {
+          "level": 2,
+          "text": "Find your way into Morioh"
+        },
+        {
+          "level": 3,
+          "text": "Start with the beginner guide"
+        },
+        {
+          "level": 3,
+          "text": "Get your first Stand"
+        },
+        {
+          "level": 3,
+          "text": "Copy reported codes"
+        },
+        {
+          "level": 2,
+          "text": "Read the field guide"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Discord and Trello: Community Links"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Release Information: Is It Available?"
+        },
+        {
+          "level": 2,
+          "text": "Useful links"
+        },
+        {
+          "level": 2,
+          "text": "What is Morioh High?"
+        },
+        {
+          "level": 3,
+          "text": "The Roblox experience"
+        },
+        {
+          "level": 3,
+          "text": "Know where information comes from"
+        },
+        {
+          "level": 2,
+          "text": "Ready for your first school day?"
+        }
+      ],
+      "mainTextWords": 470,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 2,
+      "internalLinks": [
+        "/resources/",
+        "/guides/how-to-play/",
+        "/guides/how-to-get-a-stand/",
+        "/resources/codes/",
+        "/resources/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/resources/release-information/",
+        "/guides/how-to-play/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/controls/",
+        "/resources/release-information/",
+        "/resources/community-links/",
+        "/faq/",
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://moriohhighguide.wiki/#website",
+          "name": "Morioh High Wiki",
+          "url": "https://moriohhighguide.wiki",
+          "description": "An independent Morioh High Roblox wiki with source-checked game information, community resources, and practical player guides.",
+          "inLanguage": "en"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoGame",
+          "name": "Morioh High",
+          "description": "A Roblox school-life experience by Not A Stand Game, set in Morioh, Japan.",
+          "url": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "genre": "School life / Action",
+          "gamePlatform": "Roblox",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Not A Stand Game"
+          }
+        }
+      ],
+      "inlineScriptBytes": 37095,
+      "adSlots": [
+        "sticky-320x50",
+        "native-banner",
+        "sidebar-300x250",
+        "incontent-728x90",
+        "incontent-468x60"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/privacy-policy/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 36137,
+      "gzipBytes": 10452,
+      "title": "Privacy Policy — Morioh High Wiki",
+      "description": "Read the privacy notice for this static Morioh High wiki: browser search, hosting, external links, and disabled advertising and analytics.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/privacy-policy/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Privacy Policy"
+        },
+        {
+          "level": 2,
+          "text": "Browsing and search"
+        },
+        {
+          "level": 2,
+          "text": "Hosting"
+        },
+        {
+          "level": 2,
+          "text": "Advertising and analytics"
+        },
+        {
+          "level": 2,
+          "text": "External links"
+        },
+        {
+          "level": 2,
+          "text": "Contact and changes"
+        }
+      ],
+      "mainTextWords": 335,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 4,
+      "internalLinks": [
+        "/contact/"
+      ],
+      "schemas": [],
+      "inlineScriptBytes": 17442,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/recent/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 43744,
+      "gzipBytes": 11436,
+      "title": "Recent Updates — Morioh High Wiki",
+      "description": "The latest articles and updates across the wiki, newest first.",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/recent/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Recent Updates"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Discord and Trello: Community Links"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Release Information: Is It Available?"
+        }
+      ],
+      "mainTextWords": 224,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Recent Updates",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "url": "https://moriohhighguide.wiki/resources/codes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "url": "https://moriohhighguide.wiki/guides/controls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "How to Get a Stand in Morioh High",
+              "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Morioh High Beginner Guide: Game Link and First Steps",
+              "url": "https://moriohhighguide.wiki/guides/how-to-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Morioh High Discord and Trello: Community Links",
+              "url": "https://moriohhighguide.wiki/resources/community-links/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Morioh High Release Information: Is It Available?",
+              "url": "https://moriohhighguide.wiki/resources/release-information/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Recent Updates",
+              "item": "https://moriohhighguide.wiki/recent/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18710,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/codes/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 113396,
+      "gzipBytes": 21537,
+      "title": "Morioh High Codes: Reported List and How to Redeem",
+      "description": "Copy seven Morioh High codes reported by game publishers. Check the redemption steps, source dates, and verification status before trying a code.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/resources/codes/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Which Morioh High codes can you try?"
+        },
+        {
+          "level": 2,
+          "text": "How do you redeem Morioh High codes?"
+        },
+        {
+          "level": 2,
+          "text": "Why might a code fail?"
+        },
+        {
+          "level": 3,
+          "text": "Do you need to join the Roblox community first?"
+        },
+        {
+          "level": 2,
+          "text": "Where do these codes come from?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 1373,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 12,
+      "internalLinks": [
+        "/",
+        "/resources/",
+        "/guides/controls/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/guides/how-to-get-a-stand/",
+        "/resources/community-links/",
+        "/tags/roblox/",
+        "/tags/community-resources/",
+        "/tags/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Morioh High Codes: Reported List and How to Redeem",
+          "description": "Copy seven Morioh High codes reported by game publishers. Check the redemption steps, source dates, and verification status before trying a code.",
+          "image": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j.webp",
+          "datePublished": "2026-10-13T00:00:00.000Z",
+          "dateModified": "2026-10-14T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://progameguides.com/roblox/morioh-high-codes/",
+            "https://www.mrguider.org/roblox/morioh-high-codes/",
+            "https://www.gamesradar.com/games/action/morioh-high-codes/"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/resources/codes/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Game & Community Resources",
+              "item": "https://moriohhighguide.wiki/resources/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "item": "https://moriohhighguide.wiki/resources/codes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What Morioh High codes are listed here?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "GAUNTLET, WHITESNAKE, WEHEARYOUGUYS, THANKYOUFORLIKES, DELAYMBALL, PLAYERS5MVBYT, and RELEASECSBKZM appear in both publisher lists checked on October 13, 2026. They are reported codes, not independently tested working codes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I redeem a code?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Both checked publishers describe opening Menu, selecting Settings, opening Codes, entering a code, and choosing Redeem. MrGuider identifies M as the menu shortcut. Follow your current game interface if it differs; this wiki has not tested redemption."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why are there no reward amounts?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The checked sources disagree on at least one reward. This page omits reward descriptions rather than presenting an uncertain amount as confirmed."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these codes guaranteed to work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The publishers list them as active, but this wiki has not confirmed successful redemption or current expiry status. Check the in-game response when trying a code."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need to join the Roblox community to redeem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "GamesRadar reports joining Not A Stand Game’s Roblox community, then closing and reopening the game before redemption. This is a publisher-reported prerequisite, not a requirement independently tested by this wiki or confirmed in a developer announcement here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a confirmed expired code list?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This wiki has not obtained independent expired-code evidence for this list. That does not mean no code has expired. A code missing from a source alone is not proof of expiry."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 52218,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/community-links/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 101296,
+      "gzipBytes": 18178,
+      "title": "Morioh High Discord and Trello: Community Links",
+      "description": "Find the Morioh High Roblox community and a checked Discord invite. See what has been verified and why no Trello board is listed as official.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/resources/community-links/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Discord and Trello: Community Links"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Which Roblox links are verified?"
+        },
+        {
+          "level": 2,
+          "text": "Where does the Discord invite lead?"
+        },
+        {
+          "level": 2,
+          "text": "Where is the Trello board?"
+        },
+        {
+          "level": 2,
+          "text": "How were these links checked?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 849,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 10,
+      "internalLinks": [
+        "/",
+        "/resources/",
+        "/guides/how-to-play/",
+        "/resources/release-information/",
+        "/faq/",
+        "/tags/roblox/",
+        "/tags/community-resources/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/resources/release-information/",
+        "/resources/codes/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Morioh High Discord and Trello: Community Links",
+          "description": "Find the Morioh High Roblox community and a checked Discord invite. See what has been verified and why no Trello board is listed as official.",
+          "image": "https://moriohhighguide.wiki/_astro/community-board-v2.KNn-xw5j.webp",
+          "datePublished": "2026-10-11T00:00:00.000Z",
+          "dateModified": "2026-10-11T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://groups.roblox.com/v1/groups/403864872",
+            "https://discord.com/api/v10/invites/moriohhigh?with_counts=true&with_expiration=true"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/resources/community-links/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Game & Community Resources",
+              "item": "https://moriohhighguide.wiki/resources/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Discord and Trello: Community Links",
+              "item": "https://moriohhighguide.wiki/resources/community-links/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is the Discord invite official?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Its destination has been checked and game-related sources share it. That does not independently prove developer ownership. This wiki labels it a community invite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Morioh High have a Trello board?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No independently verified board URL was obtained. That means this wiki cannot provide an official link; it does not prove that no board exists."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 50369,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 41230,
+      "gzipBytes": 11033,
+      "title": "Morioh High Game & Community Resources",
+      "description": "Find reported Morioh High codes, release information, developer links, and community resources with clear sources and verification notes.",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/resources/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Game & Community Resources"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Discord and Trello: Community Links"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Release Information: Is It Available?"
+        }
+      ],
+      "mainTextWords": 132,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Morioh High Game & Community Resources",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "url": "https://moriohhighguide.wiki/resources/codes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Discord and Trello: Community Links",
+              "url": "https://moriohhighguide.wiki/resources/community-links/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Release Information: Is It Available?",
+              "url": "https://moriohhighguide.wiki/resources/release-information/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Game & Community Resources",
+              "item": "https://moriohhighguide.wiki/resources/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18322,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/release-information/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 100606,
+      "gzipBytes": 17957,
+      "title": "Morioh High Release Information: Is It Available?",
+      "description": "Check Morioh High availability on Roblox and understand the difference between the reported release date and the official experience creation date.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/resources/release-information/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Release Information: Is It Available?"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Is Morioh High available on Roblox?"
+        },
+        {
+          "level": 2,
+          "text": "What is the reported release date?"
+        },
+        {
+          "level": 2,
+          "text": "Why does Roblox show an October 2 creation date?"
+        },
+        {
+          "level": 2,
+          "text": "Where should you check later announcements?"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 3,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "MH Wiki"
+        }
+      ],
+      "mainTextWords": 839,
+      "staticAnswerPresent": true,
+      "articleTextAvailableWithoutJavaScript": true,
+      "sourceLinkCount": 5,
+      "internalLinks": [
+        "/",
+        "/resources/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/faq/",
+        "/tags/roblox/",
+        "/tags/release-information/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/resources/community-links/",
+        "/guides/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/",
+        "/resources/codes/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Morioh High Release Information: Is It Available?",
+          "description": "Check Morioh High availability on Roblox and understand the difference between the reported release date and the official experience creation date.",
+          "image": "https://moriohhighguide.wiki/_astro/release-notice-v2.CiafjUz3.webp",
+          "datePublished": "2026-10-11T00:00:00.000Z",
+          "dateModified": "2026-10-11T00:00:00.000Z",
+          "isPartOf": {
+            "@id": "https://moriohhighguide.wiki/#website"
+          },
+          "inLanguage": "en",
+          "citation": [
+            "https://games.roblox.com/v1/games?universeIds=10768944846",
+            "https://bloxinformer.com/upcoming-roblox-games/morioh-high/"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://moriohhighguide.wiki/resources/release-information/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Game & Community Resources",
+              "item": "https://moriohhighguide.wiki/resources/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Release Information: Is It Available?",
+              "item": "https://moriohhighguide.wiki/resources/release-information/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was Morioh High released on October 2?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Roblox records the experience object as created on October 2, 2026. That field does not establish when public access began."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I play Morioh High now?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Active players were recorded on October 11, 2026. Open the current official Roblox listing to check availability for your account; this wiki has not tested every account or device."
+              }
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 50368,
+      "adSlots": [
+        "sticky-320x50",
+        "sidebar-300x250",
+        "native-banner",
+        "incontent-728x90",
+        "incontent-468x60",
+        "sidebar-160x600",
+        "sidebar-160x300"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/codes/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 38052,
+      "gzipBytes": 10457,
+      "title": "codes — Morioh High Wiki",
+      "description": "codes — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/codes/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#codes"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ],
+      "mainTextWords": 44,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/resources/codes/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "codes",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "url": "https://moriohhighguide.wiki/resources/codes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "codes",
+              "item": "https://moriohhighguide.wiki/tags/codes/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 17941,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/community-resources/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 39474,
+      "gzipBytes": 10618,
+      "title": "community resources — Morioh High Wiki",
+      "description": "community resources — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/community-resources/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#community resources"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Discord and Trello: Community Links"
+        }
+      ],
+      "mainTextWords": 82,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/resources/codes/",
+        "/resources/community-links/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "community resources",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "url": "https://moriohhighguide.wiki/resources/codes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High Discord and Trello: Community Links",
+              "url": "https://moriohhighguide.wiki/resources/community-links/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "community resources",
+              "item": "https://moriohhighguide.wiki/tags/community-resources/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18138,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/getting-started/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 40490,
+      "gzipBytes": 10909,
+      "title": "getting started — Morioh High Wiki",
+      "description": "getting started — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/getting-started/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#getting started"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        }
+      ],
+      "mainTextWords": 116,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "getting started",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "url": "https://moriohhighguide.wiki/guides/controls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How to Get a Stand in Morioh High",
+              "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Morioh High Beginner Guide: Game Link and First Steps",
+              "url": "https://moriohhighguide.wiki/guides/how-to-play/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "getting started",
+              "item": "https://moriohhighguide.wiki/tags/getting-started/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18262,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 36161,
+      "gzipBytes": 9819,
+      "title": "All Tags — Morioh High Wiki",
+      "description": "Browse all articles by topic.",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "All Tags"
+        }
+      ],
+      "mainTextWords": 32,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/roblox/",
+        "/tags/getting-started/",
+        "/tags/community-resources/",
+        "/tags/stands/",
+        "/tags/codes/",
+        "/tags/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "All Tags",
+              "item": "https://moriohhighguide.wiki/tags/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 17703,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/release-information/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 38292,
+      "gzipBytes": 10446,
+      "title": "release information — Morioh High Wiki",
+      "description": "release information — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/release-information/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#release information"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Release Information: Is It Available?"
+        }
+      ],
+      "mainTextWords": 43,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "release information",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Release Information: Is It Available?",
+              "url": "https://moriohhighguide.wiki/resources/release-information/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "release information",
+              "item": "https://moriohhighguide.wiki/tags/release-information/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 17996,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/roblox/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 43877,
+      "gzipBytes": 11510,
+      "title": "Roblox — Morioh High Wiki",
+      "description": "Roblox — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/roblox/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#Roblox"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Beginner Guide: Game Link and First Steps"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Discord and Trello: Community Links"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High Release Information: Is It Available?"
+        }
+      ],
+      "mainTextWords": 217,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/resources/codes/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/",
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/resources/release-information/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Roblox",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High Codes: Reported List and How to Redeem",
+              "url": "https://moriohhighguide.wiki/resources/codes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "url": "https://moriohhighguide.wiki/guides/controls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "How to Get a Stand in Morioh High",
+              "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Morioh High Beginner Guide: Game Link and First Steps",
+              "url": "https://moriohhighguide.wiki/guides/how-to-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Morioh High Discord and Trello: Community Links",
+              "url": "https://moriohhighguide.wiki/resources/community-links/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Morioh High Release Information: Is It Available?",
+              "url": "https://moriohhighguide.wiki/resources/release-information/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Roblox",
+              "item": "https://moriohhighguide.wiki/tags/roblox/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18699,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/tags/stands/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 39198,
+      "gzipBytes": 10692,
+      "title": "Stands — Morioh High Wiki",
+      "description": "Stands — All Tags · Your field guide to Morioh High",
+      "robots": "noindex, follow",
+      "canonical": "https://moriohhighguide.wiki/tags/stands/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "#Stands"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High PC Controls: Keys Seen in Gameplay"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand in Morioh High"
+        }
+      ],
+      "mainTextWords": 78,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 0,
+      "internalLinks": [
+        "/",
+        "/tags/",
+        "/guides/controls/",
+        "/guides/how-to-get-a-stand/"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Stands",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Morioh High PC Controls: Keys Seen in Gameplay",
+              "url": "https://moriohhighguide.wiki/guides/controls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How to Get a Stand in Morioh High",
+              "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://moriohhighguide.wiki/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Stands",
+              "item": "https://moriohhighguide.wiki/tags/stands/"
+            }
+          ]
+        }
+      ],
+      "inlineScriptBytes": 18081,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/terms-of-service/",
+      "chain": [],
+      "status": 200,
+      "headers": {},
+      "bytes": 34472,
+      "gzipBytes": 9894,
+      "title": "Terms of Service — Morioh High Wiki",
+      "description": "Read the terms for using this independent Morioh High player resource, including source dates, external services, and corrections.",
+      "robots": "max-image-preview:large",
+      "canonical": "https://moriohhighguide.wiki/terms-of-service/",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Terms of Service"
+        },
+        {
+          "level": 2,
+          "text": "Accuracy and availability"
+        },
+        {
+          "level": 2,
+          "text": "External services"
+        },
+        {
+          "level": 2,
+          "text": "Using this material"
+        },
+        {
+          "level": 2,
+          "text": "Corrections"
+        }
+      ],
+      "mainTextWords": 160,
+      "staticAnswerPresent": false,
+      "articleTextAvailableWithoutJavaScript": false,
+      "sourceLinkCount": 1,
+      "internalLinks": [
+        "/contact/"
+      ],
+      "schemas": [],
+      "inlineScriptBytes": 17442,
+      "adSlots": [
+        "sticky-320x50"
+      ]
+    }
+  ]
+}

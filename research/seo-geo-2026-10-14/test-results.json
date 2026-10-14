@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-14T04:45:55.126Z",
+  "environment": "local only",
+  "commands": [
+    {
+      "label": "check-content",
+      "chunk_id": "190e98",
+      "wall_time_seconds": 7.8431422,
+      "exit_code": 0,
+      "original_token_count": 36,
+      "output": "Already up to date\nDone in 598ms using pnpm v11.1.1\n$ tsx scripts/check-content.ts\n\n📝 Content lint — 6 MDX files\n\n\n✅ Content lint clean.\n"
+    },
+    {
+      "label": "check-config",
+      "chunk_id": "a34db6",
+      "wall_time_seconds": 7.8082878000000004,
+      "exit_code": 0,
+      "original_token_count": 236,
+      "output": "Already up to date\nDone in 564ms using pnpm v11.1.1\n$ tsx scripts/check-config.ts\n\n🔧 AnvilWiki config consistency check\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. Nav key consistency (navigation.ts ↔ en.json ↔ content dirs)\n  ✅ all nav keys consistent\n\n2. Locale consistency (routing.ts ↔ locales/*.json ↔ content dirs)\n  ✅ all locales consistent\n\n3. Homepage displayType enum (all locale JSONs)\n  ✅ all displayTypes valid\n\n4. Deployment domain (wrangler.toml SITE_URL ↔ site.ts domain)\n  ✅ wrangler.toml [vars] → https://moriohhighguide.wiki matches site.ts domain\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n✅ Config is consistent.\n\n"
+    },
+    {
+      "label": "check-i18n --strict-ui",
+      "chunk_id": "52a5c3",
+      "wall_time_seconds": 7.9287775,
+      "exit_code": 0,
+      "original_token_count": 44,
+      "output": "Already up to date\nDone in 594ms using pnpm v11.1.1\n$ tsx scripts/check-i18n.ts \"--strict-ui\"\n\n🌐 i18n coverage report — default locale: en\n\n✅ All locales fully covered.\n"
+    },
+    {
+      "label": "check-links",
+      "chunk_id": "8d95ae",
+      "wall_time_seconds": 8.1457305,
+      "exit_code": 0,
+      "original_token_count": 43,
+      "output": "Already up to date\nDone in 626ms using pnpm v11.1.1\n$ tsx scripts/check-links.ts\n\n🔗 Internal link audit — 580 links across 31 pages\n\n✅ All internal links resolve.\n"
+    },
+    {
+      "label": "check-sitemap local",
+      "chunk_id": "cc3ded",
+      "wall_time_seconds": 7.9459968,
+      "exit_code": 0,
+      "original_token_count": 257,
+      "output": "Already up to date\nDone in 570ms using pnpm v11.1.1\n$ tsx scripts/check-sitemap.ts \"http://127.0.0.1:4322\"\n\n📋 Checking sitemap URLs against: http://127.0.0.1:4322\n\nFound 13 URLs. Checking...\n\n  ✅  200  https://moriohhighguide.wiki/\n  ✅  200  https://moriohhighguide.wiki/about/\n  ✅  200  https://moriohhighguide.wiki/contact/\n  ✅  200  https://moriohhighguide.wiki/copyright/\n  ✅  200  https://moriohhighguide.wiki/faq/\n  ✅  200  https://moriohhighguide.wiki/guides/controls/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-get-a-stand/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-play/\n  ✅  200  https://moriohhighguide.wiki/privacy-policy/\n  ✅  200  https://moriohhighguide.wiki/resources/codes/\n  ✅  200  https://moriohhighguide.wiki/resources/community-links/\n  ✅  200  https://moriohhighguide.wiki/resources/release-information/\n  ✅  200  https://moriohhighguide.wiki/terms-of-service/\n\n── Result ──\n  ✅ Passed: 13\n  ❌ Failed: 0\n\n🎉 All sitemap URLs returned 200.\n"
+    },
+    {
+      "label": "build/ads/GEO audits",
+      "chunk_id": "3794ed",
+      "wall_time_seconds": 1.3748001,
+      "exit_code": 0,
+      "original_token_count": 129,
+      "output": "{\"htmlCount\":24,\"indexableCount\":13,\"sitemapCount\":13,\"failures\":[]}\n{\"unitCount\":7,\"pageCount\":24,\"failures\":[]}\n{\"localPages\":23,\"articlesWithStaticBody\":6}\n{\"pages\":23,\"staticEditorialArticles\":6,\"gzipDeltas\":[{\"path\":\"/guides/controls/\",\"delta\":137},{\"path\":\"/guides/how-to-get-a-stand/\",\"delta\":648},{\"path\":\"/guides/how-to-play/\",\"delta\":987},{\"path\":\"/resources/codes/\",\"delta\":2166},{\"path\":\"/resources/community-links/\",\"delta\":148},{\"path\":\"/resources/release-information/\",\"delta\":145}],\"failures\":[]}\n"
+    }
+  ],
+  "build": {
+    "chunk_id": "d6b05f",
+    "wall_time_seconds": 0.0000105,
+    "exit_code": 0,
+    "original_token_count": 1391,
+    "output": "12:37:40 [content] Syncing content\n12:37:40 [content] Synced content\n12:37:40 [types] Generated 658ms\n12:37:40 [build] output: \"static\"\n12:37:40 [build] mode: \"static\"\n12:37:40 [build] directory: D:\\CursorProjects\\moriohhigh-wiki\\dist\\\n12:37:40 [build] Collecting build info...\n12:37:40 [build] ✓ Completed in 837ms.\n12:37:40 [build] Building static entrypoints...\n12:37:41 [astro-icon] Loaded icons from src/icons, lucide\n12:37:42 [vite] ✓ built in 1.77s\n12:37:42 [vite] ✓ built in 52ms\n12:37:42 [build] Rearranging server assets...\n\n generating static routes \n12:37:42   ├─ /404.html (+22ms) \n12:37:42   ├─ /about/index.html (+9ms) \n12:37:42   ├─ /contact/index.html (+6ms) \n12:37:42   ├─ /copyright/index.html (+6ms) \n12:37:42   ├─ /faq/index.html (+7ms) \n12:37:42   ├─ /llms.txt (+4ms) \n12:37:42   ├─ /privacy-policy/index.html (+7ms) \n12:37:42   ├─ /recent/index.html (+16ms) \n12:37:42   ├─ /robots.txt (+4ms) \n12:37:42   ├─ /rss.xml (+72ms) \n12:37:42   ├─ /tags/roblox/index.html (+9ms) \n12:37:42   ├─ /tags/getting-started/index.html (+6ms) \n12:37:42   ├─ /tags/stands/index.html (+6ms) \n12:37:42   ├─ /tags/community-resources/index.html (+5ms) \n12:37:42   ├─ /tags/codes/index.html (+4ms) \n12:37:42   ├─ /tags/release-information/index.html (+5ms) \n12:37:42   ├─ /tags/index.html (+8ms) \n12:37:42   ├─ /terms-of-service/index.html (+5ms) \n12:37:42   ├─ /index.html (+9ms) \n12:37:42   ├─ /guides/index.html (+6ms) \n12:37:42   ├─ /resources/index.html (+5ms) \n12:37:42   ├─ /guides/controls/index.html (+20ms) \n12:37:42   ├─ /guides/how-to-get-a-stand/index.html (+13ms) \n12:37:42   ├─ /guides/how-to-play/index.html (+11ms) \n12:37:42   ├─ /resources/codes/index.html (+12ms) \n12:37:42   ├─ /resources/community-links/index.html (+10ms) \n12:37:42   ├─ /resources/release-information/index.html (+12ms) \n12:37:42 ✓ Completed in 395ms.\n\n generating optimized images \n12:37:42   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z14EA4Q.webp (reused cache entry) (+2ms) (1/26)\n12:37:42   ▶ /_astro/stand-awakening-v2.C3nV22u7_Z2lPM9P.webp (reused cache entry) (+2ms) (2/26)\n12:37:42   ▶ /_astro/community-board-v2.KNn-xw5j_OE6Yy.webp (reused cache entry) (+3ms) (3/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_Z1YaPzn.webp (reused cache entry) (+2ms) (4/26)\n12:37:42   ▶ /_astro/release-notice-v2.CiafjUz3_Z1K02t5.webp (reused cache entry) (+3ms) (5/26)\n12:37:42   ▶ /_astro/stand-awakening-v2.C3nV22u7_2t3Y80.webp (reused cache entry) (+2ms) (6/26)\n12:37:42   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z1yQHfY.webp (reused cache entry) (+2ms) (7/26)\n12:37:42   ▶ /_astro/community-board-v2.KNn-xw5j_zmJss.webp (reused cache entry) (+2ms) (8/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_ZLhUuu.webp (reused cache entry) (+2ms) (9/26)\n12:37:42   ▶ /_astro/release-notice-v2.CiafjUz3_Z2vwWYo.webp (reused cache entry) (+2ms) (10/26)\n12:37:42   ▶ /_astro/stand-awakening-v2.C3nV22u7_1e0fW.webp (reused cache entry) (+2ms) (11/26)\n12:37:42   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_2v6Rh.webp (reused cache entry) (+2ms) (12/26)\n12:37:42   ▶ /_astro/community-board-v2.KNn-xw5j_Z1RseoA.webp (reused cache entry) (+2ms) (13/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_1zLhOw.webp (reused cache entry) (+2ms) (14/26)\n12:37:42   ▶ /_astro/release-notice-v2.CiafjUz3_NIf6l.webp (reused cache entry) (+1ms) (15/26)\n12:37:42   ▶ /_astro/stand-awakening-v2.C3nV22u7_1gVuTu.webp (reused cache entry) (+1ms) (16/26)\n12:37:42   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_Z2g4hr.webp (reused cache entry) (+1ms) (17/26)\n12:37:42   ▶ /_astro/community-board-v2.KNn-xw5j_ZBJIK3.webp (reused cache entry) (+2ms) (18/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_ZzYPAY.webp (reused cache entry) (+1ms) (19/26)\n12:37:42   ▶ /_astro/release-notice-v2.CiafjUz3_1vJG0l.webp (reused cache entry) (+2ms) (20/26)\n12:37:42   ▶ /_astro/stand-awakening-v2.C3nV22u7_Z2q2B5I.webp (reused cache entry) (+2ms) (21/26)\n12:37:42   ▶ /_astro/controls-keyboard-v1.DPDsnfL5_12KOoE.webp (reused cache entry) (+2ms) (22/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_Z1yMG3I.webp (reused cache entry) (+1ms) (23/26)\n12:37:42   ▶ /_astro/community-board-v2.KNn-xw5j_Zc7jRh.webp (reused cache entry) (+2ms) (24/26)\n12:37:42   ▶ /_astro/release-notice-v2.CiafjUz3_ZRfhD1.webp (reused cache entry) (+2ms) (25/26)\n12:37:42   ▶ /_astro/campus-v2.DTc95QDI_Z1oi3B2.webp (reused cache entry) (+1ms) (26/26)\n12:37:42 ✓ Completed in 12ms.\n\n12:37:42 [build] ✓ Completed in 2.34s.\n12:37:42 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`\n12:37:42 [build] 24 page(s) built in 3.28s\n12:37:42 [build] Complete!\n$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"D:\\\\CursorProjects\\\\moriohhigh-wiki\"\nSource:       \"dist\"\nOutput:       \"dist\\\\pagefind\"\n\n[Walking source directory]\nFound 31 files matching **/*.{html}\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 6 pages\n  Indexed 721 words\n  Indexed 0 filters\n  Indexed 0 sorts\n\nFinished in 0.033 seconds\n[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=ecffba502d applied to 24 pages; range-media lowered in 0 files\n[IndexNow] Wrote dist/dadc342282b6381e065141316b886fcb2017a7884f0b6dc81a771210e30d3286.txt (source: file)\n"
+  },
+  "lintAndCheck": {
+    "chunk_id": "d9d3b5",
+    "wall_time_seconds": 0.0000085,
+    "exit_code": 0,
+    "original_token_count": 95,
+    "output": "Already up to date\nDone in 562ms using pnpm v11.1.1\n$ eslint .\nAlready up to date\nDone in 529ms using pnpm v11.1.1\n$ astro check\n12:38:11 [content] Syncing content\n12:38:11 [content] Synced content\n12:38:11 [types] Generated 675ms\n12:38:11 [check] Getting diagnostics for Astro files in D:\\CursorProjects\\moriohhigh-wiki...\nResult (143 files): \n- 0 errors\n- 0 warnings\n- 0 hints\n\n"
+  },
+  "unitTests": {
+    "command": "pnpm test",
+    "exit_code": 0,
+    "suites": 19,
+    "passed": 249,
+    "skipped": 1,
+    "evidence": "Actual vitest output from exec session 11548 initial response",
+    "startTimeLocal": "2026-10-14 12:37:46 Asia/Shanghai",
+    "durationSeconds": 2.31
+  },
+  "limitations": [
+    "No production deployment or private analytics changes",
+    "No field Core Web Vitals or AI-answer citation results obtained"
+  ]
+}

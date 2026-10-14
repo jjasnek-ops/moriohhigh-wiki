@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T01:48:58.140Z",
+  "checkedAt": "2026-10-14T06:49:23.708Z",
   "origin": "https://moriohhighguide.wiki",
   "htmlCount": 24,
   "indexableCount": 13,
@@ -11,7 +11,7 @@
       "title": "404 - Page Not Found — Morioh High Wiki",
       "descriptionLength": 44,
       "canonical": "https://moriohhighguide.wiki/404/",
-      "noindex": false,
+      "noindex": true,
       "errors": []
     },
     {
@@ -64,8 +64,8 @@
     },
     {
       "file": "dist/guides/how-to-play/index.html",
-      "title": "Morioh High Roblox: Game Link and How to Play",
-      "descriptionLength": 148,
+      "title": "Morioh High Beginner Guide: Game Link and First Steps",
+      "descriptionLength": 146,
       "canonical": "https://moriohhighguide.wiki/guides/how-to-play/",
       "noindex": false,
       "errors": []

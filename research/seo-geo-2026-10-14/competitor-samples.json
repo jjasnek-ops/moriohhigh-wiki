@@ -1,0 +1,727 @@
+{
+  "checkedAt": "2026-10-14T04:27:52.656Z",
+  "samples": [
+    {
+      "url": "https://moriohhighroblox.wiki/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://moriohhighroblox.wiki/sitemap.xml",
+      "locs": [
+        "https://moriohhighroblox.wiki/codes/codes/",
+        "https://moriohhighroblox.wiki/pt-BR/codes/codes/",
+        "https://moriohhighroblox.wiki/es/codes/codes/",
+        "https://moriohhighroblox.wiki/ja/codes/codes/",
+        "https://moriohhighroblox.wiki/guide/how-to-play/",
+        "https://moriohhighroblox.wiki/pt-BR/guide/how-to-play/",
+        "https://moriohhighroblox.wiki/es/guide/how-to-play/",
+        "https://moriohhighroblox.wiki/ja/guide/how-to-play/",
+        "https://moriohhighroblox.wiki/stands/how-to-get-stand/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/how-to-get-stand/",
+        "https://moriohhighroblox.wiki/es/stands/how-to-get-stand/",
+        "https://moriohhighroblox.wiki/ja/stands/how-to-get-stand/",
+        "https://moriohhighroblox.wiki/stands/stand-voice-control/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/stand-voice-control/",
+        "https://moriohhighroblox.wiki/es/stands/stand-voice-control/",
+        "https://moriohhighroblox.wiki/ja/stands/stand-voice-control/",
+        "https://moriohhighroblox.wiki/stands/stands/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/stands/",
+        "https://moriohhighroblox.wiki/es/stands/stands/",
+        "https://moriohhighroblox.wiki/ja/stands/stands/",
+        "https://moriohhighroblox.wiki/stands/all-stands-showcase/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/all-stands-showcase/",
+        "https://moriohhighroblox.wiki/es/stands/all-stands-showcase/",
+        "https://moriohhighroblox.wiki/ja/stands/all-stands-showcase/",
+        "https://moriohhighroblox.wiki/stands/how-to-awaken-stand/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/how-to-awaken-stand/",
+        "https://moriohhighroblox.wiki/es/stands/how-to-awaken-stand/",
+        "https://moriohhighroblox.wiki/ja/stands/how-to-awaken-stand/",
+        "https://moriohhighroblox.wiki/stands/occult-club-questline/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/occult-club-questline/",
+        "https://moriohhighroblox.wiki/es/stands/occult-club-questline/",
+        "https://moriohhighroblox.wiki/ja/stands/occult-club-questline/",
+        "https://moriohhighroblox.wiki/stands/free-stands/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/free-stands/",
+        "https://moriohhighroblox.wiki/es/stands/free-stands/",
+        "https://moriohhighroblox.wiki/ja/stands/free-stands/",
+        "https://moriohhighroblox.wiki/stands/free-stand-rolls/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/free-stand-rolls/",
+        "https://moriohhighroblox.wiki/es/stands/free-stand-rolls/",
+        "https://moriohhighroblox.wiki/ja/stands/free-stand-rolls/",
+        "https://moriohhighroblox.wiki/resources/roblox/",
+        "https://moriohhighroblox.wiki/pt-BR/resources/roblox/",
+        "https://moriohhighroblox.wiki/es/resources/roblox/",
+        "https://moriohhighroblox.wiki/ja/resources/roblox/",
+        "https://moriohhighroblox.wiki/resources/discord/",
+        "https://moriohhighroblox.wiki/pt-BR/resources/discord/",
+        "https://moriohhighroblox.wiki/es/resources/discord/",
+        "https://moriohhighroblox.wiki/ja/resources/discord/",
+        "https://moriohhighroblox.wiki/resources/wiki/",
+        "https://moriohhighroblox.wiki/pt-BR/resources/wiki/",
+        "https://moriohhighroblox.wiki/es/resources/wiki/",
+        "https://moriohhighroblox.wiki/ja/resources/wiki/",
+        "https://moriohhighroblox.wiki/resources/trello/",
+        "https://moriohhighroblox.wiki/pt-BR/resources/trello/",
+        "https://moriohhighroblox.wiki/es/resources/trello/",
+        "https://moriohhighroblox.wiki/ja/resources/trello/",
+        "https://moriohhighroblox.wiki/systems/tier-list/",
+        "https://moriohhighroblox.wiki/pt-BR/systems/tier-list/",
+        "https://moriohhighroblox.wiki/es/systems/tier-list/",
+        "https://moriohhighroblox.wiki/ja/systems/tier-list/",
+        "https://moriohhighroblox.wiki/systems/fighting-styles/",
+        "https://moriohhighroblox.wiki/pt-BR/systems/fighting-styles/",
+        "https://moriohhighroblox.wiki/es/systems/fighting-styles/",
+        "https://moriohhighroblox.wiki/ja/systems/fighting-styles/",
+        "https://moriohhighroblox.wiki/systems/clans/",
+        "https://moriohhighroblox.wiki/pt-BR/systems/clans/",
+        "https://moriohhighroblox.wiki/es/systems/clans/",
+        "https://moriohhighroblox.wiki/ja/systems/clans/",
+        "https://moriohhighroblox.wiki/updates/release-countdown/",
+        "https://moriohhighroblox.wiki/pt-BR/updates/release-countdown/",
+        "https://moriohhighroblox.wiki/es/updates/release-countdown/",
+        "https://moriohhighroblox.wiki/ja/updates/release-countdown/",
+        "https://moriohhighroblox.wiki/updates/release-trailer/",
+        "https://moriohhighroblox.wiki/pt-BR/updates/release-trailer/",
+        "https://moriohhighroblox.wiki/es/updates/release-trailer/",
+        "https://moriohhighroblox.wiki/ja/updates/release-trailer/",
+        "https://moriohhighroblox.wiki/comparisons/gakuran/",
+        "https://moriohhighroblox.wiki/pt-BR/comparisons/gakuran/",
+        "https://moriohhighroblox.wiki/es/comparisons/gakuran/",
+        "https://moriohhighroblox.wiki/ja/comparisons/gakuran/",
+        "https://moriohhighroblox.wiki/",
+        "https://moriohhighroblox.wiki/pt-BR/",
+        "https://moriohhighroblox.wiki/es/",
+        "https://moriohhighroblox.wiki/ja/",
+        "https://moriohhighroblox.wiki/about/",
+        "https://moriohhighroblox.wiki/pt-BR/about/",
+        "https://moriohhighroblox.wiki/es/about/",
+        "https://moriohhighroblox.wiki/ja/about/",
+        "https://moriohhighroblox.wiki/privacy/",
+        "https://moriohhighroblox.wiki/pt-BR/privacy/",
+        "https://moriohhighroblox.wiki/es/privacy/",
+        "https://moriohhighroblox.wiki/ja/privacy/",
+        "https://moriohhighroblox.wiki/terms/",
+        "https://moriohhighroblox.wiki/pt-BR/terms/",
+        "https://moriohhighroblox.wiki/es/terms/",
+        "https://moriohhighroblox.wiki/ja/terms/",
+        "https://moriohhighroblox.wiki/copyright/",
+        "https://moriohhighroblox.wiki/pt-BR/copyright/",
+        "https://moriohhighroblox.wiki/es/copyright/",
+        "https://moriohhighroblox.wiki/ja/copyright/",
+        "https://moriohhighroblox.wiki/codes/",
+        "https://moriohhighroblox.wiki/pt-BR/codes/",
+        "https://moriohhighroblox.wiki/es/codes/",
+        "https://moriohhighroblox.wiki/ja/codes/",
+        "https://moriohhighroblox.wiki/comparisons/",
+        "https://moriohhighroblox.wiki/pt-BR/comparisons/",
+        "https://moriohhighroblox.wiki/es/comparisons/",
+        "https://moriohhighroblox.wiki/ja/comparisons/",
+        "https://moriohhighroblox.wiki/guide/",
+        "https://moriohhighroblox.wiki/pt-BR/guide/",
+        "https://moriohhighroblox.wiki/es/guide/",
+        "https://moriohhighroblox.wiki/ja/guide/",
+        "https://moriohhighroblox.wiki/resources/",
+        "https://moriohhighroblox.wiki/pt-BR/resources/",
+        "https://moriohhighroblox.wiki/es/resources/",
+        "https://moriohhighroblox.wiki/ja/resources/",
+        "https://moriohhighroblox.wiki/stands/",
+        "https://moriohhighroblox.wiki/pt-BR/stands/",
+        "https://moriohhighroblox.wiki/es/stands/",
+        "https://moriohhighroblox.wiki/ja/stands/",
+        "https://moriohhighroblox.wiki/systems/",
+        "https://moriohhighroblox.wiki/pt-BR/systems/",
+        "https://moriohhighroblox.wiki/es/systems/",
+        "https://moriohhighroblox.wiki/ja/systems/",
+        "https://moriohhighroblox.wiki/updates/",
+        "https://moriohhighroblox.wiki/pt-BR/updates/",
+        "https://moriohhighroblox.wiki/es/updates/",
+        "https://moriohhighroblox.wiki/ja/updates/",
+        "https://moriohhighroblox.wiki/sitemap/",
+        "https://moriohhighroblox.wiki/pt-BR/sitemap/",
+        "https://moriohhighroblox.wiki/es/sitemap/",
+        "https://moriohhighroblox.wiki/ja/sitemap/"
+      ],
+      "headings": [],
+      "internalLinkCount": 0,
+      "sourceUrls": []
+    },
+    {
+      "url": "https://moriohhigh.com/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://moriohhigh.com/sitemap.xml",
+      "locs": [
+        "https://moriohhigh.com/",
+        "https://moriohhigh.com/getting-started",
+        "https://moriohhigh.com/sources",
+        "https://moriohhigh.com/privacy"
+      ],
+      "headings": [],
+      "internalLinkCount": 0,
+      "sourceUrls": []
+    },
+    {
+      "url": "https://www.moriohhigh.wiki/guide/Morioh-High-beginner-guide",
+      "status": 200,
+      "finalUrl": "https://www.moriohhigh.wiki/guide/Morioh-High-beginner-guide",
+      "locs": [],
+      "title": "Morioh High Beginner Guide: First Day Walkthrough &amp; Tips - Morioh High Wiki",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Beginner Guide: First Day Walkthrough &amp; Tips"
+        },
+        {
+          "level": 2,
+          "text": "What Is Morioh High?"
+        },
+        {
+          "level": 2,
+          "text": "Step-by-Step: Your First Day"
+        },
+        {
+          "level": 2,
+          "text": "Choosing Your First Stand"
+        },
+        {
+          "level": 3,
+          "text": "Damage and Pressure"
+        },
+        {
+          "level": 3,
+          "text": "Control and Utility"
+        },
+        {
+          "level": 3,
+          "text": "Defense and Survivability"
+        },
+        {
+          "level": 2,
+          "text": "Combat Fundamentals for New Players"
+        },
+        {
+          "level": 2,
+          "text": "Progression Route and Activities"
+        },
+        {
+          "level": 3,
+          "text": "First Week Goals:"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Related Morioh High Guides"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High How to Control Stands: Step-by-Step Tutorial"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High How to Get a Stand: Step-by-Step Guide"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High How to Play: Step-by-Step Starter Guide"
+        }
+      ],
+      "datePublished": "2026-10-11",
+      "dateModified": "2026-10-11",
+      "internalLinkCount": 19,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High"
+      ]
+    },
+    {
+      "url": "https://www.moriohhigh.wiki/guide/Morioh-High-how-to-get-a-stand",
+      "status": 200,
+      "finalUrl": "https://www.moriohhigh.wiki/guide/Morioh-High-how-to-get-a-stand",
+      "locs": [],
+      "title": "Morioh High How to Get a Stand: Step-by-Step Guide - Morioh High Wiki",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High How to Get a Stand: Step-by-Step Guide"
+        },
+        {
+          "level": 2,
+          "text": "Understanding Stands in Morioh High"
+        },
+        {
+          "level": 2,
+          "text": "Stand Combat Roles Compared"
+        },
+        {
+          "level": 3,
+          "text": "Damage and Pressure"
+        },
+        {
+          "level": 3,
+          "text": "Control and Utility"
+        },
+        {
+          "level": 3,
+          "text": "Defense and Survivability"
+        },
+        {
+          "level": 2,
+          "text": "How to Get a Stand: Step-by-Step Route"
+        },
+        {
+          "level": 2,
+          "text": "Common Mistakes When Getting a Stand"
+        },
+        {
+          "level": 2,
+          "text": "Your Stand Readiness Checklist"
+        },
+        {
+          "level": 3,
+          "text": "Stand Acquisition Milestones:"
+        },
+        {
+          "level": 2,
+          "text": "FAQ"
+        },
+        {
+          "level": 2,
+          "text": "Related Morioh High Guides"
+        },
+        {
+          "level": 2,
+          "text": "Related Articles"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Beginner Guide: First Day Walkthrough &amp; Tips"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High How to Control Stands: Step-by-Step Tutorial"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High How to Play: Step-by-Step Starter Guide"
+        }
+      ],
+      "datePublished": "2026-10-11",
+      "dateModified": "2026-10-11",
+      "internalLinkCount": 19,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High"
+      ]
+    },
+    {
+      "url": "https://morioh-high.wiki/game-discovery-access/beginner-guide",
+      "status": 200,
+      "finalUrl": "https://morioh-high.wiki/game-discovery-access/beginner-guide",
+      "locs": [],
+      "title": "Morioh High Beginner Guide – Getting Started on Roblox — Morioh High Wiki | Morioh High Wiki",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Beginner Guide – Getting Started on Roblox"
+        },
+        {
+          "level": 2,
+          "text": "What Is Morioh High?"
+        },
+        {
+          "level": 2,
+          "text": "How to Start Playing"
+        },
+        {
+          "level": 2,
+          "text": "Key Features"
+        },
+        {
+          "level": 2,
+          "text": "Tips for New Players"
+        },
+        {
+          "level": 2,
+          "text": "Related Guides"
+        },
+        {
+          "level": 2,
+          "text": "External Resources"
+        },
+        {
+          "level": 3,
+          "text": "Table of Contents"
+        },
+        {
+          "level": 3,
+          "text": "Wiki Navigation"
+        },
+        {
+          "level": 3,
+          "text": "Active Codes"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Wiki"
+        }
+      ],
+      "datePublished": "2026-10-11",
+      "dateModified": "2026-10-11",
+      "internalLinkCount": 28,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High",
+        "https://www.youtube.com/@kaiserflows",
+        "https://www.roblox.com/communities/403864872/Not-A-Stand-Game"
+      ]
+    },
+    {
+      "url": "https://moriohhighroblox.wiki/stands/",
+      "status": 200,
+      "finalUrl": "https://moriohhighroblox.wiki/stands/",
+      "locs": [],
+      "title": "Morioh High Stands: How to Get, Awaken and Use Them",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Stands"
+        },
+        {
+          "level": 2,
+          "text": "About this section"
+        },
+        {
+          "level": 2,
+          "text": "What you can learn"
+        },
+        {
+          "level": 3,
+          "text": "Getting and rerolling"
+        },
+        {
+          "level": 3,
+          "text": "Awakening and abilities"
+        },
+        {
+          "level": 3,
+          "text": "Occult Club rewards"
+        },
+        {
+          "level": 2,
+          "text": "Featured guides"
+        },
+        {
+          "level": 3,
+          "text": "How to Get Stands in Morioh High (Roblox Guide)"
+        },
+        {
+          "level": 3,
+          "text": "How to Awaken Your Stand in Morioh High: A Complete Guide"
+        },
+        {
+          "level": 2,
+          "text": "All articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Get Stands in Morioh High (Roblox Guide)"
+        },
+        {
+          "level": 3,
+          "text": "How to Use Morioh High Stand Voice Control and Manage Your Abilities"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Stands Guide: How to Obtain and Use Them"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Guide: All Stands, Codes, and Progression Tips (October 2026)"
+        },
+        {
+          "level": 3,
+          "text": "How to Awaken Your Stand in Morioh High: A Complete Guide"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Occult Club Questline Guide: How to Get Free Rewards"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes (October 2026): Free Rerolls and Arrow Shards"
+        },
+        {
+          "level": 3,
+          "text": "Morioh High Codes (October 2026): Free Stand Rolls and Arrow Shards"
+        },
+        {
+          "level": 2,
+          "text": "Latest Codes"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High"
+        }
+      ],
+      "internalLinkCount": 88,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High",
+        "https://www.youtube.com/watch?v=kOH-nK38p_U",
+        "https://www.roblox.com/communities/403864872/Not-A-Stand-Game"
+      ]
+    },
+    {
+      "url": "https://moriohhighroblox.wiki/guide/",
+      "status": 200,
+      "finalUrl": "https://moriohhighroblox.wiki/guide/",
+      "locs": [],
+      "title": "Morioh High Beginner Guide: How to Play",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High Guide"
+        },
+        {
+          "level": 2,
+          "text": "About this section"
+        },
+        {
+          "level": 2,
+          "text": "What you can learn"
+        },
+        {
+          "level": 3,
+          "text": "Your first session"
+        },
+        {
+          "level": 3,
+          "text": "Where codes fit in"
+        },
+        {
+          "level": 2,
+          "text": "Featured guide"
+        },
+        {
+          "level": 3,
+          "text": "How to Play Morioh High: Beginner’s Guide and Codes"
+        },
+        {
+          "level": 2,
+          "text": "All articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Play Morioh High: Beginner’s Guide and Codes"
+        },
+        {
+          "level": 2,
+          "text": "Latest Codes"
+        },
+        {
+          "level": 2,
+          "text": "Morioh High"
+        }
+      ],
+      "internalLinkCount": 80,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High",
+        "https://www.youtube.com/watch?v=kOH-nK38p_U",
+        "https://www.roblox.com/communities/403864872/Not-A-Stand-Game"
+      ]
+    },
+    {
+      "url": "https://moriohhigh.com/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh.com/",
+      "locs": [],
+      "title": "Morioh High Guide — Play Links &amp; Getting Started",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Welcome toMorioh High."
+        },
+        {
+          "level": 2,
+          "text": "Take a look around."
+        },
+        {
+          "level": 3,
+          "text": "The game’s visual identity"
+        },
+        {
+          "level": 3,
+          "text": "A game on the court"
+        },
+        {
+          "level": 3,
+          "text": "Beyond the classroom"
+        },
+        {
+          "level": 3,
+          "text": "Watch the game in motion."
+        },
+        {
+          "level": 2,
+          "text": "What brings you to school?"
+        },
+        {
+          "level": 3,
+          "text": "Your first visit"
+        },
+        {
+          "level": 3,
+          "text": "The Stand question"
+        },
+        {
+          "level": 3,
+          "text": "Before you join"
+        },
+        {
+          "level": 2,
+          "text": "School life, with a storyof your own."
+        },
+        {
+          "level": 3,
+          "text": "Step into school life"
+        },
+        {
+          "level": 3,
+          "text": "Make connections"
+        },
+        {
+          "level": 3,
+          "text": "Explore the campus"
+        },
+        {
+          "level": 2,
+          "text": "From this page to Roblox."
+        },
+        {
+          "level": 3,
+          "text": "Find the correct listing"
+        },
+        {
+          "level": 3,
+          "text": "Launch through Roblox"
+        },
+        {
+          "level": 3,
+          "text": "Read the result"
+        },
+        {
+          "level": 2,
+          "text": "Good questions.Honest answers."
+        },
+        {
+          "level": 2,
+          "text": "Stuck at the door?Start with the message."
+        },
+        {
+          "level": 3,
+          "text": "Check the browser-to-app handoff."
+        },
+        {
+          "level": 3,
+          "text": "Keep the exact wording."
+        },
+        {
+          "level": 3,
+          "text": "Review communication settings."
+        },
+        {
+          "level": 2,
+          "text": "The right links, in one place."
+        },
+        {
+          "level": 3,
+          "text": "Morioh High ↗"
+        },
+        {
+          "level": 3,
+          "text": "Not A Stand Game ↗"
+        },
+        {
+          "level": 3,
+          "text": "Roblox Support ↗"
+        },
+        {
+          "level": 2,
+          "text": "Sources over shortcuts."
+        }
+      ],
+      "internalLinkCount": 32,
+      "sourceUrls": [
+        "https://www.roblox.com/games/111838814545019/Morioh-High",
+        "https://www.youtube.com/watch?v=kOH-nK38p_U&amp;t=10s",
+        "https://www.youtube.com/watch?v=kOH-nK38p_U&amp;t=80s",
+        "https://www.youtube.com/watch?v=kOH-nK38p_U",
+        "https://www.youtube.com/watch?v=taOqWP56Mrk",
+        "https://www.youtube.com/watch?v=AaOK6j4ts3E",
+        "https://en.help.roblox.com/hc/en-us/articles/204473560-How-to-Install-and-Play-Roblox",
+        "https://www.roblox.com/communities/403864872",
+        "https://www.roblox.com/support"
+      ]
+    },
+    {
+      "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+      "status": 200,
+      "finalUrl": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+      "locs": [],
+      "title": "Morioh High codes (October 2026) | GamesRadar+",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Morioh High codes (October 2026) for Rerolls and Arrow Shards"
+        },
+        {
+          "level": 2,
+          "text": "All Morioh High codes"
+        },
+        {
+          "level": 2,
+          "text": "How to redeem Morioh High codes"
+        },
+        {
+          "level": 3,
+          "text": "Expired Morioh High codes"
+        }
+      ],
+      "datePublished": "2026-10-12T13:29:31+00:00",
+      "dateModified": "2026-10-12T13:29:31+00:00",
+      "internalLinkCount": 6,
+      "sourceUrls": [
+        "https://www.gamesradar.com/games/action/morioh-high-codes/",
+        "https://vanilla.futurecdn.net/gamesradar",
+        "https://vanilla.futurecdn.net/gamesradar/1779911/media/shared/fonts/OpenSans-400-Regular.woff2",
+        "https://vanilla.futurecdn.net/gamesradar/1779911/media/shared/fonts/OpenSans-600-SemiBold.woff2",
+        "https://www.gamesradar.com/uk/feeds.xml",
+        "https://www.gamesradar.com/uk/feeds/tag/action/",
+        "https://www.gamesradar.com/uk/feeds/articletype/guides/",
+        "https://www.gamesradar.com/uk/my-account/",
+        "https://www.gamesradar.com/uk/games/news/",
+        "https://www.gamesradar.com/uk/games/reviews/",
+        "https://www.gamesradar.com/uk/membership/",
+        "https://www.gamesradar.com/uk/newsletter/",
+        "https://www.gamesradar.com/uk/",
+        "https://twitter.com/gamesradar",
+        "https://www.youtube.com/user/GamesRadar",
+        "https://www.facebook.com/gamesradarplus/",
+        "https://www.instagram.com/gamesradar/",
+        "https://www.gamesradar.com/uk/games/",
+        "https://www.gamesradar.com/uk/games/features/",
+        "https://www.gamesradar.com/uk/games/guides/",
+        "https://www.gamesradar.com/games/big-in-2026-the-ultimate-guide-to-the-video-games-that-will-shape-2026-and-beyond/",
+        "https://www.gamesradar.com/uk/tag/big-preview/",
+        "https://www.gamesradar.com/uk/tag/future-games-show/",
+        "https://www.gamesradar.com/goldenjoystickawards/",
+        "https://www.gamesradar.com/uk/games/action/",
+        "https://www.gamesradar.com/uk/games/rpg/",
+        "https://www.gamesradar.com/uk/games/action-rpg/",
+        "https://www.gamesradar.com/uk/games/adventure/",
+        "https://www.gamesradar.com/uk/games/third-person-shooter/",
+        "https://www.gamesradar.com/uk/games/fps/"
+      ]
+    }
+  ]
+}

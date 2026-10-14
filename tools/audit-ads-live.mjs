@@ -24,7 +24,7 @@ for (const [route, expected] of [['/', 5], ['/guides/controls/', 7], ['/resource
   const html = await response.text();
   const names = [...html.matchAll(/data-adsterra-slot="([^"]+)"/g)].map(match => match[1]);
   results.push({ route, status: response.status, slots: names });
-  if (!response.ok || names.length !== expected || new Set(names).size !== names.length || /<iframe[^>]*\ssrc="\/ads\//.test(html)) failures.push(`${route}: slot configuration or initial gate mismatch`);
+  if (!response.ok || names.length !== expected || new Set(names).size !== names.length || /<iframe[^>]*\ssrc="\/ads\//.test(html)) failures.push(`${route}: slot configuration or initial layout deferral mismatch`);
 }
 const report = { checkedAt: new Date().toISOString(), origin, sourceCommit: deployment.sourceCommit, results, failures,
   limitations: ['HTTP verification covers our ad assets and mounts, not provider creative fill, impressions, approval or income.'] };

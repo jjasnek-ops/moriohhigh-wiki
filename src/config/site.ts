@@ -6,11 +6,13 @@
  */
 
 export interface SiteConfig {
-  /** Full site name, used in <title> suffix and Organization JSON-LD. e.g. "Anvil Quest Wiki" */
+  /** Only configure a real publishing organization, never infer it from the wiki name. */
+  organization?: { name: string; url: string; sameAs?: string[] };
+  /** Full site name, used in <title> suffix and WebSite JSON-LD. */
   name: string;
   /** Short name for PWA manifest, mobile logo, and the long-title <title> suffix (>50 chars). e.g. "AQ Wiki" */
   shortName: string;
-  /** Site description for Organization JSON-LD and og:site_name. */
+  /** Description of this website, separate from the game and any publisher. */
   description: string;
   /** Domain without protocol or trailing slash. e.g. "anvilquestwiki.wiki" */
   domain: string;
@@ -37,9 +39,8 @@ export interface SiteConfig {
     reddit?: string;
   };
   /**
-   * Canonical URLs about the GAME (Steam page, official site, Wikipedia entry…).
-   * Emitted as Organization JSON-LD `sameAs` — helps Google / AI engines link
-   * this wiki to the game's knowledge-graph entity.
+   * Profiles of the same publishing entity, only used with organization configured.
+   * The game's official page is a separate entity and must not go here.
    */
   sameAs?: string[];
   game: {
@@ -51,6 +52,8 @@ export interface SiteConfig {
     developer: string;
     /** Genre description. */
     genre: string;
+    /** Description of the game itself, separate from the wiki description. */
+    description?: string;
     /** ISO release date (optional). */
     releaseDate?: string;
   };
@@ -89,6 +92,7 @@ export const site: SiteConfig = {
     platform: 'Roblox',
     developer: 'Not A Stand Game',
     genre: 'School life / Action',
+    description: 'A Roblox school-life experience by Not A Stand Game, set in Morioh, Japan.',
     releaseDate: '',
   },
   // og:image dims of the SHIPPED share image — if you replace that asset,

@@ -1,6 +1,27 @@
 # Current delivery status
 
+## 2026-10-14 后续广告指示（本地完成，未部署）
+
+Adsterra与GA4均取消同意前置；共享Allow/Decline横幅不再挂载，广告保留原尺寸/可见性门控和关闭，GA4配置自动初始化一次。隐私页及维护说明同步。check/lint/19套件250passed、1skipped/build/13Sitemap静态SEO/7广告/556内链通过；真实浏览器本地模拟provider验证已有declined/无记录自动加载、移动尺寸及关闭。模拟未发送真实素材展示或Google采集；生产仍旧版；用户随后已授权合并上线，发布验收进行中。详见reports/automatic-ads-2026-10-14.md。
+
+## 2026-10-14 combined release authorization — in progress
+
+The user now explicitly authorizes deployment of the SEO/GEO revision together with automatic Adsterra and GA4 loading. The earlier local-only publication hold is superseded for this combined release. Protect the working tree, verify all gates and the exact source commit, then deploy only the existing moriohhigh-wiki Pages project. External account/DNS/NS/DNSSEC changes and paid operations remain outside scope. Historical local-only results below describe the earlier authorization. Release is in progress; do not treat it as completed before formal-domain acceptance.
+
 Updated 2026-10-14 (Asia/Shanghai); latest production deployment is 2026-10-14. Do not reinitialize.
+
+
+## 2026-10-14 SEO/GEO 本地验收（已完成/已验证；未部署）
+
+- 当前阶段：本次授权内的公开研究、全站审计、本地修改、测试与六份报告完成；生产部署未执行。分支codex/seo-geo-2026-10-14，Git基线b1f7fe9dfb9d36b24a2e7c89c8a211a0e18eb202；本轮改动仍为本地未提交diff，恢复时保护这些文件，勿重初始化。
+- 已验证生产基线：23有效路由200、随机未知路径404、HTTP301及尾斜杠308；正式marker最后仍c02e4fd73a22f8eb53e6f7b9c544ca11da842739。没有推送/部署、外部账户配置或DNS写入。
+- 本地成果：六MDX来源面板与Article citation；原how-to-play URL增强为新手first-steps；Stand失败检查；Codes入群二手说明/FAQ（E25），原七码/奖励省略/10月13快照保留；首页/FAQ同步；真实主体才输出Organization；归档noindex,follow；404显式noindex；llms身份澄清。没有新增内容URL。
+- 已验证门禁：check143文件零诊断、lint、19套件249passed/1skipped、config/content/strict UI、build、580内链、13本地Sitemap全部200、静态SEO/7广告单元/GEO专项全部通过。24正常HTML含404/7广告资产；13可索引/6Pagefind文章不变。reports/build-seo-audit.json和ad-build-audit.json本次结果是本地构建验收，不是新生产回执。
+- 浏览器：真实1280桌面、390移动，无整页横向溢出；新手两表343宽；beginner搜索1结果及旧URL点击成功。复制出现Copied!，虚拟剪贴板桥未独立验证内容。来源面板没有新增JS/图片；GEO修改后Codes约增加2166 gzip字节，CWV未测。截图seo-geo-beginner-desktop.jpg/mobile.jpg。
+- 研究：原15词/37历史记录未改；新增独立记录7核心词搜索样本、5固定问题和10机会项。派生长尾不是有量实测词。4竞品地图实读148/38/132/4URL（含语言/法律/归档），旧无Wiki竞争判断已更新。新月搜/KD/CPC/Trends未知。
+- 未验证/外部阻塞：Google品牌SERP/AIO及Perplexity浏览器超时；Gemini/ChatGPT未取得独立回答引用，不能声称引用率。Suggest/7、30天Trends/PageSpeed本轮网络失败；私有GSC/GA4报表未重读，当前索引/曝光/自然访问未知；游戏当前客户端/完整roster/任务/地图/其他设备及Codes成功兑换仍缺证据。
+- 六份交付：docs/seo-geo-audit.md、competitor-analysis.md、keyword-opportunities.md、geo-evaluation.md、seo-geo-changelog.md、next-actions.md。逐项实际回执在research/seo-geo-2026-10-14/test-results.json；生产、研究、浏览器和本地结果各自分开保存。
+- 下一步：用户明确授权后发布并正式验收；读真实搜索/性能数据；补当前游戏一手证据。原日检和四检查未创建重复任务；维持上面的local-only hold，不能由自动维护顺带部署本轮。
 
 ## 2026-10-14 Adsterra 本轮状态
 

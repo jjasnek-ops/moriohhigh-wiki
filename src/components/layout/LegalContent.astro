@@ -78,14 +78,12 @@ const analyticsEnabled = Boolean(import.meta.env.PUBLIC_GA_ID);
       </p>
       <h2>Advertising and analytics</h2>
       <p>
-        Optional services load only after you allow them in the privacy banner. Declining keeps
-        their loaders disabled. Your choice is saved in browser storage; clearing this site's
-        browser storage lets you choose again. Earlier analytics-only acceptance does not
-        automatically enable the newly added ads.
+        Configured advertising and analytics load automatically as you browse.
+        This site does not display an opt-in banner for these services. Ad units
+        may be deferred until their original size fits a visible placement.
       </p>
       {adsterraEnabled && <p>
-        Adsterra provides labeled advertising through third-party scripts and creatives. After
-        consent, these services may process technical request data, such as IP addresses and browser
+        Adsterra provides labeled advertising through third-party scripts and creatives. These services may process technical request data, such as IP addresses and browser
         information, and use cookies to display and measure ads. Ad links open external services.
         See <a href="https://adsterra.com/privacy-policy-managed/" target="_blank" rel="noopener noreferrer">Adsterra's privacy policy</a>
         {' '}and <a href="https://adsterra.com/cookies/" target="_blank" rel="noopener noreferrer">cookie policy</a>.
@@ -95,12 +93,11 @@ const analyticsEnabled = Boolean(import.meta.env.PUBLIC_GA_ID);
         <>
           <p>
             Google Analytics 4 measures visits, traffic sources, page views, and reading interactions
-            after you allow optional services in the privacy banner. Declining leaves the Google
-            Analytics loader disabled.
+            while you browse. Its configured tag loads automatically.
           </p>
           <p>
             Google receives technical request and interaction data and may store analytics cookies
-            after consent. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.
+            during browsing. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.
             This site has no account or submission form and does not ask for personal information.
           </p>
         </>

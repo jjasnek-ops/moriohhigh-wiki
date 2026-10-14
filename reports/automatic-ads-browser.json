@@ -1,0 +1,87 @@
+{
+  "mode": "local browser fixture; Adsterra scripts suppressed, GA script stubbed; no provider impressions/analytics sent",
+  "cases": [
+    {
+      "case": "stored decline",
+      "cookieBanner": false,
+      "gaScripts": [
+        "/__qa/gtag.js?id=G-MLLG5CEMCG"
+      ],
+      "scrollWidth": 1265,
+      "slots": [
+        {
+          "display": "flex",
+          "slot": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html"
+        },
+        {
+          "display": "flex",
+          "slot": "native-banner",
+          "src": "/ads/native-banner.html"
+        },
+        {
+          "display": "none",
+          "slot": "sidebar-300x250",
+          "src": null
+        },
+        {
+          "display": "flex",
+          "slot": "incontent-728x90",
+          "src": "/ads/incontent-728x90.html"
+        },
+        {
+          "display": "flex",
+          "slot": "incontent-468x60",
+          "src": "/ads/incontent-468x60.html"
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "case": "no stored choice, mobile",
+      "cookieBanner": false,
+      "gaScripts": [
+        "/__qa/gtag.js?id=G-MLLG5CEMCG"
+      ],
+      "scrollWidth": 375,
+      "slots": [
+        {
+          "display": "flex",
+          "slot": "sticky-320x50",
+          "src": "/ads/sticky-320x50.html",
+          "width": 320
+        },
+        {
+          "display": "flex",
+          "slot": "native-banner",
+          "src": "/ads/native-banner.html",
+          "width": 343
+        },
+        {
+          "display": "flex",
+          "slot": "sidebar-300x250",
+          "src": "/ads/sidebar-300x250.html",
+          "width": 300
+        },
+        {
+          "display": "none",
+          "slot": "incontent-728x90",
+          "src": null,
+          "width": 0
+        },
+        {
+          "display": "none",
+          "slot": "incontent-468x60",
+          "src": null,
+          "width": 0
+        }
+      ],
+      "width": 390
+    },
+    {
+      "case": "close top banner",
+      "nativeSrc": "/ads/native-banner.html",
+      "stickyPresent": false
+    }
+  ]
+}

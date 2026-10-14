@@ -1,64 +1,42 @@
-/**
- * Consent-literal contract — CONSENT_STORAGE_KEY / CONSENT_ACCEPTED_EVENT
- * are canonically exported from src/lib/shared-ui.ts but DUPLICATED as
- * string literals in component scripts: CookieConsent's bundled
- * module cannot see frontmatter imports, and AdsterraSlot / MobileAnchorAd
- * run untranspiled is:inline scripts that cannot import at all.
- *
- * fail-closed direction: any single-sided rename means consumers can no
- * longer read the stored choice and the accept event never fires — ads
- * silently never load. This suite pins every duplicate to the canonical
- * export so a partial rename goes red instead.
- */
+/** Current-site loading policy; legacy opt-in component remains unused. */
 import { readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
 import { describe, expect, test } from 'vitest';
-
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (rel: string) => readFileSync(join(root, rel), 'utf8');
 
-/** Each consumer's own assignment idiom for the two literals. */
-const CONSUMERS: { file: string; keyRe: RegExp; eventRe: RegExp }[] = [
-  {
-    file: 'src/components/layout/CookieConsent.astro',
-    keyRe: /const KEY = '([^']+)'/,
-    eventRe: /const ACCEPTED_EVENT = '([^']+)'/,
-  },
-  {
-    file: 'src/components/ads/AdsterraSlot.astro',
-    keyRe: /var CONSENT_KEY = '([^']+)'/,
-    eventRe: /var CONSENT_EVENT = '([^']+)'/,
-  },
-  {
-    file: 'src/components/ads/AdsterraSticky.astro',
-    keyRe: /var CONSENT_KEY = '([^']+)'/,
-    eventRe: /var CONSENT_EVENT = '([^']+)'/,
-  },
-  {
-    file: 'src/components/ads/MobileAnchorAd.astro',
-    keyRe: /var CONSENT_KEY = '([^']+)'/,
-    eventRe: /var CONSENT_EVENT = '([^']+)'/,
-  },
-];
-
-describe('consent literals pinned to shared-ui.ts', () => {
-  const sharedUi = read('src/lib/shared-ui.ts');
-  const storageKey = /export const CONSENT_STORAGE_KEY = '([^']+)'/.exec(sharedUi)?.[1];
-  const acceptedEvent = /export const CONSENT_ACCEPTED_EVENT = '([^']+)'/.exec(sharedUi)?.[1];
-
-  test('shared-ui.ts still exports both canonical constants', () => {
-    expect(storageKey, 'CONSENT_STORAGE_KEY export missing in shared-ui.ts').toBeTruthy();
-    expect(acceptedEvent, 'CONSENT_ACCEPTED_EVENT export missing in shared-ui.ts').toBeTruthy();
+describe('automatic advertising and analytics loading', () => {
+  test.each(['AdsterraSlot', 'AdsterraSticky', 'MobileAnchorAd'])('%s does not wait for a privacy choice', name => {
+    const source = read('src/components/ads/' + name + '.astro');
+    expect(source).not.toMatch(/CONSENT_KEY|CONSENT_EVENT|aw:consent-accepted|aw-cookie-consent|data-consent-deferred/);
   });
-
-  for (const { file, keyRe, eventRe } of CONSUMERS) {
-    test(`${file} hardcodes the canonical values`, () => {
-      const src = read(file);
-      const key = keyRe.exec(src)?.[1];
-      const event = eventRe.exec(src)?.[1];
-      expect(key, `${file}: storage-key literal not found or drifted`).toBe(storageKey);
-      expect(event, `${file}: accepted-event literal not found or drifted`).toBe(acceptedEvent);
-    });
-  }
+  test('the shared layout does not mount the opt-in banner', () => {
+    expect(read('src/components/layout/BaseLayout.astro')).not.toContain('CookieConsent');
+  });
+  test('configured GA starts once without storage or an accept event', () => {
+    const source = read('src/components/layout/BaseLayout.astro');
+    const script = /<script is:inline define:vars=\{\{ gaId, adsenseClient \}\}>([\s\S]*?)<\/script>/.exec(source)?.[1];
+    expect(script).toBeTruthy();
+    const appended: Record<string, string>[] = [];
+    const context: Record<string, any> = {
+      gaId: 'G-EXAMPLE', adsenseClient: '',
+      document: { createElement: () => ({}), head: { appendChild: (s: Record<string, string>) => appended.push(s) } },
+    };
+    context.window = context;
+    runInNewContext(script!, context);
+    expect(appended).toHaveLength(1);
+    expect(appended[0].src).toBe('https://www.googletagmanager.com/gtag/js?id=G-EXAMPLE');
+    expect(context.dataLayer[1][0]).toBe('config');
+    expect(context.dataLayer[1][1]).toBe('G-EXAMPLE');
+    context.__awLoadTrackers();
+    expect(appended).toHaveLength(1);
+  });
+  test('layout deferral and independent ad dismissal remain enabled', () => {
+    const slot = read('src/components/ads/AdsterraSlot.astro');
+    expect(slot).toContain('available >= min && available <= max');
+    expect(slot).toContain("frame.removeAttribute('src')");
+    expect(read('src/components/ads/AdsterraSticky.astro')).toContain('morioh-adsterra-sticky-dismissed');
+  });
 });

@@ -15,6 +15,7 @@
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 import ArticleCover from '~/components/article/ArticleCover.astro';
+import SourceNote from '~/components/article/SourceNote.astro';
 import { render } from 'astro:content';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import InContentAd from '~/components/ads/InContentAd.astro';
@@ -129,8 +130,9 @@ const jsonLd = [
     category,
     slug,
     locale,
-    authorName: entry.data.author,
+    authorName: author,
     authorSameAs: authorInfo?.sameAs,
+    citations: entry.data.citations.map(source => source.url),
   }),
   breadcrumbJsonLd({
     category,
@@ -289,6 +291,8 @@ const jsonLd = [
       </aside>
     )}
 
+
+    <SourceNote locale={locale} checked={entry.data.sourcesChecked} note={entry.data.sourceNote} citations={entry.data.citations} />
 
     {entry.data.image && (
       <figure class="mt-6">

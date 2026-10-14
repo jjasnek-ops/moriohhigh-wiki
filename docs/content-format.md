@@ -20,6 +20,8 @@ src/content/wiki/ja/bosses/emberfang.mdx           → /ja/bosses/emberfang（�
 
 ## Frontmatter（YAML 头部）
 
+本站增量字段：`sourcesChecked` 是来源最后复查日期，不代表游戏实测或兑换成功；`sourceNote`（最多400字符）说明来源范围与验证限制；`citations` 为 `{title, url}` 数组，会同时显示为可见来源链接并写入 Article `citation`。`lastModified` 只表示实质编辑日期，不因定时检查而更新。录像沿用真实检查日期，禁止把历史记录冒充当前版本测试。
+
 每篇文章用 YAML frontmatter 声明元数据。**构建时会用 Zod schema 校验**——字段缺失或类型错误会导致 build 失败。
 
 ```mdx

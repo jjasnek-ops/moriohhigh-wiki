@@ -20,13 +20,23 @@ const src = (rel: string) => readFileSync(fileURLToPath(new URL(`../${rel}`, imp
 
 describe('SEO helpers', () => {
   describe('organizationJsonLd', () => {
-    it('returns a valid Organization schema', () => {
-      const json = organizationJsonLd();
+    it('does not invent a publisher from the website name', () => {
+      expect(organizationJsonLd()).toBeNull();
+      const article = articleJsonLd({ title: 'T', description: 'Source checked guide', datePublished: new Date('2026-01-01'), category: 'guides', slug: 's', locale: 'en' });
+      expect(article).not.toHaveProperty('author');
+      expect(article).not.toHaveProperty('publisher');
+    });
+    it('supports an explicitly supplied real organization identity', () => {
+      const json = organizationJsonLd({ name: 'Example publisher', url: 'https://example.org/', sameAs: ['https://example.org/profile/'] });
+      expect(json).not.toBeNull();
+      if (!json) throw new Error('Configured organization missing');
       expect(json['@type']).toBe('Organization');
       expect(json['@context']).toBe('https://schema.org');
       expect(typeof json.name).toBe('string');
       expect(json.url).toMatch(/^https?:\/\//);
-      expect(json.logo).toMatch(/\.png$/);
+      expect(json).not.toHaveProperty('logo');
+      expect(json.name).toBe('Example publisher');
+      expect(json.sameAs).toEqual(['https://example.org/profile/']);
     });
   });
 
@@ -39,6 +49,13 @@ describe('SEO helpers', () => {
   });
 
   describe('articleJsonLd', () => {
+    it('preserves supplied author and source URLs without inventing verification', () => {
+      const json = articleJsonLd({ title: 'T', description: 'Source checked guide', datePublished: new Date('2026-01-01'), category: 'guides', slug: 's', locale: 'en', authorName: 'Example writer', citations: ['https://www.roblox.com/games/111838814545019/Morioh-High'] });
+      expect(json.author?.['@type']).toBe('Person');
+      expect(json.citation).toEqual(['https://www.roblox.com/games/111838814545019/Morioh-High']);
+      expect(json.isPartOf['@id']).toBe(websiteJsonLd()['@id']);
+      expect(json.dateModified).toBe(json.datePublished);
+    });
     it('includes all required Article fields', () => {
       const json = articleJsonLd({
         title: 'Test Article',

@@ -5,7 +5,7 @@
  * Responsibilities:
  *   - <html lang> and theme class (no FOUC via inline script)
  *   - global <head>: charset, viewport, title template, description, og/twitter defaults
- *   - Organization JSON-LD (every page)
+ *   - Optional configured publisher JSON-LD
  *   - global styles
  *
  * Pages should wrap themselves in LocaleLayout (which wraps this), not call this directly.
@@ -15,9 +15,6 @@ import { site, siteUrl } from '~/config/site';
 import { defaultLocale, locales, OG_LOCALE_MAP, type Locale } from '~/i18n/routing';
 import { organizationJsonLd } from '~/lib/seo';
 import JsonLd from '~/components/seo/JsonLd.astro';
-import CookieConsent from './CookieConsent.astro';
-import { adsterraEnabled } from '~/config/advertising';
-import { getUi } from '~/i18n/ui';
 import { excludeFromIndex } from '~/config/indexing';
 
 interface Props {
@@ -57,20 +54,6 @@ interface Props {
    * the site.name is the demo game, not the project itself).
    */
   titleSuffix?: string;
-  /**
-   * Full override of the consent-banner strings + privacy link. The marketing
-   * landing passes this for `zh`: landing-only htmlLangs have no wiki locale
-   * JSON (labels would fall back to English) and no localized legal page
-   * (the derived /zh/privacy-policy/ would 404).
-   */
-  consent?: {
-    title: string;
-    text: string;
-    accept: string;
-    decline: string;
-    privacyLabel: string;
-    privacyHref: string;
-  };
 }
 
 const {
@@ -88,7 +71,6 @@ const {
   articlePublished,
   articleModified,
   contentLocale,
-  consent,
 } = Astro.props;
 const noindex = pageNoindex || excludeFromIndex(Astro.url.pathname);
 
@@ -131,27 +113,6 @@ const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefin
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
 
-// Consent banner labels: wiki locales derive them from the locale JSON
-// (hardcoded English fallbacks for a locale whose JSON hasn't been translated
-// yet); landing-only htmlLangs (zh) pass a full override via LandingLayout.
-const sharedStrings = getUi(locale).shared;
-const consentLabels = consent
-  ? { title: consent.title, text: consent.text, accept: consent.accept, decline: consent.decline }
-  : {
-      title: sharedStrings.consentTitle ?? 'Cookies',
-      text: sharedStrings.consentText ?? 'We use cookies for analytics and ads.',
-      accept: sharedStrings.accept ?? 'Accept',
-      decline: sharedStrings.decline ?? 'Decline',
-    };
-// Consent banner links to the localized privacy policy (informed consent).
-// The link must point at a page that EXISTS — landing-only htmlLangs like zh
-// have no legal page, so clamp the fallback to a real wiki locale.
-const consentLocale = (locales as readonly string[]).includes(locale) ? locale : defaultLocale;
-const footerStrings = getUi(locale).footer;
-const privacyHref =
-  consent?.privacyHref ??
-  (consentLocale === defaultLocale ? '/privacy-policy/' : `/${consentLocale}/privacy-policy/`);
-const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Privacy Policy';
 ---
 
 <!doctype html>
@@ -173,7 +134,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     {noindex ? (
-      <meta name="robots" content="noindex, nofollow" />
+      <meta name="robots" content={pageNoindex ? 'noindex, nofollow' : 'noindex, follow'} />
     ) : (
       /* Google Discover large-image previews require explicit permission —
          without this, covers never surface as large preview images (v2.0). */
@@ -241,13 +202,8 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
     {/* Google Search Console verification (optional) */}
     {gscVerification && <meta name="google-site-verification" content={gscVerification} />}
 
-    {/*
-      Analytics / AdSense are injected DYNAMICALLY (consent-gated).
-      BaseLayout only defines the loader; CookieConsent.astro calls it after
-      the visitor accepts. See GDPR note in AGENTS.md. No tracking env vars
-      → this block renders nothing → zero JS.
-    */}
-    {(gaId || adsenseClient || adsterraEnabled) && (
+    {/* Configured analytics start automatically; the site has no opt-in banner. */}
+    {(gaId || adsenseClient) && (
       <script is:inline define:vars={{ gaId, adsenseClient }}>
         window.__awLoadTrackers = () => {
           if (window.__awTrackersLoaded) return;
@@ -274,12 +230,12 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
             document.head.appendChild(s);
           }
         };
+        window.__awLoadTrackers();
       </script>
     )}
 
     {/*
-      Cloudflare Web Analytics (optional) — cookieless, so unlike GA/AdSense
-      it needs no consent gate. Empty token = nothing injected, zero JS.
+      Cloudflare Web Analytics (optional) — cookieless. Empty token = nothing injected, zero JS.
     */}
     {cfBeaconToken && (
       <script
@@ -291,7 +247,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
     )}
 
     {/* JSON-LD: Organization (global) + any page-specific */}
-    <JsonLd data={orgJsonLd} />
+    {orgJsonLd && <JsonLd data={orgJsonLd} />}
     {jsonLd.map((d) => <JsonLd data={d} />)}
 
     {/* No-FOUC theme init — runs before first paint. */}
@@ -336,18 +292,6 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
     <slot />
-    {/* Consent banner — only rendered when tracking env vars are set. */}
-    {(gaId || adsenseClient || adsterraEnabled) && (
-      <CookieConsent
-        labels={{
-          title: consentLabels.title,
-          text: consentLabels.text,
-          accept: consentLabels.accept,
-          decline: consentLabels.decline,
-        }}
-        privacyHref={privacyHref}
-        privacyLabel={privacyLabel}
-      />
-    )}
+
   </body>
 </html>

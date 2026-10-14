@@ -1,6 +1,6 @@
 # 广告变现:什么时候接、怎么接、钱怎么收
 
-> 本仓库是 Morioh High 成品站。2026-10-14 起按站主提供代码启用 Adsterra；本站实际位置、尺寸门控及新版同意规则以 [advertising-layout.md](advertising-layout.md) 为准。下文保留上游模板的通用教程，示例位置不代表本站布局。
+> 本仓库是 Morioh High 成品站。2026-10-14 起按站主提供代码启用 Adsterra；本站实际位置、尺寸门控及自动加载规则以 [advertising-layout.md](advertising-layout.md) 为准。下文保留上游模板的通用教程，示例位置不代表本站布局。
 
 > 模板广告位的**接入操作**(AdSense 4 个环境变量、Cloudflare 里填哪里)见站内[学习手册 · 课 22「开广告:时机与接入」](https://anvil.wiki/zh/landing/docs/enable-ads)和 [deployment.md 环境变量清单](deployment.md#环境变量清单)。
 > 本文解决剩下的四个实战问题:**什么时候把广告打开**(时机错了会掉排名)、**AdSense 的钱怎么进国内银行卡**(三道验证 + 电汇)、**Adsterra 怎么从注册接到上线**(格式取舍 + 与 AdSense 共存的红线)、**广告平台怎么随流量升级**(起步/进阶/成熟三档 + 游戏垂直网络)。
