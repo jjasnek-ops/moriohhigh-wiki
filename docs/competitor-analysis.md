@@ -1,5 +1,7 @@
 # 竞品分析
 
+> 最终发布状态（2026-10-14）：用户随后明确授权，SEO/GEO及Adsterra、GA4自动加载已合并上线。实际source 7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb；GitHub CI通过，正式23页/13Sitemap/6来源面板/自动加载与搜索通过。详见 [上线验收](../reports/seo-geo-release-2026-10-14.md)。下方的未部署/同意门控措辞属于此前阶段记录；搜索排名、AI引用及广告后台效果仍未验证。
+
 采集：2026-10-14。范围：七个核心词各一次公开搜索、五个固定玩家问题、四站公开robots/Sitemap，以及若干真实页面。搜索工具没有暴露后端品牌或固定国家，不把结果标为Google美国排名。完整URL样本见[核心词结果](../research/seo-geo-2026-10-14/keyword-search-samples.json)和[页面元数据](../research/seo-geo-2026-10-14/competitor-samples.json)。
 
 用户2026-10-11“尚无专门Wiki主导”的快照保留，但本轮已发现多个专门Wiki出现在搜索样本中，不能继续假设空白竞争。本站未出现在本轮七词及五问题的各前十样本；这不等于全网无收录，也不证明Google排名为零。

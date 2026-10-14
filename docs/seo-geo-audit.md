@@ -1,5 +1,7 @@
 # SEO + GEO 网站审计
 
+> 最终发布状态（2026-10-14）：用户随后明确授权，SEO/GEO及Adsterra、GA4自动加载已合并上线。实际source 7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb；GitHub CI通过，正式23页/13Sitemap/6来源面板/自动加载与搜索通过。详见 [上线验收](../reports/seo-geo-release-2026-10-14.md)。下方的未部署/同意门控措辞属于此前阶段记录；搜索排名、AI引用及广告后台效果仍未验证。
+
 > 后续指示（2026-10-14）：站主要求取消Adsterra及GA4的同意前置；当前本地版本自动加载并移除选择横幅。本文此前同意门控检查是本轮SEO阶段的历史记录；最新广告行为与验证见 reports/automatic-ads-2026-10-14.md。生产仍未部署。
 
 审计日期：2026-10-14，Asia/Shanghai。生产基线 source `c02e4fd73a22f8eb53e6f7b9c544ca11da842739`；本地起点 `b1f7fe9`；修改分支 `codex/seo-geo-2026-10-14`。本轮仅本地修改和公开只读研究，未部署、未推送、未修改外部账号/DNS。

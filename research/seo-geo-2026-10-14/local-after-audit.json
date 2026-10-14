@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T04:43:19.335Z",
+  "checkedAt": "2026-10-14T07:10:51.279Z",
   "mode": "local build only",
   "pages": [
     {
@@ -7,8 +7,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 34685,
-      "gzipBytes": 10093,
+      "bytes": 31693,
+      "gzipBytes": 9233,
       "title": "About — Morioh High Wiki",
       "description": "Learn how this independent Morioh High Roblox wiki checks sources, handles corrections, and credits the AnvilWiki template.",
       "robots": "max-image-preview:large",
@@ -40,7 +40,7 @@
         "/copyright/"
       ],
       "schemas": [],
-      "inlineScriptBytes": 17442,
+      "inlineScriptBytes": 15476,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -50,8 +50,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 34101,
-      "gzipBytes": 9763,
+      "bytes": 31109,
+      "gzipBytes": 8907,
       "title": "Contact — Morioh High Wiki",
       "description": "Contact the independent Morioh High Wiki editors about factual corrections, broken links, or rights concerns. Find separate sources for Roblox account help.",
       "robots": "max-image-preview:large",
@@ -80,7 +80,7 @@
         "/copyright/"
       ],
       "schemas": [],
-      "inlineScriptBytes": 17442,
+      "inlineScriptBytes": 15476,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -90,8 +90,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 34269,
-      "gzipBytes": 9863,
+      "bytes": 31277,
+      "gzipBytes": 9008,
       "title": "Copyright — Morioh High Wiki",
       "description": "Read the Morioh High wiki copyright notice, original-material credits, AnvilWiki MIT attribution, and third-party rights information.",
       "robots": "max-image-preview:large",
@@ -122,7 +122,7 @@
         "/contact/"
       ],
       "schemas": [],
-      "inlineScriptBytes": 17442,
+      "inlineScriptBytes": 15476,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -132,8 +132,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 42914,
-      "gzipBytes": 10779,
+      "bytes": 39922,
+      "gzipBytes": 9901,
       "title": "Morioh High FAQ",
       "description": "Quick answers about the Roblox game, its developer, availability, community links, and how this independent wiki verifies information.",
       "robots": "max-image-preview:large",
@@ -247,7 +247,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 21038,
+      "inlineScriptBytes": 19072,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -257,8 +257,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 104796,
-      "gzipBytes": 18957,
+      "bytes": 96266,
+      "gzipBytes": 17818,
       "title": "Morioh High PC Controls: Keys Seen in Gameplay",
       "description": "Check the Morioh High PC keys shown in gameplay: attacks, block, dash, Stand withdrawal, skills, menu, and voice prompts, with source notes.",
       "robots": "max-image-preview:large",
@@ -429,7 +429,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 51012,
+      "inlineScriptBytes": 43508,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -445,8 +445,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 117809,
-      "gzipBytes": 22824,
+      "bytes": 109279,
+      "gzipBytes": 21426,
       "title": "How to Get a Stand in Morioh High",
       "description": "Get your first Morioh High Stand through a qualifying fight or Stand Arrow. Check the Encyclopedia rules and timestamped footage behind each method.",
       "robots": "max-image-preview:large",
@@ -649,7 +649,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 51719,
+      "inlineScriptBytes": 44215,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -665,8 +665,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 105316,
-      "gzipBytes": 19261,
+      "bytes": 96786,
+      "gzipBytes": 18241,
       "title": "Morioh High Beginner Guide: Game Link and First Steps",
       "description": "Start Morioh High on Roblox with the correct game link, PC launch steps, controls and first Stand guides. Check sources and recorded-build limits.",
       "robots": "max-image-preview:large",
@@ -825,7 +825,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 50332,
+      "inlineScriptBytes": 42828,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -841,8 +841,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 41026,
-      "gzipBytes": 11129,
+      "bytes": 38034,
+      "gzipBytes": 10263,
       "title": "Morioh High Player Guide",
       "description": "Find Morioh High on Roblox, check documented PC controls, and learn Stand awakening and reroll rules with clear sources and dates.",
       "robots": "noindex, follow",
@@ -920,7 +920,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18266,
+      "inlineScriptBytes": 16300,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -930,8 +930,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 77875,
-      "gzipBytes": 14251,
+      "bytes": 71191,
+      "gzipBytes": 13206,
       "title": "Morioh High Wiki | Codes, Controls & Stand Guide",
       "description": "Find reported Morioh High codes, PC controls, Stand awakening rules, and Roblox links. Independent wiki with sources and verification notes.",
       "robots": "max-image-preview:large",
@@ -1055,7 +1055,7 @@
           }
         }
       ],
-      "inlineScriptBytes": 37095,
+      "inlineScriptBytes": 31437,
       "adSlots": [
         "sticky-320x50",
         "native-banner",
@@ -1069,8 +1069,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 36137,
-      "gzipBytes": 10452,
+      "bytes": 32964,
+      "gzipBytes": 9565,
       "title": "Privacy Policy — Morioh High Wiki",
       "description": "Read the privacy notice for this static Morioh High wiki: browser search, hosting, external links, and disabled advertising and analytics.",
       "robots": "max-image-preview:large",
@@ -1101,7 +1101,7 @@
           "text": "Contact and changes"
         }
       ],
-      "mainTextWords": 335,
+      "mainTextWords": 314,
       "staticAnswerPresent": false,
       "articleTextAvailableWithoutJavaScript": false,
       "sourceLinkCount": 4,
@@ -1109,7 +1109,7 @@
         "/contact/"
       ],
       "schemas": [],
-      "inlineScriptBytes": 17442,
+      "inlineScriptBytes": 15476,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -1119,8 +1119,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 43744,
-      "gzipBytes": 11436,
+      "bytes": 40752,
+      "gzipBytes": 10539,
       "title": "Recent Updates — Morioh High Wiki",
       "description": "The latest articles and updates across the wiki, newest first.",
       "robots": "noindex, follow",
@@ -1231,7 +1231,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18710,
+      "inlineScriptBytes": 16744,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -1241,8 +1241,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 113396,
-      "gzipBytes": 21537,
+      "bytes": 104866,
+      "gzipBytes": 20225,
       "title": "Morioh High Codes: Reported List and How to Redeem",
       "description": "Copy seven Morioh High codes reported by game publishers. Check the redemption steps, source dates, and verification status before trying a code.",
       "robots": "max-image-preview:large",
@@ -1427,7 +1427,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 52218,
+      "inlineScriptBytes": 44714,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -1443,8 +1443,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 101296,
-      "gzipBytes": 18178,
+      "bytes": 92766,
+      "gzipBytes": 17087,
       "title": "Morioh High Discord and Trello: Community Links",
       "description": "Find the Morioh High Roblox community and a checked Discord invite. See what has been verified and why no Trello board is listed as official.",
       "robots": "max-image-preview:large",
@@ -1590,7 +1590,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 50369,
+      "inlineScriptBytes": 42865,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -1606,8 +1606,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 41230,
-      "gzipBytes": 11033,
+      "bytes": 38238,
+      "gzipBytes": 10170,
       "title": "Morioh High Game & Community Resources",
       "description": "Find reported Morioh High codes, release information, developer links, and community resources with clear sources and verification notes.",
       "robots": "noindex, follow",
@@ -1685,7 +1685,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18322,
+      "inlineScriptBytes": 16356,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -1695,8 +1695,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 100606,
-      "gzipBytes": 17957,
+      "bytes": 92076,
+      "gzipBytes": 16883,
       "title": "Morioh High Release Information: Is It Available?",
       "description": "Check Morioh High availability on Roblox and understand the difference between the reported release date and the official experience creation date.",
       "robots": "max-image-preview:large",
@@ -1841,7 +1841,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 50368,
+      "inlineScriptBytes": 42864,
       "adSlots": [
         "sticky-320x50",
         "sidebar-300x250",
@@ -1857,8 +1857,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 38052,
-      "gzipBytes": 10457,
+      "bytes": 35060,
+      "gzipBytes": 9600,
       "title": "codes — Morioh High Wiki",
       "description": "codes — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -1915,7 +1915,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 17941,
+      "inlineScriptBytes": 15975,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -1925,8 +1925,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 39474,
-      "gzipBytes": 10618,
+      "bytes": 36482,
+      "gzipBytes": 9749,
       "title": "community resources — Morioh High Wiki",
       "description": "community resources — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -1994,7 +1994,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18138,
+      "inlineScriptBytes": 16172,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2004,8 +2004,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 40490,
-      "gzipBytes": 10909,
+      "bytes": 37498,
+      "gzipBytes": 10045,
       "title": "getting started — Morioh High Wiki",
       "description": "getting started — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -2084,7 +2084,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18262,
+      "inlineScriptBytes": 16296,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2094,8 +2094,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 36161,
-      "gzipBytes": 9819,
+      "bytes": 33169,
+      "gzipBytes": 8956,
       "title": "All Tags — Morioh High Wiki",
       "description": "Browse all articles by topic.",
       "robots": "noindex, follow",
@@ -2139,7 +2139,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 17703,
+      "inlineScriptBytes": 15737,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2149,8 +2149,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 38292,
-      "gzipBytes": 10446,
+      "bytes": 35300,
+      "gzipBytes": 9591,
       "title": "release information — Morioh High Wiki",
       "description": "release information — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -2207,7 +2207,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 17996,
+      "inlineScriptBytes": 16030,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2217,8 +2217,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 43877,
-      "gzipBytes": 11510,
+      "bytes": 40885,
+      "gzipBytes": 10603,
       "title": "Roblox — Morioh High Wiki",
       "description": "Roblox — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -2330,7 +2330,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18699,
+      "inlineScriptBytes": 16733,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2340,8 +2340,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 39198,
-      "gzipBytes": 10692,
+      "bytes": 36206,
+      "gzipBytes": 9817,
       "title": "Stands — Morioh High Wiki",
       "description": "Stands — All Tags · Your field guide to Morioh High",
       "robots": "noindex, follow",
@@ -2409,7 +2409,7 @@
           ]
         }
       ],
-      "inlineScriptBytes": 18081,
+      "inlineScriptBytes": 16115,
       "adSlots": [
         "sticky-320x50"
       ]
@@ -2419,8 +2419,8 @@
       "chain": [],
       "status": 200,
       "headers": {},
-      "bytes": 34472,
-      "gzipBytes": 9894,
+      "bytes": 31480,
+      "gzipBytes": 9036,
       "title": "Terms of Service — Morioh High Wiki",
       "description": "Read the terms for using this independent Morioh High player resource, including source dates, external services, and corrections.",
       "robots": "max-image-preview:large",
@@ -2455,7 +2455,7 @@
         "/contact/"
       ],
       "schemas": [],
-      "inlineScriptBytes": 17442,
+      "inlineScriptBytes": 15476,
       "adSlots": [
         "sticky-320x50"
       ]

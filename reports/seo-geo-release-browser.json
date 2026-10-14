@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-14T07:16:08.031Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb",
+  "desktop": {
+    "gaScripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-MLLG5CEMCG"
+    ],
+    "privacyBanner": false,
+    "scrollWidth": 1265,
+    "slots": [
+      {
+        "name": "sticky-320x50",
+        "src": "/ads/sticky-320x50.html",
+        "visible": true,
+        "width": 320
+      },
+      {
+        "name": "sidebar-300x250",
+        "src": null,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "name": "native-banner",
+        "src": "/ads/native-banner.html",
+        "visible": true,
+        "width": 768
+      },
+      {
+        "name": "incontent-728x90",
+        "src": "/ads/incontent-728x90.html",
+        "visible": true,
+        "width": 768
+      },
+      {
+        "name": "incontent-468x60",
+        "src": "/ads/incontent-468x60.html",
+        "visible": true,
+        "width": 768
+      },
+      {
+        "name": "sidebar-160x600",
+        "src": null,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "name": "sidebar-160x300",
+        "src": null,
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "sourceNote": true,
+    "title": "Morioh High Beginner Guide: Game Link and First Steps",
+    "url": "https://moriohhighguide.wiki/guides/how-to-play/",
+    "viewport": 1280
+  },
+  "mobile": {
+    "gaScripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-MLLG5CEMCG"
+    ],
+    "scrollWidth": 375,
+    "slots": [
+      {
+        "name": "sticky-320x50",
+        "src": "/ads/sticky-320x50.html",
+        "visible": true,
+        "width": 320
+      },
+      {
+        "name": "sidebar-300x250",
+        "src": "/ads/sidebar-300x250.html",
+        "visible": true,
+        "width": 343
+      },
+      {
+        "name": "native-banner",
+        "src": "/ads/native-banner.html",
+        "visible": true,
+        "width": 343
+      },
+      {
+        "name": "incontent-728x90",
+        "src": null,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "name": "incontent-468x60",
+        "src": null,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "name": "sidebar-160x600",
+        "src": null,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "name": "sidebar-160x300",
+        "src": null,
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "tables": [
+      343,
+      343
+    ],
+    "url": "https://moriohhighguide.wiki/guides/how-to-play/",
+    "viewport": 390
+  },
+  "search": {
+    "query": "beginner",
+    "text": "Clear\n\n1 result for beginner\n\nMorioh High Beginner Guide: Game Link and First Steps\n\nWhat should a beginner do in the first session?\n\nWhat should a beginner do in the first session? Use this checklist\n\nWhat sources support this page?\n\nreroll evidence checked October 12. The beginner checklist was added October 14\n\nCategory: guides\nEsc\nClose\n·\n↵\nSearch\nPowered by Pagefind",
+    "links": [
+      {
+        "href": "/guides/how-to-play/",
+        "text": "Morioh High Beginner Guide: Game Link and First Steps"
+      },
+      {
+        "href": "/guides/how-to-play/#what-should-a-beginner-do-in-the-first-session",
+        "text": "What should a beginner do in the first session?"
+      },
+      {
+        "href": "/guides/how-to-play/#what-sources-support-this-page",
+        "text": "What sources support this page?"
+      }
+    ],
+    "resultOpened": true
+  },
+  "adDismissal": {
+    "nativeStillLoaded": "/ads/native-banner.html",
+    "topAdVisible": false
+  },
+  "limitations": [
+    "Observed real DOM loaders and layout; provider fill, impression reporting and GA4 report reception remain unverified. No ads were clicked."
+  ]
+}

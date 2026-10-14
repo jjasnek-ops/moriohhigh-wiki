@@ -1,5 +1,7 @@
 # SEO/GEO 实际改动与验证
 
+> 最终发布状态（2026-10-14）：用户随后明确授权，SEO/GEO及Adsterra、GA4自动加载已合并上线。实际source 7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb；GitHub CI通过，正式23页/13Sitemap/6来源面板/自动加载与搜索通过。详见 [上线验收](../reports/seo-geo-release-2026-10-14.md)。下方的未部署/同意门控措辞属于此前阶段记录；搜索排名、AI引用及广告后台效果仍未验证。
+
 2026-10-14 后续授权：用户明确要求将 SEO/GEO 与广告、GA4自动加载合并部署。此前 local-only 状态保留为历史；发布和正式域名验收正在进行，最终状态以 reports/seo-geo-release-2026-10-14.md 和 Pages 回执为准。
 
 > 后续指示（2026-10-14）：站主要求取消Adsterra及GA4的同意前置；当前本地版本自动加载并移除选择横幅。本文此前同意门控检查是本轮SEO阶段的历史记录；最新广告行为与验证见 reports/automatic-ads-2026-10-14.md。生产仍未部署。

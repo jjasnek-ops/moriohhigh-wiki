@@ -1,0 +1,196 @@
+{
+  "checkedAt": "2026-10-14T07:15:59.520Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb",
+  "markerMatches": true,
+  "results": [
+    {
+      "path": "/about/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/copyright/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/guides/controls/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/guides/how-to-get-a-stand/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/guides/how-to-play/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/recent/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/resources/codes/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/resources/community-links/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/resources/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/resources/release-information/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/codes/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/community-resources/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/getting-started/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/release-information/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/roblox/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/tags/stands/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    },
+    {
+      "path": "/terms-of-service/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": false,
+      "automaticLoading": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Static HTTP checks do not establish search ranking, AI citations, provider creative fill or GA4 report reception."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T04:43:19.513Z",
+  "checkedAt": "2026-10-14T07:10:51.447Z",
   "mode": "local only; no production deployment",
   "pages": 23,
   "staticEditorialArticles": 6,
@@ -7,46 +7,46 @@
     {
       "path": "/about/",
       "gzipBefore": 10221,
-      "gzipAfter": 10093,
-      "gzipDelta": -128,
+      "gzipAfter": 9233,
+      "gzipDelta": -988,
       "htmlBefore": 35115,
-      "htmlAfter": 34685,
+      "htmlAfter": 31693,
       "sourceUrls": []
     },
     {
       "path": "/contact/",
       "gzipBefore": 10108,
-      "gzipAfter": 9763,
-      "gzipDelta": -345,
+      "gzipAfter": 8907,
+      "gzipDelta": -1201,
       "htmlBefore": 34792,
-      "htmlAfter": 34101,
+      "htmlAfter": 31109,
       "sourceUrls": []
     },
     {
       "path": "/copyright/",
       "gzipBefore": 10014,
-      "gzipAfter": 9863,
-      "gzipDelta": -151,
+      "gzipAfter": 9008,
+      "gzipDelta": -1006,
       "htmlBefore": 34699,
-      "htmlAfter": 34269,
+      "htmlAfter": 31277,
       "sourceUrls": []
     },
     {
       "path": "/faq/",
       "gzipBefore": 10736,
-      "gzipAfter": 10779,
-      "gzipDelta": 43,
+      "gzipAfter": 9901,
+      "gzipDelta": -835,
       "htmlBefore": 42225,
-      "htmlAfter": 42914,
+      "htmlAfter": 39922,
       "sourceUrls": []
     },
     {
       "path": "/guides/controls/",
       "gzipBefore": 18820,
-      "gzipAfter": 18957,
-      "gzipDelta": 137,
+      "gzipAfter": 17818,
+      "gzipDelta": -1002,
       "htmlBefore": 104457,
-      "htmlAfter": 104796,
+      "htmlAfter": 96266,
       "sourceUrls": [
         "https://www.youtube.com/watch?v=AaOK6j4ts3E&t=5s",
         "https://en.help.roblox.com/hc/en-us/articles/4405807645972-Voice-FAQ"
@@ -55,10 +55,10 @@
     {
       "path": "/guides/how-to-get-a-stand/",
       "gzipBefore": 22176,
-      "gzipAfter": 22824,
-      "gzipDelta": 648,
+      "gzipAfter": 21426,
+      "gzipDelta": -750,
       "htmlBefore": 115206,
-      "htmlAfter": 117809,
+      "htmlAfter": 109279,
       "sourceUrls": [
         "https://www.youtube.com/watch?v=taOqWP56Mrk&t=10s",
         "https://www.youtube.com/watch?v=w9rdSW-8ULE&t=50s"
@@ -67,10 +67,10 @@
     {
       "path": "/guides/how-to-play/",
       "gzipBefore": 18274,
-      "gzipAfter": 19261,
-      "gzipDelta": 987,
+      "gzipAfter": 18241,
+      "gzipDelta": -33,
       "htmlBefore": 101640,
-      "htmlAfter": 105316,
+      "htmlAfter": 96786,
       "sourceUrls": [
         "https://www.roblox.com/games/111838814545019/Morioh-High",
         "https://en.help.roblox.com/hc/en-us/articles/204473560-How-to-Install-and-Play-Roblox"
@@ -79,46 +79,46 @@
     {
       "path": "/guides/",
       "gzipBefore": 11243,
-      "gzipAfter": 11129,
-      "gzipDelta": -114,
+      "gzipAfter": 10263,
+      "gzipDelta": -980,
       "htmlBefore": 41444,
-      "htmlAfter": 41026,
+      "htmlAfter": 38034,
       "sourceUrls": []
     },
     {
       "path": "/",
       "gzipBefore": 14216,
-      "gzipAfter": 14251,
-      "gzipDelta": 35,
+      "gzipAfter": 13206,
+      "gzipDelta": -1010,
       "htmlBefore": 78252,
-      "htmlAfter": 77875,
+      "htmlAfter": 71191,
       "sourceUrls": []
     },
     {
       "path": "/privacy-policy/",
       "gzipBefore": 10601,
-      "gzipAfter": 10452,
-      "gzipDelta": -149,
+      "gzipAfter": 9565,
+      "gzipDelta": -1036,
       "htmlBefore": 36567,
-      "htmlAfter": 36137,
+      "htmlAfter": 32964,
       "sourceUrls": []
     },
     {
       "path": "/recent/",
       "gzipBefore": 11525,
-      "gzipAfter": 11436,
-      "gzipDelta": -89,
+      "gzipAfter": 10539,
+      "gzipDelta": -986,
       "htmlBefore": 44162,
-      "htmlAfter": 43744,
+      "htmlAfter": 40752,
       "sourceUrls": []
     },
     {
       "path": "/resources/codes/",
       "gzipBefore": 19371,
-      "gzipAfter": 21537,
-      "gzipDelta": 2166,
+      "gzipAfter": 20225,
+      "gzipDelta": 854,
       "htmlBefore": 109185,
-      "htmlAfter": 113396,
+      "htmlAfter": 104866,
       "sourceUrls": [
         "https://progameguides.com/roblox/morioh-high-codes/",
         "https://www.mrguider.org/roblox/morioh-high-codes/",
@@ -128,10 +128,10 @@
     {
       "path": "/resources/community-links/",
       "gzipBefore": 18030,
-      "gzipAfter": 18178,
-      "gzipDelta": 148,
+      "gzipAfter": 17087,
+      "gzipDelta": -943,
       "htmlBefore": 100936,
-      "htmlAfter": 101296,
+      "htmlAfter": 92766,
       "sourceUrls": [
         "https://groups.roblox.com/v1/groups/403864872",
         "https://discord.com/api/v10/invites/moriohhigh?with_counts=true&with_expiration=true"
@@ -140,19 +140,19 @@
     {
       "path": "/resources/",
       "gzipBefore": 11144,
-      "gzipAfter": 11033,
-      "gzipDelta": -111,
+      "gzipAfter": 10170,
+      "gzipDelta": -974,
       "htmlBefore": 41662,
-      "htmlAfter": 41230,
+      "htmlAfter": 38238,
       "sourceUrls": []
     },
     {
       "path": "/resources/release-information/",
       "gzipBefore": 17812,
-      "gzipAfter": 17957,
-      "gzipDelta": 145,
+      "gzipAfter": 16883,
+      "gzipDelta": -929,
       "htmlBefore": 100242,
-      "htmlAfter": 100606,
+      "htmlAfter": 92076,
       "sourceUrls": [
         "https://games.roblox.com/v1/games?universeIds=10768944846",
         "https://bloxinformer.com/upcoming-roblox-games/morioh-high/"
@@ -161,73 +161,73 @@
     {
       "path": "/tags/codes/",
       "gzipBefore": 10584,
-      "gzipAfter": 10457,
-      "gzipDelta": -127,
+      "gzipAfter": 9600,
+      "gzipDelta": -984,
       "htmlBefore": 38484,
-      "htmlAfter": 38052,
+      "htmlAfter": 35060,
       "sourceUrls": []
     },
     {
       "path": "/tags/community-resources/",
       "gzipBefore": 10725,
-      "gzipAfter": 10618,
-      "gzipDelta": -107,
+      "gzipAfter": 9749,
+      "gzipDelta": -976,
       "htmlBefore": 39906,
-      "htmlAfter": 39474,
+      "htmlAfter": 36482,
       "sourceUrls": []
     },
     {
       "path": "/tags/getting-started/",
       "gzipBefore": 11011,
-      "gzipAfter": 10909,
-      "gzipDelta": -102,
+      "gzipAfter": 10045,
+      "gzipDelta": -966,
       "htmlBefore": 40908,
-      "htmlAfter": 40490,
+      "htmlAfter": 37498,
       "sourceUrls": []
     },
     {
       "path": "/tags/",
       "gzipBefore": 9931,
-      "gzipAfter": 9819,
-      "gzipDelta": -112,
+      "gzipAfter": 8956,
+      "gzipDelta": -975,
       "htmlBefore": 36593,
-      "htmlAfter": 36161,
+      "htmlAfter": 33169,
       "sourceUrls": []
     },
     {
       "path": "/tags/release-information/",
       "gzipBefore": 10569,
-      "gzipAfter": 10446,
-      "gzipDelta": -123,
+      "gzipAfter": 9591,
+      "gzipDelta": -978,
       "htmlBefore": 38724,
-      "htmlAfter": 38292,
+      "htmlAfter": 35300,
       "sourceUrls": []
     },
     {
       "path": "/tags/roblox/",
       "gzipBefore": 11592,
-      "gzipAfter": 11510,
-      "gzipDelta": -82,
+      "gzipAfter": 10603,
+      "gzipDelta": -989,
       "htmlBefore": 44295,
-      "htmlAfter": 43877,
+      "htmlAfter": 40885,
       "sourceUrls": []
     },
     {
       "path": "/tags/stands/",
       "gzipBefore": 10804,
-      "gzipAfter": 10692,
-      "gzipDelta": -112,
+      "gzipAfter": 9817,
+      "gzipDelta": -987,
       "htmlBefore": 39630,
-      "htmlAfter": 39198,
+      "htmlAfter": 36206,
       "sourceUrls": []
     },
     {
       "path": "/terms-of-service/",
       "gzipBefore": 10038,
-      "gzipAfter": 9894,
-      "gzipDelta": -144,
+      "gzipAfter": 9036,
+      "gzipDelta": -1002,
       "htmlBefore": 34902,
-      "htmlAfter": 34472,
+      "htmlAfter": 31480,
       "sourceUrls": []
     }
   ],

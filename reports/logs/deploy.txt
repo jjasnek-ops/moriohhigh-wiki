@@ -1,12 +1,17 @@
 
  ⛅️ wrangler 4.149.0
 ────────────────────
-Uploading... (70/103)
-Uploading... (81/103)
-Uploading... (92/103)
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mWarning: Your working directory is a git repo and has uncommitted changes[0m
+
+  To silence this warning, pass in --commit-dirty=true
+
+
+Uploading... (67/103)
+Uploading... (79/103)
+Uploading... (91/103)
 Uploading... (103/103)
-✨ Success! Uploaded 33 files (70 already uploaded) (3.29 sec)
+✨ Success! Uploaded 36 files (67 already uploaded) (3.22 sec)
 
 ✨ Uploading _headers
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://e0e8cac5.moriohhigh-wiki.pages.dev
+✨ Deployment complete! Take a peek over at https://4b856f3d.moriohhigh-wiki.pages.dev

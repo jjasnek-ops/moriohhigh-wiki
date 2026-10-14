@@ -1,10 +1,25 @@
 # Current delivery status
 
+## 2026-10-14 SEO/GEO + 自动广告合并发布（已完成 / 已验证）
+
+- 最新用户明确授权合并部署；此前 local-only hold 已解除。仅发布既有 Pages 项目，未修改账户权限、DNS、NS、DNSSEC，未付费。下面历史快照不代表当前生产。
+- GitHub 使用 jjasnek-ops；仓库 https://github.com/jjasnek-ops/moriohhigh-wiki 。实际生产 source 7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb；CI38526575427 success。后续验收报告提交不冒充新的生产 source。
+- Cloudflare Pages 项目 moriohhigh-wiki；production deployment 4b856f3d-44db-48ee-b674-ed780e5c467a；CF deploy stage success；https://moriohhighguide.wiki 的 marker 精确匹配该 source。
+- 本版：新手 first-steps、Stand失败排查、Codes二手入群说明/FAQ、六MDX静态来源/核验日期及Article citation、真实主体Schema、归档noindex,follow、404 noindex、llms身份说明；有效URL不变，未新增空壳文章。
+- Adsterra及GA4自动加载、无同意弹窗。广告原尺寸/可见性/响应式替代/关闭保留，隐私页同步。正式浏览器1280/390已验证加载器及布局；一条GA脚本；移动无横溢出；Search beginner返回新手指南并可打开；关闭顶部不影响Native。
+- 门禁：check143文件零诊断、lint、19套件250passed/1skipped、config/content/strict UI、build、556内链、SEO/GEO/7广告审计通过；生产23有效路由、30常规HTTP检查、23合并检查零失败；13Sitemap全部200；7广告资产与构建一致且noindex；六正文可直接由HTML读取。
+- 范围：23正常有效URL、13可索引、6MDX/8编辑入口不变；原15词历史数据完整，37研究记录/30相关候选/7排除维持；20意图矩阵/12暂缓。E25补单一媒体未实测前置说明，原七码/奖励省略保留。
+- 未验证：实际广告素材填充/展示量/收入、本版GA4报表接收、当前Google收录/曝光/排名、AI引用和CWV；游戏当前客户端及完整roster/任务/地图、Codes成功兑换。不得因部署通过宣称这些效果已发生。
+- 回执：reports/seo-geo-release-2026-10-14.md、pages-deployment-seo-geo-2026-10-14.json、seo-geo-release-tests.json、seo-geo-online-acceptance.json、seo-geo-release-browser.json。旧生产和此前local-only研究保留。
+- 后续：读真实GSC/GA4及Adsterra报表；核实当前游戏一手证据；按固定问题复测真实AI搜索。既有Codes日检和四全站检查保留，没有创建重复任务。
+
+## 以下为历史交付快照（由以上最新状态覆盖）
+
 ## 2026-10-14 后续广告指示（本地完成，未部署）
 
 Adsterra与GA4均取消同意前置；共享Allow/Decline横幅不再挂载，广告保留原尺寸/可见性门控和关闭，GA4配置自动初始化一次。隐私页及维护说明同步。check/lint/19套件250passed、1skipped/build/13Sitemap静态SEO/7广告/556内链通过；真实浏览器本地模拟provider验证已有declined/无记录自动加载、移动尺寸及关闭。模拟未发送真实素材展示或Google采集；生产仍旧版；用户随后已授权合并上线，发布验收进行中。详见reports/automatic-ads-2026-10-14.md。
 
-## 2026-10-14 combined release authorization — in progress
+## 2026-10-14 发布授权记录（此前发布过程中）
 
 The user now explicitly authorizes deployment of the SEO/GEO revision together with automatic Adsterra and GA4 loading. The earlier local-only publication hold is superseded for this combined release. Protect the working tree, verify all gates and the exact source commit, then deploy only the existing moriohhigh-wiki Pages project. External account/DNS/NS/DNSSEC changes and paid operations remain outside scope. Historical local-only results below describe the earlier authorization. Release is in progress; do not treat it as completed before formal-domain acceptance.
 

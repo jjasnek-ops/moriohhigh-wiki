@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-14T07:12:18.497Z",
+  "sourceCommit": "7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb",
+  "ci": {
+    "conclusion": "success",
+    "headSha": "7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb",
+    "status": "completed",
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/38526575427"
+  },
+  "checks": {
+    "check": {
+      "exit": 0,
+      "files": 143,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "lint": {
+      "exit": 0
+    },
+    "test": {
+      "exit": 0,
+      "suites": 19,
+      "passed": 250,
+      "skipped": 1
+    },
+    "check-config": {
+      "exit": 0
+    },
+    "check-content": {
+      "exit": 0,
+      "mdxFiles": 6
+    },
+    "check-i18n --strict-ui": {
+      "exit": 0
+    },
+    "build": {
+      "exit": 0,
+      "normalHtml": 24,
+      "adAssets": 7,
+      "pagefindArticles": 6
+    },
+    "check-links": {
+      "exit": 0,
+      "links": 556
+    },
+    "seo": {
+      "exit": 0,
+      "indexable": 13,
+      "sitemap": 13,
+      "failures": []
+    },
+    "ads": {
+      "exit": 0,
+      "units": 7,
+      "failures": []
+    },
+    "geo": {
+      "exit": 0,
+      "validHtmlRoutes": 23,
+      "staticArticles": 6,
+      "failures": []
+    },
+    "check-sitemap production": {
+      "exit": 0,
+      "passed": 13,
+      "failed": 0
+    }
+  },
+  "limitations": [
+    "These are build gates; formal acceptance and ad fill are separate."
+  ]
+}
