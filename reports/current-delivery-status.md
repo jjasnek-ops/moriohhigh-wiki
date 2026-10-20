@@ -1,5 +1,13 @@
 # Current delivery status
 
+## 2026-10-20 Codes 实质增量（已上线 / HTTP与搜索API已验证）
+
+新增LIKES10K、SPINUPDATE、SORRY4DELAY，当前10个reported码；两个同游戏已读来源一致，PGG显示10月19更新、MrGuider显示10月18更新，采集/本站发布日10月20（Asia/Shanghai）。开发者确认/本站成功兑换均0，奖励省略。汇总入口/resources/codes/与独立/resources/codes-update-2026-10-20/已发布，旧七码及证据保留；原生复制/来源面板/日期/反向内链保留。新手页只去除过时七码数量，未重写玩法或改其日期。E26、候选表、唯一事件及研究增量同步。
+
+实际生产source 3e5231826f6386556eea3719f2a724406bc345b7，jjasnek-ops仓库main已推送；CI39356804320 success。既有Pages项目moriohhigh-wiki production 80e13085-a0f0-48e6-9fb5-a63f5d6818f2 / https://80e13085.moriohhigh-wiki.pages.dev，正式域名marker匹配。check143文件零诊断、lint、19套件250passed/1skipped、config/content/strict UI、build、608内链、25构建HTML/14Sitemap、7广告通过；正式24有效路由/31常规HTTP及24 SEO核验零失败，14Sitemap全部200。Pagefind实际生产索引API对三个新码各返回汇总页与日期文章；7篇索引文章。浏览器两次文档读取超时，仅标签标题/网址可见，本轮桌面/移动视觉、复制点击及搜索弹窗未验证；不据此判定站点故障。
+
+回执reports/codes-release-2026-10-20.md、codes-release-tests-2026-10-20.json、pages-deployment-codes-2026-10-20.json、codes-search-acceptance-2026-10-20.json。实际9个编辑入口（含1篇日期增量）/7MDX，原20意图矩阵及12暂缓不变。后续docs/研究验收提交不代表再部署；Google收录/曝光、GA4真实接收、广告填充/收入未验证。用户原有MAINTENANCE与日3/7恢复记录完整保留，无付费、扩权、DNS/NS或无关资源变更，未创建/改动自动任务。相同事件重试复用reported-additions-likes10k-sorry4delay-spinupdate；无变化仅写ignored运行日志。
+
 ## 2026-10-14 Codes后续发布形式（已配置 / 未产生新码文章）
 
 用户要求每次Codes实质更新单独成文并加日期。已更新现有morioh-high heartbeat（仍每日10:00、同一对话、ACTIVE）、发布SOP、候选表发布策略及空历史事件表：总入口/resources/codes/保留；新变化用/resources/codes-update-YYYY-MM-DD/，同日不同事件编号，标题/首屏有日期；只写本次变化与来源，不复制完整攻略；无变化不发文。未改原七码和lastMaterialChangeDate，未倒造历史文章。已解除线上专项审计的历史七码硬编码，按本次构建比较码列表。此轮仅配置未来发布规则，不再次部署站点；实际生产仍以下7cfd47f，任务后续执行及首篇独立文章尚未发生。详见docs/codes-update-publication.md。

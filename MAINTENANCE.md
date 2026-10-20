@@ -2,7 +2,7 @@
 
 ## Active combined release — 2026-10-14
 
-The user explicitly authorized and completed publication of SEO/GEO changes with automatic Adsterra and GA4 loading. The earlier local-only hold is superseded. Verified production source is 7cfd47f44dc982ab2dbee83ea3157bf9e64ef6fb on project moriohhigh-wiki; formal marker and acceptance receipts match. Later documentation commits are not deployed source. Protect unrelated uncommitted work; future authorized Codes changes must still pass source/content/build/link/SEO gates. External account permissions, DNS/NS/DNSSEC changes and paid operations remain outside this release scope. See reports/seo-geo-release-2026-10-14.md.
+The October 14 SEO/GEO release established automatic Adsterra and GA4 loading; the earlier local-only hold is superseded. On October 20, three corroborated reported codes and one dated delta article were published. Verified current production source is 3e5231826f6386556eea3719f2a724406bc345b7 on project moriohhigh-wiki; formal marker, HTTP, Sitemap and production Pagefind API receipts match. Browser document reads timed out, so this release does not claim new visual/copy/dialog interaction verification. See reports/codes-release-2026-10-20.md; the October 14 receipt remains historical. Later documentation commits are not deployed source. Protect unrelated uncommitted work; future authorized Codes changes must still pass source/content/build/link/SEO gates. External account permissions, DNS/NS/DNSSEC changes and paid operations remain outside scope.
 
 ## User-authorized Codes exception — 2026-10-13
 

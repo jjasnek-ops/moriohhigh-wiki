@@ -74,7 +74,9 @@
           "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-20",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/"
     },
     {
       "code": "SPINUPDATE",
@@ -120,7 +122,9 @@
           "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-20",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/"
     },
     {
       "code": "SORRY4DELAY",
@@ -166,7 +170,9 @@
           "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-20",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/"
     },
     {
       "code": "GAUNTLET",
@@ -285,7 +291,7 @@
   "notes": "Ten strings are now reported by both checked same-game publishers. Three first seen in MrGuider on October 19 were corroborated in PGG on October 20. Source dates and collection dates are distinct. Rewards omitted; no developer confirmation or successful redemption test. See latestUpdate for deployment status; the original seven retain their October 13 evidence.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4",
+  "publicationSourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
   "updateHistory": "research/codes-update-history.json",
   "datedUpdateArticles": {
     "adoptedDate": "2026-10-14",
@@ -320,13 +326,18 @@
     "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
     "articlePath": "/resources/codes-update-2026-10-20/",
     "date": "2026-10-20",
-    "status": "local_prepared",
+    "status": "published_http_verified",
     "addedCodes": [
       "LIKES10K",
       "SPINUPDATE",
       "SORRY4DELAY"
     ],
-    "sourceCommit": null,
-    "deploymentId": null
-  }
+    "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+    "deploymentId": "80e13085-a0f0-48e6-9fb5-a63f5d6818f2",
+    "liveVerifiedAt": "2026-10-20T02:09:43.611Z",
+    "productionOrigin": "https://moriohhighguide.wiki",
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
+  },
+  "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

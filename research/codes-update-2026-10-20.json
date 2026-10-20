@@ -75,5 +75,11 @@
   "explicitExpiryChanges": [],
   "decision": "Publish the three exact strings as reported, untested additions under the user-authorized two-source policy. Do not infer rewards, expiry, update mechanics, or successful redemption.",
   "articlePath": "/resources/codes-update-2026-10-20/",
-  "status": "local_prepared"
+  "status": "published_http_verified",
+  "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+  "deploymentId": "80e13085-a0f0-48e6-9fb5-a63f5d6818f2",
+  "liveVerifiedAt": "2026-10-20T02:09:43.611Z",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "searchApiVerified": true,
+  "browserInteractionVerified": false
 }

@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-20T02:07:59.420Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+  "method": "Unmodified Pagefind JavaScript API executed in Node against the production search index; production runtime byte-matched to the build",
+  "results": [
+    {
+      "query": "LIKES10K",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+          "title": "Morioh High Codes Update — October 20, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "SPINUPDATE",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+          "title": "Morioh High Codes Update — October 20, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "SORRY4DELAY",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+          "title": "Morioh High Codes Update — October 20, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "browserDialogTested": false,
+  "browserLimitation": "IAB created the correctly titled article tab, but both initial and fresh-tab document reads timed out. No browser visual, copy interaction or search-dialog success is claimed."
+}

@@ -1,3 +1,6 @@
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
 
  ⛅️ wrangler 4.149.0
 ────────────────────
@@ -6,12 +9,12 @@
   To silence this warning, pass in --commit-dirty=true
 
 
-Uploading... (67/103)
-Uploading... (79/103)
-Uploading... (91/103)
-Uploading... (103/103)
-✨ Success! Uploaded 36 files (67 already uploaded) (3.22 sec)
+Uploading... (80/105)
+Uploading... (89/105)
+Uploading... (97/105)
+Uploading... (105/105)
+✨ Success! Uploaded 25 files (80 already uploaded) (2.70 sec)
 
 ✨ Uploading _headers
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://4b856f3d.moriohhigh-wiki.pages.dev
+✨ Deployment complete! Take a peek over at https://80e13085.moriohhigh-wiki.pages.dev

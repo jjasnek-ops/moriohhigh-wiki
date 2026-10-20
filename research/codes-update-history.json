@@ -90,11 +90,21 @@
         "E26"
       ],
       "verificationStatus": "publisher_reported_untested",
-      "status": "local_prepared",
-      "sourceCommit": null,
-      "deploymentId": null,
-      "liveVerifiedAt": null
+      "status": "published_http_verified",
+      "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+      "deploymentId": "80e13085-a0f0-48e6-9fb5-a63f5d6818f2",
+      "liveVerifiedAt": "2026-10-20T02:09:43.611Z",
+      "productionOrigin": "https://moriohhighguide.wiki",
+      "searchApiVerified": true,
+      "browserInteractionVerified": false,
+      "acceptance": {
+        "markerMatches": true,
+        "validHtmlRoutes": 24,
+        "sitemapUrls": 14,
+        "searchReport": "reports/codes-search-acceptance-2026-10-20.json",
+        "browserLimitation": "IAB created the correctly titled article tab, but both initial and fresh-tab document reads timed out. No browser visual, copy interaction or search-dialog success is claimed."
+      }
     }
   ],
-  "notes": "One material update is prepared locally. Deployment status is recorded per event; retries must reuse its eventId and articlePath. The October 13 seven-code snapshot predates dated articles."
+  "notes": "One dated material update is published and HTTP/search-API verified. Browser interaction is not verified. The October 13 seven-code snapshot predates dated articles. Reuse the existing eventId/articlePath on retry; unchanged checks do not create articles."
 }

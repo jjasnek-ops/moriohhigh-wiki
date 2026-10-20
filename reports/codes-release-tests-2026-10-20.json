@@ -66,5 +66,24 @@
   "limitations": [
     "No code redemption or developer confirmation tested.",
     "Local build checks do not establish live deployment, search indexing, real Pagefind interaction, ad fill, analytics reception or revenue."
-  ]
+  ],
+  "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+  "ci": {
+    "conclusion": "success",
+    "headSha": "3e5231826f6386556eea3719f2a724406bc345b7",
+    "status": "completed",
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/39356804320"
+  },
+  "productionAcceptance": {
+    "verifiedAt": "2026-10-20T02:09:43.611Z",
+    "httpChecks": 31,
+    "htmlRoutes": 24,
+    "sitemapUrls": 14,
+    "seoRoutes": 24,
+    "sourcePanels": 7,
+    "adUnits": 7,
+    "markerMatches": true,
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
+  }
 }
