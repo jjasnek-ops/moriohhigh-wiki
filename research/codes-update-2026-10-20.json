@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
+  "collectedDate": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "game": {
+    "name": "Morioh High",
+    "placeId": 111838814545019,
+    "universeId": 10768944846,
+    "url": "https://www.roblox.com/games/111838814545019/Morioh-High"
+  },
+  "previousPublishedCodeCount": 7,
+  "addedCodes": [
+    "LIKES10K",
+    "SPINUPDATE",
+    "SORRY4DELAY"
+  ],
+  "resultingReportedCodeCount": 10,
+  "sourceObservations": [
+    {
+      "id": "pgg",
+      "url": "https://progameguides.com/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "displayedUpdatedDate": "2026-10-19",
+      "collectedDate": "2026-10-20",
+      "section": "Morioh High Active Codes",
+      "publisherReportedStatus": "active",
+      "codeAddedDate": null,
+      "exactStrings": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY"
+      ],
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+    },
+    {
+      "id": "mrguider",
+      "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "displayedUpdatedDate": "2026-10-18",
+      "displayedDateText": "October 18, 2026 at 4:39 pm EDT",
+      "collectedDate": "2026-10-20",
+      "section": "Working Morioh High codes are",
+      "publisherReportedStatus": "working",
+      "codeAddedDate": "2026-10-18",
+      "exactStrings": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY"
+      ],
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+    }
+  ],
+  "firstObservation": {
+    "collectedDate": "2026-10-19",
+    "sourceId": "mrguider",
+    "status": "pending_single_source",
+    "localLog": ".tools/codes-monitor/2026-10-19.json"
+  },
+  "officialListing": {
+    "collectedDate": "2026-10-20",
+    "displayedName": "[SPIN] Morioh High",
+    "developer": "Not A Stand Game",
+    "codeListObserved": false
+  },
+  "community": {
+    "url": "https://www.roblox.com/communities/403864872/Not-A-Stand-Game",
+    "announcementRead": false,
+    "limitation": "Public page requires JavaScript; group API request failed. No bypass attempted."
+  },
+  "developerConfirmed": false,
+  "redemptionTested": false,
+  "verifiedWorking": false,
+  "rewardPolicy": "omit",
+  "explicitExpiryChanges": [],
+  "decision": "Publish the three exact strings as reported, untested additions under the user-authorized two-source policy. Do not infer rewards, expiry, update mechanics, or successful redemption.",
+  "articlePath": "/resources/codes-update-2026-10-20/",
+  "status": "local_prepared"
+}

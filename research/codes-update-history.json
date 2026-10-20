@@ -6,6 +6,95 @@
   "articlePathPattern": "/resources/codes-update-YYYY-MM-DD/",
   "sameDaySuffix": "-2, -3, ... for distinct later events",
   "policy": "docs/codes-update-publication.md",
-  "entries": [],
-  "notes": "No dated update article has been created under this policy yet. The existing reported-code snapshot is preserved; a policy change is not a new code event."
+  "entries": [
+    {
+      "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
+      "kind": "reported_code_additions",
+      "publicationDate": "2026-10-20",
+      "timezone": "Asia/Shanghai",
+      "articlePath": "/resources/codes-update-2026-10-20/",
+      "hubPath": "/resources/codes/",
+      "addedCodes": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY"
+      ],
+      "changes": [
+        {
+          "code": "LIKES10K",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-19",
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "SPINUPDATE",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-19",
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "SORRY4DELAY",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-19",
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        }
+      ],
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-19",
+          "collectedDate": "2026-10-20",
+          "section": "Morioh High Active Codes",
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null,
+          "exactStrings": [
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY"
+          ],
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-18",
+          "displayedDateText": "October 18, 2026 at 4:39 pm EDT",
+          "collectedDate": "2026-10-20",
+          "section": "Working Morioh High codes are",
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-18",
+          "exactStrings": [
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY"
+          ],
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        }
+      ],
+      "evidenceIds": [
+        "E26"
+      ],
+      "verificationStatus": "publisher_reported_untested",
+      "status": "local_prepared",
+      "sourceCommit": null,
+      "deploymentId": null,
+      "liveVerifiedAt": null
+    }
+  ],
+  "notes": "One material update is prepared locally. Deployment status is recorded per event; retries must reuse its eventId and articlePath. The October 13 seven-code snapshot predates dated articles."
 }

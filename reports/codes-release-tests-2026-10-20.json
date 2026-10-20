@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-20T02:02:32.019Z",
+  "mode": "local build; not production acceptance",
+  "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
+  "checks": {
+    "content": {
+      "exit": 0,
+      "mdxFiles": 7
+    },
+    "check": {
+      "exit": 0,
+      "files": 143,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "lint": {
+      "exit": 0
+    },
+    "test": {
+      "exit": 0,
+      "suites": 19,
+      "passed": 250,
+      "skipped": 1
+    },
+    "check-config": {
+      "exit": 0
+    },
+    "check-i18n --strict-ui": {
+      "exit": 0
+    },
+    "build": {
+      "exit": 0,
+      "pagefindPages": 7
+    },
+    "check-links": {
+      "exit": 0,
+      "links": 608,
+      "pages": 32
+    },
+    "dynamicSeo": {
+      "exit": 0,
+      "htmlCount": 25,
+      "sitemapCount": 14,
+      "indexableCount": 14
+    },
+    "advertising": {
+      "exit": 0,
+      "unitCount": 7
+    },
+    "updateConsistency": {
+      "exit": 0,
+      "hubCodes": 10,
+      "deltaCodes": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY"
+      ],
+      "sourcePanels": true,
+      "canonical": true,
+      "dates": true,
+      "historyDeduplicated": true,
+      "untested": true
+    }
+  },
+  "limitations": [
+    "No code redemption or developer confirmation tested.",
+    "Local build checks do not establish live deployment, search indexing, real Pagefind interaction, ad fill, analytics reception or revenue."
+  ]
+}

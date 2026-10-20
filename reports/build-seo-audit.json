@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-14T07:10:51.252Z",
+  "checkedAt": "2026-10-20T02:02:31.714Z",
   "origin": "https://moriohhighguide.wiki",
-  "htmlCount": 24,
-  "indexableCount": 13,
-  "sitemapCount": 13,
+  "htmlCount": 25,
+  "indexableCount": 14,
+  "sitemapCount": 14,
   "failures": [],
   "pages": [
     {
@@ -105,8 +105,16 @@
     {
       "file": "dist/resources/codes/index.html",
       "title": "Morioh High Codes: Reported List and How to Redeem",
-      "descriptionLength": 145,
+      "descriptionLength": 142,
       "canonical": "https://moriohhighguide.wiki/resources/codes/",
+      "noindex": false,
+      "errors": []
+    },
+    {
+      "file": "dist/resources/codes-update-2026-10-20/index.html",
+      "title": "Morioh High Codes Update — October 20, 2026",
+      "descriptionLength": 128,
+      "canonical": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
       "noindex": false,
       "errors": []
     },
