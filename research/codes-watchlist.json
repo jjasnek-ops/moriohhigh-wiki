@@ -74,7 +74,9 @@
           "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-26",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/"
     },
     {
       "code": "LIKES10K",
@@ -337,7 +339,7 @@
   "notes": "Eleven strings occur in both checked same-game publisher lists. OOPSVAMPIRE was first observed in MrGuider on October 25 and corroborated in PGG on October 26. All previous ten entries and their evidence are preserved. Other single-source candidates remain unpublished. Rewards omitted; no developer confirmation, redemption test or expiry evidence. See latestUpdate for actual publication status.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
+  "publicationSourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
   "updateHistory": "research/codes-update-history.json",
   "datedUpdateArticles": {
     "adoptedDate": "2026-10-14",
@@ -393,12 +395,16 @@
     "eventId": "reported-additions-oopsvampire",
     "articlePath": "/resources/codes-update-2026-10-26/",
     "date": "2026-10-26",
-    "status": "local_prepared",
+    "status": "published_http_verified",
     "addedCodes": [
       "OOPSVAMPIRE"
     ],
-    "sourceCommit": null,
-    "deploymentId": null
+    "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+    "deploymentId": "12a2c775-3b54-4388-bc43-4a78421fdb0a",
+    "liveVerifiedAt": "2026-10-26T02:11:31.524Z",
+    "productionOrigin": "https://moriohhighguide.wiki",
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

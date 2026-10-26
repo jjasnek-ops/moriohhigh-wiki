@@ -64,10 +64,20 @@
         "E27"
       ],
       "verificationStatus": "publisher_reported_untested",
-      "status": "local_prepared",
-      "sourceCommit": null,
-      "deploymentId": null,
-      "liveVerifiedAt": null
+      "status": "published_http_verified",
+      "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+      "deploymentId": "12a2c775-3b54-4388-bc43-4a78421fdb0a",
+      "liveVerifiedAt": "2026-10-26T02:11:31.524Z",
+      "productionOrigin": "https://moriohhighguide.wiki",
+      "searchApiVerified": true,
+      "browserInteractionVerified": false,
+      "acceptance": {
+        "markerMatches": true,
+        "validHtmlRoutes": 25,
+        "sitemapUrls": 15,
+        "searchReport": "reports/codes-search-acceptance-2026-10-26.json",
+        "browserLimitation": "No new browser visual, clipboard or dialog-click check in this content-only delta. Production search API verification is recorded separately from UI interaction."
+      }
     },
     {
       "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
@@ -168,5 +178,5 @@
       }
     }
   ],
-  "notes": "Two dated material update events exist; publication status is recorded per event. Reuse the same eventId/articlePath on retry. The October 20 historical article and event are preserved; no new article for unchanged checks."
+  "notes": "Two dated material updates are published and HTTP/production-search-API verified. Preserve each event’s original source and acceptance, and reuse eventId/articlePath on retries. Browser interaction remains unverified; unchanged checks do not create articles. The October13 snapshot predates dated articles."
 }

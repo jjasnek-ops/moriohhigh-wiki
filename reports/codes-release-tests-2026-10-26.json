@@ -136,5 +136,51 @@
   "limitations": [
     "Local gates are not production acceptance or in-game redemption.",
     "No new browser interaction, ad fill, GA4 report receipt or Google indexing measurement."
-  ]
+  ],
+  "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "ci": {
+    "conclusion": "success",
+    "headSha": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+    "status": "completed",
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/40257340920"
+  },
+  "productionAcceptance": {
+    "verifiedAt": "2026-10-26T02:11:31.524Z",
+    "gates": [
+      {
+        "gate": "http",
+        "exitCode": 0,
+        "output": "{\"validHtmlRoutes\":25,\"sitemapCount\":15,\"checks\":32,\"failures\":[]}\n"
+      },
+      {
+        "gate": "seo",
+        "exitCode": 0,
+        "output": "{\"routes\":25,\"sourcePanels\":8,\"markerMatches\":true,\"failures\":[]}\n"
+      },
+      {
+        "gate": "search",
+        "exitCode": 0,
+        "output": "{\"checkedAt\":\"2026-10-26T02:09:07.864Z\",\"origin\":\"https://moriohhighguide.wiki\",\"sourceCommit\":\"960f929aaa6424880619fc8ed2d6d0933b05d12d\",\"method\":\"Unmodified, release-matched Pagefind JavaScript API queried actual production search index from Node.\",\"results\":[{\"query\":\"OOPSVAMPIRE\",\"resultCount\":2,\"matches\":[{\"url\":\"https://moriohhighguide.wiki/resources/codes-update-2026-10-26/\",\"title\":\"Morioh High Codes Update — October 26, 2026\"},{\"url\":\"https://moriohhighguide.wiki/resources/codes/\",\"title\":\"Morioh High Codes: Reported List and How to Redeem\"}]},{\"query\":\"LIKES10K\",\"resultCount\":2,\"matches\":[{\"url\":\"https://moriohhighguide.wiki/resources/codes-update-2026-10-20/\",\"title\":\"Morioh High Codes Update — October 20, 2026\"},{\"url\":\"https://moriohhighguide.wiki/resources/codes/\",\"title\":\"Morioh High Codes: Reported List and How to Redeem\"}]}],\"failures\":[],\"browserDialogTested\":false,\"browserLimitation\":\"No new browser visual, clipboard or dialog-click check in this content-only delta. Production search API verification is recorded separately from UI interaction.\"}\n"
+      },
+      {
+        "gate": "ads",
+        "exitCode": 0,
+        "output": "{\"unitCount\":7,\"markerMatches\":true,\"failures\":[]}\n"
+      },
+      {
+        "gate": "sitemap",
+        "exitCode": 0,
+        "output": "Already up to date\nDone in 500ms using pnpm v11.1.1\n$ tsx scripts/check-sitemap.ts \"https://moriohhighguide.wiki\"\n\n📋 Checking sitemap URLs against: https://moriohhighguide.wiki\n\nFound 15 URLs. Checking...\n\n  ✅  200  https://moriohhighguide.wiki/\n  ✅  200  https://moriohhighguide.wiki/about/\n  ✅  200  https://moriohhighguide.wiki/contact/\n  ✅  200  https://moriohhighguide.wiki/copyright/\n  ✅  200  https://moriohhighguide.wiki/faq/\n  ✅  200  https://moriohhighguide.wiki/guides/controls/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-get-a-stand/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-play/\n  ✅  200  https://moriohhighguide.wiki/privacy-policy/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-10-20/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-10-26/\n  ✅  200  https://moriohhighguide.wiki/resources/codes/\n  ✅  200  https://moriohhighguide.wiki/resources/community-links/\n  ✅  200  https://moriohhighguide.wiki/resources/release-information/\n  ✅  200  https://moriohhighguide.wiki/terms-of-service/\n\n── Result ──\n  ✅ Passed: 15\n  ❌ Failed: 0\n\n🎉 All sitemap URLs returned 200.\n"
+      }
+    ],
+    "httpChecks": 32,
+    "htmlRoutes": 25,
+    "sitemapUrls": 15,
+    "seoRoutes": 25,
+    "sourcePanels": 8,
+    "adUnits": 7,
+    "markerMatches": true,
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
+  }
 }

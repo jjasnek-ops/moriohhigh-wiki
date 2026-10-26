@@ -1,5 +1,13 @@
 # Current delivery status
 
+## 2026-10-26 Codes 增量（已上线 / HTTP与生产搜索API已验证）
+
+新增OOPSVAMPIRE，汇总现11个reported码；10月25日MrGuider单一来源候选于10月26日获PGG同拼写佐证。来源显示更新日分别10月25/24，本站日期文章/resources/codes-update-2026-10-26/于10月26日发布（Asia/Shanghai）。未取得开发者公告或兑换实测，奖励省略；5个其他单一来源候选继续留在ignored队列。旧十码证据、10月20日历史文章与事件保留，E27/候选/历史/研究同步，事件reported-additions-oopsvampire重试不得重复发文。
+
+生产source 960f929aaa6424880619fc8ed2d6d0933b05d12d；jjasnek-ops仓库main已推送，CI40257340920 success。既有Pages production 12a2c775-3b54-4388-bc43-4a78421fdb0a / https://12a2c775.moriohhigh-wiki.pages.dev，正式marker精确匹配。content8 MDX、check143零诊断、lint/config/strict UI、19套件250passed/1skipped、build、662内链、动态SEO/7广告通过；26构建HTML（含404）/15Sitemap/8Pagefind。正式25有效路由、32常规HTTP及25 SEO对照、15Sitemap全部200、7广告包装通过；OOPSVAMPIRE实际生产搜索API返回汇总和新日期文，旧LIKES10K仍返回汇总和10月20日文。首次Universe请求失败后有限复查200并匹配10768944846，保留失败记录；没有推断停服。
+
+本次未执行新的浏览器视觉、复制或搜索弹窗检查，不冒充交互验证；Google收录/曝光/排名、GA4报表及广告填充/收入、客户端兑换仍未知。回执reports/codes-release-2026-10-26.md、codes-release-tests-2026-10-26.json、pages-deployment-codes-2026-10-26.json、codes-search-acceptance-2026-10-26.json。仅本次内容与验收记录提交；原有日3/7/14笔记、source-review及policy修改保留未提交，无付费、扩权、DNS/NS/账户或自动任务变更。后续文档提交不改变实际生产source。
+
 ## 2026-10-20 Codes 实质增量（已上线 / HTTP与搜索API已验证）
 
 新增LIKES10K、SPINUPDATE、SORRY4DELAY，当前10个reported码；两个同游戏已读来源一致，PGG显示10月19更新、MrGuider显示10月18更新，采集/本站发布日10月20（Asia/Shanghai）。开发者确认/本站成功兑换均0，奖励省略。汇总入口/resources/codes/与独立/resources/codes-update-2026-10-20/已发布，旧七码及证据保留；原生复制/来源面板/日期/反向内链保留。新手页只去除过时七码数量，未重写玩法或改其日期。E26、候选表、唯一事件及研究增量同步。

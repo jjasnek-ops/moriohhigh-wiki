@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-20T02:05:07.145Z",
+  "checkedAt": "2026-10-26T02:09:10.648Z",
   "origin": "https://moriohhighguide.wiki",
   "https": true,
-  "validHtmlRoutes": 24,
+  "validHtmlRoutes": 25,
   "sitemapUrls": [
     "https://moriohhighguide.wiki/",
     "https://moriohhighguide.wiki/about/",
@@ -14,6 +14,7 @@
     "https://moriohhighguide.wiki/guides/how-to-play/",
     "https://moriohhighguide.wiki/privacy-policy/",
     "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+    "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
     "https://moriohhighguide.wiki/resources/codes/",
     "https://moriohhighguide.wiki/resources/community-links/",
     "https://moriohhighguide.wiki/resources/release-information/",
@@ -21,26 +22,18 @@
   ],
   "results": [
     {
-      "url": "https://moriohhighguide.wiki/copyright/",
-      "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/copyright/",
-      "canonical": "https://moriohhighguide.wiki/copyright/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": false
-    },
-    {
-      "url": "https://moriohhighguide.wiki/about/",
-      "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/about/",
-      "canonical": "https://moriohhighguide.wiki/about/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": false
-    },
-    {
       "url": "https://moriohhighguide.wiki/contact/",
       "status": 200,
       "finalUrl": "https://moriohhighguide.wiki/contact/",
       "canonical": "https://moriohhighguide.wiki/contact/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhighguide.wiki/copyright/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/copyright/",
+      "canonical": "https://moriohhighguide.wiki/copyright/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
     },
@@ -53,20 +46,20 @@
       "noindex": false
     },
     {
+      "url": "https://moriohhighguide.wiki/about/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/about/",
+      "canonical": "https://moriohhighguide.wiki/about/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
+    },
+    {
       "url": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
       "status": 200,
       "finalUrl": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
       "canonical": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
-    },
-    {
-      "url": "https://moriohhighguide.wiki/guides/",
-      "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/guides/",
-      "canonical": "https://moriohhighguide.wiki/guides/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": true
     },
     {
       "url": "https://moriohhighguide.wiki/guides/how-to-play/",
@@ -83,6 +76,14 @@
       "canonical": "https://moriohhighguide.wiki/guides/controls/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
+    },
+    {
+      "url": "https://moriohhighguide.wiki/guides/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/guides/",
+      "canonical": "https://moriohhighguide.wiki/guides/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
     },
     {
       "url": "https://moriohhighguide.wiki/privacy-policy/",
@@ -117,26 +118,10 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhighguide.wiki/resources/",
-      "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/resources/",
-      "canonical": "https://moriohhighguide.wiki/resources/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": true
-    },
-    {
       "url": "https://moriohhighguide.wiki/resources/community-links/",
       "status": 200,
       "finalUrl": "https://moriohhighguide.wiki/resources/community-links/",
       "canonical": "https://moriohhighguide.wiki/resources/community-links/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": false
-    },
-    {
-      "url": "https://moriohhighguide.wiki/resources/release-information/",
-      "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/resources/release-information/",
-      "canonical": "https://moriohhighguide.wiki/resources/release-information/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
     },
@@ -149,18 +134,26 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhighguide.wiki/tags/getting-started/",
+      "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
       "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/tags/getting-started/",
-      "canonical": "https://moriohhighguide.wiki/tags/getting-started/",
+      "finalUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
+      "canonical": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/resources/",
+      "canonical": "https://moriohhighguide.wiki/resources/",
       "contentType": "text/html; charset=utf-8",
       "noindex": true
     },
     {
-      "url": "https://moriohhighguide.wiki/tags/",
+      "url": "https://moriohhighguide.wiki/tags/getting-started/",
       "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/tags/",
-      "canonical": "https://moriohhighguide.wiki/tags/",
+      "finalUrl": "https://moriohhighguide.wiki/tags/getting-started/",
+      "canonical": "https://moriohhighguide.wiki/tags/getting-started/",
       "contentType": "text/html; charset=utf-8",
       "noindex": true
     },
@@ -171,6 +164,14 @@
       "canonical": "https://moriohhighguide.wiki/tags/community-resources/",
       "contentType": "text/html; charset=utf-8",
       "noindex": true
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/release-information/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/resources/release-information/",
+      "canonical": "https://moriohhighguide.wiki/resources/release-information/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
     },
     {
       "url": "https://moriohhighguide.wiki/tags/codes/",
@@ -205,6 +206,14 @@
       "noindex": true
     },
     {
+      "url": "https://moriohhighguide.wiki/tags/",
+      "status": 200,
+      "finalUrl": "https://moriohhighguide.wiki/tags/",
+      "canonical": "https://moriohhighguide.wiki/tags/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
       "url": "https://moriohhighguide.wiki/terms-of-service/",
       "status": 200,
       "finalUrl": "https://moriohhighguide.wiki/terms-of-service/",
@@ -227,16 +236,16 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhighguide.wiki/sitemap-index.xml",
+      "url": "https://moriohhighguide.wiki/sitemap-0.xml",
       "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/sitemap-index.xml",
+      "finalUrl": "https://moriohhighguide.wiki/sitemap-0.xml",
       "contentType": "application/xml",
       "noindex": false
     },
     {
-      "url": "https://moriohhighguide.wiki/sitemap-0.xml",
+      "url": "https://moriohhighguide.wiki/sitemap-index.xml",
       "status": 200,
-      "finalUrl": "https://moriohhighguide.wiki/sitemap-0.xml",
+      "finalUrl": "https://moriohhighguide.wiki/sitemap-index.xml",
       "contentType": "application/xml",
       "noindex": false
     },

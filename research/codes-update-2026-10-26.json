@@ -258,5 +258,20 @@
   "explicitExpiryChanges": [],
   "decision": "Publish only OOPSVAMPIRE as a corroborated, untested publisher report. Five unmatched candidates stay ignored/pending, not published or labelled expired.",
   "articlePath": "/resources/codes-update-2026-10-26/",
-  "status": "local_prepared"
+  "status": "published_http_verified",
+  "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "deploymentId": "12a2c775-3b54-4388-bc43-4a78421fdb0a",
+  "liveVerifiedAt": "2026-10-26T02:11:31.524Z",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "searchApiVerified": true,
+  "browserInteractionVerified": false,
+  "identityRecheck": {
+    "checkedAt": "2026-10-26T02:08:29.258Z",
+    "url": "https://apis.roblox.com/universes/v1/places/111838814545019/universe",
+    "httpStatus": 200,
+    "universeId": 10768944846,
+    "expectedUniverseId": 10768944846,
+    "identityMatches": true
+  },
+  "networkNote": "Initial Place-to-Universe direct request failed; a later limited retry returned200 and Universe10768944846. Original failed observation is retained, not interpreted as identity loss or shutdown."
 }

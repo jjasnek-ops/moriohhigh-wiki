@@ -1,5 +1,9 @@
 # Low-maintenance publication policy
 
+## Active Codes release — 2026-10-26
+
+OOPSVAMPIRE is published as an untested publisher report, corroborated in PGG and MrGuider; rewards omitted. The current hub has11 strings and the dated October26 article contains this one addition. Five single-source candidates remain unpublished. Production source 960f929aaa6424880619fc8ed2d6d0933b05d12d / deployment 12a2c775-3b54-4388-bc43-4a78421fdb0a passed exact-source CI,formal marker,25 content-route checks,15 Sitemap URLs,seven ad wrappers and actual production Pagefind API queries. Earlier release/check records below remain historical. No new visual/clipboard/dialog test,client redemption,Google indexing,GA4 report reception or ad fill is claimed. See reports/codes-release-2026-10-26.md. Preserve unrelated local notes and the existing schedule; no account,DNS,permission,paid or automation changes occurred.
+
 ## Active combined release — 2026-10-14
 
 The October 14 SEO/GEO release established automatic Adsterra and GA4 loading; the earlier local-only hold is superseded. On October 20, three corroborated reported codes and one dated delta article were published. Verified current production source is 3e5231826f6386556eea3719f2a724406bc345b7 on project moriohhigh-wiki; formal marker, HTTP, Sitemap and production Pagefind API receipts match. Browser document reads timed out, so this release does not claim new visual/copy/dialog interaction verification. See reports/codes-release-2026-10-20.md; the October 14 receipt remains historical. Later documentation commits are not deployed source. Protect unrelated uncommitted work; future authorized Codes changes must still pass source/content/build/link/SEO gates. External account permissions, DNS/NS/DNSSEC changes and paid operations remain outside scope.

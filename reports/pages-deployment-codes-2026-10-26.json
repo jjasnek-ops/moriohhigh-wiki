@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-26T02:08:29.987Z",
+  "id": "12a2c775-3b54-4388-bc43-4a78421fdb0a",
+  "environment": "production",
+  "url": "https://12a2c775.moriohhigh-wiki.pages.dev",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "commit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "latestStage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-26T02:07:15.463787Z",
+    "status": "success"
+  },
+  "method": "Wrangler direct upload",
+  "githubRepository": "https://github.com/jjasnek-ops/moriohhigh-wiki",
+  "githubAccount": "jjasnek-ops",
+  "markerMatches": true
+}

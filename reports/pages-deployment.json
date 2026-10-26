@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-20T02:04:52.173Z",
-  "id": "80e13085-a0f0-48e6-9fb5-a63f5d6818f2",
+  "checkedAt": "2026-10-26T02:08:29.987Z",
+  "id": "12a2c775-3b54-4388-bc43-4a78421fdb0a",
   "environment": "production",
-  "url": "https://80e13085.moriohhigh-wiki.pages.dev",
+  "url": "https://12a2c775.moriohhigh-wiki.pages.dev",
   "productionOrigin": "https://moriohhighguide.wiki",
-  "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
-  "commit": "3e5231826f6386556eea3719f2a724406bc345b7",
+  "sourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "commit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
   "latestStage": {
     "name": "deploy",
     "started_on": null,
-    "ended_on": "2026-10-20T02:04:22.81327Z",
+    "ended_on": "2026-10-26T02:07:15.463787Z",
     "status": "success"
   },
   "method": "Wrangler direct upload",
