@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "collectedDate": "2026-10-20",
-  "lastMaterialChangeDate": "2026-10-20",
+  "collectedDate": "2026-10-26",
+  "lastMaterialChangeDate": "2026-10-26",
   "timezone": "Asia/Shanghai",
   "game": {
     "name": "Morioh High",
@@ -16,20 +16,66 @@
       "id": "pgg",
       "url": "https://progameguides.com/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-19",
+      "displayedUpdatedDate": "2026-10-25",
       "section": "Active Codes",
-      "collectedDate": "2026-10-20"
+      "collectedDate": "2026-10-26"
     },
     {
       "id": "mrguider",
       "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-18",
+      "displayedUpdatedDate": "2026-10-24",
       "section": "Working codes",
-      "collectedDate": "2026-10-20"
+      "collectedDate": "2026-10-26"
     }
   ],
   "codes": [
+    {
+      "code": "OOPSVAMPIRE",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "active",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-10-25",
+      "corroboratedDate": "2026-10-26",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-25",
+          "collectedDate": "2026-10-26",
+          "section": "Morioh High Active Codes",
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null,
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-24",
+          "displayedDateText": "October 24, 2026 at 3:56 pm EDT",
+          "collectedDate": "2026-10-26",
+          "section": "Working Morioh High codes are",
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-24",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
     {
       "code": "LIKES10K",
       "sourceIds": [
@@ -282,13 +328,13 @@
     }
   ],
   "counts": {
-    "reportedCandidates": 10,
+    "reportedCandidates": 11,
     "developerConfirmed": 0,
     "testedByThisWiki": 0,
     "verifiedWorking": 0
   },
   "publishedOnSite": true,
-  "notes": "Ten strings are now reported by both checked same-game publishers. Three first seen in MrGuider on October 19 were corroborated in PGG on October 20. Source dates and collection dates are distinct. Rewards omitted; no developer confirmation or successful redemption test. See latestUpdate for deployment status; the original seven retain their October 13 evidence.",
+  "notes": "Eleven strings occur in both checked same-game publisher lists. OOPSVAMPIRE was first observed in MrGuider on October 25 and corroborated in PGG on October 26. All previous ten entries and their evidence are preserved. Other single-source candidates remain unpublished. Rewards omitted; no developer confirmation, redemption test or expiry evidence. See latestUpdate for actual publication status.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
   "publicationSourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
@@ -320,24 +366,39 @@
           "section": "Working codes"
         }
       ]
+    },
+    {
+      "collectedDate": "2026-10-20",
+      "sources": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-19",
+          "section": "Active Codes",
+          "collectedDate": "2026-10-20"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-18",
+          "section": "Working codes",
+          "collectedDate": "2026-10-20"
+        }
+      ]
     }
   ],
   "latestUpdate": {
-    "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
-    "articlePath": "/resources/codes-update-2026-10-20/",
-    "date": "2026-10-20",
-    "status": "published_http_verified",
+    "eventId": "reported-additions-oopsvampire",
+    "articlePath": "/resources/codes-update-2026-10-26/",
+    "date": "2026-10-26",
+    "status": "local_prepared",
     "addedCodes": [
-      "LIKES10K",
-      "SPINUPDATE",
-      "SORRY4DELAY"
+      "OOPSVAMPIRE"
     ],
-    "sourceCommit": "3e5231826f6386556eea3719f2a724406bc345b7",
-    "deploymentId": "80e13085-a0f0-48e6-9fb5-a63f5d6818f2",
-    "liveVerifiedAt": "2026-10-20T02:09:43.611Z",
-    "productionOrigin": "https://moriohhighguide.wiki",
-    "searchApiVerified": true,
-    "browserInteractionVerified": false
+    "sourceCommit": null,
+    "deploymentId": null
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

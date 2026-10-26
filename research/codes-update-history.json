@@ -8,6 +8,68 @@
   "policy": "docs/codes-update-publication.md",
   "entries": [
     {
+      "eventId": "reported-additions-oopsvampire",
+      "kind": "reported_code_additions",
+      "publicationDate": "2026-10-26",
+      "timezone": "Asia/Shanghai",
+      "articlePath": "/resources/codes-update-2026-10-26/",
+      "hubPath": "/resources/codes/",
+      "addedCodes": [
+        "OOPSVAMPIRE"
+      ],
+      "changes": [
+        {
+          "code": "OOPSVAMPIRE",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-25",
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        }
+      ],
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-25",
+          "collectedDate": "2026-10-26",
+          "section": "Morioh High Active Codes",
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null,
+          "exactStrings": [
+            "OOPSVAMPIRE"
+          ],
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "displayedUpdatedDate": "2026-10-24",
+          "displayedDateText": "October 24, 2026 at 3:56 pm EDT",
+          "collectedDate": "2026-10-26",
+          "section": "Working Morioh High codes are",
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-24",
+          "exactStrings": [
+            "OOPSVAMPIRE"
+          ],
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+        }
+      ],
+      "evidenceIds": [
+        "E27"
+      ],
+      "verificationStatus": "publisher_reported_untested",
+      "status": "local_prepared",
+      "sourceCommit": null,
+      "deploymentId": null,
+      "liveVerifiedAt": null
+    },
+    {
       "eventId": "reported-additions-likes10k-sorry4delay-spinupdate",
       "kind": "reported_code_additions",
       "publicationDate": "2026-10-20",
@@ -106,5 +168,5 @@
       }
     }
   ],
-  "notes": "One dated material update is published and HTTP/search-API verified. Browser interaction is not verified. The October 13 seven-code snapshot predates dated articles. Reuse the existing eventId/articlePath on retry; unchanged checks do not create articles."
+  "notes": "Two dated material update events exist; publication status is recorded per event. Reuse the same eventId/articlePath on retry. The October 20 historical article and event are preserved; no new article for unchanged checks."
 }

@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "eventId": "reported-additions-oopsvampire",
+  "collectedDate": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "game": {
+    "name": "Morioh High",
+    "placeId": 111838814545019,
+    "universeId": 10768944846,
+    "url": "https://www.roblox.com/games/111838814545019/Morioh-High"
+  },
+  "previousPublishedCodeCount": 10,
+  "addedCodes": [
+    "OOPSVAMPIRE"
+  ],
+  "resultingReportedCodeCount": 11,
+  "sourceObservations": [
+    {
+      "id": "pgg",
+      "url": "https://progameguides.com/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "displayedUpdatedDate": "2026-10-25",
+      "collectedDate": "2026-10-26",
+      "section": "Morioh High Active Codes",
+      "publisherReportedStatus": "active",
+      "codeAddedDate": null,
+      "exactStrings": [
+        "OOPSVAMPIRE"
+      ],
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+    },
+    {
+      "id": "mrguider",
+      "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "displayedUpdatedDate": "2026-10-24",
+      "displayedDateText": "October 24, 2026 at 3:56 pm EDT",
+      "collectedDate": "2026-10-26",
+      "section": "Working Morioh High codes are",
+      "publisherReportedStatus": "working",
+      "codeAddedDate": "2026-10-24",
+      "exactStrings": [
+        "OOPSVAMPIRE"
+      ],
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High"
+    }
+  ],
+  "publisherLists": [
+    {
+      "id": "pgg",
+      "codes": [
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ]
+    },
+    {
+      "id": "mrguider",
+      "codes": [
+        "OOPSVAMPIRE",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ]
+    }
+  ],
+  "supplementalObservations": [
+    {
+      "id": "gamesradar",
+      "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+      "displayedUpdatedDate": "2026-10-19",
+      "collectedDate": "2026-10-26",
+      "codes": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "newCandidateStringsPresent": [],
+      "evidenceLocation": "Recent updates note; All Morioh High codes lines437-446"
+    },
+    {
+      "id": "destructoid",
+      "url": "https://www.destructoid.com/morioh-high-codes/",
+      "displayedUpdatedDate": "2026-10-24",
+      "collectedDate": "2026-10-26",
+      "codes": [
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "newCandidateStringsPresent": [],
+      "corroborationGroup": "gamurs",
+      "sameNetworkAsExistingSource": "pgg"
+    },
+    {
+      "id": "pockettactics",
+      "url": "https://www.pockettactics.com/morioh-high-codes",
+      "displayedUpdatedDate": "2026-10-14",
+      "collectedDate": "2026-10-26",
+      "codes": [
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "newCandidateStringsPresent": []
+    },
+    {
+      "id": "pocketcodes",
+      "url": "https://pocket-codes.com/morioh-high-codes.html",
+      "displayedUpdatedDate": "2026-10-12",
+      "displayedHeaderDate": "2026-10-11",
+      "collectedDate": "2026-10-26",
+      "codes": [
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "newCandidateStringsPresent": []
+    }
+  ],
+  "pendingSingleSourceCodes": [
+    "TUSKUPDATE",
+    "LIKES15K",
+    "LIKES20K",
+    "PATCHNOTES1",
+    "GRIPBUG"
+  ],
+  "firstObservation": {
+    "collectedDate": "2026-10-25",
+    "sourceId": "mrguider",
+    "status": "pending_single_source",
+    "localLog": ".tools/codes-monitor/2026-10-25.json"
+  },
+  "officialListing": {
+    "collectedDate": "2026-10-26",
+    "displayedName": "[TUSK + 4 NEW STANDS] Morioh High",
+    "developer": "Not A Stand Game",
+    "codeListObserved": false,
+    "gameLinksFollowed": true,
+    "scope": "Title metadata only; no current client/Stand roster inferred."
+  },
+  "community": {
+    "url": "https://www.roblox.com/communities/403864872/Not-A-Stand-Game",
+    "announcementRead": false,
+    "limitation": "Public JavaScript shell and group API403; no bypass."
+  },
+  "publicEndpointChecks": {
+    "checkedAt": "2026-10-26T01:57:41.574Z",
+    "results": [
+      {
+        "url": "https://apis.roblox.com/universes/v1/places/111838814545019/universe",
+        "checkedAt": "2026-10-26T01:57:41.574Z",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://groups.roblox.com/v1/groups/403864872",
+        "checkedAt": "2026-10-26T01:57:31.935Z",
+        "httpStatus": 403,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": null,
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/resources/codes/",
+        "checkedAt": "2026-10-26T01:57:31.777Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": [
+          "LIKES10K",
+          "SPINUPDATE",
+          "SORRY4DELAY",
+          "GAUNTLET",
+          "WHITESNAKE",
+          "WEHEARYOUGUYS",
+          "THANKYOUFORLIKES",
+          "DELAYMBALL",
+          "PLAYERS5MVBYT",
+          "RELEASECSBKZM"
+        ],
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+        "checkedAt": "2026-10-26T01:57:31.919Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": [
+          "LIKES10K",
+          "SPINUPDATE",
+          "SORRY4DELAY"
+        ],
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/.well-known/anvilwiki-deploy.txt",
+        "checkedAt": "2026-10-26T01:57:31.770Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": null,
+        "marker": "3e5231826f6386556eea3719f2a724406bc345b7"
+      }
+    ]
+  },
+  "developerConfirmed": false,
+  "redemptionTested": false,
+  "verifiedWorking": false,
+  "rewardPolicy": "omit",
+  "explicitExpiryChanges": [],
+  "decision": "Publish only OOPSVAMPIRE as a corroborated, untested publisher report. Five unmatched candidates stay ignored/pending, not published or labelled expired.",
+  "articlePath": "/resources/codes-update-2026-10-26/",
+  "status": "local_prepared"
+}
