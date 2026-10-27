@@ -8,6 +8,217 @@
   "policy": "docs/codes-update-publication.md",
   "entries": [
     {
+      "eventId": "reported-additions-gripbug-likes15k-likes20k-patchnotes1-tuskupdate",
+      "kind": "reported_code_additions",
+      "publicationDate": "2026-10-27",
+      "timezone": "Asia/Shanghai",
+      "articlePath": "/resources/codes-update-2026-10-27/",
+      "hubPath": "/resources/codes/",
+      "addedCodes": [
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K"
+      ],
+      "changes": [
+        {
+          "code": "PATCHNOTES1",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-26",
+          "sourceIds": [
+            "pgg",
+            "mrguider",
+            "gamesradar"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "GRIPBUG",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-26",
+          "sourceIds": [
+            "pgg",
+            "mrguider",
+            "gamesradar"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "TUSKUPDATE",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-25",
+          "sourceIds": [
+            "mrguider",
+            "gamesradar"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "LIKES15K",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-25",
+          "sourceIds": [
+            "mrguider",
+            "gamesradar"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        },
+        {
+          "code": "LIKES20K",
+          "before": "pending_single_source",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-10-25",
+          "sourceIds": [
+            "mrguider",
+            "gamesradar"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        }
+      ],
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-10-27",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "displayedUpdatedDate": "2026-10-25",
+          "section": "Morioh High Active Codes",
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null,
+          "exactStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG"
+          ],
+          "allCodeStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "DELAYMBALL",
+            "PLAYERS5MVBYT",
+            "RELEASECSBKZM"
+          ],
+          "gameLinkFollowed": true
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-10-27",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "displayedUpdatedDate": "2026-10-25",
+          "displayedDateText": "October 25, 2026 at 11:57 am EDT",
+          "section": "Working Morioh High codes are",
+          "publisherReportedStatus": "working",
+          "exactStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K"
+          ],
+          "allCodeStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "DELAYMBALL",
+            "PLAYERS5MVBYT",
+            "RELEASECSBKZM"
+          ],
+          "codeAddedDates": {
+            "PATCHNOTES1": "2026-10-25",
+            "GRIPBUG": "2026-10-24",
+            "TUSKUPDATE": "2026-10-24",
+            "LIKES15K": "2026-10-24",
+            "LIKES20K": "2026-10-24"
+          },
+          "gameLinkFollowed": true
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-10-27",
+          "gameLink": null,
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "publisherReportedStatus": "listed_redeemable",
+          "codeAddedDate": null,
+          "exactStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K"
+          ],
+          "allCodeStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "DELAYMBALL",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "RELEASECSBKZM",
+            "PLAYERS5MVBYT"
+          ],
+          "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
+        }
+      ],
+      "evidenceIds": [
+        "E28"
+      ],
+      "verificationStatus": "publisher_reported_untested",
+      "status": "local_prepared",
+      "sourceCommit": null,
+      "deploymentId": null,
+      "liveVerifiedAt": null
+    },
+    {
       "eventId": "reported-additions-oopsvampire",
       "kind": "reported_code_additions",
       "publicationDate": "2026-10-26",
@@ -178,5 +389,5 @@
       }
     }
   ],
-  "notes": "Two dated material updates are published and HTTP/production-search-API verified. Preserve each event’s original source and acceptance, and reuse eventId/articlePath on retries. Browser interaction remains unverified; unchanged checks do not create articles. The October13 snapshot predates dated articles."
+  "notes": "Three dated material events now exist; status is recorded per event. Preserve October20/26 historical articles and events. Reuse eventId/articlePath on retry; unchanged checks do not create articles."
 }
