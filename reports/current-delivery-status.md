@@ -1,5 +1,13 @@
 # Current delivery status
 
+## 2026-10-27 Codes 增量（已上线 / HTTP与生产搜索API已验证）
+
+新增PATCHNOTES1、GRIPBUG、TUSKUPDATE、LIKES15K、LIKES20K；汇总16个reported码。MrGuider与GamesRadar列全16，PGG列13；前两码三来源、后三码MrGuider/GamesRadar双来源，不把PGG遗漏判过期。来源显示PGG/MrGuider10月25、GamesRadar10月26，本站采集/日期文章为10月27（Asia/Shanghai）。奖励省略，开发者确认/本站兑换实测均0；五个原pending已解决。旧十一码与10月20/26文章及事件保留，E28/研究/候选/历史同步，重试复用reported-additions-gripbug-likes15k-likes20k-patchnotes1-tuskupdate。
+
+生产source c78caa07bb9a95c99bb0d19deba1a787fe023b1d；jjasnek-ops main已推送，CI40436251250 success；Pages production 5b0ddca4-53b9-4845-ba75-9c8868effcf0 / https://5b0ddca4.moriohhigh-wiki.pages.dev，正式marker精确匹配。content9 MDX、check143零诊断、lint/config/strict UI、19套件250passed1skipped/build/718内链/动态SEO/7广告通过；27构建HTML含404、16Sitemap、9Pagefind。正式26有效路由、33常规HTTP与26 SEO对照、16Sitemap全部200、7广告包装通过；五个新码的实际生产搜索API各返回汇总和新文章，OOPSVAMPIRE/LIKES10K仍返回原历史文。
+
+本次未验证新的浏览器视觉/复制/搜索弹窗、客户端兑换、Google收录/曝光、GA4报表或广告填充/收入。CF首次API DNS读取失败后有限重试恢复，未改网络/DNS/账户设置或扩权。回执reports/codes-release-2026-10-27.md及对应tests/pages-deployment/search JSON。原有日3/7/14笔记、source-review与policy改动继续保留未提交；无付费、凭据保存或自动任务变更。后续文档提交不改变实际生产source。
+
 ## 2026-10-26 Codes 增量（已上线 / HTTP与生产搜索API已验证）
 
 新增OOPSVAMPIRE，汇总现11个reported码；10月25日MrGuider单一来源候选于10月26日获PGG同拼写佐证。来源显示更新日分别10月25/24，本站日期文章/resources/codes-update-2026-10-26/于10月26日发布（Asia/Shanghai）。未取得开发者公告或兑换实测，奖励省略；5个其他单一来源候选继续留在ignored队列。旧十码证据、10月20日历史文章与事件保留，E27/候选/历史/研究同步，事件reported-additions-oopsvampire重试不得重复发文。

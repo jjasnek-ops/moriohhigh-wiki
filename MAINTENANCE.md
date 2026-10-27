@@ -1,5 +1,9 @@
 # Low-maintenance publication policy
 
+## Active Codes release — 2026-10-27
+
+Five held strings (PATCHNOTES1,GRIPBUG,TUSKUPDATE,LIKES15K,LIKES20K) are published as untested reports,rewards omitted. Current hub16 strings: MrGuider/GamesRadar list all16;PGG also lists13,whose omissions are not expiry. The native October27 delta contains only five additions;previous eleven entries and October20/26 articles remain. Production source c78caa07bb9a95c99bb0d19deba1a787fe023b1d / deployment 5b0ddca4-53b9-4845-ba75-9c8868effcf0 passed exact-source CI,formal marker,26 live routes,16 Sitemap URLs,seven ad wrappers and actual production search queries. No pending candidates remain. See reports/codes-release-2026-10-27.md. Earlier records below remain historical. No new browser/client test,Google/GA4 search measurement or ad-fill claim. Preserve unrelated local notes and existing tasks;no new account/DNS/permission/payment/credential operation.
+
 ## Active Codes release — 2026-10-26
 
 OOPSVAMPIRE is published as an untested publisher report, corroborated in PGG and MrGuider; rewards omitted. The current hub has11 strings and the dated October26 article contains this one addition. Five single-source candidates remain unpublished. Production source 960f929aaa6424880619fc8ed2d6d0933b05d12d / deployment 12a2c775-3b54-4388-bc43-4a78421fdb0a passed exact-source CI,formal marker,25 content-route checks,15 Sitemap URLs,seven ad wrappers and actual production Pagefind API queries. Earlier release/check records below remain historical. No new visual/clipboard/dialog test,client redemption,Google indexing,GA4 report reception or ad fill is claimed. See reports/codes-release-2026-10-26.md. Preserve unrelated local notes and the existing schedule; no account,DNS,permission,paid or automation changes occurred.

@@ -440,5 +440,19 @@
   "explicitExpiryChanges": [],
   "decision": "Publish five exact strings as publisher-reported/untested. PATCHNOTES1 and GRIPBUG have PGG/MrGuider/GamesRadar corroboration; TUSKUPDATE/LIKES15K/LIKES20K have MrGuider/GamesRadar corroboration. Preserve eleven prior codes and two historical articles.",
   "articlePath": "/resources/codes-update-2026-10-27/",
-  "status": "local_prepared"
+  "status": "published_http_verified",
+  "sourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
+  "deploymentId": "5b0ddca4-53b9-4845-ba75-9c8868effcf0",
+  "liveVerifiedAt": "2026-10-27T02:08:05.341Z",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "searchApiVerified": true,
+  "browserInteractionVerified": false,
+  "returnedCrawlNotes": {
+    "pgg": "today",
+    "mrguider": "yesterday",
+    "gamesradar": "today",
+    "officialGame": "today",
+    "community": "yesterday"
+  },
+  "networkNote": "Initial Cloudflare project read failed with ENOTFOUND api.cloudflare.com; a bounded retry succeeded using the same process credential. No account,network,DNS or permission setting was changed."
 }

@@ -98,7 +98,9 @@
           "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-27",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/"
     },
     {
       "code": "GRIPBUG",
@@ -160,7 +162,9 @@
           "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-27",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/"
     },
     {
       "code": "TUSKUPDATE",
@@ -208,7 +212,9 @@
           "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-27",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/"
     },
     {
       "code": "LIKES15K",
@@ -256,7 +262,9 @@
           "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-27",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/"
     },
     {
       "code": "LIKES20K",
@@ -304,7 +312,9 @@
           "sameGameBasis": "Game-specific title, Not A Stand Game image credits and matching unique current code strings; Future publisher, independent of MrGuider and GAMURS."
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-10-27",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/"
     },
     {
       "code": "OOPSVAMPIRE",
@@ -615,7 +625,7 @@
   "notes": "Sixteen reported strings: all16 appear in MrGuider and GamesRadar; thirteen also appear in PGG. Five previously held candidates are corroborated on October27. All eleven prior entries and source evidence are preserved. PGG omission of three strings is not expiry. No developer confirmation, redemption test or expiry evidence; rewards omitted. See latestUpdate for actual publication status.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "960f929aaa6424880619fc8ed2d6d0933b05d12d",
+  "publicationSourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
   "updateHistory": "research/codes-update-history.json",
   "datedUpdateArticles": {
     "adoptedDate": "2026-10-14",
@@ -692,7 +702,7 @@
     "eventId": "reported-additions-gripbug-likes15k-likes20k-patchnotes1-tuskupdate",
     "articlePath": "/resources/codes-update-2026-10-27/",
     "date": "2026-10-27",
-    "status": "local_prepared",
+    "status": "published_http_verified",
     "addedCodes": [
       "PATCHNOTES1",
       "GRIPBUG",
@@ -700,8 +710,12 @@
       "LIKES15K",
       "LIKES20K"
     ],
-    "sourceCommit": null,
-    "deploymentId": null
+    "sourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
+    "deploymentId": "5b0ddca4-53b9-4845-ba75-9c8868effcf0",
+    "liveVerifiedAt": "2026-10-27T02:08:05.341Z",
+    "productionOrigin": "https://moriohhighguide.wiki",
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }
