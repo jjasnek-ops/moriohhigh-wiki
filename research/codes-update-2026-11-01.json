@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
+  "collectedDate": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "game": {
+    "name": "Morioh High",
+    "placeId": 111838814545019,
+    "universeId": 10768944846,
+    "url": "https://www.roblox.com/games/111838814545019/Morioh-High"
+  },
+  "previousPublishedCodeCount": 16,
+  "previousCodes": [
+    "PATCHNOTES1",
+    "GRIPBUG",
+    "TUSKUPDATE",
+    "LIKES15K",
+    "LIKES20K",
+    "OOPSVAMPIRE",
+    "LIKES10K",
+    "SPINUPDATE",
+    "SORRY4DELAY",
+    "GAUNTLET",
+    "WHITESNAKE",
+    "WEHEARYOUGUYS",
+    "THANKYOUFORLIKES",
+    "DELAYMBALL",
+    "PLAYERS5MVBYT",
+    "RELEASECSBKZM"
+  ],
+  "addedCodes": [
+    "THANKSFORPLAYING",
+    "TRICKSTERUPDATE",
+    "SCARYMONSTERSUPDATE",
+    "LIKES40K",
+    "LIKES30K",
+    "OOPSCLUBBROKE"
+  ],
+  "resultingReportedCodeCount": 22,
+  "reportedWithoutCurrentSourceConflict": 20,
+  "disputedCodes": [
+    "PLAYERS5MVBYT",
+    "RELEASECSBKZM"
+  ],
+  "sourceObservations": [
+    {
+      "id": "pgg",
+      "url": "https://progameguides.com/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "collectedDate": "2026-11-01",
+      "displayedUpdatedDate": "2026-10-31",
+      "section": "Active Codes / Inactive Codes",
+      "activeStrings": [
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "LIKES40K",
+        "LIKES30K",
+        "OOPSCLUBBROKE",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL"
+      ],
+      "inactiveStrings": [
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+      "gameLinkFollowed": true
+    },
+    {
+      "id": "mrguider",
+      "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "collectedDate": "2026-11-01",
+      "displayedUpdatedDate": "2026-10-31",
+      "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+      "section": "Working codes / Expired Codes",
+      "workingStrings": [
+        "LIKES40K",
+        "LIKES30K",
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "OOPSCLUBBROKE",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+      "newCodeAddedDate": "2026-10-31",
+      "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+      "gameLinkFollowed": true
+    },
+    {
+      "id": "gamesradar",
+      "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+      "sourceOriginalPublishedDate": null,
+      "collectedDate": "2026-11-01",
+      "displayedUpdatedDate": "2026-10-26",
+      "section": "All Morioh High codes",
+      "listedStrings": [
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "DELAYMBALL",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "RELEASECSBKZM",
+        "PLAYERS5MVBYT"
+      ],
+      "publisherReportedStatus": "listed_redeemable",
+      "sameGameBasis": "Same-game title,Not A Stand Game image credits and matching unique strings;older source snapshot,not current-client proof."
+    }
+  ],
+  "sourceRevisions": {
+    "mrguiderInitial": {
+      "working": [
+        "LIKES30K",
+        "LIKES40K",
+        "SCARYMONSTERSUPDATE",
+        "TRICKSTERUPDATE",
+        "THANKSFORPLAYING",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "displayedDateText": "October 31, 2026 at 2:02 pm EDT"
+    },
+    "mrguiderReRead": {
+      "working": [
+        "LIKES40K",
+        "LIKES30K",
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "OOPSCLUBBROKE",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "OOPSVAMPIRE",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+      "displayedUpdatedDate": "2026-10-31"
+    },
+    "reason": "Exact-string search surfaced a later revision;canonical source was reopened and OOPSCLUBBROKE read before inclusion."
+  },
+  "sourceCoverage": {
+    "pggActive": 17,
+    "pggInactive": 2,
+    "mrguiderWorking": 22,
+    "gamesradarOlderList": 16,
+    "pggOmissions": [
+      "TUSKUPDATE",
+      "LIKES15K",
+      "LIKES20K"
+    ],
+    "omissionsAreExpiryEvidence": false
+  },
+  "statusChanges": [
+    {
+      "code": "PLAYERS5MVBYT",
+      "before": "publisher_reported_without_recorded_status_conflict",
+      "after": "publisher_reported_with_status_conflict",
+      "previousRecord": {
+        "code": "PLAYERS5MVBYT",
+        "sourceIds": [
+          "pgg",
+          "mrguider"
+        ],
+        "publisherReportedStatus": "active",
+        "verificationStatus": "publisher_reported",
+        "developerConfirmed": false,
+        "redemptionTested": false,
+        "verifiedWorking": false,
+        "reward": null,
+        "expiryDate": null,
+        "firstSeenHere": "2026-10-13"
+      },
+      "publisherStatuses": {
+        "pgg": "inactive",
+        "mrguider": "working",
+        "gamesradar": "listed_redeemable"
+      },
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "expiryConfirmed": false,
+      "expiryDate": null
+    },
+    {
+      "code": "RELEASECSBKZM",
+      "before": "publisher_reported_without_recorded_status_conflict",
+      "after": "publisher_reported_with_status_conflict",
+      "previousRecord": {
+        "code": "RELEASECSBKZM",
+        "sourceIds": [
+          "pgg",
+          "mrguider"
+        ],
+        "publisherReportedStatus": "active",
+        "verificationStatus": "publisher_reported",
+        "developerConfirmed": false,
+        "redemptionTested": false,
+        "verifiedWorking": false,
+        "reward": null,
+        "expiryDate": null,
+        "firstSeenHere": "2026-10-13"
+      },
+      "publisherStatuses": {
+        "pgg": "inactive",
+        "mrguider": "working",
+        "gamesradar": "listed_redeemable"
+      },
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "expiryConfirmed": false,
+      "expiryDate": null
+    }
+  ],
+  "confirmedExpiryChanges": [],
+  "explicitInactiveReportChanges": [
+    "PLAYERS5MVBYT",
+    "RELEASECSBKZM"
+  ],
+  "supplementalObservations": [
+    {
+      "id": "destructoid",
+      "url": "https://www.destructoid.com/morioh-high-codes/",
+      "displayedUpdatedDate": "2026-10-31",
+      "displayedHeaderDateText": "Published: Oct31,2026 1:40pm",
+      "sourceOriginalPublishedDate": null,
+      "collectedDate": "2026-11-01",
+      "explicitExpiredStrings": [
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "corroborationGroup": "gamurs",
+      "sameNetworkAs": "pgg",
+      "decision": "Not independent expiry corroboration;MrGuider disagreement retained."
+    },
+    {
+      "id": "pockettactics",
+      "url": "https://www.pockettactics.com/morioh-high-codes",
+      "displayedUpdatedDate": "2026-10-14",
+      "collectedDate": "2026-11-01",
+      "disputedStringsStillListed": [
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "decision": "Older backup page;not a current redemption test."
+    },
+    {
+      "id": "pocketcodes",
+      "url": "https://pocket-codes.com/morioh-high-codes.html",
+      "displayedUpdatedDate": "2026-10-27",
+      "collectedDate": "2026-11-01",
+      "disputedStringsStillListed": [
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "decision": "Older backup page;no in-game expiry verification."
+    },
+    {
+      "id": "codesdex-discovery",
+      "url": "https://codesdex.com/new/",
+      "collectedDate": "2026-11-01",
+      "decision": "Search lead only;no aggregate status adopted. Reopened original MrGuider source to corroborate OOPSCLUBBROKE."
+    }
+  ],
+  "officialListing": {
+    "collectedDate": "2026-11-01",
+    "displayedName": "[8 NEW STANDS] Morioh High",
+    "developer": "Not A Stand Game",
+    "codeListObserved": false,
+    "gameLinksFollowed": [
+      "pgg",
+      "mrguider"
+    ],
+    "scope": "Listing title metadata only;no roster or gameplay inferred."
+  },
+  "community": {
+    "url": "https://www.roblox.com/communities/403864872/Not-A-Stand-Game",
+    "announcementRead": false,
+    "limitation": "Public JavaScript shell and API403;no bypass."
+  },
+  "publicEndpointChecks": {
+    "checkedAt": "2026-11-01T02:00:00.548Z",
+    "results": [
+      {
+        "url": "https://apis.roblox.com/universes/v1/places/111838814545019/universe",
+        "checkedAt": "2026-11-01T02:00:00.548Z",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://groups.roblox.com/v1/groups/403864872",
+        "checkedAt": "2026-11-01T01:59:51.416Z",
+        "httpStatus": 403,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": null,
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/resources/codes/",
+        "checkedAt": "2026-11-01T01:59:50.743Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": [
+          "PATCHNOTES1",
+          "GRIPBUG",
+          "TUSKUPDATE",
+          "LIKES15K",
+          "LIKES20K",
+          "OOPSVAMPIRE",
+          "LIKES10K",
+          "SPINUPDATE",
+          "SORRY4DELAY",
+          "GAUNTLET",
+          "WHITESNAKE",
+          "WEHEARYOUGUYS",
+          "THANKYOUFORLIKES",
+          "DELAYMBALL",
+          "PLAYERS5MVBYT",
+          "RELEASECSBKZM"
+        ],
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/",
+        "checkedAt": "2026-11-01T01:59:50.962Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": [
+          "PATCHNOTES1",
+          "GRIPBUG",
+          "TUSKUPDATE",
+          "LIKES15K",
+          "LIKES20K"
+        ],
+        "marker": null
+      },
+      {
+        "url": "https://moriohhighguide.wiki/.well-known/anvilwiki-deploy.txt",
+        "checkedAt": "2026-11-01T01:59:50.795Z",
+        "httpStatus": 200,
+        "universeId": null,
+        "groupName": null,
+        "shout": null,
+        "siteCodes": null,
+        "marker": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d"
+      }
+    ]
+  },
+  "identityRecheck": {
+    "checkedAt": "2026-11-01T02:01:07.055Z",
+    "url": "https://apis.roblox.com/universes/v1/places/111838814545019/universe",
+    "httpStatus": 200,
+    "universeId": 10768944846,
+    "identityMatches": true
+  },
+  "developerConfirmed": false,
+  "redemptionTested": false,
+  "verifiedWorking": false,
+  "rewardPolicy": "omit",
+  "articlePath": "/resources/codes-update-2026-11-01/",
+  "status": "local_prepared",
+  "decision": "Publish six exact corroborated additions plus explicit publisher-status disagreements for two older strings. Preserve their prior records;do not mark them confirmed expired or working."
+}

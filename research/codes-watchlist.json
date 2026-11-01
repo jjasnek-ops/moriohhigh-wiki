@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "collectedDate": "2026-10-27",
-  "lastMaterialChangeDate": "2026-10-27",
+  "collectedDate": "2026-11-01",
+  "lastMaterialChangeDate": "2026-11-01",
   "timezone": "Asia/Shanghai",
   "game": {
     "name": "Morioh High",
@@ -16,17 +16,17 @@
       "id": "pgg",
       "url": "https://progameguides.com/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-25",
-      "section": "Morioh High Active Codes",
-      "collectedDate": "2026-10-27"
+      "displayedUpdatedDate": "2026-10-31",
+      "section": "Active Codes / Inactive Codes",
+      "collectedDate": "2026-11-01"
     },
     {
       "id": "mrguider",
       "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-25",
-      "section": "Working Morioh High codes are",
-      "collectedDate": "2026-10-27"
+      "displayedUpdatedDate": "2026-10-31",
+      "section": "Working codes / Expired Codes",
+      "collectedDate": "2026-11-01"
     },
     {
       "id": "gamesradar",
@@ -34,10 +34,304 @@
       "type": "secondary publisher",
       "displayedUpdatedDate": "2026-10-26",
       "section": "All Morioh High codes",
-      "collectedDate": "2026-10-27"
+      "collectedDate": "2026-11-01"
     }
   ],
   "codes": [
+    {
+      "code": "THANKSFORPLAYING",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
+    {
+      "code": "TRICKSTERUPDATE",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
+    {
+      "code": "SCARYMONSTERSUPDATE",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
+    {
+      "code": "LIKES40K",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
+    {
+      "code": "LIKES30K",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
+    {
+      "code": "OOPSCLUBBROKE",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-01",
+      "corroboratedDate": "2026-11-01",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-10-31"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
     {
       "code": "PATCHNOTES1",
       "sourceIds": [
@@ -588,41 +882,180 @@
       "code": "PLAYERS5MVBYT",
       "sourceIds": [
         "pgg",
-        "mrguider"
+        "mrguider",
+        "gamesradar"
       ],
-      "publisherReportedStatus": "active",
+      "publisherReportedStatus": "disputed",
       "verificationStatus": "publisher_reported",
       "developerConfirmed": false,
       "redemptionTested": false,
       "verifiedWorking": false,
       "reward": null,
       "expiryDate": null,
-      "firstSeenHere": "2026-10-13"
+      "firstSeenHere": "2026-10-13",
+      "statusHistory": [
+        {
+          "changedOn": "2026-11-01",
+          "previousRecord": {
+            "code": "PLAYERS5MVBYT",
+            "sourceIds": [
+              "pgg",
+              "mrguider"
+            ],
+            "publisherReportedStatus": "active",
+            "verificationStatus": "publisher_reported",
+            "developerConfirmed": false,
+            "redemptionTested": false,
+            "verifiedWorking": false,
+            "reward": null,
+            "expiryDate": null,
+            "firstSeenHere": "2026-10-13"
+          },
+          "reason": "New explicit PGG inactive label conflicts with MrGuider working list and older GamesRadar list."
+        }
+      ],
+      "publisherStatuses": {
+        "pgg": "inactive",
+        "mrguider": "working",
+        "gamesradar": "listed_redeemable"
+      },
+      "statusDisputed": true,
+      "expiryVerificationStatus": "untested_conflicting_publisher_reports",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "inactive",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": null
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "publisherReportedStatus": "listed_redeemable",
+          "sameGameBasis": "Same-game title,Not A Stand Game image credits and matching unique strings;older source snapshot,not current-client proof.",
+          "codeAddedDate": null
+        }
+      ],
+      "lastSourceStatusChange": "2026-11-01"
     },
     {
       "code": "RELEASECSBKZM",
       "sourceIds": [
         "pgg",
-        "mrguider"
+        "mrguider",
+        "gamesradar"
       ],
-      "publisherReportedStatus": "active",
+      "publisherReportedStatus": "disputed",
       "verificationStatus": "publisher_reported",
       "developerConfirmed": false,
       "redemptionTested": false,
       "verifiedWorking": false,
       "reward": null,
       "expiryDate": null,
-      "firstSeenHere": "2026-10-13"
+      "firstSeenHere": "2026-10-13",
+      "statusHistory": [
+        {
+          "changedOn": "2026-11-01",
+          "previousRecord": {
+            "code": "RELEASECSBKZM",
+            "sourceIds": [
+              "pgg",
+              "mrguider"
+            ],
+            "publisherReportedStatus": "active",
+            "verificationStatus": "publisher_reported",
+            "developerConfirmed": false,
+            "redemptionTested": false,
+            "verifiedWorking": false,
+            "reward": null,
+            "expiryDate": null,
+            "firstSeenHere": "2026-10-13"
+          },
+          "reason": "New explicit PGG inactive label conflicts with MrGuider working list and older GamesRadar list."
+        }
+      ],
+      "publisherStatuses": {
+        "pgg": "inactive",
+        "mrguider": "working",
+        "gamesradar": "listed_redeemable"
+      },
+      "statusDisputed": true,
+      "expiryVerificationStatus": "untested_conflicting_publisher_reports",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "inactive",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-31",
+          "displayedDateText": "October 31, 2026 at 3:01 pm EDT",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A; publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "publisherReportedStatus": "working",
+          "codeAddedDate": null
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-01",
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "publisherReportedStatus": "listed_redeemable",
+          "sameGameBasis": "Same-game title,Not A Stand Game image credits and matching unique strings;older source snapshot,not current-client proof.",
+          "codeAddedDate": null
+        }
+      ],
+      "lastSourceStatusChange": "2026-11-01"
     }
   ],
   "counts": {
-    "reportedCandidates": 16,
+    "reportedCandidates": 22,
     "developerConfirmed": 0,
     "testedByThisWiki": 0,
-    "verifiedWorking": 0
+    "verifiedWorking": 0,
+    "statusDisputed": 2
   },
   "publishedOnSite": true,
-  "notes": "Sixteen reported strings: all16 appear in MrGuider and GamesRadar; thirteen also appear in PGG. Five previously held candidates are corroborated on October27. All eleven prior entries and source evidence are preserved. PGG omission of three strings is not expiry. No developer confirmation, redemption test or expiry evidence; rewards omitted. See latestUpdate for actual publication status.",
+  "notes": "Twenty-two stored publisher-reported strings: twenty without a newly observed source-status conflict and two disputed older entries. Six additions occur in PGG and the re-read MrGuider revision. PGG explicitly marks PLAYERS5MVBYT/RELEASECSBKZM inactive; MrGuider still lists them working and GamesRadar retains an older list. No in-game expiry or redemption verified;rewards omitted. Original records/observations for the disputed pair are preserved in statusHistory.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
   "publicationSourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
@@ -696,26 +1129,56 @@
           "collectedDate": "2026-10-26"
         }
       ]
+    },
+    {
+      "collectedDate": "2026-10-27",
+      "sources": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-25",
+          "section": "Morioh High Active Codes",
+          "collectedDate": "2026-10-27"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-25",
+          "section": "Working Morioh High codes are",
+          "collectedDate": "2026-10-27"
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "collectedDate": "2026-10-27"
+        }
+      ]
     }
   ],
   "latestUpdate": {
-    "eventId": "reported-additions-gripbug-likes15k-likes20k-patchnotes1-tuskupdate",
-    "articlePath": "/resources/codes-update-2026-10-27/",
-    "date": "2026-10-27",
-    "status": "published_http_verified",
+    "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
+    "articlePath": "/resources/codes-update-2026-11-01/",
+    "date": "2026-11-01",
+    "status": "local_prepared",
     "addedCodes": [
-      "PATCHNOTES1",
-      "GRIPBUG",
-      "TUSKUPDATE",
-      "LIKES15K",
-      "LIKES20K"
+      "THANKSFORPLAYING",
+      "TRICKSTERUPDATE",
+      "SCARYMONSTERSUPDATE",
+      "LIKES40K",
+      "LIKES30K",
+      "OOPSCLUBBROKE"
     ],
-    "sourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
-    "deploymentId": "5b0ddca4-53b9-4845-ba75-9c8868effcf0",
-    "liveVerifiedAt": "2026-10-27T02:08:05.341Z",
-    "productionOrigin": "https://moriohhighguide.wiki",
-    "searchApiVerified": true,
-    "browserInteractionVerified": false
+    "disputedCodes": [
+      "PLAYERS5MVBYT",
+      "RELEASECSBKZM"
+    ],
+    "sourceCommit": null,
+    "deploymentId": null
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }
