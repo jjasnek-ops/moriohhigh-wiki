@@ -9,12 +9,12 @@
   To silence this warning, pass in --commit-dirty=true
 
 
-Uploading... (83/109)
-Uploading... (92/109)
-Uploading... (101/109)
-Uploading... (109/109)
-✨ Success! Uploaded 26 files (83 already uploaded) (3.02 sec)
+Uploading... (84/111)
+Uploading... (93/111)
+Uploading... (102/111)
+Uploading... (111/111)
+✨ Success! Uploaded 27 files (84 already uploaded) (3.35 sec)
 
 ✨ Uploading _headers
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://5b0ddca4.moriohhigh-wiki.pages.dev
+✨ Deployment complete! Take a peek over at https://00368946.moriohhigh-wiki.pages.dev

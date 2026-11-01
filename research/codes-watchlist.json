@@ -85,7 +85,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "TRICKSTERUPDATE",
@@ -134,7 +136,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "SCARYMONSTERSUPDATE",
@@ -183,7 +187,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "LIKES40K",
@@ -232,7 +238,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "LIKES30K",
@@ -281,7 +289,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "OOPSCLUBBROKE",
@@ -330,7 +340,9 @@
           "codeAddedDate": "2026-10-31"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-01",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/"
     },
     {
       "code": "PATCHNOTES1",
@@ -960,7 +972,13 @@
           "codeAddedDate": null
         }
       ],
-      "lastSourceStatusChange": "2026-11-01"
+      "lastSourceStatusChange": "2026-11-01",
+      "statusDisputePublication": {
+        "date": "2026-11-01",
+        "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+        "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+        "status": "published_http_verified"
+      }
     },
     {
       "code": "RELEASECSBKZM",
@@ -1044,7 +1062,13 @@
           "codeAddedDate": null
         }
       ],
-      "lastSourceStatusChange": "2026-11-01"
+      "lastSourceStatusChange": "2026-11-01",
+      "statusDisputePublication": {
+        "date": "2026-11-01",
+        "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+        "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+        "status": "published_http_verified"
+      }
     }
   ],
   "counts": {
@@ -1058,7 +1082,7 @@
   "notes": "Twenty-two stored publisher-reported strings: twenty without a newly observed source-status conflict and two disputed older entries. Six additions occur in PGG and the re-read MrGuider revision. PGG explicitly marks PLAYERS5MVBYT/RELEASECSBKZM inactive; MrGuider still lists them working and GamesRadar retains an older list. No in-game expiry or redemption verified;rewards omitted. Original records/observations for the disputed pair are preserved in statusHistory.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "c78caa07bb9a95c99bb0d19deba1a787fe023b1d",
+  "publicationSourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
   "updateHistory": "research/codes-update-history.json",
   "datedUpdateArticles": {
     "adoptedDate": "2026-10-14",
@@ -1164,7 +1188,7 @@
     "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
     "articlePath": "/resources/codes-update-2026-11-01/",
     "date": "2026-11-01",
-    "status": "local_prepared",
+    "status": "published_http_verified",
     "addedCodes": [
       "THANKSFORPLAYING",
       "TRICKSTERUPDATE",
@@ -1177,8 +1201,12 @@
       "PLAYERS5MVBYT",
       "RELEASECSBKZM"
     ],
-    "sourceCommit": null,
-    "deploymentId": null
+    "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+    "deploymentId": "00368946-7108-40c2-921e-75c6a4958a4f",
+    "liveVerifiedAt": "2026-11-01T02:13:31.377Z",
+    "productionOrigin": "https://moriohhighguide.wiki",
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

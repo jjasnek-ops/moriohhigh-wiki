@@ -1,0 +1,201 @@
+{
+  "checkedAt": "2026-11-01T02:13:07.326Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+  "method": "Unmodified release-matched Pagefind API queried actual production index from Node;formal HTML also checked for exact copy strings and visible conflict labels.",
+  "results": [
+    {
+      "query": "THANKSFORPLAYING",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "TRICKSTERUPDATE",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "SCARYMONSTERSUPDATE",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "LIKES40K",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "LIKES30K",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "OOPSCLUBBROKE",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "PLAYERS5MVBYT",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "RELEASECSBKZM",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "OOPSVAMPIRE",
+      "resultCount": 3,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
+          "title": "Morioh High Codes Update — October 26, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/",
+          "title": "Morioh High Codes Update — October 27, 2026"
+        }
+      ]
+    },
+    {
+      "query": "LIKES10K",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+          "title": "Morioh High Codes Update — October 20, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    }
+  ],
+  "liveContent": [
+    {
+      "url": "https://moriohhighguide.wiki/resources/codes/",
+      "status": 200,
+      "copyStrings": [
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "LIKES40K",
+        "LIKES30K",
+        "OOPSCLUBBROKE",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "OOPSVAMPIRE",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "conflictLabelsPresent": true
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+      "status": 200,
+      "copyStrings": [
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "LIKES40K",
+        "LIKES30K",
+        "OOPSCLUBBROKE",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "conflictLabelsPresent": true
+    }
+  ],
+  "failures": [],
+  "browserDialogTested": false,
+  "browserLimitation": "No new desktop/mobile visual,clipboard or dialog-click test. Actual search API and static copy/status markup are separately verified."
+}

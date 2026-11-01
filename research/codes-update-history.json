@@ -281,10 +281,21 @@
         "PLAYERS5MVBYT",
         "RELEASECSBKZM"
       ],
-      "status": "local_prepared",
-      "sourceCommit": null,
-      "deploymentId": null,
-      "liveVerifiedAt": null
+      "status": "published_http_verified",
+      "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+      "deploymentId": "00368946-7108-40c2-921e-75c6a4958a4f",
+      "liveVerifiedAt": "2026-11-01T02:13:31.377Z",
+      "productionOrigin": "https://moriohhighguide.wiki",
+      "searchApiVerified": true,
+      "browserInteractionVerified": false,
+      "acceptance": {
+        "markerMatches": true,
+        "validHtmlRoutes": 27,
+        "sitemapUrls": 17,
+        "searchReport": "reports/codes-search-acceptance-2026-11-01.json",
+        "browserLimitation": "No new desktop/mobile visual,clipboard or dialog-click test. Actual search API and static copy/status markup are separately verified.",
+        "visibleConflictLabels": true
+      }
     },
     {
       "eventId": "reported-additions-gripbug-likes15k-likes20k-patchnotes1-tuskupdate",
@@ -678,5 +689,5 @@
       }
     }
   ],
-  "notes": "Four material events exist;current publication status is recorded per event. Preserve October20/26/27 historical articles and events. November1 includes six additions and two source-status disagreements,not confirmed in-game expiry. Reuse eventId/articlePath on retry."
+  "notes": "Four dated material updates are published and HTTP/production-search-API verified. November1 adds six reports and records two conflicting publisher statuses,not confirmed in-game expiry. Preserve all earlier articles and events;reuse the same eventId/articlePath on retry. No new article for unchanged checks."
 }

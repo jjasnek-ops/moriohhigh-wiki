@@ -150,5 +150,52 @@
   "limitations": [
     "Local build is not deployed acceptance or game-client redemption.",
     "No new browser interaction,CWV,ad fill,GA4 report reception or Google indexing measurement."
-  ]
+  ],
+  "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+  "ci": {
+    "conclusion": "success",
+    "headSha": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+    "status": "completed",
+    "url": "https://github.com/jjasnek-ops/moriohhigh-wiki/actions/runs/41263959715"
+  },
+  "productionAcceptance": {
+    "verifiedAt": "2026-11-01T02:13:31.377Z",
+    "gates": [
+      {
+        "gate": "http",
+        "exitCode": 0,
+        "output": "{\"validHtmlRoutes\":27,\"sitemapCount\":17,\"checks\":34,\"failures\":[]}\n"
+      },
+      {
+        "gate": "seo",
+        "exitCode": 0,
+        "output": "{\"routes\":27,\"sourcePanels\":10,\"markerMatches\":true,\"failures\":[]}\n"
+      },
+      {
+        "gate": "ads",
+        "exitCode": 0,
+        "output": "{\"unitCount\":7,\"markerMatches\":true,\"failures\":[]}\n"
+      },
+      {
+        "gate": "search",
+        "exitCode": 0,
+        "output": "{\"queries\":[{\"query\":\"THANKSFORPLAYING\",\"resultCount\":2},{\"query\":\"TRICKSTERUPDATE\",\"resultCount\":2},{\"query\":\"SCARYMONSTERSUPDATE\",\"resultCount\":2},{\"query\":\"LIKES40K\",\"resultCount\":2},{\"query\":\"LIKES30K\",\"resultCount\":2},{\"query\":\"OOPSCLUBBROKE\",\"resultCount\":2},{\"query\":\"PLAYERS5MVBYT\",\"resultCount\":2},{\"query\":\"RELEASECSBKZM\",\"resultCount\":2},{\"query\":\"OOPSVAMPIRE\",\"resultCount\":3},{\"query\":\"LIKES10K\",\"resultCount\":2}],\"hubCodes\":22,\"deltaCopyStrings\":8,\"conflictLabels\":true,\"failures\":[]}\n"
+      },
+      {
+        "gate": "sitemap",
+        "exitCode": 0,
+        "output": "Already up to date\nDone in 504ms using pnpm v11.1.1\n$ tsx scripts/check-sitemap.ts \"https://moriohhighguide.wiki\"\n\n📋 Checking sitemap URLs against: https://moriohhighguide.wiki\n\nFound 17 URLs. Checking...\n\n  ✅  200  https://moriohhighguide.wiki/\n  ✅  200  https://moriohhighguide.wiki/about/\n  ✅  200  https://moriohhighguide.wiki/contact/\n  ✅  200  https://moriohhighguide.wiki/copyright/\n  ✅  200  https://moriohhighguide.wiki/faq/\n  ✅  200  https://moriohhighguide.wiki/guides/controls/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-get-a-stand/\n  ✅  200  https://moriohhighguide.wiki/guides/how-to-play/\n  ✅  200  https://moriohhighguide.wiki/privacy-policy/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-10-20/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-10-26/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-10-27/\n  ✅  200  https://moriohhighguide.wiki/resources/codes-update-2026-11-01/\n  ✅  200  https://moriohhighguide.wiki/resources/codes/\n  ✅  200  https://moriohhighguide.wiki/resources/community-links/\n  ✅  200  https://moriohhighguide.wiki/resources/release-information/\n  ✅  200  https://moriohhighguide.wiki/terms-of-service/\n\n── Result ──\n  ✅ Passed: 17\n  ❌ Failed: 0\n\n🎉 All sitemap URLs returned 200.\n"
+      }
+    ],
+    "httpChecks": 34,
+    "htmlRoutes": 27,
+    "sitemapUrls": 17,
+    "seoRoutes": 27,
+    "sourcePanels": 10,
+    "adUnits": 7,
+    "markerMatches": true,
+    "searchApiVerified": true,
+    "visibleConflictLabels": true,
+    "browserInteractionVerified": false
+  }
 }

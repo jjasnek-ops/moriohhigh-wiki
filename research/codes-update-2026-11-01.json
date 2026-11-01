@@ -424,6 +424,25 @@
   "verifiedWorking": false,
   "rewardPolicy": "omit",
   "articlePath": "/resources/codes-update-2026-11-01/",
-  "status": "local_prepared",
-  "decision": "Publish six exact corroborated additions plus explicit publisher-status disagreements for two older strings. Preserve their prior records;do not mark them confirmed expired or working."
+  "status": "published_http_verified",
+  "decision": "Publish six exact corroborated additions plus explicit publisher-status disagreements for two older strings. Preserve their prior records;do not mark them confirmed expired or working.",
+  "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+  "deploymentId": "00368946-7108-40c2-921e-75c6a4958a4f",
+  "liveVerifiedAt": "2026-11-01T02:13:31.377Z",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "searchApiVerified": true,
+  "browserInteractionVerified": false,
+  "returnedCrawlNotes": {
+    "pgg": "today",
+    "mrguiderInitial": "today",
+    "mrguiderReRead": "today",
+    "gamesradar": "today",
+    "officialGame": "today",
+    "community": "yesterday",
+    "pocketcodesInitial": "6 days ago",
+    "pocketcodesReRead": "today",
+    "pockettactics": "today",
+    "destructoid": "today"
+  },
+  "networkNote": "Initial Place-to-Universe request failed;one bounded retry returned200/10768944846. Original failure retained. Existing Cloudflare project access was verified with the same process credential;no account/network/DNS/permission change."
 }
