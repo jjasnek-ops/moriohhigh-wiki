@@ -87,7 +87,9 @@
           "codeAddedDate": "2026-11-01"
         }
       ],
-      "publicationStatus": "local_prepared"
+      "publicationStatus": "published_http_verified",
+      "publicationDate": "2026-11-02",
+      "publicationUrl": "https://moriohhighguide.wiki/resources/codes-update-2026-11-02/"
     },
     {
       "code": "THANKSFORPLAYING",
@@ -1133,7 +1135,7 @@
   "notes": "Twenty-three stored strings:twenty-one ordinary publisher-reported entries and two older entries with unchanged status disagreements. OCCULTFIXES is read in PGG and MrGuider pages updatedNovember1 and collectedNovember2. Preserve all22 prior code records and their evidence,including the two disputes. No developer confirmation,redemption test or confirmed expiry;rewards omitted.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
-  "publicationSourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+  "publicationSourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
   "updateHistory": "research/codes-update-history.json",
   "datedUpdateArticles": {
     "adoptedDate": "2026-10-14",
@@ -1268,7 +1270,7 @@
     "eventId": "reported-additions-occultfixes",
     "articlePath": "/resources/codes-update-2026-11-02/",
     "date": "2026-11-02",
-    "status": "local_prepared",
+    "status": "published_http_verified",
     "addedCodes": [
       "OCCULTFIXES"
     ],
@@ -1277,8 +1279,12 @@
       "PLAYERS5MVBYT",
       "RELEASECSBKZM"
     ],
-    "sourceCommit": null,
-    "deploymentId": null
+    "sourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
+    "deploymentId": "72f0cb59-3d6c-4db7-a053-269f2fefcf64",
+    "liveVerifiedAt": "2026-11-02T02:10:42.860Z",
+    "productionOrigin": "https://moriohhighguide.wiki",
+    "searchApiVerified": true,
+    "browserInteractionVerified": false
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

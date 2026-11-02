@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-11-02T02:10:20.570Z",
+  "origin": "https://moriohhighguide.wiki",
+  "sourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
+  "method": "Unmodified release-matched Pagefind API queried actual production index from Node;formal HTML checked for exact copy strings,new hub link and date.",
+  "results": [
+    {
+      "query": "OCCULTFIXES",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-02/",
+          "title": "Morioh High Codes Update — November 2, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "THANKSFORPLAYING",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "PLAYERS5MVBYT",
+      "resultCount": 3,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-01/",
+          "title": "Morioh High Codes Update — November 1, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-02/",
+          "title": "Morioh High Codes Update — November 2, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    },
+    {
+      "query": "OOPSVAMPIRE",
+      "resultCount": 3,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-26/",
+          "title": "Morioh High Codes Update — October 26, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-27/",
+          "title": "Morioh High Codes Update — October 27, 2026"
+        }
+      ]
+    },
+    {
+      "query": "LIKES10K",
+      "resultCount": 2,
+      "matches": [
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes-update-2026-10-20/",
+          "title": "Morioh High Codes Update — October 20, 2026"
+        },
+        {
+          "url": "https://moriohhighguide.wiki/resources/codes/",
+          "title": "Morioh High Codes: Reported List and How to Redeem"
+        }
+      ]
+    }
+  ],
+  "liveContent": [
+    {
+      "url": "https://moriohhighguide.wiki/resources/codes/",
+      "status": 200,
+      "copyStrings": [
+        "OCCULTFIXES",
+        "THANKSFORPLAYING",
+        "TRICKSTERUPDATE",
+        "SCARYMONSTERSUPDATE",
+        "LIKES40K",
+        "LIKES30K",
+        "OOPSCLUBBROKE",
+        "PATCHNOTES1",
+        "GRIPBUG",
+        "TUSKUPDATE",
+        "LIKES15K",
+        "LIKES20K",
+        "OOPSVAMPIRE",
+        "LIKES10K",
+        "SPINUPDATE",
+        "SORRY4DELAY",
+        "GAUNTLET",
+        "WHITESNAKE",
+        "WEHEARYOUGUYS",
+        "THANKYOUFORLIKES",
+        "DELAYMBALL",
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ]
+    },
+    {
+      "url": "https://moriohhighguide.wiki/resources/codes-update-2026-11-02/",
+      "status": 200,
+      "copyStrings": [
+        "OCCULTFIXES"
+      ]
+    }
+  ],
+  "failures": [],
+  "browserDialogTested": false,
+  "browserLimitation": "No new desktop/mobile visual,clipboard or dialog-click test. Production search API and static copy/status markup are separately verified."
+}

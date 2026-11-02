@@ -1,5 +1,13 @@
 # Current delivery status
 
+## 2026-11-02 Codes 增量（已上线 / HTTP与生产搜索API已验证）
+
+新增OCCULTFIXES，PGG/MrGuider同拼写；来源更新/添加日11月1日，本站采集及日期文章11月2日（Asia/Shanghai）。汇总23个字符串（21普通reported与2原有状态分歧项）；新文/resources/codes-update-2026-11-02/只记录本次1新增。旧22记录及4篇历史文/事件不变，原两码分歧仍保留；奖励省略，无开发者确认、兑换实测或新过期/状态变更。E30/候选/历史/研究同步，重试复用reported-additions-occultfixes。
+
+生产source 6902a90a19557d2ccc874ae9f8afc17b68ae7122；jjasnek-ops main已推送，精确source CI success；既有Pages production 72f0cb59-3d6c-4db7-a053-269f2fefcf64 / https://72f0cb59.moriohhigh-wiki.pages.dev，正式marker匹配。content/config/lint/check/strict UI、19套件250passed1skipped、build/835内链/动态SEO/7广告门禁通过；29构建HTML含404、18Sitemap、11Pagefind。正式28有效路由、35 HTTP/28 SEO对照、18Sitemap全200及7广告包装通过；OCCULTFIXES生产搜索返回汇总和新文，旧4个抽样查询仍返回各自历史文。
+
+未新验浏览器视觉/复制/弹窗、客户端兑换/过期、Google收录/曝光、GA4报表或广告填充/收入。Universe200/10768944846；官方名称/开发者只作身份，社区JS/API403未取得可读开发者公告。回执reports/codes-release-2026-11-02.md及tests/pages-deployment/search JSON。原有未提交运维笔记及policy/source-review保留；无付费、扩权、凭据保存、DNS/账户或自动任务变更。后续文档提交不改变实际生产source。
+
 ## 2026-11-01 Codes 增量（已上线 / HTTP与生产搜索API已验证）
 
 新增六个reported字符串：THANKSFORPLAYING、TRICKSTERUPDATE、SCARYMONSTERSUPDATE、LIKES40K、LIKES30K、OOPSCLUBBROKE；PGG及实际重读MrGuider 10月31日3:01pm版本均列出，初读2:02pm版本缺少OOPSCLUBBROKE的快照保留。本站采集/日期文为11月1日（Asia/Shanghai）。PGG明确将PLAYERS5MVBYT/RELEASECSBKZM列Inactive，但MrGuider仍Working、GamesRadar旧列表保留，因此只标注媒体状态冲突，未确认过期或有效。汇总22字符串分20普通reported与2争议项；新文/resources/codes-update-2026-11-01/仅含6新增及2分歧项，原始记录和3篇历史文章保留。E29/研究/候选/事件同步，奖励省略，开发者确认/兑换实测均0。

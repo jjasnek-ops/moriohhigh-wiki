@@ -149,10 +149,21 @@
       "verificationStatus": "publisher_reported_untested",
       "confirmedExpiryChanges": [],
       "explicitInactiveReportChanges": [],
-      "status": "local_prepared",
-      "sourceCommit": null,
-      "deploymentId": null,
-      "liveVerifiedAt": null
+      "status": "published_http_verified",
+      "sourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
+      "deploymentId": "72f0cb59-3d6c-4db7-a053-269f2fefcf64",
+      "liveVerifiedAt": "2026-11-02T02:10:42.860Z",
+      "productionOrigin": "https://moriohhighguide.wiki",
+      "searchApiVerified": true,
+      "browserInteractionVerified": false,
+      "acceptance": {
+        "markerMatches": true,
+        "validHtmlRoutes": 28,
+        "sitemapUrls": 18,
+        "searchReport": "reports/codes-search-acceptance-2026-11-02.json",
+        "browserLimitation": "No new desktop/mobile visual,clipboard or dialog-click test. Production search API and static copy/status markup are separately verified.",
+        "existingConflictLabelsRetained": true
+      }
     },
     {
       "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
@@ -836,5 +847,5 @@
       }
     }
   ],
-  "notes": "Five material events exist;actual publication status is recorded per event. November2 adds one reported string and leaves the two prior status disputes unchanged. Preserve all four previous dated articles and events;reuse eventId/articlePath on retry. No article for unchanged checks."
+  "notes": "Five dated material updates are published and HTTP/production-search-API verified. November2 adds OCCULTFIXES;the two source-status disputes from November1 are unchanged. Preserve all earlier articles and events;reuse the same eventId/articlePath on retry. No article for unchanged checks."
 }

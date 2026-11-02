@@ -247,6 +247,20 @@
   "verifiedWorking": false,
   "rewardPolicy": "omit",
   "articlePath": "/resources/codes-update-2026-11-02/",
-  "status": "local_prepared",
-  "decision": "Publish one exact corroborated publisher-reported string,with dated delta article. No new expiry/status event;retain two older source-status disagreements."
+  "status": "published_http_verified",
+  "decision": "Publish one exact corroborated publisher-reported string,with dated delta article. No new expiry/status event;retain two older source-status disagreements.",
+  "sourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
+  "deploymentId": "72f0cb59-3d6c-4db7-a053-269f2fefcf64",
+  "liveVerifiedAt": "2026-11-02T02:10:42.860Z",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "searchApiVerified": true,
+  "browserInteractionVerified": false,
+  "returnedCrawlNotes": {
+    "pgg": "today",
+    "mrguider": "today",
+    "gamesradar": "today",
+    "officialInitial": "yesterday",
+    "officialViaBothPublisherLinks": "today",
+    "community": "yesterday"
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-01T02:13:15.786Z",
+  "checkedAt": "2026-11-02T02:10:34.221Z",
   "origin": "https://moriohhighguide.wiki",
-  "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
+  "sourceCommit": "6902a90a19557d2ccc874ae9f8afc17b68ae7122",
   "markerMatches": true,
   "results": [
     {
@@ -126,6 +126,14 @@
     },
     {
       "path": "/resources/codes-update-2026-11-01/",
+      "status": 200,
+      "h1MatchesBuild": true,
+      "schemasMatchBuild": true,
+      "sourcePanel": true,
+      "automaticLoading": true
+    },
+    {
+      "path": "/resources/codes-update-2026-11-02/",
       "status": 200,
       "h1MatchesBuild": true,
       "schemasMatchBuild": true,
