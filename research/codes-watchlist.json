@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "collectedDate": "2026-11-01",
-  "lastMaterialChangeDate": "2026-11-01",
+  "collectedDate": "2026-11-02",
+  "lastMaterialChangeDate": "2026-11-02",
   "timezone": "Asia/Shanghai",
   "game": {
     "name": "Morioh High",
@@ -16,17 +16,17 @@
       "id": "pgg",
       "url": "https://progameguides.com/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-31",
+      "displayedUpdatedDate": "2026-11-01",
       "section": "Active Codes / Inactive Codes",
-      "collectedDate": "2026-11-01"
+      "collectedDate": "2026-11-02"
     },
     {
       "id": "mrguider",
       "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
       "type": "secondary publisher",
-      "displayedUpdatedDate": "2026-10-31",
+      "displayedUpdatedDate": "2026-11-01",
       "section": "Working codes / Expired Codes",
-      "collectedDate": "2026-11-01"
+      "collectedDate": "2026-11-02"
     },
     {
       "id": "gamesradar",
@@ -34,10 +34,61 @@
       "type": "secondary publisher",
       "displayedUpdatedDate": "2026-10-26",
       "section": "All Morioh High codes",
-      "collectedDate": "2026-11-01"
+      "collectedDate": "2026-11-02"
     }
   ],
   "codes": [
+    {
+      "code": "OCCULTFIXES",
+      "sourceIds": [
+        "pgg",
+        "mrguider"
+      ],
+      "publisherReportedStatus": "reported",
+      "publisherStatuses": {
+        "pgg": "active",
+        "mrguider": "working"
+      },
+      "verificationStatus": "publisher_reported",
+      "developerConfirmed": false,
+      "redemptionTested": false,
+      "verifiedWorking": false,
+      "reward": null,
+      "expiryDate": null,
+      "firstSeenHere": "2026-11-02",
+      "corroboratedDate": "2026-11-02",
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-02",
+          "displayedUpdatedDate": "2026-11-01",
+          "section": "Active Codes / Inactive Codes",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "codeListLocation": "Active Codes lines57–74;Inactive Codes lines79–80",
+          "publisherReportedStatus": "active",
+          "codeAddedDate": null
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-02",
+          "displayedUpdatedDate": "2026-11-01",
+          "displayedDateText": "November 1, 2026 at 5:40 am EST",
+          "section": "Working codes / Expired Codes",
+          "expiredSection": "N/A;publisher statement,not game-tested expiry evidence",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "codeListLocation": "Working list lines30–52;Expired section lines56–62",
+          "publisherReportedStatus": "working",
+          "codeAddedDate": "2026-11-01"
+        }
+      ],
+      "publicationStatus": "local_prepared"
+    },
     {
       "code": "THANKSFORPLAYING",
       "sourceIds": [
@@ -1072,14 +1123,14 @@
     }
   ],
   "counts": {
-    "reportedCandidates": 22,
+    "reportedCandidates": 23,
     "developerConfirmed": 0,
     "testedByThisWiki": 0,
     "verifiedWorking": 0,
     "statusDisputed": 2
   },
   "publishedOnSite": true,
-  "notes": "Twenty-two stored publisher-reported strings: twenty without a newly observed source-status conflict and two disputed older entries. Six additions occur in PGG and the re-read MrGuider revision. PGG explicitly marks PLAYERS5MVBYT/RELEASECSBKZM inactive; MrGuider still lists them working and GamesRadar retains an older list. No in-game expiry or redemption verified;rewards omitted. Original records/observations for the disputed pair are preserved in statusHistory.",
+  "notes": "Twenty-three stored strings:twenty-one ordinary publisher-reported entries and two older entries with unchanged status disagreements. OCCULTFIXES is read in PGG and MrGuider pages updatedNovember1 and collectedNovember2. Preserve all22 prior code records and their evidence,including the two disputes. No developer confirmation,redemption test or confirmed expiry;rewards omitted.",
   "publicationScope": "reported code strings; not verified working",
   "publicationUrl": "https://moriohhighguide.wiki/resources/codes/",
   "publicationSourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
@@ -1182,31 +1233,52 @@
           "collectedDate": "2026-10-27"
         }
       ]
+    },
+    {
+      "collectedDate": "2026-11-01",
+      "sources": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Active Codes / Inactive Codes",
+          "collectedDate": "2026-11-01"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-31",
+          "section": "Working codes / Expired Codes",
+          "collectedDate": "2026-11-01"
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "type": "secondary publisher",
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "collectedDate": "2026-11-01"
+        }
+      ]
     }
   ],
   "latestUpdate": {
-    "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
-    "articlePath": "/resources/codes-update-2026-11-01/",
-    "date": "2026-11-01",
-    "status": "published_http_verified",
+    "eventId": "reported-additions-occultfixes",
+    "articlePath": "/resources/codes-update-2026-11-02/",
+    "date": "2026-11-02",
+    "status": "local_prepared",
     "addedCodes": [
-      "THANKSFORPLAYING",
-      "TRICKSTERUPDATE",
-      "SCARYMONSTERSUPDATE",
-      "LIKES40K",
-      "LIKES30K",
-      "OOPSCLUBBROKE"
+      "OCCULTFIXES"
     ],
-    "disputedCodes": [
+    "disputedCodes": [],
+    "unchangedDisputedCodes": [
       "PLAYERS5MVBYT",
       "RELEASECSBKZM"
     ],
-    "sourceCommit": "37cc7548bdda61887dc181437b24f9ca7ba67eaf",
-    "deploymentId": "00368946-7108-40c2-921e-75c6a4958a4f",
-    "liveVerifiedAt": "2026-11-01T02:13:31.377Z",
-    "productionOrigin": "https://moriohhighguide.wiki",
-    "searchApiVerified": true,
-    "browserInteractionVerified": false
+    "sourceCommit": null,
+    "deploymentId": null
   },
   "initialPublicationSourceCommit": "86839658efe0fc9982b2f1deb971d8b6a7f154d4"
 }

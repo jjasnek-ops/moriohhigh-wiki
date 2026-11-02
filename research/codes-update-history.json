@@ -8,6 +8,153 @@
   "policy": "docs/codes-update-publication.md",
   "entries": [
     {
+      "eventId": "reported-additions-occultfixes",
+      "kind": "reported_code_additions",
+      "publicationDate": "2026-11-02",
+      "timezone": "Asia/Shanghai",
+      "articlePath": "/resources/codes-update-2026-11-02/",
+      "hubPath": "/resources/codes/",
+      "addedCodes": [
+        "OCCULTFIXES"
+      ],
+      "disputedCodes": [],
+      "unchangedDisputedCodes": [
+        "PLAYERS5MVBYT",
+        "RELEASECSBKZM"
+      ],
+      "changes": [
+        {
+          "code": "OCCULTFIXES",
+          "before": "not_observed_here",
+          "after": "publisher_reported",
+          "firstSeenHere": "2026-11-02",
+          "sourceIds": [
+            "pgg",
+            "mrguider"
+          ],
+          "developerConfirmed": false,
+          "redemptionTested": false,
+          "verifiedWorking": false,
+          "reward": null
+        }
+      ],
+      "sourceObservations": [
+        {
+          "id": "pgg",
+          "url": "https://progameguides.com/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-02",
+          "displayedUpdatedDate": "2026-11-01",
+          "section": "Active Codes / Inactive Codes",
+          "activeStrings": [
+            "OCCULTFIXES",
+            "THANKSFORPLAYING",
+            "TRICKSTERUPDATE",
+            "SCARYMONSTERSUPDATE",
+            "LIKES40K",
+            "LIKES30K",
+            "OOPSCLUBBROKE",
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "DELAYMBALL"
+          ],
+          "inactiveStrings": [
+            "PLAYERS5MVBYT",
+            "RELEASECSBKZM"
+          ],
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "codeListLocation": "Active Codes lines57–74;Inactive Codes lines79–80"
+        },
+        {
+          "id": "mrguider",
+          "url": "https://www.mrguider.org/roblox/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-02",
+          "displayedUpdatedDate": "2026-11-01",
+          "displayedDateText": "November 1, 2026 at 5:40 am EST",
+          "section": "Working codes / Expired Codes",
+          "workingStrings": [
+            "OCCULTFIXES",
+            "LIKES40K",
+            "LIKES30K",
+            "THANKSFORPLAYING",
+            "TRICKSTERUPDATE",
+            "SCARYMONSTERSUPDATE",
+            "OOPSCLUBBROKE",
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "DELAYMBALL",
+            "PLAYERS5MVBYT",
+            "RELEASECSBKZM"
+          ],
+          "expiredSection": "N/A;publisher statement,not game-tested expiry evidence",
+          "newCodeAddedDate": "2026-11-01",
+          "gameLink": "https://www.roblox.com/games/111838814545019/Morioh-High",
+          "gameLinkFollowed": true,
+          "codeListLocation": "Working list lines30–52;Expired section lines56–62"
+        },
+        {
+          "id": "gamesradar",
+          "url": "https://www.gamesradar.com/games/action/morioh-high-codes/",
+          "sourceOriginalPublishedDate": null,
+          "collectedDate": "2026-11-02",
+          "displayedUpdatedDate": "2026-10-26",
+          "section": "All Morioh High codes",
+          "listedStrings": [
+            "PATCHNOTES1",
+            "GRIPBUG",
+            "OOPSVAMPIRE",
+            "TUSKUPDATE",
+            "LIKES15K",
+            "LIKES20K",
+            "LIKES10K",
+            "SPINUPDATE",
+            "SORRY4DELAY",
+            "GAUNTLET",
+            "WHITESNAKE",
+            "DELAYMBALL",
+            "WEHEARYOUGUYS",
+            "THANKYOUFORLIKES",
+            "RELEASECSBKZM",
+            "PLAYERS5MVBYT"
+          ],
+          "publisherReportedStatus": "listed_redeemable",
+          "sameGameBasis": "Same-game title,Not A Stand Game image credits and matching unique older strings;older source snapshot,not current-client proof.",
+          "codeListLocation": "Recent updates line429;list lines440–455"
+        }
+      ],
+      "evidenceIds": [
+        "E30"
+      ],
+      "verificationStatus": "publisher_reported_untested",
+      "confirmedExpiryChanges": [],
+      "explicitInactiveReportChanges": [],
+      "status": "local_prepared",
+      "sourceCommit": null,
+      "deploymentId": null,
+      "liveVerifiedAt": null
+    },
+    {
       "eventId": "reported-additions-likes30k-likes40k-oopsclubbroke-scarymonstersupdate-thanksforplaying-tricksterupdate-status-players5mvbyt-releasecsbkzm",
       "kind": "reported_code_additions_and_conflicting_status_reports",
       "publicationDate": "2026-11-01",
@@ -689,5 +836,5 @@
       }
     }
   ],
-  "notes": "Four dated material updates are published and HTTP/production-search-API verified. November1 adds six reports and records two conflicting publisher statuses,not confirmed in-game expiry. Preserve all earlier articles and events;reuse the same eventId/articlePath on retry. No new article for unchanged checks."
+  "notes": "Five material events exist;actual publication status is recorded per event. November2 adds one reported string and leaves the two prior status disputes unchanged. Preserve all four previous dated articles and events;reuse eventId/articlePath on retry. No article for unchanged checks."
 }

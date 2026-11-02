@@ -1,0 +1,141 @@
+{
+  "checkedAt": "2026-11-02T02:07:08.706Z",
+  "mode": "local build gates;not production acceptance yet",
+  "eventId": "reported-additions-occultfixes",
+  "gates": [
+    {
+      "name": "check-content",
+      "command": "npx.cmd pnpm@11.1.1 check-content",
+      "startedAt": "2026-11-02T02:06:03.623Z",
+      "completedAt": "2026-11-02T02:06:09.666Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/check-content.txt"
+    },
+    {
+      "name": "check-config",
+      "command": "npx.cmd pnpm@11.1.1 check-config",
+      "startedAt": "2026-11-02T02:06:03.651Z",
+      "completedAt": "2026-11-02T02:06:09.957Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/check-config.txt"
+    },
+    {
+      "name": "lint",
+      "command": "npx.cmd pnpm@11.1.1 lint",
+      "startedAt": "2026-11-02T02:06:03.673Z",
+      "completedAt": "2026-11-02T02:06:16.190Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/lint.txt"
+    },
+    {
+      "name": "test",
+      "command": "npx.cmd pnpm@11.1.1 test",
+      "startedAt": "2026-11-02T02:06:09.668Z",
+      "completedAt": "2026-11-02T02:06:19.189Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/test.txt"
+    },
+    {
+      "name": "check-i18n --strict-ui",
+      "command": "npx.cmd pnpm@11.1.1 check-i18n --strict-ui",
+      "startedAt": "2026-11-02T02:06:16.193Z",
+      "completedAt": "2026-11-02T02:06:22.632Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/check-i18n---strict-ui.txt"
+    },
+    {
+      "name": "check",
+      "command": "npx.cmd pnpm@11.1.1 check",
+      "startedAt": "2026-11-02T02:06:09.958Z",
+      "completedAt": "2026-11-02T02:06:34.815Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/check.txt"
+    },
+    {
+      "name": "build",
+      "command": "npx.cmd pnpm@11.1.1 build",
+      "startedAt": "2026-11-02T02:06:34.817Z",
+      "completedAt": "2026-11-02T02:06:50.814Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/build.txt"
+    },
+    {
+      "name": "dynamic-seo",
+      "command": "node tools/audit-build.mjs",
+      "startedAt": "2026-11-02T02:06:50.842Z",
+      "completedAt": "2026-11-02T02:06:51.096Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/dynamic-seo.txt"
+    },
+    {
+      "name": "advertising",
+      "command": "node tools/audit-ads.mjs",
+      "startedAt": "2026-11-02T02:06:50.868Z",
+      "completedAt": "2026-11-02T02:06:51.133Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/advertising.txt"
+    },
+    {
+      "name": "check-links",
+      "command": "npx.cmd pnpm@11.1.1 check-links",
+      "startedAt": "2026-11-02T02:06:50.816Z",
+      "completedAt": "2026-11-02T02:06:56.628Z",
+      "exitCode": 0,
+      "log": ".tools/codes-monitor/2026-11-02-gates/check-links.txt"
+    }
+  ],
+  "outputSummaries": {
+    "test": "Already up to date\nDone in 524ms using pnpm v11.1.1\n$ vitest run\n\n RUN  v4.1.11 D:/CursorProjects/moriohhigh-wiki\n\nQ1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3: \n Test Files  19 passed (19)\n      Tests  250 passed | 1 skipped (251)\n   Start at  10:06:15\n   Duration  3.16s (transform 4.20s, setup 0ms, import 7.35s, tests 1.89s, environment 4ms)\n\n",
+    "check": "Already up to date\nDone in 553ms using pnpm v11.1.1\n$ astro check\n10:06:22 [content] Syncing content\n10:06:22 [content] Synced content\n10:06:22 [types] Generated 666ms\n10:06:22 [check] Getting diagnostics for Astro files in D:\\CursorProjects\\moriohhigh-wiki...\nResult (143 files): \n- 0 errors\n- 0 warnings\n- 0 hints\n\n",
+    "check-links": "Already up to date\nDone in 516ms using pnpm v11.1.1\n$ tsx scripts/check-links.ts\n\n🔗 Internal link audit — 835 links across 36 pages\n\n✅ All internal links resolve.\n"
+  },
+  "dynamicSeo": {
+    "htmlCount": 29,
+    "indexableCount": 18,
+    "sitemapCount": 18,
+    "failures": []
+  },
+  "advertising": {
+    "unitCount": 7,
+    "failures": []
+  },
+  "updateConsistency": {
+    "hubCodeCount": 23,
+    "reportedWithoutCurrentSourceConflict": 21,
+    "unchangedDisputedCodes": [
+      "PLAYERS5MVBYT",
+      "RELEASECSBKZM"
+    ],
+    "addedCodes": [
+      "OCCULTFIXES"
+    ],
+    "deltaCopyStrings": [
+      "OCCULTFIXES"
+    ],
+    "metadata": [
+      {
+        "path": "/resources/codes/",
+        "title": "Morioh High Codes: Reported List and How to Redeem",
+        "summaryWords": 43,
+        "summaryCharacters": 285
+      },
+      {
+        "path": "/resources/codes-update-2026-11-02/",
+        "title": "Morioh High Codes Update — November 2, 2026",
+        "summaryWords": 45,
+        "summaryCharacters": 282
+      }
+    ],
+    "sourcePanels": true,
+    "canonical": true,
+    "historyDeduplicated": true,
+    "allPriorCodeRecordsUnchanged": true,
+    "allHistoricalArticleBytesPreserved": true,
+    "noConfirmedExpiryOrWorkingClaim": true,
+    "pagefindArticles": 11
+  },
+  "limitations": [
+    "Local build is not production acceptance or game-client redemption.",
+    "No new browser interaction,CWV,ad fill,GA4 report reception or Google indexing measurement."
+  ]
+}
